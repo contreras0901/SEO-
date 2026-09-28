@@ -11,10 +11,12 @@ List the last 6–10 weddings Bella Mia planned or designed. For each:
 
 | # | Couple (first names, with their permission) | Venue | City | Date (month/year) | What Bella Mia did (full planning / partial / florals / all) | Photographer (name + credit permission) | Photos available? | Couple permission to publish? |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Cherine & Andy (VERIFIED on homepage copy per Atlas, 17 Sep 2026) | The Westgate Hotel | San Diego | | planning + design | Khoa Photography (credited on site) | | |
+| 1 | Cherine & Andy (VERIFIED on homepage copy per Atlas, 17 Sep 2026; FOUNDER CONFIRMED for the portfolio 2026-09-28) | The Westgate Hotel | Downtown San Diego | | planning + design | Khoa Photography (credited on site) | | Couple and photographer: FOUNDER CONFIRMED 2026-09-28 |
 | 2 | Erica & Patrick (gallery page `/erica-and-patrick-sieben` exists per Atlas) | Park Hyatt Aviara (FOUNDER CONFIRMED 2026-09-28) | Carlsbad | | planning, design, florals (FOUNDER CONFIRMED) | Audree Belle Photography; video Shutter And Sound; live band PatrickLVB (FOUNDER CONFIRMED). Draft post: `posts/erica-and-patrick-park-hyatt-aviara.md` | | |
 | 3 | Julianne & David [UNVERIFIED: the homepage "Loews Coronado Resort Wedding" link was a Showit template placeholder pointing at a 404, per Atlas. Confirm this wedding exists as photos and permissions before it becomes a post] | Loews Coronado Bay Resort | Coronado | | | | | |
 | 4 | | | | | | | | |
+
+**Portfolio page launches with two galleries (FOUNDER CONFIRMED 2026-09-28):** Cherine & Andy at The Westgate Hotel, and Erica & Patrick at Park Hyatt Aviara. Add a third card when a third wedding with permissions exists. Both gallery pages follow `posts/layout-spec-real-weddings.md`.
 
 **Order of publication (from `../analysis/reconciliation-atlas-package.md`):** Westgate first, Erica & Patrick second, then the Hotel del Coronado and Loews venue guides from the Atlas package. The Loews guide's "recommend most often" line is FOUNDER CONFIRMED true (2026-09-28). The `[FOUNDER FILL — only if true]` personal lines in both guides still need Yvanna's own sentence or get deleted. Atlas's Part 4 image-naming protocol applies to every image before upload.
 
