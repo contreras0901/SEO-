@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Erica & Patrick Preview</title>
+<meta name="description" content="Layout preview of the Erica & Patrick Park Hyatt Aviara gallery page and blog post, with placeholder image blocks.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#ffffff; --ink:#1f1f1f; --muted:#6b6b6b; --cream:#f6f2ec; --accent:#8a7a4d; --ph:#d9d4cc; --ph2:#c9c3b8; --rule:#e5e0d8;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){ --bg:#141311; --ink:#f1ede6; --muted:#a8a29a; --cream:#231f1a; --accent:#c2b07c; --ph:#2b2823; --ph2:#36322c; --rule:#2e2a25; }
+  }
+  :root[data-theme="dark"]{ --bg:#141311; --ink:#f1ede6; --muted:#a8a29a; --cream:#231f1a; --accent:#c2b07c; --ph:#2b2823; --ph2:#36322c; --rule:#2e2a25; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:"Cormorant Garamond",Georgia,serif;font-size:18px;line-height:1.7}
+  .label{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--muted)}
+  .ph{background:linear-gradient(135deg,var(--ph),var(--ph2));display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:12px;letter-spacing:.2em;text-transform:uppercase}
+  .note{max-width:1100px;margin:0 auto;padding:14px 16px;font-size:14px;color:var(--muted);border-bottom:1px solid var(--rule)}
+  /* Hero */
+  .hero{position:relative;height:72vh;min-height:360px;background:#2a2a2a;overflow:hidden}
+  .hero .ph{position:absolute;inset:0;background:linear-gradient(135deg,#3a3a3a,#1e1e1e);color:#777}
+  .hero h1{position:absolute;inset:0;margin:0;display:flex;align-items:center;justify-content:center;font-weight:300;font-size:clamp(44px,9vw,120px);letter-spacing:.25em;text-transform:uppercase;color:rgba(255,255,255,.8);text-align:center;padding:0 16px}
+  /* Intro composition */
+  .intro{max-width:1200px;margin:0 auto;padding:80px 16px;display:grid;grid-template-columns:1.1fr 1.1fr 1fr;gap:32px;align-items:start}
+  .stack{position:relative}
+  .stack .card{position:absolute;top:-28px;left:-10px;background:var(--cream);padding:18px 40px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,.06)}
+  .stack .card .n{font-size:13px;letter-spacing:.25em;text-transform:uppercase}
+  .stack .card .v{font-style:italic;font-size:15px}
+  .p45{aspect-ratio:4/5}
+  .p34{aspect-ratio:3/4;margin-top:-40px;border:8px solid var(--bg);outline:1px solid var(--rule)}
+  .side{text-align:center;padding-top:40px}
+  .side .names{font-size:34px;letter-spacing:.15em;text-transform:uppercase;font-weight:400;line-height:1.2;margin:0 0 40px}
+  .side .venue{font-size:13px;letter-spacing:.3em;text-transform:uppercase;margin-bottom:36px}
+  .side .vendor{font-style:italic;font-size:17px;line-height:1.9;margin:0}
+  .side .scroll{margin-top:56px}
+  /* Story */
+  .story{max-width:900px;margin:0 auto;padding:20px 16px 60px;text-align:center}
+  .story p{margin:0 0 22px}
+  /* Grid */
+  .grid{max-width:1200px;margin:0 auto;padding:0 16px 60px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .grid .ph{aspect-ratio:3/4}
+  .grid .ph.wide{grid-column:span 3;aspect-ratio:16/7}
+  /* Vendor team */
+  .team{max-width:1100px;margin:0 auto;padding:40px 16px 60px;text-align:center}
+  .team h2{font-size:13px;letter-spacing:.3em;text-transform:uppercase;font-weight:400;margin:0 0 18px}
+  .team p{margin:0;font-size:16px;line-height:2}
+  .team a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+  /* CTA */
+  .cta{text-align:center;padding:40px 16px 90px;border-top:1px solid var(--rule)}
+  .cta .q{font-style:italic;font-size:22px;margin:0 0 24px}
+  .cta a{display:inline-block;margin:0 14px;font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--ink);padding-bottom:4px}
+  /* Blog post section */
+  .divider{max-width:1100px;margin:0 auto;padding:40px 16px 10px;text-align:center}
+  .post{max-width:1000px;margin:0 auto;padding:40px 16px 80px;text-align:center}
+  .post .meta{display:flex;align-items:center;justify-content:center;gap:24px;margin-bottom:40px}
+  .post .meta .line{width:200px;height:1px;background:var(--rule)}
+  .post .meta .mono{width:76px;height:76px;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-size:22px;letter-spacing:.05em}
+  .post h1{font-style:italic;font-weight:400;font-size:clamp(34px,5vw,56px);line-height:1.15;margin:0 0 48px;letter-spacing:0}
+  .post p{margin:0 0 22px}
+  .post .row{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:36px 0}
+  .post .row .ph{aspect-ratio:4/5}
+  @media (max-width:860px){
+    .intro{grid-template-columns:1fr;gap:56px}
+    .p34{margin-top:0}
+    .stack .card{left:8px}
+    .grid{grid-template-columns:repeat(2,1fr)}
+    .grid .ph.wide{grid-column:span 2}
+    .post .meta .line{width:60px}
+    .post .row{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+<div class="note">Preview only. Gray blocks are where the photographs go. Section A is the Showit gallery page; section B is the WordPress post. Fonts and the accent color should be swapped for the ones already used on bellamiaexclusiveevents.com.</div>
+
+<!-- A. GALLERY PAGE -->
+<section class="hero">
+  <div class="ph">hero photo, black and white</div>
+  <h1>Erica &amp; Patrick</h1>
+</section>
+
+<section class="intro">
+  <div class="stack">
+    <div class="card"><div class="n">Erica &amp; Patrick</div><div class="v">Park Hyatt Aviara</div></div>
+    <div class="ph p45">couple portrait 4:5</div>
+  </div>
+  <div class="ph p34">reception detail 3:4</div>
+  <div class="side">
+    <p class="names">Erica &amp;<br>Patrick</p>
+    <div class="venue">Park Hyatt Aviara</div>
+    <p class="vendor">Planning &amp; Design: Bella Mia Exclusive Events<br>
+    Florals: Bella Mia Exclusive Events<br>
+    Photographer: Audree Belle Photography<br>
+    Videographer: Shutter And Sound<br>
+    Live Band: PatrickLVB</p>
+    <div class="label scroll">Scroll for full gallery</div>
+  </div>
+</section>
+
+<section class="story">
+  <p>We first met Erica and Patrick as guests. They were at another wedding we planned, and what stayed with them was the attention to detail: the way the timeline held, the way the small things were already handled before anyone noticed them. When it was their turn, they reached out and asked for the same care on their own day.</p>
+  <p>The ceremony was held in the Palm Court, where the palms frame the aisle and the late-afternoon light does most of the work for you. The reception moved to the Gardens, so guests never left the outdoors and the evening kept the same soft, open feeling the ceremony started with.</p>
+</section>
+
+<section class="grid">
+  <div class="ph">photo</div><div class="ph">photo</div><div class="ph">photo</div>
+  <div class="ph wide">wide photo</div>
+  <div class="ph">photo</div><div class="ph">photo</div><div class="ph">photo</div>
+</section>
+
+<section class="team">
+  <h2>The Vendor Team</h2>
+  <p>Planning &amp; Design: <a href="#">Bella Mia Exclusive Events</a> | Florals: <a href="#">Bella Mia Exclusive Events</a> | Venue: Park Hyatt Aviara | Photographer: <a href="#">Audree Belle Photography</a> | Videography: <a href="#">Shutter And Sound</a> | Live Band: <a href="#">PatrickLVB</a></p>
+</section>
+
+<section class="cta">
+  <p class="q">Planning a wedding at Park Hyatt Aviara or another North County resort?</p>
+  <a href="#">Inquire about your date</a><a href="#">View more weddings</a>
+</section>
+
+<!-- B. BLOG POST -->
+<div class="divider"><span class="label">Section B: blog post layout</span></div>
+<article class="post">
+  <div class="meta"><span class="label">September 28, 2026</span><span class="line"></span><span class="mono">BM</span></div>
+  <h1>A Coastal Garden Wedding at Park Hyatt Aviara</h1>
+  <p>Park Hyatt Aviara sits above the Batiquitos Lagoon in Carlsbad, and it is one of the few North County resorts where the ceremony courtyard, the gardens, and the ocean air all belong to the same design language. Erica and Patrick wanted a day that felt outdoors from the first note to the last dance, and Aviara let them have it without ever moving indoors.</p>
+  <p>We first met Erica and Patrick as guests. They were at another wedding we planned, and what stayed with them was the attention to detail. When it was their turn, they reached out and asked for the same care on their own day. What they wanted was simple to say and hard to do well: a coastal garden wedding, relaxed in feeling, exact in execution.</p>
+  <div class="row"><div class="ph">photo</div><div class="ph">photo</div><div class="ph">photo</div></div>
+  <p>The palette was shades of pink, white, and green: soft pinks and whites in the blooms, layered greens carrying the garden setting through every arrangement. In the Palm Court the florals framed the ceremony without competing with the palms. In the Gardens the tablescapes picked up the same pinks and whites at eye level, with greenery running the length of the tables.</p>
+  <p>Patrick is a musician. During the reception he played a couple of songs for the room, and then one more: a song he had written for Erica. The band stepped back, the Gardens went quiet, and for a few minutes the whole wedding was just the two of them.</p>
+  <div class="row"><div class="ph">photo</div><div class="ph">photo</div><div class="ph">photo</div></div>
+  <section class="team" style="padding-top:10px">
+    <h2>The Vendor Team</h2>
+    <p>Planning &amp; Design: <a href="#">Bella Mia Exclusive Events</a> | Florals: <a href="#">Bella Mia Exclusive Events</a> | Venue: Park Hyatt Aviara | Photographer: <a href="#">Audree Belle Photography</a> | Videography: <a href="#">Shutter And Sound</a> | Live Band: <a href="#">PatrickLVB</a></p>
+  </section>
+</article>
+</body>
+</html>
