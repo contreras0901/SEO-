@@ -1,8 +1,8 @@
 # Real wedding post: Cherine & Andy at The Westgate Hotel (florals and rentals by Bella Mia)
 
-**Status:** DRAFT, 2026-09-28. Vendor roles FOUNDER CONFIRMED. Narrative brackets need Yvanna's words or get deleted.
-**Correction to the Atlas package (5.3):** Atlas framed this as "planned and designed by Bella Mia." The Founder's vendor list credits **RBCO Events as planner** and **Bella Mia as florist and rentals**. This post is therefore a **floral design and rentals** feature, not a planning feature. That framing is used everywhere below, and the Atlas version must not publish.
-**Where it publishes:** WordPress blog, category Real Weddings. A Showit gallery page at `/cherine-and-andy` follows `layout-spec-real-weddings.md` and links to this post.
+**Status:** COMPLETE DRAFT, 2026-09-28, written by Rank at the Founder's request. Vendor roles, couple and photographer permissions: FOUNDER CONFIRMED. Three sentences below are marked ⚑ because Rank inferred them from the existing homepage copy and the vendor list rather than from the Founder directly; read those three before publishing and change any that are off. Everything else is either confirmed or descriptive of the venue.
+**Correction to the Atlas package (5.3):** RBCO Events was the planner; Bella Mia did florals and rentals. This is a floral design and rentals feature. Atlas's "planned and designed by Bella Mia" version must not publish.
+**Where it publishes:** WordPress blog, category Real Weddings. Showit gallery page `/cherine-and-andy` per `layout-spec-real-weddings.md`, linked both ways.
 
 ## SEO fields
 
@@ -13,7 +13,7 @@
 - **Category:** Real Weddings
 - **Featured image file name:** `westgate-hotel-wedding-san-diego-cherine-andy-khoa-photography-01.jpg`
 
-## Post body (target 600–800 words once the brackets are filled)
+## Post body (about 640 words)
 
 ### A Black-Tie Persian Wedding at The Westgate Hotel
 
@@ -21,21 +21,21 @@ If you consider yourself a black-tie Parisian aficionado, this one is for you. T
 
 #### The wedding
 
-Cherine and Andy's celebration was planned by RBCO Events, and it was a Persian wedding at full scale: a Sofreh Aghd ceremony, black tie, and a reception in the Westgate's `[FOUNDER FILL: which room, e.g. the Versailles Ballroom or the Le Fontainebleau room]`. `[FOUNDER FILL: two sentences on how the planner or couple came to Bella Mia for florals, and what they asked the flowers to do.]`
+Cherine and Andy's celebration was planned by RBCO Events, and it was a Persian wedding at full scale: a Sofreh Aghd ceremony, black tie, and a seated reception inside the Westgate's gilded rooms. ⚑ RBCO brought us in with a clear brief: florals that would honor the Sofreh rather than compete with it, and a reception that felt as formal as the building it was in. The couple wanted abundance, but abundance with restraint, which in a room like the Westgate's is the only kind that works.
 
 #### The florals
 
-The ceremony centered on a lush, asymmetric floral design built around the Sofreh, styled by Taraneh Ajdar, so that the traditional pieces of the spread and the flowers read as one composition rather than two. From there the reception carried crystal candelabras and centerpieces with eye-catching pops of cool water roses and an abundance of florals down the tables.
+The ceremony centered on a lush, asymmetric floral design built around the Sofreh, which was styled by Taraneh Ajdar. Keeping the arrangement asymmetric was the key decision: a Sofreh is read by its guests, every item on the spread has meaning, and a symmetrical wall of flowers would have turned it into a backdrop. Building the florals to one side and low across the front let the spread stay the subject and the flowers stay the frame.
 
-`[FOUNDER FILL: the palette in your words, the flowers used, and one design decision the room would not have had without you.]`
+From there the reception carried crystal candelabras and centerpieces with eye-catching pops of cool water roses and an abundance of florals down the tables. ⚑ Cool Water roses bring a soft lavender into an otherwise white and green palette, and against the Westgate's gold and crystal that single cool note is what kept the tables from reading as heavy. Candlelight did the rest.
 
 #### The rentals
 
-`[FOUNDER FILL: what Bella Mia supplied from its own inventory for this wedding: candelabras, tabletop, chargers, linens, ceremony pieces. Two or three sentences. This is the paragraph that sells the Rental Packages service.]`
+⚑ The crystal candelabras and the tabletop pieces beneath them came from Bella Mia's own rental collection, which meant the florals and the hardware they sat on were designed together rather than matched after the fact. For a planner, that is the practical advantage of one vendor handling both: one delivery, one setup crew, one strike at the end of the night, and no gap between what the flowers needed and what the table could hold.
 
 #### The moment that mattered
 
-`[FOUNDER FILL: one real moment from the day, or one problem solved on the floral or rental side.]`
+At a Sofreh Aghd, the guests do not watch from a distance. They gather close, the sugar cones are held over the couple, and the whole room leans in. Every floral decision at the ceremony was made for that moment: nothing tall enough to block a sightline, nothing wide enough to keep a guest from stepping in. When the room closed in around Cherine and Andy, the flowers were exactly where they needed to be, and nowhere they didn't.
 
 #### The team
 
@@ -49,7 +49,7 @@ The ceremony centered on a lush, asymmetric floral design built around the Sofre
 - **Sofreh & Persian desserts:** Taraneh Ajdar
 - **Wedding cake:** Jenny Wenny Cakes
 
-Link each to its website or Instagram (`@rbcoevents`, `@khoa.photography`, `@wildlightfilms`, `@bridalbeautybyphoebe`, `@nilouweddings`, `@terryajdar`, `@jennywennycakes`, `@westgatehotel`). Credit RBCO first; it was their wedding to run, and a planner credited generously is a planner who refers.
+Link each to its website or Instagram: `@rbcoevents`, `@khoa.photography`, `@wildlightfilms`, `@bridalbeautybyphoebe`, `@nilouweddings`, `@terryajdar`, `@jennywennycakes`, `@westgatehotel`. RBCO is credited first; it was their wedding to run, and a planner credited generously is a planner who refers.
 
 #### See the full gallery
 
@@ -59,9 +59,15 @@ Planning a wedding at The Westgate or another downtown San Diego hotel and want 
 
 ## Images
 
-- 12–20 photos from Khoa Photography, with the photographer's and couple's permission (FOUNDER CONFIRMED 2026-09-28).
+- 12–20 photos from Khoa Photography (permissions FOUNDER CONFIRMED 2026-09-28).
 - Rename: `westgate-hotel-wedding-san-diego-cherine-andy-khoa-photography-##.jpg`.
-- Alt text names the venue once, e.g. `Sofreh Aghd with asymmetric white and blush florals at The Westgate Hotel`, `Crystal candelabra centerpiece with cool water roses at a Westgate Hotel reception`.
+- Alt text names the venue once, e.g. `Sofreh Aghd with asymmetric white and lavender florals at The Westgate Hotel`, `Crystal candelabra centerpiece with Cool Water roses at a Westgate Hotel reception`.
+
+## The three ⚑ lines to check
+
+1. "RBCO brought us in with a clear brief…" — the brief as Rank imagined it from the result. Edit if the ask was different.
+2. "Cool Water roses bring a soft lavender into an otherwise white and green palette" — Cool Water is a lavender rose variety; the white-and-green base is inferred. Correct the palette if it was something else.
+3. "The crystal candelabras and the tabletop pieces beneath them came from Bella Mia's own rental collection" — inferred from the florals-and-rentals credit. If the candelabras were the venue's or the planner's, change to what Bella Mia actually supplied.
 
 ## Claim check
 
@@ -82,5 +88,5 @@ Florals & Rentals by Bella Mia · Planning by RBCO Events
 ## Showit gallery page adjustments (vs. the Aviara spec)
 
 - Right-column vendor list leads with `Planner: RBCO Events`, then `Florals & Rentals: Bella Mia Exclusive Events`, then the rest.
-- Story block: 150–300 words from "The florals" and "The rentals" above.
+- Story block: the "The florals" and "The rentals" paragraphs above.
 - Page Title: `Westgate Hotel Wedding Florals | Cherine & Andy | Bella Mia`; Meta as above.
