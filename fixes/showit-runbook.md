@@ -117,7 +117,7 @@ Section headings under each H1 → H2. If a page already has two H1 elements, de
 
 1. Open `/blog` and the WordPress admin (Showit dashboard → Blog, or `/wp-admin`). Record: number of posts, their titles, the SEO plugin installed.
 2. Set the blog title and description (Yoast or equivalent):
-   - Title: `San Diego Wedding Blog & Venue Guides | Bella Mia Exclusive`
+   - Title: `Real Weddings & Venue Guides | Bella Mia Exclusive Events`
    - Description: `Real weddings, venue guides, and planning advice from a San Diego wedding planner.`
 3. Create categories **Real Weddings** and **Venue Guides**.
 4. Do not publish posts in this run. The posting order is in `../analysis/reconciliation-atlas-package.md` section 4: Westgate (Cherine & Andy) first, Erica & Patrick second, then the Hotel del and Loews guides after their ASK items are answered.

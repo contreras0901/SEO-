@@ -69,7 +69,7 @@ Then, off the runbook: build `/portfolio` (Atlas Part 3), image retrofit (Atlas 
 | `/about` | `Meet [Name] \| Bella Mia Exclusive Events, San Diego` | `Meet the planner behind Bella Mia Exclusive Events and learn how we plan and design weddings in San Diego from first consultation to send-off.` |
 | `/contact` | `Contact Bella Mia Exclusive Events \| San Diego Wedding Planner` | `Tell us your date, venue, and vision. Call or text 619.248.0786, email info@bellamiaexclusiveevents.com, or meet us by appointment in Mission Valley.` |
 | `/portfolio` (once built) | `San Diego Wedding Portfolio \| Bella Mia Exclusive Events` | `Real weddings planned and designed by Bella Mia Exclusive Events across San Diego. Explore the full gallery from each celebration.` |
-| `/blog` (WordPress) | `San Diego Wedding Blog & Venue Guides \| Bella Mia Exclusive` | `Real weddings, venue guides, and planning advice from a San Diego wedding planner.` |
+| `/blog` (WordPress) | `Real Weddings & Venue Guides \| Bella Mia Exclusive Events` | `Real weddings, venue guides, and planning advice from a San Diego wedding planner.` |
 
 `[Name]` = the Founder's confirmed spelling.
 
@@ -91,5 +91,5 @@ Section 5 titles are updated below to reflect 1–4. The runbook carries the sam
 | `/` | `Luxury San Diego Wedding Planner \| Bella Mia Exclusive Events` | `Luxury wedding planning, floral design, and styling in San Diego, Coronado, and La Jolla. Bella Mia takes a limited number of weddings each year.` |
 | `/about` | `Meet Yvanna \| Bella Mia Exclusive Events, San Diego` | `Meet Yvanna, the planner behind Bella Mia Exclusive Events, and how we design luxury weddings across San Diego and Southern California, consultation to send-off.` |
 | `/portfolio` (once built) | `San Diego Wedding Portfolio \| Bella Mia Exclusive Events` | `Real weddings planned and designed by Bella Mia Exclusive Events across San Diego, Coronado, and La Jolla. Explore the full gallery from each celebration.` |
-| `/blog` | `San Diego Wedding Blog & Venue Guides \| Bella Mia Exclusive` | `Real weddings, venue guides, and planning advice from a San Diego wedding planner. Coronado, La Jolla, downtown, and North County venues covered in depth.` |
+| `/blog` | `Real Weddings & Venue Guides \| Bella Mia Exclusive Events` | `Real weddings, venue guides, and planning advice from a San Diego wedding planner. Coronado, La Jolla, downtown, and North County venues covered in depth.` |
 | others | unchanged from the table above | |
