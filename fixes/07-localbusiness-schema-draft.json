@@ -7,7 +7,8 @@
   "url": "https://bellamiaexclusiveevents.com/",
   "telephone": "+1-619-248-0786",
   "email": "info@bellamiaexclusiveevents.com",
-  "description": "Wedding planning and design in San Diego: full-service and partial planning, floral design, event styling, and rental packages, with experience at San Diego's hotel and resort wedding venues. [Remove 'limited number' wording if used elsewhere and not true.]",
+  "description": "Luxury wedding planning and design in San Diego, Coronado, La Jolla, and Southern California: full-service and partial planning, floral design, event styling, and rental packages, with experience at San Diego's hotel and resort wedding venues.",
+  "foundingDate": "2014",
   "image": "https://bellamiaexclusiveevents.com/[path-to-a-real-photo].jpg",
   "address": {
     "@type": "PostalAddress",
@@ -19,12 +20,13 @@
   },
   "areaServed": [
     { "@type": "City", "name": "San Diego" },
-    { "@type": "Place", "name": "[La Jolla — include only if Fact Register confirms]" },
-    { "@type": "Place", "name": "[Coronado — include only if Fact Register confirms]" }
+    { "@type": "City", "name": "Coronado" },
+    { "@type": "Place", "name": "La Jolla" },
+    { "@type": "Place", "name": "Southern California" }
   ],
   "founder": {
     "@type": "Person",
-    "name": "[Ivanna Contreras — PUBLIC CLAIM from BBB; confirm]"
+    "name": "Yvanna Contreras"
   },
   "sameAs": [
     "https://www.instagram.com/bellamiaexclusiveevents/",

@@ -73,11 +73,23 @@ Then, off the runbook: build `/portfolio` (Atlas Part 3), image retrofit (Atlas 
 
 `[Name]` = the Founder's confirmed spelling.
 
-## 6. Founder decisions still open after this reconciliation
+## 6. Founder decisions (answered 2026-09-28, FOUNDER CONFIRMED)
 
-1. Lead planner name and spelling for every public asset.
-2. Est. year: 2012 or 2014.
-3. Whether "Luxury" is the positioning word (Prestige lens; Rank has no view).
-4. Whether La Jolla and Coronado are confirmed service areas.
-5. The Loews guide's "recommend most often" line: true or cut.
-6. Which real weddings, with which permissions, go on `/portfolio`.
+1. Lead planner name: **Yvanna**. Use this spelling on every public asset; BBB's "Ivanna" is to be corrected.
+2. Established: **2014**. The hero's "Inc. Est. 2012" is wrong and is changed in the runbook.
+3. **"Luxury" is the positioning word.** Titles and H1s in section 5 now use it.
+4. **La Jolla and Coronado are served, and so is all of Southern California.** Metas may name them. On Google Business Profile, "Southern California" is not a selectable area; list San Diego County first, then the specific counties actually served (Orange, Los Angeles, Riverside as applicable). Rank's note: keep the profile's service area to where weddings are genuinely taken; a very wide area dilutes local relevance. INFERENCE, not policy.
+5. The Loews guide's "the property we recommend most often" line is **true**; it stays.
+6. **Still open:** which real weddings, with which permissions, go on `/portfolio`.
+
+Section 5 titles are updated below to reflect 1–4. The runbook carries the same values.
+
+### 5 (revised). Final title and meta set
+
+| Page | Title | Meta description |
+|---|---|---|
+| `/` | `Luxury San Diego Wedding Planner \| Bella Mia Exclusive Events` | `Luxury wedding planning, floral design, and styling in San Diego, Coronado, and La Jolla. Bella Mia takes a limited number of weddings each year.` |
+| `/about` | `Meet Yvanna \| Bella Mia Exclusive Events, San Diego` | `Meet Yvanna, the planner behind Bella Mia Exclusive Events, and how we design luxury weddings across San Diego and Southern California, consultation to send-off.` |
+| `/portfolio` (once built) | `San Diego Wedding Portfolio \| Bella Mia Exclusive Events` | `Real weddings planned and designed by Bella Mia Exclusive Events across San Diego, Coronado, and La Jolla. Explore the full gallery from each celebration.` |
+| `/blog` | `San Diego Wedding Blog & Venue Guides \| Bella Mia Exclusive` | `Real weddings, venue guides, and planning advice from a San Diego wedding planner. Coronado, La Jolla, downtown, and North County venues covered in depth.` |
+| others | unchanged from the table above | |

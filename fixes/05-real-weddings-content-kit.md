@@ -16,7 +16,7 @@ List the last 6–10 weddings Bella Mia planned or designed. For each:
 | 3 | Julianne & David [UNVERIFIED: the homepage "Loews Coronado Resort Wedding" link was a Showit template placeholder pointing at a 404, per Atlas. Confirm this wedding exists as photos and permissions before it becomes a post] | Loews Coronado Bay Resort | Coronado | | | | | |
 | 4 | | | | | | | | |
 
-**Order of publication (from `../analysis/reconciliation-atlas-package.md`):** Westgate first, Erica & Patrick second, then the Hotel del Coronado and Loews venue guides from the Atlas package once their ASK items are answered. Atlas's Part 4 image-naming protocol applies to every image before upload.
+**Order of publication (from `../analysis/reconciliation-atlas-package.md`):** Westgate first, Erica & Patrick second, then the Hotel del Coronado and Loews venue guides from the Atlas package. The Loews guide's "recommend most often" line is FOUNDER CONFIRMED true (2026-09-28). The `[FOUNDER FILL — only if true]` personal lines in both guides still need Yvanna's own sentence or get deleted. Atlas's Part 4 image-naming protocol applies to every image before upload.
 
 Rank will write the drafts from this table. Nothing is published without the couple's and photographer's permission.
 

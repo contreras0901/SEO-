@@ -18,7 +18,11 @@ Business name:    Bella Mia Exclusive Events            (exactly this, no keywor
 City:             San Diego, CA
 Address shown:    8885 Rio San Diego Dr, Suite 237, San Diego, CA 92108   [confirm ZIP; Mission Valley office]
                   Use this exact format everywhere: "Dr" and "Suite 237" spelled the same on every listing.
-Service area:     San Diego, CA  [add La Jolla and Coronado only when the Fact Register confirms them]
+Service area:     San Diego, Coronado, La Jolla, and Southern California (FOUNDER CONFIRMED 2026-09-28).
+                  On Google Business Profile use selectable areas: San Diego County first, then only the
+                  other counties where weddings are actually taken.
+Owner name:       Yvanna Contreras (FOUNDER CONFIRMED spelling; BBB shows "Ivanna", correct it)
+Established:      2014 (FOUNDER CONFIRMED; the site hero said 2012)
 Phone:            619-248-0786                           (OBSERVED on site and listings; confirm)
 Email:            info@bellamiaexclusiveevents.com
 Website:          https://bellamiaexclusiveevents.com    (primary host from Fix 02, no www)
@@ -26,11 +30,11 @@ Primary category: Wedding planner
 Services:         Full-service wedding planning; Partial wedding planning; Wedding floral design;
                   Event styling; Rental packages          (FOUNDER CONFIRMED; no selfie mirror)
 Hours:            [confirm; one directory shows Mon–Sat 9:00–6:30, Sun closed — PUBLIC CLAIM]
-Description:      Bella Mia Exclusive Events plans and designs weddings in San Diego. We offer
-                  full-service and partial planning, floral design, event styling, and rental
-                  packages, and we are experienced with San Diego's hotel and resort wedding
-                  venues. We take a limited number of weddings each year so every couple gets
-                  our full attention.
+Description:      Bella Mia Exclusive Events plans and designs luxury weddings in San Diego,
+                  Coronado, La Jolla, and across Southern California. We offer full-service and
+                  partial planning, floral design, event styling, and rental packages, and we are
+                  experienced with San Diego's hotel and resort wedding venues. We take a limited
+                  number of weddings each year so every couple gets our full attention.
                   [Remove "limited number" if not true.]
 ```
 
@@ -58,7 +62,7 @@ Observed values are from search snippets on 2026-09-28; open each listing to con
 | The Knot | "San Diego, CA"; services text includes day-of, month-of, selfie mirror, styling, rentals | Keep city; rewrite services to the target record: keep styling and rental packages, **delete selfie mirror**; website non-www; email info@ | The Knot vendor account (same login as WeddingWire) |
 | PartySlate | "Chula Vista Event Planner", 239 photos | Change city to San Diego; website non-www | PartySlate account |
 | Nextdoor | **Two pages observed:** `/pages/bella-mia-exclusive-events-san-diego-ca/` and `/pages/bella-mia-exclusive-events-chula-vista-ca/` | Claim both, keep the San Diego page, request removal or merge of the Chula Vista page. Duplicate listings are a local-SEO liability | Nextdoor business account |
-| BBB | 3374 Clavelita St, San Diego 92154; started 4/22/2014; President Ivanna Contreras; not accredited | Replace the Clavelita St address with the office address; set email to info@ and website to non-www | BBB business login |
+| BBB | 3374 Clavelita St, San Diego 92154; started 4/22/2014; President Ivanna Contreras; not accredited | Replace the Clavelita St address with the office address; correct the name spelling to Yvanna Contreras; set email to info@ and website to non-www | BBB business login |
 | Style Me Pretty vendor profile | "Southern California" description | Add "San Diego" to the location, website non-www | SMP account |
 | Facebook page | "San Diego CA" | Confirm address/phone/email/website per target | Page admin |
 | Instagram bio | UNKNOWN | Website link to non-www host; city in bio | Account |

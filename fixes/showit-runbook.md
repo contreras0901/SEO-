@@ -3,7 +3,7 @@
 **For:** a Claude session running on the Founder's computer with browser control, or the Founder by hand.
 **Platform:** Showit (VERIFIED by screenshot 2026-09-28) with a WordPress blog at `/blog` (Atlas, 17–18 Sep 2026).
 **Pages known to exist (Atlas):** `/`, `/about`, `/services`, `/full-service-wedding-planning`, `/partial-wedding-planning`, `/floral-designs-and-more`, `/contact`, `/blog` (2 posts, both set in France), `/erica-and-patrick-sieben`. Known 404s: `/portfolio`, `/delete-this-demo-single-post`. Indexed but unread: `/untitled-c1izt`.
-**Founder decisions (2026-09-28):** city San Diego; office shown, 8885 Rio San Diego Dr, Suite 237, San Diego, CA 92108 (confirm ZIP, 92107 was typed); email info@bellamiaexclusiveevents.com; services = full-service planning, partial planning, floral design, event styling, rental packages, no selfie mirror; hotel line softened; no hotel named as a relationship.
+**Founder decisions (2026-09-28, all FOUNDER CONFIRMED):** city San Diego; office shown, 8885 Rio San Diego Dr, Suite 237, San Diego, CA 92108 (confirm ZIP, 92107 was typed); email info@bellamiaexclusiveevents.com; services = full-service planning, partial planning, floral design, event styling, rental packages, no selfie mirror; hotel line softened, no hotel named as a relationship; **lead planner name is "Yvanna"**; **established 2014** (not 2012); **"Luxury" is the positioning word**; **service area is San Diego, Coronado, La Jolla, and all of Southern California**; the Loews guide's "recommend most often" line is true.
 **Rules:** publish once at the end. Record every "before" value in section 10 before overwriting it. Delete nothing before reading it. Anything marked ASK goes to the Founder first. Atlas's observations are ten days old; re-verify each before acting.
 
 ---
@@ -37,15 +37,15 @@ For every page in the list above: SEO SETTINGS → copy Page Title, Meta Descrip
 
 ## 4. Template names (Atlas 2.5)
 
-On Home, find "Meet Erika & Julio Ramirez" and "Read My Story". **ASK the Founder for the confirmed planner name and spelling** (site testimonials and the Showit account say "Yvanna"; BBB says "Ivanna"). Replace with `Meet [Name]` and make "Read My Story" link to `/about`. Check `/about` uses the same name and spelling. Record the before-text.
+On Home, find "Meet Erika & Julio Ramirez" and "Read My Story". Replace with `Meet Yvanna` (FOUNDER CONFIRMED spelling) and make "Read My Story" link to `/about`. Check `/about` and every testimonial use "Yvanna", not "Ivanna". Record the before-text.
 
 ## 5. Titles and meta descriptions
 
 SEO SETTINGS on each page. Paste exactly. Character counts are approximate; if Showit caps the description, trim from the end.
 
 **Home**
-- Page Title: `San Diego Wedding Planner & Designer | Bella Mia Exclusive Events`
-- Meta Description: `Full-service and partial wedding planning, floral design, styling, and rentals in San Diego. Bella Mia takes a limited number of weddings each year.`
+- Page Title: `Luxury San Diego Wedding Planner | Bella Mia Exclusive Events`
+- Meta Description: `Luxury wedding planning, floral design, and styling in San Diego, Coronado, and La Jolla. Bella Mia takes a limited number of weddings each year.`
 
 **Services** and **Full-Service Wedding Planning**: Atlas found the existing title and meta well built. Leave them. Record them.
 
@@ -58,8 +58,8 @@ SEO SETTINGS on each page. Paste exactly. Character counts are approximate; if S
 - Meta Description: `Wedding florals, event styling, and rental packages for San Diego weddings. Bouquets, ceremony installations, and tablescapes designed around your aesthetic.`
 
 **About**
-- Page Title: `Meet [Name] | Bella Mia Exclusive Events, San Diego`
-- Meta Description: `Meet the planner behind Bella Mia Exclusive Events and learn how we plan and design weddings in San Diego from first consultation to send-off.`
+- Page Title: `Meet Yvanna | Bella Mia Exclusive Events, San Diego`
+- Meta Description: `Meet Yvanna, the planner behind Bella Mia Exclusive Events, and how we design luxury weddings across San Diego and Southern California, consultation to send-off.`
 
 **Contact**
 - Page Title: `Contact Bella Mia Exclusive Events | San Diego Wedding Planner`
@@ -69,7 +69,7 @@ SEO SETTINGS on each page. Paste exactly. Character counts are approximate; if S
 - Page Title: `[Venue] Wedding | Erica & Patrick | Bella Mia Exclusive Events` — **ASK** the venue.
 - Meta Description: `A [style] wedding at [Venue], [City], planned and designed by Bella Mia Exclusive Events. See the full gallery.`
 
-Do not mention La Jolla or Coronado in any title or description until the Founder confirms them as service areas. Do not use "Luxury" until the Founder confirms that positioning. If the "limited number of weddings each year" claim is not true, delete that sentence.
+Coronado, La Jolla, Southern California, and "Luxury" are all FOUNDER CONFIRMED and may be used. If the "limited number of weddings each year" claim is not true, delete that sentence.
 
 ## 6. Headings (Atlas 2.4)
 
@@ -77,12 +77,12 @@ One H1 per page, sentence or title case, no random capitals.
 
 | Page | H1 text | Tag |
 |---|---|---|
-| Home | `Wedding Planning & Design in San Diego` (replace the hero "SAN DIEGO wEDDING PLANNER" text; the small-caps styling can stay, the text changes) | H1 |
+| Home | `Luxury Wedding Planning in San Diego` (replace the hero "SAN DIEGO wEDDING PLANNER" text; the small-caps styling can stay, the text changes) | H1 |
 | Full-Service Wedding Planning | `Full-Service Wedding Planning in San Diego` (replace "San diego wedding planner") | H1 |
 | Services | fix `Southern cALIFORNIA Weddings, Engagements, and intimate EVENTS.` to `Southern California weddings, engagements, and intimate events.` | H1 if it is the main heading |
 | Partial Wedding Planning | `Partial Wedding Planning in San Diego` | H1 |
 | Floral Designs and More | `Wedding Floral Design, Styling & Rentals` | H1 |
-| About | `About Bella Mia Exclusive Events` or `Meet [Name]` | H1 |
+| About | `Meet Yvanna` | H1 |
 | Contact | `Contact Bella Mia` | H1 |
 
 Section headings under each H1 → H2. If a page already has two H1 elements, demote the second. Check desktop and mobile canvases. Record each element's previous tag.
@@ -99,7 +99,7 @@ Section headings under each H1 → H2. If a page already has two H1 elements, de
    Phone `619-248-0786`. Email `info@bellamiaexclusiveevents.com`. Remove any gmail address site-wide.
 3. **Footer**, if site-wide: same address, phone, email.
 4. **Services page.** Ensure Event Styling and Rental Packages appear with two or three sentences each. **ASK** for the sentences if none exist. Remove any "selfie mirror" text.
-5. **"INC. EST. 2012"** in the hero: **ASK**. BBB says 2014. Change only on the Founder's answer.
+5. **"INC. EST. 2012"** in the hero → change to `INC. EST. 2014` (FOUNDER CONFIRMED). Check the footer and About page for any other year and match them.
 
 ## 8. Site-level
 
@@ -146,7 +146,7 @@ Section headings under each H1 → H2. If a page already has two H1 elements, de
 | "Explore the Galleries" link target | | | |
 | "View More Weddings" link target | | | |
 | Recent Features items and links | | | |
-| "Meet Erika & Julio Ramirez" text | | Meet [Name] | ASK spelling |
+| "Meet Erika & Julio Ramirez" text | | Meet Yvanna | |
 | Home: title / meta / hide / H1 text and tag | | | |
 | Services: title / meta / hide / H1 | | keep title+meta | |
 | Full-Service: title / meta / hide / H1 | | keep title+meta | |
@@ -157,7 +157,7 @@ Section headings under each H1 → H2. If a page already has two H1 elements, de
 | Erica & Patrick: title / meta / venue | | | ASK venue |
 | "exclusive connections" sentence: pages | | replaced | |
 | Selfie mirror text: pages | | removed | |
-| Est. year in hero | 2012 | | ASK: BBB says 2014 |
+| Est. year in hero | 2012 | 2014 | |
 | Site Title | | | |
 | Redirects added | | | |
 | Domain: primary host | | | |

@@ -1,5 +1,7 @@
 # Fix 01 — Title tags and meta descriptions (B1, B4, B8)
 
+> **SUPERSEDED 2026-09-28.** The final title and meta set is in `fixes/showit-runbook.md` section 5 and `analysis/reconciliation-atlas-package.md` section 6. This file is kept for the reasoning and the platform paths. Where it differs from the runbook, the runbook wins.
+
 **Priority:** HIGH IMPACT (homepage), MEDIUM (About, Contact), LOW (Services geography)
 **Where:** CMS, per-page SEO settings
 **Rollback:** re-enter the old values (record them in `06-baseline-and-change-log.md` before changing)
