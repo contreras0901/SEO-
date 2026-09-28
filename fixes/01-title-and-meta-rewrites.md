@@ -37,9 +37,9 @@ Current (OBSERVED): `Wedding Planning Services | Full-Service, Partial & Florals
 ```
 San Diego Wedding Planning & Floral Design | Bella Mia Events
 ```
-**SAFE description (149 chars):**
+**Description (152 chars):**
 ```
-Compare Bella Mia's full-service planning, partial planning, and floral design packages for San Diego weddings, and see what each one includes.
+Compare Bella Mia's full-service and partial planning, floral design, styling, and rental packages for San Diego weddings, and see what each includes.
 ```
 
 ### About `/about`
@@ -81,7 +81,15 @@ Each page should have exactly one H1 that matches the promise of its title:
 | Page | H1 to use if the current one is generic or missing |
 |---|---|
 | Home | `San Diego Wedding Planning & Floral Design` |
-| Services | `Wedding Planning Services` (keep) with H2s `Full-Service Planning`, `Partial Planning`, `Floral Design` |
+| Services | `Wedding Planning Services` (keep) with H2s `Full-Service Planning`, `Partial Planning`, `Floral Design`, `Event Styling`, `Rental Packages`. If styling and rentals are not yet on the page, add a short section for each (what is included, for which events) so the listings and the site match. No selfie mirror anywhere. |
+
+## Homepage and services copy: the hotel line (D5, FOUNDER CONFIRMED 2026-09-28)
+
+Wherever the site says "exclusive connections to some of the area's most elegant and luxurious hotels" (observed on the homepage and the untitled page), replace with:
+```
+Experienced with San Diego's hotel and resort wedding venues.
+```
+No hotel is named until Concierge confirms a current relationship.
 | About | `About Bella Mia Exclusive Events` |
 | Contact | `Contact Bella Mia` |
 

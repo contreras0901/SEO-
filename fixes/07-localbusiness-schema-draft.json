@@ -7,7 +7,7 @@
   "url": "https://bellamiaexclusiveevents.com/",
   "telephone": "+1-619-248-0786",
   "email": "info@bellamiaexclusiveevents.com",
-  "description": "Wedding planning and floral design in San Diego: full-service planning, partial planning, and floral design for a limited number of weddings each year. [Remove 'limited number' if not true; no hotel names until D5 is decided.]",
+  "description": "Wedding planning and design in San Diego: full-service and partial planning, floral design, event styling, and rental packages, with experience at San Diego's hotel and resort wedding venues. [Remove 'limited number' wording if used elsewhere and not true.]",
   "image": "https://bellamiaexclusiveevents.com/[path-to-a-real-photo].jpg",
   "address": {
     "@type": "PostalAddress",
@@ -36,6 +36,8 @@
   "makesOffer": [
     { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Full-Service Wedding Planning" } },
     { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Partial Wedding Planning" } },
-    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wedding Floral Design" } }
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wedding Floral Design" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Event Styling" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wedding Rental Packages" } }
   ]
 }
