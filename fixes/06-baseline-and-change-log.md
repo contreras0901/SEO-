@@ -32,7 +32,7 @@ Add a row for every live change, including listing edits and posts.
 | | `/contact` title | Fix 01 | `Contact` | | | |
 | | Primary host | Fix 02 | both hosts live | | | |
 | | `/untitled-c1izt` | Fix 03 | indexed, live | | | |
-| 2026-09-28 | Google Business Profile | Fix 04, steps 1–7: name checked, primary category Wedding planner, description pasted, address cleared (service-area), service area San Diego CA, phone and non-www website, services list (5, no selfie mirror) | NOT CAPTURED — Founder applied edits without pasting prior values | Target record in Fix 04 | Founder | FOUNDER REPORTED "done". Unknown: whether re-verification was triggered, prior hours, duplicate-listing check result, Performance baseline. Some edits may sit in Google review for days. |
+| 2026-09-28 | Google Business Profile | Fix 04, steps 1–7: name checked, primary category Wedding planner, description pasted, service area San Diego CA, phone and non-www website, services list (5, no selfie mirror). Address NOT cleared: Founder confirmed the Mission Valley office (8885 Rio San Diego Dr, Suite 237) is a real client-facing office, so D2 was revised to keep it public | NOT CAPTURED — Founder applied edits without pasting prior values | Target record in Fix 04 | Founder | FOUNDER REPORTED: no re-verification prompt; no Chula Vista duplicate found in Maps; Maps shows the Mission Valley office. Unknown: prior hours, Performance baseline, ZIP (92107 typed, 92108 expected). Some edits may sit in Google review for days. |
 | | Yelp | Fix 04 | | | | |
 | | WeddingWire | Fix 04 | | | | |
 | | The Knot | Fix 04 | | | | |

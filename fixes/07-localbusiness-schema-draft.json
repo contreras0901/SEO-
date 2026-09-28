@@ -1,5 +1,5 @@
 {
-  "_comment": "DRAFT — D1 (San Diego), D2 (service-area, no street address) and D3 (info@) are FOUNDER CONFIRMED 2026-09-28. Still replace the remaining [BRACKETED] values and remove this _comment key before pasting. Squarespace: Settings → Advanced → Code Injection → Header, wrapped in <script type=\"application/ld+json\">…</script>. No streetAddress or postalCode on purpose: the business is a service-area business. Structured data does not guarantee any rich result; eligibility rules change (CURRENT PLATFORM POLICY NOT YET VERIFIED).",
+  "_comment": "DRAFT — D1 (San Diego), D2 (Mission Valley office address shown, plus San Diego service area) and D3 (info@) are FOUNDER CONFIRMED 2026-09-28. Confirm the ZIP (92108 expected; Founder typed 92107). Replace the remaining [BRACKETED] values and remove this _comment key before pasting. Squarespace: Settings → Advanced → Code Injection → Header, wrapped in <script type=\"application/ld+json\">…</script>. Structured data does not guarantee any rich result; eligibility rules change (CURRENT PLATFORM POLICY NOT YET VERIFIED).",
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": "https://bellamiaexclusiveevents.com/#business",
@@ -11,8 +11,10 @@
   "image": "https://bellamiaexclusiveevents.com/[path-to-a-real-photo].jpg",
   "address": {
     "@type": "PostalAddress",
+    "streetAddress": "8885 Rio San Diego Dr, Suite 237",
     "addressLocality": "San Diego",
     "addressRegion": "CA",
+    "postalCode": "92108",
     "addressCountry": "US"
   },
   "areaServed": [
