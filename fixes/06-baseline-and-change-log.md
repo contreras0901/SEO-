@@ -32,7 +32,7 @@ Add a row for every live change, including listing edits and posts.
 | | `/contact` title | Fix 01 | `Contact` | | | |
 | | Primary host | Fix 02 | both hosts live | | | |
 | | `/untitled-c1izt` | Fix 03 | indexed, live | | | |
-| | Google Business Profile | Fix 04 | | | | |
+| 2026-09-28 | Google Business Profile | Fix 04, steps 1–7: name checked, primary category Wedding planner, description pasted, address cleared (service-area), service area San Diego CA, phone and non-www website, services list (5, no selfie mirror) | NOT CAPTURED — Founder applied edits without pasting prior values | Target record in Fix 04 | Founder | FOUNDER REPORTED "done". Unknown: whether re-verification was triggered, prior hours, duplicate-listing check result, Performance baseline. Some edits may sit in Google review for days. |
 | | Yelp | Fix 04 | | | | |
 | | WeddingWire | Fix 04 | | | | |
 | | The Knot | Fix 04 | | | | |
