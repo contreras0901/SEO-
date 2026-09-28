@@ -14,6 +14,10 @@ The fixes live in three places this session cannot reach:
 
 To have Rank apply the site-side fixes directly in a later session, either (a) add `bellamiaexclusiveevents.com` and `www.bellamiaexclusiveevents.com` to the environment's allowed network domains so the pages can be read and verified, and share CMS access through an appropriate delegated role; or (b) paste each page's current title, description, and body text into the session.
 
+## 2026-09-28 update: Atlas package merged
+
+The Founder supplied Atlas's 18 Sep implementation package (`../analysis/supplied/`). Atlas fetched the live site and found four items Rank could not see: a 404 `/portfolio` linked from two calls to action, template placeholder links on the homepage, duplicate H1s, and template names ("Erika & Julio Ramirez"). Rank's reconciliation is at `../analysis/reconciliation-atlas-package.md`. **`showit-runbook.md` v2 is the merged, authoritative execution order.** Fix 01's Services title is withdrawn (Atlas found the existing one good); the final title set is in the reconciliation, section 5.
+
 ## Order of operations (do them in this order)
 
 | Step | File | Fixes | Time | Needs Founder decision first? |

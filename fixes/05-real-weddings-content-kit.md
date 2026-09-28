@@ -11,8 +11,12 @@ List the last 6–10 weddings Bella Mia planned or designed. For each:
 
 | # | Couple (first names, with their permission) | Venue | City | Date (month/year) | What Bella Mia did (full planning / partial / florals / all) | Photographer (name + credit permission) | Photos available? | Couple permission to publish? |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Julianne & David [CLAIM PENDING CONFIRMATION: referenced on the site/Style Me Pretty] | Loews Coronado Bay Resort | Coronado | | | | | |
-| 2 | | | | | | | | |
+| 1 | Cherine & Andy (VERIFIED on homepage copy per Atlas, 17 Sep 2026) | The Westgate Hotel | San Diego | | planning + design | Khoa Photography (credited on site) | | |
+| 2 | Erica & Patrick (gallery page `/erica-and-patrick-sieben` exists per Atlas) | [ASK] | [ASK] | | | | | |
+| 3 | Julianne & David [UNVERIFIED: the homepage "Loews Coronado Resort Wedding" link was a Showit template placeholder pointing at a 404, per Atlas. Confirm this wedding exists as photos and permissions before it becomes a post] | Loews Coronado Bay Resort | Coronado | | | | | |
+| 4 | | | | | | | | |
+
+**Order of publication (from `../analysis/reconciliation-atlas-package.md`):** Westgate first, Erica & Patrick second, then the Hotel del Coronado and Loews venue guides from the Atlas package once their ASK items are answered. Atlas's Part 4 image-naming protocol applies to every image before upload.
 
 Rank will write the drafts from this table. Nothing is published without the couple's and photographer's permission.
 
