@@ -8,7 +8,7 @@
 
 The fixes live in three places this session cannot reach:
 
-1. The website's CMS (platform inferred as Squarespace from the `untitled-c1izt` slug pattern; not verified). No website source code exists in any repository available to this session.
+1. The website's CMS: **Showit** (VERIFIED 2026-09-28 by Founder screenshot of app.showit.com; earlier Squarespace inference was wrong). The blog runs on WordPress behind Showit. No website source code exists in any repository available to this session. **`showit-runbook.md` is the single click-by-click script for a browser-driving session on the Founder's computer.**
 2. Google Business Profile and Search Console.
 3. Third-party listings (Yelp, WeddingWire, The Knot, PartySlate, Nextdoor, BBB, Style Me Pretty, Facebook, Instagram, LinkedIn, TikTok).
 
