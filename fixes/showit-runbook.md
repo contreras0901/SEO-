@@ -3,7 +3,7 @@
 **For:** a Claude session running on the Founder's computer with browser control, or the Founder by hand.
 **Platform:** Showit (VERIFIED by screenshot 2026-09-28) with a WordPress blog at `/blog` (Atlas, 17–18 Sep 2026).
 **Pages known to exist (Atlas):** `/`, `/about`, `/services`, `/full-service-wedding-planning`, `/partial-wedding-planning`, `/floral-designs-and-more`, `/contact`, `/blog` (2 posts, both set in France), `/erica-and-patrick-sieben`. Known 404s: `/portfolio`, `/delete-this-demo-single-post`. Indexed but unread: `/untitled-c1izt`.
-**Founder decisions (2026-09-28, all FOUNDER CONFIRMED):** city San Diego; office shown, 8885 Rio San Diego Dr, Suite 237, San Diego, CA 92108 (confirm ZIP, 92107 was typed); email info@bellamiaexclusiveevents.com; services = full-service planning, partial planning, floral design, event styling, rental packages, no selfie mirror; hotel line softened, no hotel named as a relationship; **lead planner name is "Yvanna"**; **established 2014** (not 2012); **"Luxury" is the positioning word**; **service area is San Diego, Coronado, La Jolla, and all of Southern California**; the Loews guide's "recommend most often" line is true.
+**Founder decisions (2026-09-28, all FOUNDER CONFIRMED):** city San Diego; street address stays on Google Business Profile and directory listings but **is not shown on the website** (website says "Mission Valley, San Diego · By appointment"); email info@bellamiaexclusiveevents.com; services = full-service planning, partial planning, floral design, event styling, rental packages, no selfie mirror; hotel line softened, no hotel named as a relationship; **lead planner name is "Yvanna"**; **established 2014** (not 2012); **"Luxury" is the positioning word**; **service area is San Diego, Coronado, La Jolla, and all of Southern California**; the Loews guide's "recommend most often" line is true.
 **Rules:** publish once at the end. Record every "before" value in section 10 before overwriting it. Delete nothing before reading it. Anything marked ASK goes to the Founder first. Atlas's observations are ten days old; re-verify each before acting.
 
 ---
@@ -95,14 +95,13 @@ Section headings under each H1 → H2. If a page already has two H1 elements, de
 ## 7. Copy edits
 
 1. **Hotel line.** Search Home, About, Services, and the untitled page for "exclusive connections". Replace the sentence with `Experienced with San Diego's hotel and resort wedding venues.`
-2. **Contact page.** Add near the form:
+2. **Contact page.** FOUNDER DECISION 2026-09-28: **no street address on the website.** Show only:
    ```
-   8885 Rio San Diego Dr, Suite 237
-   San Diego, CA 92108
+   Mission Valley, San Diego
    By appointment
    ```
-   Phone `619-248-0786`. Email `info@bellamiaexclusiveevents.com`. Remove any gmail address site-wide.
-3. **Footer**, if site-wide: same address, phone, email.
+   Phone `619-248-0786`. Email `info@bellamiaexclusiveevents.com`. Remove any gmail address site-wide. If a street address was already added in an earlier pass, remove it.
+3. **Footer**, if site-wide: `Mission Valley, San Diego · By appointment`, phone, email. No street address.
 4. **Services page.** Ensure Event Styling and Rental Packages appear as their own sections (H2 each). Use this copy (written by Rank at the Founder's request, 2026-09-28; the one bracket is optional detail):
 
    **Event Styling**
@@ -168,7 +167,7 @@ Section headings under each H1 → H2. If a page already has two H1 elements, de
 | Partial: title / meta / hide / H1 | | | |
 | Floral: title / meta / hide / H1 | | | |
 | About: title / meta / hide / H1 / name used | | | |
-| Contact: title / meta / hide / H1 / address / email / phone | | | |
+| Contact: title / meta / hide / H1 / location line / email / phone | | no street address | |
 | Erica & Patrick: title / meta / H1 | | Park Hyatt Aviara | |
 | "exclusive connections" sentence: pages | | replaced | |
 | Selfie mirror text: pages | | removed | |

@@ -17,7 +17,11 @@
 Business name:    Bella Mia Exclusive Events            (exactly this, no keywords added)
 City:             San Diego, CA
 Address shown:    8885 Rio San Diego Dr, Suite 237, San Diego, CA 92108   [confirm ZIP; Mission Valley office]
-                  Use this exact format everywhere: "Dr" and "Suite 237" spelled the same on every listing.
+                  Use this exact format on Google and every directory listing: "Dr" and "Suite 237" spelled the same.
+                  **Website: no street address** (FOUNDER DECISION 2026-09-28). The site shows
+                  "Mission Valley, San Diego · By appointment" only. Rank's note: Google and the directories
+                  carry the address for local relevance; the site omitting it is a mild consistency gap,
+                  acceptable, and reversible.
 Service area:     San Diego, Coronado, La Jolla, and Southern California (FOUNDER CONFIRMED 2026-09-28).
                   On Google Business Profile use selectable areas: San Diego County first, then only the
                   other counties where weddings are actually taken.
@@ -59,7 +63,7 @@ Observed values are from search snippets on 2026-09-28; open each listing to con
 | Listing | Observed (PUBLIC CLAIM) | Fix | Owner login needed |
 |---|---|---|---|
 | Google Business Profile | UNKNOWN (not visible from this session) | Audit first: name, category, address/service area, phone, website (non-www), hours, services, description, photos. Capture Performance data as baseline before editing (Fix 06) | Google account that owns the profile |
-| Website `/contact` and footer | info@ email, 619.248.0786, "San Diego, La Jolla & Coronado" | Show the office address exactly as in the target record, "by appointment"; phone 619-248-0786; email info@. Keep "La Jolla & Coronado" only if the Fact Register confirms the service area | CMS |
+| Website `/contact` and footer | info@ email, 619.248.0786, "San Diego, La Jolla & Coronado" | "Mission Valley, San Diego · By appointment", no street address; phone 619-248-0786; email info@; "San Diego, La Jolla & Coronado" may stay (FOUNDER CONFIRMED service area) | CMS |
 | Yelp | Title says "San Diego"; URL slug says "chula-vista"; 24 reviews, 240 photos | Set the address to the office address; city San Diego; keep "also serves customers at their location" on if Yelp offers it; website non-www; email info@; services per the target record; remove any selfie mirror mention. Do not gate or solicit reviews | Yelp for Business |
 | WeddingWire | URL slug "chula-vista"; page title says "San Diego, CA"; 5.0 / 10 reviews | Set the office address and city San Diego; website non-www; services per the target record | WeddingWire vendor account |
 | The Knot | "San Diego, CA"; services text includes day-of, month-of, selfie mirror, styling, rentals | Keep city; rewrite services to the target record: keep styling and rental packages, **delete selfie mirror**; website non-www; email info@ | The Knot vendor account (same login as WeddingWire) |
