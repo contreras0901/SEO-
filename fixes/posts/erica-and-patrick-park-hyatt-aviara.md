@@ -1,6 +1,6 @@
 # Real wedding post: Erica & Patrick at Park Hyatt Aviara
 
-**Status:** READY FOR FOUNDER REVIEW, 2026-09-28. All facts below are FOUNDER CONFIRMED except the two sentences marked `[CONFIRM]`, which Rank wrote at the Founder's request and which need a yes or an edit. Nothing else is invented.
+**Status:** APPROVED FOR PUBLICATION, 2026-09-28. All facts FOUNDER CONFIRMED, including the two sentences Rank drafted (approved as written). Couple and photographer permissions FOUNDER CONFIRMED. Remaining optional items are marked `[OPTIONAL]`; publish without them if not supplied.
 **Where it publishes:** WordPress blog, category Real Weddings. The Showit gallery `/erica-and-patrick-sieben` stays as the photo gallery and links to this post; this post links to the gallery and to `/portfolio` once built.
 
 ## SEO fields
@@ -16,11 +16,11 @@
 
 ### A Coastal Garden Wedding at Park Hyatt Aviara
 
-Park Hyatt Aviara sits above the Batiquitos Lagoon in Carlsbad, and it is one of the few North County resorts where the ceremony courtyard, the gardens, and the ocean air all belong to the same design language. Erica and Patrick wanted a day that felt outdoors from the first note to the last dance, and Aviara let them have it without ever moving indoors. `[CONFIRM: written by Rank from the spaces used; edit if their reason was different]` We planned the wedding, designed it, and built the florals as one team.
+Park Hyatt Aviara sits above the Batiquitos Lagoon in Carlsbad, and it is one of the few North County resorts where the ceremony courtyard, the gardens, and the ocean air all belong to the same design language. Erica and Patrick wanted a day that felt outdoors from the first note to the last dance, and Aviara let them have it without ever moving indoors. We planned the wedding, designed it, and built the florals as one team.
 
 #### Erica and Patrick
 
-We first met Erica and Patrick as guests. They were at another wedding we planned, and what stayed with them was the attention to detail: the way the timeline held, the way the small things were already handled before anyone noticed them. When it was their turn, they reached out and asked for the same care on their own day. `[CONFIRM: written by Rank from the Founder's note; add one worry they had going in, if you remember one]`
+We first met Erica and Patrick as guests. They were at another wedding we planned, and what stayed with them was the attention to detail: the way the timeline held, the way the small things were already handled before anyone noticed them. When it was their turn, they reached out and asked for the same care on their own day.
 
 What they wanted was simple to say and hard to do well: a coastal garden wedding, relaxed in feeling, exact in execution.
 
@@ -63,8 +63,8 @@ Planning a wedding at Park Hyatt Aviara or another North County resort? We plan 
 
 ## Claim check before publishing
 
-- Couple's permission to use first names, the song story, and photos: `[FOUNDER CONFIRM]`
-- Photographer's permission: `[FOUNDER CONFIRM]`
+- Couple's permission to use first names, the song story, and photos: FOUNDER CONFIRMED 2026-09-28
+- Photographer's permission: FOUNDER CONFIRMED 2026-09-28
 - Patrick's instrument: the post says "his instrument" on purpose. If it was a guitar or piano, say so and it gets specific.
 - "PatrickLVB" as the band name: confirm spelling and whether it should read "Patrick LVB" or the band's full name.
 - No "preferred vendor" or "partner" language about Park Hyatt Aviara.

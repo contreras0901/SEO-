@@ -22,7 +22,7 @@ Three columns on desktop, stacked on mobile.
 - **Right column, text, centered:**
   - `ERICA & PATRICK` serif uppercase, letter-spacing 0.15em, ~34px.
   - `PARK HYATT AVIARA` small caps, letter-spacing 0.3em, ~13px, 40px below.
-  - Optional italic link line: `Featured on [publication]` only if the wedding was actually published somewhere. Otherwise omit the line.
+  - No "Featured on" line for this wedding (FOUNDER CONFIRMED: not published). Add one on future posts only when true.
   - Vendor list, one per line, italic serif ~17px, `Role: Name`:
     ```
     Planning & Design: Bella Mia Exclusive Events
@@ -60,7 +60,7 @@ Three columns on desktop, stacked on mobile.
 ## B. WordPress real-wedding post (one per wedding, links to the gallery page)
 
 ### Header
-- Date in small caps with letter spacing, a thin horizontal rule, and a round monogram badge (Bella Mia's monogram, ~80px) on the same line, centered.
+- Date in small caps with letter spacing and a thin horizontal rule, centered. No monogram badge (FOUNDER CONFIRMED: none in use). If a monogram is created later, it sits on the same line at ~80px.
 - **H1** in large italic serif, centered, ~56px desktop / 34px mobile: `A Coastal Garden Wedding at Park Hyatt Aviara`.
 
 ### Body
