@@ -17,13 +17,9 @@
 - Links on buttons and text are set in the element's Click Action / Link panel.
 - **PUBLISH** is top right. Nothing is live until it is clicked.
 
-## 1. The untitled page
+## 1. The untitled page (resolved 2026-09-28)
 
-1. SITE → Pages. Find the page named "Untitled" or whose URL ends in `untitled-c1izt`. Open it. Record name, URL, nav status, and content in section 10.
-2. Decide:
-   - Duplicate of Home or Services → delete it (page menu ⋯ → Delete), then SITE → Site Settings → Advanced → Redirects: `/untitled-c1izt` → `/` (or `/services`). No redirects feature → keep the page, turn on **Hide from search engines** in its SEO SETTINGS, note it.
-   - Unique content worth keeping → rename page and URL, title it per section 5, add a redirect from the old URL. **ASK** before keeping any hotel or vendor language.
-   - Empty or test → delete, no redirect.
+The Showit Pages list has no page for `untitled-c1izt` (Founder screenshot). Pages present: Home, About, Services, Full Service Wedding Planning, Partial Wedding Planning, Floral Designs & More, Contact, Links. The URL is a ghost in Google's index from a deleted page. **Action:** add a 301 redirect `/untitled-c1izt` → `/` in section 8. Nothing to delete.
 
 ## 2. Capture before-values
 
@@ -35,9 +31,17 @@ For every page in the list above: SEO SETTINGS → copy Page Title, Meta Descrip
 2. **Recent Features module on Home.** Find the two items linking to `/delete-this-demo-single-post` (one is titled "Loews Coronado Resort Wedding"). Remove both. If the module then has one real item, keep one; do not leave a placeholder. If every item is a placeholder, hide the whole module until real posts exist.
 3. Verify on the canvas that no other element links to `/portfolio` or `/delete-this-demo-single-post` (check the footer and the mobile canvas).
 
-## 4. Template names (Atlas 2.5)
+## 4. The "Meet Erika & Julio Ramirez" block (Atlas 2.5, corrected 2026-09-28)
 
-On Home, find "Meet Erika & Julio Ramirez" and "Read My Story". Replace with `Meet Yvanna` (FOUNDER CONFIRMED spelling) and make "Read My Story" link to `/about`. Check `/about` and every testimonial use "Yvanna", not "Ivanna". Record the before-text.
+Erika Batiz and Julio Ramirez were real Bella Mia clients (FOUNDER CONFIRMED), and a blog post template named for them exists. **Do not remove the block.** Fix its labels:
+- Heading stays `Erika & Julio` (or `Meet Erika & Julio`). It is a featured real wedding, not the planner introduction.
+- Change the button "Read My Story" to `Read their story`, linked to their published post (check the WordPress post URL; if the post is not published yet, link to `/blog` until it is).
+- Add a small line above or below: `A real wedding by Bella Mia` **[FOUNDER CONFIRM the role: planning, florals, or both]**.
+- Make sure the About page introduces **Yvanna** by name with an H1 `Meet Yvanna`, and that every testimonial spells it "Yvanna". Record before-text.
+
+## 4b. The Links page
+
+`/links` is a link-in-bio page. In its SEO SETTINGS turn **Hide from search engines** on. Check its "The Galleries" button: if it points to `/portfolio`, repoint it with the others in section 3.
 
 ## 5. Titles and meta descriptions
 
@@ -156,7 +160,8 @@ Section headings under each H1 → H2. If a page already has two H1 elements, de
 | "Explore the Galleries" link target | | | |
 | "View More Weddings" link target | | | |
 | Recent Features items and links | | | |
-| "Meet Erika & Julio Ramirez" text | | Meet Yvanna | |
+| "Meet Erika & Julio Ramirez" block | "Read My Story" | kept; button "Read their story" → their post | real clients |
+| Links page hidden from search | | on | |
 | Home: title / meta / hide / H1 text and tag | | | |
 | Services: title / meta / hide / H1 | | keep title+meta | |
 | Full-Service: title / meta / hide / H1 | | keep title+meta | |
