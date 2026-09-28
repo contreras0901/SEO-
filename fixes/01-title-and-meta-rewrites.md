@@ -69,7 +69,7 @@ Contact Bella Mia Exclusive Events | San Diego Wedding Planner
 ```
 Tell us your date, venue, and vision. Call or text 619.248.0786, email info@bellamiaexclusiveevents.com, or send the inquiry form.
 ```
-[CLAIM PENDING CONFIRMATION: phone and email as shown on the site on 2026-09-28. Use whichever email step 04 settles on.]
+[Email is FOUNDER CONFIRMED 2026-09-28 as info@. Phone as shown on the site on 2026-09-28; confirm.]
 
 ### `/untitled-c1izt`
 Do not write a title for it. Handle it in Fix 03 first.

@@ -1,19 +1,18 @@
 {
-  "_comment": "DRAFT — do not deploy until Fix 04 decisions D1–D5 are made and every value below is VERIFIED or FOUNDER CONFIRMED. Replace every [BRACKETED] value. Remove this _comment key before pasting. Squarespace: Settings → Advanced → Code Injection → Header, wrapped in <script type=\"application/ld+json\">…</script>. Structured data does not guarantee any rich result; eligibility rules change (CURRENT PLATFORM POLICY NOT YET VERIFIED).",
+  "_comment": "DRAFT — D1 (San Diego), D2 (service-area, no street address) and D3 (info@) are FOUNDER CONFIRMED 2026-09-28. Still replace the remaining [BRACKETED] values and remove this _comment key before pasting. Squarespace: Settings → Advanced → Code Injection → Header, wrapped in <script type=\"application/ld+json\">…</script>. No streetAddress or postalCode on purpose: the business is a service-area business. Structured data does not guarantee any rich result; eligibility rules change (CURRENT PLATFORM POLICY NOT YET VERIFIED).",
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": "https://bellamiaexclusiveevents.com/#business",
   "name": "Bella Mia Exclusive Events",
   "url": "https://bellamiaexclusiveevents.com/",
   "telephone": "+1-619-248-0786",
-  "email": "[D3: info@bellamiaexclusiveevents.com]",
-  "description": "[One sentence. Wedding planning and floral design in San Diego. No hotel names unless confirmed by Concierge.]",
+  "email": "info@bellamiaexclusiveevents.com",
+  "description": "Wedding planning and floral design in San Diego: full-service planning, partial planning, and floral design for a limited number of weddings each year. [Remove 'limited number' if not true; no hotel names until D5 is decided.]",
   "image": "https://bellamiaexclusiveevents.com/[path-to-a-real-photo].jpg",
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "[D1: San Diego]",
+    "addressLocality": "San Diego",
     "addressRegion": "CA",
-    "postalCode": "[D2: include only if the address is shown publicly; otherwise remove streetAddress and postalCode]",
     "addressCountry": "US"
   },
   "areaServed": [

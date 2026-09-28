@@ -21,7 +21,7 @@ To have Rank apply the site-side fixes directly in a later session, either (a) a
 | 1 | `01-title-and-meta-rewrites.md` | B1, B4, B8 | 30–45 min | Only which service-area wording is true |
 | 2 | `02-host-canonical-and-redirects.md` | B2 | 15 min + propagation | Which host is primary (recommend non-www) |
 | 3 | `03-untitled-page-disposition.md` | B3 | 15 min after reading the page | Keep / merge / remove |
-| 4 | `04-listing-alignment-sheet.md` | B6, B7 | 2–3 hours across listings | The one public location + email |
+| 4 | `04-listing-alignment-sheet.md` | B6, B7 | 2–3 hours across listings | D1–D3 decided 2026-09-28 (San Diego, service-area, info@). D4 services and D5 hotel wording still open; defaults are in the file |
 | 5 | `06-baseline-and-change-log.md` | measurement | 30 min | None; do before or alongside steps 1–4 |
 | 6 | `05-real-weddings-content-kit.md` | B5 | ongoing, 1 post per 1–2 weeks | Which past weddings are confirmed |
 | 7 | `07-localbusiness-schema-draft.json` | later | 15 min | Only after step 4 settles the business facts |
