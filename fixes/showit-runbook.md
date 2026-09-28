@@ -99,8 +99,17 @@ Section headings under each H1 → H2. If a page already has two H1 elements, de
    ```
    Phone `619-248-0786`. Email `info@bellamiaexclusiveevents.com`. Remove any gmail address site-wide.
 3. **Footer**, if site-wide: same address, phone, email.
-4. **Services page.** Ensure Event Styling and Rental Packages appear with two or three sentences each. **ASK** for the sentences if none exist. Remove any "selfie mirror" text.
-5. **"INC. EST. 2012"** in the hero → change to `INC. EST. 2014` (FOUNDER CONFIRMED). Check the footer and About page for any other year and match them.
+4. **Services page.** Ensure Event Styling and Rental Packages appear as their own sections (H2 each). Use this copy (written by Rank at the Founder's request, 2026-09-28; the one bracket is optional detail):
+
+   **Event Styling**
+   `Styling is the layer between a plan and a room that feels finished. We design the tablescapes, ceremony and lounge settings, signage, and the small details guests notice without knowing why, then set and style every piece on the day so nothing is left to chance. Available with our planning packages or on its own for couples who have the logistics handled and want the look elevated.`
+
+   **Rental Packages**
+   `Our curated rental collection lets you build the look without sourcing from five vendors. Choose from our inventory of [candlelight, tabletop, ceremony structures, and lounge pieces — edit to match what Bella Mia actually stocks], delivered, set, and collected by our team. Packages are designed to pair with our floral and styling work so every element is chosen to sit together.`
+
+   Remove any "selfie mirror" text anywhere on the site.
+5. **Business name in text.** The brand lockup "EXCLUSIVE EVENTS BY BELLA MIA" in the hero is a logo and can stay. In running text, credits, the footer, and the contact page, the name is **Bella Mia Exclusive Events** (FOUNDER CONFIRMED 2026-09-28). If a legal line is wanted in the footer, use `© 2026 Bella Mia Exclusive Events` and put the Inc. name in contracts only.
+6. **"INC. EST. 2012"** in the hero → change to `EST. 2014` (FOUNDER CONFIRMED year; dropping "Inc." keeps the public name consistent). Check the footer and About page for any other year and match them.
 
 ## 8. Site-level
 

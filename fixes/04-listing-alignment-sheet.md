@@ -22,11 +22,9 @@ Service area:     San Diego, Coronado, La Jolla, and Southern California (FOUNDE
                   On Google Business Profile use selectable areas: San Diego County first, then only the
                   other counties where weddings are actually taken.
 Owner name:       Yvanna Contreras (FOUNDER CONFIRMED spelling; BBB shows "Ivanna", correct it)
-Legal vs public name: the site hero and vendor credits say "Exclusive Events by Bella Mia Inc." while
-                  every listing says "Bella Mia Exclusive Events". FACT REGISTER UPDATE CANDIDATE.
-                  Rank's recommendation: one public name everywhere, "Bella Mia Exclusive Events";
-                  the Inc. name belongs in the footer legal line and contracts only. Google requires
-                  the real-world name customers know; do not switch the profile name without a reason.
+Public name:      Bella Mia Exclusive Events (FOUNDER CONFIRMED 2026-09-28 as the name customers use).
+                  "Exclusive Events by Bella Mia Inc." stays in contracts and as the hero logo lockup only.
+                  Every listing, credit, and text mention uses the public name.
 Established:      2014 (FOUNDER CONFIRMED; the site hero said 2012)
 Phone:            619-248-0786                           (OBSERVED on site and listings; confirm)
 Email:            info@bellamiaexclusiveevents.com
