@@ -32,6 +32,10 @@ Rank never fetched the site; Atlas did. These are OBSERVED by Atlas on 17–18 S
 | `untitled-c1izt`, www duplicate host | Not seen | Rank findings B2, B3 | **Both stay in the runbook.** Atlas did not fetch these URLs |
 | Platform | Showit + WordPress blog (Atlas) | Showit (Founder screenshot) | Agree |
 
+## 2b. Claim error in the Atlas package, caught 2026-09-28
+
+Atlas 5.3 presents Cherine & Andy at The Westgate as "planned and designed by Bella Mia Exclusive Events" and proposes the portfolio card H2 "A Black-Tie Parisian Wedding at The Westgate Hotel" under Bella Mia's planning. The Founder's vendor list (2026-09-28) credits **RBCO Events as planner** and Bella Mia as **florist and rentals**. Atlas's framing would have violated its own constraint 2. Corrected in `../fixes/posts/cherine-and-andy-westgate-hotel.md`: the post and gallery are a florals-and-rentals feature, RBCO is credited as planner, and every portfolio card states Bella Mia's role.
+
 ## 3. Public claims and Fact Register candidates raised by the Atlas package
 
 - Homepage hero "Inc. Est. 2012" vs BBB "started 4/22/2014" (Rank, from screenshot and BBB snippet). FOUNDER CONFIRM.
