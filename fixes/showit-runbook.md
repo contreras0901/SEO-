@@ -65,9 +65,10 @@ SEO SETTINGS on each page. Paste exactly. Character counts are approximate; if S
 - Page Title: `Contact Bella Mia Exclusive Events | San Diego Wedding Planner`
 - Meta Description: `Tell us your date, venue, and vision. Call or text 619.248.0786, email info@bellamiaexclusiveevents.com, or meet us by appointment in Mission Valley.`
 
-**Erica & Patrick gallery**
-- Page Title: `[Venue] Wedding | Erica & Patrick | Bella Mia Exclusive Events` — **ASK** the venue.
-- Meta Description: `A [style] wedding at [Venue], [City], planned and designed by Bella Mia Exclusive Events. See the full gallery.`
+**Erica & Patrick gallery** (`/erica-and-patrick-sieben`; venue FOUNDER CONFIRMED 2026-09-28)
+- Page Title: `Park Hyatt Aviara Wedding | Erica & Patrick | Bella Mia Events`
+- Meta Description: `Erica and Patrick's wedding at Park Hyatt Aviara in Carlsbad, planned and designed by Bella Mia Exclusive Events. See the full gallery.`
+- H1 on the page: `A [Style] Wedding at Park Hyatt Aviara` — **ASK** for one word describing the style (e.g., garden, black-tie, coastal), or use `Erica & Patrick at Park Hyatt Aviara`.
 
 Coronado, La Jolla, Southern California, and "Luxury" are all FOUNDER CONFIRMED and may be used. If the "limited number of weddings each year" claim is not true, delete that sentence.
 
@@ -154,7 +155,7 @@ Section headings under each H1 → H2. If a page already has two H1 elements, de
 | Floral: title / meta / hide / H1 | | | |
 | About: title / meta / hide / H1 / name used | | | |
 | Contact: title / meta / hide / H1 / address / email / phone | | | |
-| Erica & Patrick: title / meta / venue | | | ASK venue |
+| Erica & Patrick: title / meta / H1 | | Park Hyatt Aviara | |
 | "exclusive connections" sentence: pages | | replaced | |
 | Selfie mirror text: pages | | removed | |
 | Est. year in hero | 2012 | 2014 | |

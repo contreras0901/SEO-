@@ -38,7 +38,7 @@ Rank never fetched the site; Atlas did. These are OBSERVED by Atlas on 17–18 S
 - "Erika & Julio Ramirez" on the homepage: template text, not a Bella Mia person (INFERENCE; the Showit account holder is Yvanna Contreras). Remove.
 - Lead planner name spelling: "Yvanna" (site testimonials, Showit account) vs "Ivanna" (BBB). FOUNDER CONFIRM one spelling for all public assets.
 - "Loews Coronado Resort Wedding" homepage link: a template placeholder, not a published wedding. Whether a real Loews wedding (Julianne & David, per Style Me Pretty snippet) exists as photos and permissions is UNKNOWN. FOUNDER CONFIRM before it becomes a post.
-- Real galleries confirmed to exist on the site: `/erica-and-patrick-sieben`; Cherine & Andy at The Westgate (homepage copy). Venue for Erica & Patrick: UNKNOWN.
+- Real galleries confirmed to exist on the site: `/erica-and-patrick-sieben` at **Park Hyatt Aviara, Carlsbad** (FOUNDER CONFIRMED 2026-09-28); Cherine & Andy at The Westgate (homepage copy). Note: Serene has a real-wedding post at Park Hyatt Aviara ("A Chic Celebration at the Park Hyatt Aviara", OBSERVED in the search index 28 Sep). Bella Mia's Aviara post is a genuine wedding and should be published; Atlas's "do not open by fighting them at Aviara" applies to venue guides, not to real work.
 
 ## 4. Merged execution order
 
