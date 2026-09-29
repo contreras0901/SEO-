@@ -8,7 +8,7 @@
 
 ## A. Showit gallery page (one per wedding)
 
-URL pattern: `/firstname-and-firstname` (existing: `/erica-and-patrick-sieben`; rename to `/erica-and-patrick` only with a 301 from the old slug).
+URL pattern: `/blog/firstname-and-firstname/` (VERIFIED 2026-09-29: galleries on this site are WordPress pages under Blog rendered by Showit blog templates, e.g. `/blog/erika-batiz-julio-ramirez/`; `/erica-and-patrick-sieben` does not exist). Erica & Patrick: WordPress draft page id 195 at `/blog/erica-and-patrick/`.
 
 ### Canvas 1: Hero (full width, 100vh on desktop, 70vh on mobile)
 - Background: one wide photo, black-and-white or heavily desaturated, 40% dark overlay.
@@ -89,7 +89,7 @@ Use the fonts already set in Bella Mia's Showit site so every page matches. If n
 - Colors: near-black `#1f1f1f` text, white background, cream card `#f6f2ec`, accent for links `#8a7a4d` (change to Bella Mia's brand accent if one exists).
 
 ## D. Build order for the executing session
-1. Duplicate the existing `/erica-and-patrick-sieben` page in Showit rather than starting blank; keep its photos.
+1. There is no existing Erica & Patrick page and no photos anywhere on the site (WordPress media library is empty; Showit's Media Library could not be opened by script on 2026-09-29, so check it by hand for any Aviara files before asking for uploads). Get 12–20 Audree Belle photos from the Founder first, upload them to Showit's Media Library named per the image protocol, then in Showit Site → Blog Templates duplicate the "Erika Batiz & Julio Ramirez" template as the base and assign it to page 195.
 2. Rebuild canvases in the order above. Set the hero text to H1 and "The Vendor Team" to H2.
 3. Fill SEO settings.
 4. Publish with the rest of the runbook.

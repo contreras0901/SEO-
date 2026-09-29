@@ -108,6 +108,7 @@ SEO SETTINGS on each page. Paste exactly. Character counts are approximate; if S
 - Meta Description: `Erica and Patrick's wedding at Park Hyatt Aviara in Carlsbad, planned and designed by Bella Mia Exclusive Events. See the full gallery.`
 - H1 on the page: `A Coastal Garden Wedding at Park Hyatt Aviara` (style FOUNDER CONFIRMED via the layout preview; the hero lockup "Erica & Patrick" can stay as styled text, not an H1).
 - Until then, no CTA or redirect points at `/erica-and-patrick-sieben`.
+- **2026-09-29 build status:** WordPress draft post id 194 (`/park-hyatt-aviara-wedding-erica-and-patrick`, Real Weddings, Yoast title/meta set) and draft gallery page id 195 (`/blog/erica-and-patrick/`, Yoast title/meta set) exist. Blocked on photos: none exist in WordPress or Showit. Next: Founder supplies 12–20 Audree Belle photos → upload to Showit Media Library → duplicate the Erika & Julio blog template for page 195 → publish both.
 
 Coronado, La Jolla, Southern California, and "Luxury" are all FOUNDER CONFIRMED and may be used. The "limited number of weddings each year" claim is FOUNDER CONFIRMED true (2026-09-28); keep it in the Home meta, on the Partial page, and in the Contact meta.
 

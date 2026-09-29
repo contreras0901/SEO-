@@ -1,7 +1,7 @@
 # Real wedding post: Erica & Patrick at Park Hyatt Aviara
 
 **Status:** APPROVED FOR PUBLICATION, 2026-09-28. All facts FOUNDER CONFIRMED, including the two sentences Rank drafted (approved as written). Couple and photographer permissions FOUNDER CONFIRMED. Remaining optional items are marked `[OPTIONAL]`; publish without them if not supplied.
-**Where it publishes:** WordPress blog, category Real Weddings. The Showit gallery `/erica-and-patrick-sieben` stays as the photo gallery and links to this post; this post links to the gallery and to `/portfolio` once built.
+**Where it publishes:** WordPress blog, category Real Weddings. **2026-09-29:** created as WordPress **draft post id 194** (slug, title tag, meta, category Real Weddings all set; image rows marked with HTML comments). The gallery is WordPress **draft page id 195** at `/blog/erica-and-patrick/` (child of Blog), to be rendered by a Showit blog template once photos exist; `/erica-and-patrick-sieben` never existed on the live site. This post links to the gallery and to `/portfolio` once built.
 
 ## SEO fields
 
@@ -51,7 +51,7 @@ Link every vendor to its website or Instagram.
 
 #### See the full gallery
 
-[View Erica & Patrick's gallery → `/erica-and-patrick-sieben`]
+[View Erica & Patrick's gallery → `/blog/erica-and-patrick/`]
 
 Planning a wedding at Park Hyatt Aviara or another North County resort? We plan and design luxury weddings across San Diego and Southern California and take a limited number each year. [Inquire about your date → `/contact`] · [Full-service planning → `/full-service-wedding-planning`]
 
