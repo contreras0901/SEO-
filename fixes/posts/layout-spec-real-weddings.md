@@ -29,7 +29,7 @@ Three columns on desktop, stacked on mobile.
     Florals: Bella Mia Exclusive Events
     Photographer: Audree Belle Photography
     Videographer: Shutter And Sound
-    Live Band: PatrickLVB
+    Live Band: Patrick LVB
     ```
   - `SCROLL FOR FULL GALLERY` small caps, letter-spacing 0.3em, ~11px, at the bottom.
 - The right-column text should be a paragraph tag, not a heading; the H1 is in the hero.

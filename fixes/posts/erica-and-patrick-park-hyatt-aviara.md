@@ -44,7 +44,7 @@ Patrick is a musician. During the reception he picked up his instrument and play
 - **Venue:** Park Hyatt Aviara, Carlsbad
 - **Photography:** Audree Belle Photography
 - **Video:** Shutter And Sound
-- **Live band:** PatrickLVB
+- **Live band:** Patrick LVB
 - `[OPTIONAL: hair and makeup, paper, cake, officiant, if you want them credited]`
 
 Link every vendor to its website or Instagram.
@@ -66,6 +66,6 @@ Planning a wedding at Park Hyatt Aviara or another North County resort? We plan 
 - Couple's permission to use first names, the song story, and photos: FOUNDER CONFIRMED 2026-09-28
 - Photographer's permission: FOUNDER CONFIRMED 2026-09-28
 - Patrick's instrument: the post says "his instrument" on purpose. If it was a guitar or piano, say so and it gets specific.
-- "PatrickLVB" as the band name: confirm spelling and whether it should read "Patrick LVB" or the band's full name.
+- "Patrick LVB" as the band name: confirm spelling and whether it should read "Patrick LVB" or the band's full name.
 - No "preferred vendor" or "partner" language about Park Hyatt Aviara.
 - Business name in the credits reads **Bella Mia Exclusive Events**, matching every listing.
