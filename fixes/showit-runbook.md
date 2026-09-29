@@ -202,7 +202,7 @@ Section headings under each H1 → H2. If a page already has two H1 elements, de
 - `/` title `Luxury San Diego Wedding Planner | Bella Mia Exclusive Events`; meta as section 5; 1 H1; 0 links to the demo post or `/portfolio`; "exclusive connections" 0; new hotel sentence 1; Erika & Julio role line 1.
 - `/about` title/meta as section 5; H1 `Meet YVANNA`; "since 2014" 1, "since 2011" 0.
 - `/services` title/meta unchanged (kept); H1 unchanged; "Event Styling" and "Rental Packages" present.
-- `/contact` title/meta as section 5; 1 H1 ("Contact Bella Mia"); address `8885 Rio San Diego` present.
+- `/contact` title/meta as section 5; 1 H1 ("Contact Bella Mia"); location line `Mission Valley, San Diego` + `By appointment` + phone present; street address 0 (a street address was live 09:21–11:15 PDT and removed after the Founder's 2026-09-28 no-street-address decision was merged from the other session).
 - `/links` `<meta name="robots" content="noindex">` present.
 - `/floral-designs-and-more`, `/partial-wedding-planning`, `/full-service-wedding-planning` titles/metas as recorded in section 11; 1 H1 each.
 - `/blog/` title `Real Weddings & Venue Guides | Bella Mia Exclusive Events` with the section 9 description.
