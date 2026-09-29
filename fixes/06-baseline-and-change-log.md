@@ -39,7 +39,7 @@ Add a row for every live change, including listing edits and posts.
 | | PartySlate | Fix 04 | | | | |
 | | Nextdoor (duplicate) | Fix 04 | two pages | | | |
 | | BBB | Fix 04 | | | | |
-| | `/real-weddings/` post 1 | Fix 05 | none | | | |
+| 2026-09-29 | Real Weddings post 1 | Fix 05 | none | `/2026/09/29/park-hyatt-aviara-wedding-erica-and-patrick/` published (post 194, category Real Weddings, Yoast title/meta, 4 photos, featured image) rendered by Showit custom template `single-post-park-hyatt-aviara-wedding-erica-and-patrick` | Claude | Photos are chat-resolution phone shots; replace with originals. Showit published 10:43 PDT for the template |
 
 ## 90-day review (PROVISIONAL thresholds)
 
