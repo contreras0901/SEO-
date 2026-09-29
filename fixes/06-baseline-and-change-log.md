@@ -40,6 +40,7 @@ Add a row for every live change, including listing edits and posts.
 | | Nextdoor (duplicate) | Fix 04 | two pages | | | |
 | | BBB | Fix 04 | | | | |
 | 2026-09-29 | `/blog/` listing | runbook 9 | Static page rendered by the Post List template; listed no posts | Blog set as the WordPress Posts page behind a placeholder static front page (214); lists all posts | Claude | Homepage verified unchanged (title, H1, meta, canonical `/`) |
+| 2026-09-29 | `/blog/` post cards | runbook 9 | Static stock photo + hard-coded link on every card; Château post Uncategorized, no featured image | Card image bound to Featured Image, click = WordPress Post (all three card views); Château post → Real Weddings with featured image 217 | Claude | Showit published 15:12 PDT |
 | 2026-09-29 | Real Weddings post 1 | Fix 05 | none | `/2026/09/29/park-hyatt-aviara-wedding-erica-and-patrick/` published (post 194, category Real Weddings, Yoast title/meta, 4 photos, featured image) rendered by Showit custom template `single-post-park-hyatt-aviara-wedding-erica-and-patrick` | Claude | Photos are chat-resolution phone shots; replace with originals. Showit published 10:43 PDT for the template |
 
 ## 90-day review (PROVISIONAL thresholds)
