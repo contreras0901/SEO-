@@ -96,7 +96,7 @@ Small ceremonies, 20 guests or fewer with no chairs, arch, decor, or music, do n
 
 #### Weddings we have done in Coronado
 
-**Julianne & David at Loews Coronado Bay Resort.** A modern coastal wedding in purples and blues: ceremony under a white-draped arch on The Pointe with lavender roses and blue delphinium, reception on the terrace with fuchsia orchids running the tables. We planned, designed, built the florals, styled, and supplied the rentals, and we built the whole timeline backwards from the 10 PM outdoor-music rule so nobody felt it. Photography and video by Chrissa Magno. [Read it → `/loews-coronado-bay-wedding-julianne-and-david`]
+**Julianne & David at Loews Coronado Bay Resort.** A modern coastal wedding in purples and blues: ceremony under a white-draped arch on The Pointe with lavender roses and blue delphinium, reception on the Bay Terrace with fuchsia orchids running the tables. We planned, designed, built the florals, styled, and supplied the rentals, and we built the whole timeline backwards from the 10 PM outdoor-music rule so nobody felt it. Photography and video by Chrissa Magno. [Read it → `/loews-coronado-bay-wedding-julianne-and-david`]
 
 (FOUNDER CONFIRMED 2026-10-01, with couple and photographer permission.)
 
