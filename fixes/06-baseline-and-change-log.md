@@ -10,11 +10,29 @@
 | Google Search Console | Performance → Search results, last 16 months: total clicks, impressions, average position; top 50 queries; top pages. Export to CSV | Search Console → Performance → Export | |
 | Google Search Console | Pages → Indexing report: counts of indexed and not-indexed pages, and the reasons | Search Console → Indexing → Pages | |
 | Google Search Console | URL Inspection results for `/`, `/services/`, `/about`, `/contact`, `/untitled-c1izt`, and the www homepage | Search Console → URL Inspection | |
-| Google Business Profile | Performance, last 6 months: searches (by query if shown), profile views, calls, website clicks, direction requests, messages | Business Profile → Performance | |
+| Google Business Profile | Performance, last 6 months: searches (by query if shown), profile views, calls, website clicks, direction requests, messages | Business Profile → Performance | Claude, 2026-10-01 — see "Google Business Profile baseline" below |
 | Google Business Profile | Screenshot of the current name, category, address/service area, phone, website, hours, services, description | Business Profile → Edit profile | |
 | Website inquiries | Count of form submissions, calls, texts, emails per month for the last 6 months, with "how did you hear about us" if recorded | CRM / inbox / phone log | |
 | Listings | Screenshot of each listing's business info section before editing (Yelp, WeddingWire, The Knot, PartySlate, Nextdoor ×2, BBB, SMP) | Browser | |
 | Current page titles/descriptions | Copy the existing title and description of each page before overwriting | CMS SEO tab | |
+
+## Google Business Profile baseline (captured 2026-10-01)
+
+Source: Google Search → "Your business on Google" → Performance, profile "Bella Mia Exclusive Events" (verified), managed by info@bellamiaexclusiveevents.com. Period: May 2026–Oct 2026, the widest the picker allows. October is 1 day old and reads 0 everywhere, so in practice these are the five full months May–Sep 2026.
+
+| Metric | May | Jun | Jul | Aug | Sep | Oct (1 day) | Total |
+|---|---|---|---|---|---|---|---|
+| Interactions (calls + bookings + directions + website clicks) | 70 | 54 | 65 | 57 | 64 | 0 | **310** |
+| Calls | 0 | 2 | 2 | 2 | 0 | 0 | **6** |
+| Bookings | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
+| Direction requests | 58 | 46 | 46 | 38 | 47 | 0 | **235** |
+| Website clicks | 12 | 6 | 17 | 17 | 17 | 0 | **69** |
+
+- **Profile views:** 1,897 for the period (no monthly split shown; a Google tip on the page cites 379 views a month). By platform: Google Search mobile 854 (45%), Search desktop 588 (31%), Maps mobile 286 (15%), Maps desktop 169 (9%).
+- **Searches that showed the profile:** 20 (Google's headline count). Only one query reports a number: "mia bella" 20. The other 32 queries show "< 15": abigail zinman wedding planner; affordable wedding coordinator san diego; alexia azpeitia wedding san diego ca; alicia zilka san diegowedding; bella mia; bella mia exclusive events; bellamia; best event planners in san diego, ca usa in san diego, ca; bridal shower; event planner san diego; event planners san diego; leila, 30th street, san diego, ca, usa; lgbtq wedding planners san diego; live music venues; mia; mia bella san locations; ranch of the sun; san diego county; san diego day of wedding coordinator; san diego event planners; san diego kjoyous occassions; san diego wedding coordinator; san diego wedding planner; san diego wedding planners; wedding coordinator san diego; wedding decoration services near me; wedding decorators san diego; wedding planner; wedding planner san diego; wedding planners san diego; wedding planning companies san diego; wedding venue decorator.
+- **Messages:** not reported. The Performance page has no Messages metric (tabs: Overview, Calls, Bookings, Directions, Website clicks), so record as "not available", not 0.
+- **Read with care:** direction requests (235) are 76% of interactions, which is high for a by-appointment office. Calls (6) are the weakest signal. Generic queries ("san diego wedding planner" and similar) appear but each is under 15.
+- **Found while capturing:** the Business Profile Manager lists the address as "8885 Rio San Diego Drive Suite 237, **San Deigo**, CA 92108" (typo), while the public panel reads "San Diego". Fix the city spelling in Edit profile → Location.
 
 ## Lead-source capture (start now)
 
@@ -33,7 +51,7 @@ Add a row for every live change, including listing edits and posts.
 | 2026-09-29 | Primary host | Fix 02 | `www` → 301 → non-www (already correct on re-check) | no change | Claude | verified with curl |
 | 2026-09-29 | `/untitled-c1izt` | Fix 03 | 404 (ghost URL, no page) | 301 → `/` via WordPress Redirection plugin | Claude | `/portfolio` and `/delete-this-demo-single-post` → 301 `/blog/` added the same way |
 | 2026-09-28 | Google Business Profile | Fix 04, steps 1–7: name checked, primary category Wedding planner, description pasted, service area San Diego CA, phone and non-www website, services list (5, no selfie mirror). Address NOT cleared: Founder confirmed the Mission Valley office (8885 Rio San Diego Dr, Suite 237) is a real client-facing office, so D2 was revised to keep it public | NOT CAPTURED — Founder applied edits without pasting prior values | Target record in Fix 04 | Founder | FOUNDER REPORTED: no re-verification prompt; no Chula Vista duplicate found in Maps; Maps shows the Mission Valley office. Unknown: prior hours, Performance baseline, ZIP (92107 typed, 92108 expected). Some edits may sit in Google review for days. |
-| 2026-10-01 | Search Console | Fix 02 | no Domain property in the Founder's account | Domain property `sc-domain:bellamiaexclusiveevents.com` added and verified by DNS TXT | Claude (debug Chrome) | TXT `google-site-verification=Q3KJfmW5HTI9XbquDZgmGgJE-baA0Z0J6hFQGO2PQUM` added at `@` (TTL 4 h) in Bluehost account 53588919 (the Bella Mia account; account 53922058 holds only Ethereal). The registrar and DNS are Bluehost; the site itself is served by Showit/WP Engine. No other DNS record touched. The property shows data immediately (32 web clicks in the last 28 days; 7 indexed, 7 not indexed) |
+| 2026-10-01 | Search Console | Fix 02 | no Domain property in the Founder's account | Domain property `sc-domain:bellamiaexclusiveevents.com` added and verified by DNS TXT | Claude (debug Chrome) | TXT `google-site-verification=Q3KJfmW5HTI9XbquDZgmGgJE-baA0Z0J6hFQGO2PQUM` added at `@` (TTL 4 h) in Bluehost account 53588919 (the Bella Mia account; account 53922058 holds only Ethereal). The registrar and DNS are Bluehost; the site itself is served by Showit/WP Engine. No other DNS record touched. The property was added while Chrome was signed in as etherealluxuryrestrooms@gmail.com, so that account is the verified owner; add info@bellamiaexclusiveevents.com as an owner in Settings → Users and permissions. The property shows data immediately (32 web clicks in the last 28 days; 7 indexed, 7 not indexed) |
 | 2026-10-01 | Search Console URL Inspection | Fix 01 / 05 | — | Indexing requested for `/`, `/about`, `/services`, `/contact` (all "URL is on Google") and `/2026/09/29/park-hyatt-aviara-wedding-erica-and-patrick/` ("Discovered – currently not indexed", found via `post-sitemap.xml`) | Claude | All five returned "Indexing requested"; each live URL is 200 with a self-canonical |
 | | Yelp | Fix 04 | | | | |
 | | WeddingWire | Fix 04 | | | | |
