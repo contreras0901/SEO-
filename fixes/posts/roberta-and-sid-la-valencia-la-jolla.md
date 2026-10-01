@@ -1,6 +1,6 @@
 # Real wedding post: Roberta & Sid at La Valencia Hotel, La Jolla
 
-**Status:** DRAFT, 2026-10-01. Couple, venue, Bella Mia's role, vendor team (from Bella Mia's own Instagram caption, Founder-supplied), style, and permissions: FOUNDER CONFIRMED 2026-10-01. Ceremony (The Garden, El Jardín), reception (Veranda Ballroom, Salon, and Terraza), and palette (greenery, blues, cream): FOUNDER CONFIRMED 2026-10-01. Remaining fills are optional. The venue description is from La Valencia's published venue information (observed 2026-10-01; re-verify). Ready to publish; six photos in hand, more welcome. Two ⚑ sentences are Rank's inference from the photos: that the pedestals, pots, and chairs were Bella Mia rentals, and that the palette was chosen to match the ballroom wallpaper. Edit if wrong. Optional fills can be deleted.
+**Status:** APPROVED FOR PUBLICATION, 2026-10-01. Couple, venue, role, vendor team, El Jardín ceremony, Veranda Ballroom/Salon/Terraza reception, palette, rentals, permissions, and the design inferences: all FOUNDER CONFIRMED. Optional fills can be deleted. Twenty-one photos in hand.
 **Where it publishes:** WordPress blog, category Real Weddings, with the Erica & Patrick post template. Linked from the La Jolla city page.
 
 ## SEO fields
