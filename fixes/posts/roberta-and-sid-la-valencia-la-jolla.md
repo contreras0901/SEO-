@@ -1,6 +1,6 @@
 # Real wedding post: Roberta & Sid at La Valencia Hotel, La Jolla
 
-**Status:** DRAFT, 2026-10-01. Couple, venue, Bella Mia's role, vendor team (from Bella Mia's own Instagram caption, Founder-supplied), style, and permissions: FOUNDER CONFIRMED 2026-10-01. Two `[FOUNDER FILL]` items remain: the ceremony spot and the reception room. Palette FOUNDER CONFIRMED 2026-10-01: greenery, blues, cream tones. The venue description is from La Valencia's published venue information (observed 2026-10-01; re-verify). Do not publish with the fills empty; the sections that depend on them are marked.
+**Status:** DRAFT, 2026-10-01. Couple, venue, Bella Mia's role, vendor team (from Bella Mia's own Instagram caption, Founder-supplied), style, and permissions: FOUNDER CONFIRMED 2026-10-01. Ceremony (The Garden, El Jardín), reception (Veranda Ballroom, Salon, and Terraza), and palette (greenery, blues, cream): FOUNDER CONFIRMED 2026-10-01. Remaining fills are optional. The venue description is from La Valencia's published venue information (observed 2026-10-01; re-verify). Ready to publish once the photos from Peris Photography are in; optional fills can be deleted.
 **Where it publishes:** WordPress blog, category Real Weddings, with the Erica & Patrick post template. Linked from the La Jolla city page.
 
 ## SEO fields
@@ -22,13 +22,13 @@ Some venues you design against. La Valencia you design with. The pink hotel on P
 
 Their wedding had a name before it had a date: "Love Is in the Air." `[FOUNDER FILL, optional: two sentences on how they found Bella Mia and what they asked for.]` What they wanted was warmth, color, and a day that felt like a long dinner somewhere on the Mediterranean rather than a program to get through.
 
-#### The ceremony
+#### The ceremony in El Jardín
 
-`[FOUNDER FILL: where the ceremony was held. La Valencia's Garden seats up to about 150; if it was elsewhere, name it.]` `[FOUNDER FILL: one or two sentences on what we built there: an arch, aisle florals, chairs from our collection.]`
+The ceremony was held in The Garden, El Jardín, the hotel's garden that seats up to about 150 and sits inside the pink walls with the sky above and the sea a block away. We dressed it in greenery and cream, with blue for the accent, so the aisle read as part of the garden rather than something set down in it. `[FOUNDER FILL, optional: what was built at the altar, an arch or ground florals, and whether the ceremony chairs came from Bella Mia's collection.]`
 
-#### The reception
+#### The Veranda Ballroom, Salon, and Terraza
 
-`[FOUNDER FILL: the reception room. La Valencia's Veranda Ballroom with the Salon and Terraza takes up to about 175; the Mediterranean Patio and Galeria hold 50 to 150. Name the one used.]` The hotel caps at around 175 guests, which is the number that makes La Valencia what it is: every table is close enough to the next that a toast lands in the whole room. `[FOUNDER FILL: two sentences on the tablescape: what came from Bella Mia's rental collection, what the florals did at eye level.]`
+The reception took all three connected spaces, the Veranda Ballroom, the Salon, and the Terraza, which together hold up to about 175. That is the number that makes La Valencia what it is: every table is close enough to the next that a toast lands in the whole room, and the Terraza gives the party somewhere to step out into the evening air. The tables carried the same greenery, blue, and cream as the garden, so guests moved from ceremony to dinner without the design changing its mind. `[FOUNDER FILL, optional: what came from Bella Mia's rental collection on the tables, e.g. linens, chargers, candle holders.]`
 
 #### The palette
 
@@ -61,7 +61,7 @@ Planning a wedding at La Valencia or anywhere in La Jolla? Start with our [La Jo
 
 - One supplied so far: the La Valencia facade with the tower and palms. Need 12 to 20 from Peris Photography: ceremony wide, the aisle, the bouquet, the reception room set, a tablescape detail, the first dance, the cake, the couple on Prospect Street or at the Cove.
 - Rename all: `la-valencia-hotel-wedding-la-jolla-roberta-sid-peris-photography-##.jpg`.
-- Alt text names the venue once: `Pink facade and tower of La Valencia Hotel in La Jolla on a wedding day`, `Reception tablescape in the Veranda Ballroom at La Valencia Hotel` (adjust the room once confirmed).
+- Alt text names the venue once: `Pink facade and tower of La Valencia Hotel in La Jolla on a wedding day`, `Reception tablescape in the Veranda Ballroom at La Valencia Hotel`, `Ceremony in El Jardín at La Valencia Hotel with greenery and cream florals`.
 
 ## Claim check
 

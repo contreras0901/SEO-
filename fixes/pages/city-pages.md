@@ -155,7 +155,7 @@ Cuvier Park, called the Wedding Bowl, is the most popular ceremony spot on the L
 
 #### Weddings we have done in La Jolla
 
-**Roberta & Sid at La Valencia Hotel.** A Mediterranean wedding in a Mediterranean building: the pink hotel on Prospect Street, a block from the Cove, with live music by the sea for the ceremony and a DJ for the dance floor. We planned, designed, built the florals, and supplied the rentals. Photography by Peris Photography. [Read it → `/la-valencia-hotel-wedding-la-jolla-roberta-and-sid`]
+**Roberta & Sid at La Valencia Hotel.** A Mediterranean wedding in a Mediterranean building: ceremony in El Jardín in greenery, blues, and cream, reception across the Veranda Ballroom, Salon, and Terraza, live music for the ceremony and a DJ for the dance floor. We planned, designed, built the florals, and supplied the rentals. Photography by Peris Photography. [Read it → `/la-valencia-hotel-wedding-la-jolla-roberta-and-sid`]
 
 (FOUNDER CONFIRMED 2026-10-01, with couple and photographer permission.)
 
