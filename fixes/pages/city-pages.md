@@ -119,7 +119,7 @@ We are based in Mission Valley, fifteen minutes over the bridge, and we work by 
 - **Title tag (57):** `La Jolla Wedding Planner & Florist | Bella Mia Exclusive Events`
 - **Meta (155):** `Scripps Seaside Forum, Estancia, La Valencia, the Lodge at Torrey Pines, Darlington House and the Wedding Bowl: a La Jolla planner and florist's venue guide.`
 - **H1:** `La Jolla Wedding Planner & Florist`
-- **Publish rule:** same as Coronado. Needs one FOUNDER-CONFIRMED La Jolla wedding for the "weddings we've done here" section, or that section is omitted.
+- **Publish rule:** ready. The "weddings we have done here" section is FOUNDER CONFIRMED (Roberta & Sid, La Valencia, 2026-10-01). Publish the La Valencia post first or at the same time so the link resolves.
 
 ### Body (about 900 words)
 
@@ -155,7 +155,9 @@ Cuvier Park, called the Wedding Bowl, is the most popular ceremony spot on the L
 
 #### Weddings we have done in La Jolla
 
-`[FOUNDER FILL: one confirmed La Jolla wedding: couple, venue, Bella Mia's role, photographer, permissions. Omit this whole section until one is confirmed.]`
+**Roberta & Sid at La Valencia Hotel.** A Mediterranean wedding in a Mediterranean building: the pink hotel on Prospect Street, a block from the Cove, with live music by the sea for the ceremony and a DJ for the dance floor. We planned, designed, built the florals, and supplied the rentals. Photography by Peris Photography. [Read it → `/la-valencia-hotel-wedding-la-jolla-roberta-and-sid`]
+
+(FOUNDER CONFIRMED 2026-10-01, with couple and photographer permission.)
 
 #### Working with us in La Jolla
 
