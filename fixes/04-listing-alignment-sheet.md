@@ -29,7 +29,7 @@ Owner name:       Yvanna Contreras (FOUNDER CONFIRMED spelling; BBB shows "Ivann
 Public name:      Bella Mia Exclusive Events (FOUNDER CONFIRMED 2026-09-28 as the name customers use).
                   "Exclusive Events by Bella Mia Inc." stays in contracts and as the hero logo lockup only.
                   Every listing, credit, and text mention uses the public name.
-Established:      **CONFLICT, 2026-10-01.** Founder said 2014 on 28 Sep (About page now says "since 2014", live); on 1 Oct the Founder asked for The Knot to say 2012; the hero lockup image says 2012; The Knot says 2011; BBB says 4/22/2014. One year must be chosen and used everywhere. Pending Founder answer.
+Established:      2014 (FOUNDER CONFIRMED 2026-09-28 and re-confirmed 2026-10-01). Use 2014 everywhere: The Knot (says 2011), the hero lockup image (says "Est. 2012", needs a new image), BBB already says 2014, About page live with "since 2014".
 Phone:            619-248-0786                           (OBSERVED on site and listings; confirm)
 Email:            info@bellamiaexclusiveevents.com
 Website:          https://bellamiaexclusiveevents.com    (primary host from Fix 02, no www)
