@@ -1,6 +1,6 @@
 # Real wedding post: Roberta & Sid at La Valencia Hotel, La Jolla
 
-**Status:** DRAFT, 2026-10-01. Couple, venue, Bella Mia's role, vendor team (from Bella Mia's own Instagram caption, Founder-supplied), style, and permissions: FOUNDER CONFIRMED 2026-10-01. Ceremony (The Garden, El Jardín), reception (Veranda Ballroom, Salon, and Terraza), and palette (greenery, blues, cream): FOUNDER CONFIRMED 2026-10-01. Remaining fills are optional. The venue description is from La Valencia's published venue information (observed 2026-10-01; re-verify). Ready to publish once the photos from Peris Photography are in; optional fills can be deleted.
+**Status:** DRAFT, 2026-10-01. Couple, venue, Bella Mia's role, vendor team (from Bella Mia's own Instagram caption, Founder-supplied), style, and permissions: FOUNDER CONFIRMED 2026-10-01. Ceremony (The Garden, El Jardín), reception (Veranda Ballroom, Salon, and Terraza), and palette (greenery, blues, cream): FOUNDER CONFIRMED 2026-10-01. Remaining fills are optional. The venue description is from La Valencia's published venue information (observed 2026-10-01; re-verify). Ready to publish; six photos in hand, more welcome. Two ⚑ sentences are Rank's inference from the photos: that the pedestals, pots, and chairs were Bella Mia rentals, and that the palette was chosen to match the ballroom wallpaper. Edit if wrong. Optional fills can be deleted.
 **Where it publishes:** WordPress blog, category Real Weddings, with the Erica & Patrick post template. Linked from the La Jolla city page.
 
 ## SEO fields
@@ -24,15 +24,15 @@ Their wedding had a name before it had a date: "Love Is in the Air." `[FOUNDER F
 
 #### The ceremony in El Jardín
 
-The ceremony was held in The Garden, El Jardín, the hotel's garden that seats up to about 150 and sits inside the pink walls with the sky above and the sea a block away. We dressed it in greenery and cream, with blue for the accent, so the aisle read as part of the garden rather than something set down in it. `[FOUNDER FILL, optional: what was built at the altar, an arch or ground florals, and whether the ceremony chairs came from Bella Mia's collection.]`
+The ceremony was held in The Garden, El Jardín, the hotel's garden that seats up to about 150 and sits inside the pink walls with the sky above and the sea a block away. The altar is already there: a hand-painted tile mural of a Spanish woman with a fan, set into a pink wall and framed by clipped hedges. We did not compete with it. Two stone pedestals carried planted pots in blue-and-yellow Spanish ceramic, the aisle was drawn in cream rose petals in loose, winding lines across the lawn, and white garden chairs did the rest. It read as part of the garden rather than something set down in it. ⚑ The pedestals, pots, and chairs came from Bella Mia's rental collection.
 
 #### The Veranda Ballroom, Salon, and Terraza
 
-The reception took all three connected spaces, the Veranda Ballroom, the Salon, and the Terraza, which together hold up to about 175. That is the number that makes La Valencia what it is: every table is close enough to the next that a toast lands in the whole room, and the Terraza gives the party somewhere to step out into the evening air. The tables carried the same greenery, blue, and cream as the garden, so guests moved from ceremony to dinner without the design changing its mind. `[FOUNDER FILL, optional: what came from Bella Mia's rental collection on the tables, e.g. linens, chargers, candle holders.]`
+The reception took all three connected spaces, the Veranda Ballroom, the Salon, and the Terraza, which together hold up to about 175. That is the number that makes La Valencia what it is: every table is close enough to the next that a toast lands in the whole room, and the Terraza gives the party somewhere to step out into the evening air. The Veranda Ballroom has a black-and-white checkered floor, crystal chandeliers, and a wall of blue watercolor florals, and that wall is where the palette came from. ⚑ Greenery, blues, and cream were chosen to sit inside the room's own colors, so the cocktail tables in white linen with trailing greenery and the dinner tables beyond looked like they had always been there. Guests moved from El Jardín to the ballroom without the design changing its mind.
 
 #### The palette
 
-Greenery, blues, and cream. Against a pink stucco building and a blue ocean, the temptation is to add more color; the discipline is to add less. Cream blooms kept the florals from arguing with the pink, blues picked up the sea and the sky a block away, and greenery did the work of making the arrangements look like they had grown there. The rule at La Valencia is simple: the building is pink, the sea is blue, and the florals either join that conversation or interrupt it. We joined it. `[FOUNDER FILL, optional: the specific flowers, e.g. cream garden roses, blue delphinium or thistle, eucalyptus or olive.]`
+Greenery, blues, and cream. Against a pink stucco building and a blue ocean, the temptation is to add more color; the discipline is to add less. Roberta's bouquet was cream roses and garden roses with eucalyptus and a touch of white, loose and unstructured, and the same cream and green ran from the petal aisle to the tables. Blues came from the room itself and from the sea a block away. Greenery did the work of making the arrangements look like they had grown there. The rule at La Valencia is simple: the building is pink, the sea is blue, and the florals either join that conversation or interrupt it. We joined it. `[FOUNDER FILL, optional: the specific flowers, e.g. cream garden roses, blue delphinium or thistle, eucalyptus or olive.]`
 
 #### Music, and the moment that mattered
 
@@ -59,9 +59,9 @@ Planning a wedding at La Valencia or anywhere in La Jolla? Start with our [La Jo
 
 ## Images
 
-- One supplied so far: the La Valencia facade with the tower and palms. Need 12 to 20 from Peris Photography: ceremony wide, the aisle, the bouquet, the reception room set, a tablescape detail, the first dance, the cake, the couple on Prospect Street or at the Cove.
+- Six supplied so far: the La Valencia facade with the tower and palms; El Jardín altar with the tile mural, pedestals, and petal aisle (two angles, one with chairs); Roberta coming down the terracotta stairs with her bouquet; Roberta from behind on the pink walkway with her train; the Veranda Ballroom entrance with the blue floral wallpaper and checkered floor. Use the mural-and-chairs photo as the ceremony hero, the stairs photo beside "Roberta and Sid," and the ballroom entrance as the reception hero. Need 8 to 12 more from Peris Photography: the ceremony in progress, the dinner tables set, a tablescape detail, the first dance, the cake, the couple at the Cove.
 - Rename all: `la-valencia-hotel-wedding-la-jolla-roberta-sid-peris-photography-##.jpg`.
-- Alt text names the venue once: `Pink facade and tower of La Valencia Hotel in La Jolla on a wedding day`, `Reception tablescape in the Veranda Ballroom at La Valencia Hotel`, `Ceremony in El Jardín at La Valencia Hotel with greenery and cream florals`.
+- Alt text names the venue once: `Pink facade and tower of La Valencia Hotel in La Jolla on a wedding day`, `El Jardín ceremony at La Valencia Hotel with a tile mural altar, stone pedestals, and a cream petal aisle`, `Bride descending the terracotta stairs at La Valencia Hotel with a cream rose and eucalyptus bouquet`, `Bride on the pink walkway at La Valencia Hotel with a lace train`, `Veranda Ballroom entrance at La Valencia Hotel with blue floral wallpaper and checkered floor`.
 
 ## Claim check
 
