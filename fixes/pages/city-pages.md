@@ -68,7 +68,7 @@ We take a limited number of weddings each year across San Diego, Coronado, La Jo
 - **Title tag (58):** `Coronado Wedding Planner & Florist | Bella Mia Exclusive Events`
 - **Meta (156):** `Hotel del Coronado, Loews Coronado Bay, the Marriott and the beach: a Coronado wedding planner and florist's guide to the venues, the 10 PM rule, and the permits.`
 - **H1:** `Coronado Wedding Planner & Florist`
-- **Publish rule:** this page publishes as a planner's guide now. The "weddings we've done here" section needs one FOUNDER-CONFIRMED Coronado wedding with permissions before it goes live; until then that section is omitted, not faked.
+- **Publish rule:** ready. The "weddings we have done here" section is FOUNDER CONFIRMED (Julianne & David, Loews, 2026-10-01). Publish the Loews post first or at the same time so the link resolves.
 
 ### Body (about 850 words)
 
@@ -96,7 +96,9 @@ Small ceremonies, 20 guests or fewer with no chairs, arch, decor, or music, do n
 
 #### Weddings we have done in Coronado
 
-`[FOUNDER FILL: one confirmed Coronado wedding: couple, venue, Bella Mia's role, photographer, permissions. The Loews wedding referenced on Style Me Pretty (Julianne & David) is the candidate; it is UNVERIFIED as photos and permissions. Omit this whole section until one is confirmed.]`
+**Julianne & David at Loews Coronado Bay Resort.** A modern coastal wedding in purples and blues: ceremony under a white-draped arch on The Pointe with lavender roses and blue delphinium, reception on the terrace with fuchsia orchids running the tables. We planned, designed, built the florals, styled, and supplied the rentals, and we built the whole timeline backwards from the 10 PM outdoor-music rule so nobody felt it. Photography and video by Chrissa Magno. [Read it → `/loews-coronado-bay-wedding-julianne-and-david`]
+
+(FOUNDER CONFIRMED 2026-10-01, with couple and photographer permission.)
 
 #### Working with us in Coronado
 
