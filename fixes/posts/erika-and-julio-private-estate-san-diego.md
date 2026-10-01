@@ -1,25 +1,25 @@
 # Real wedding post: Erika & Julio at a private estate in San Diego
 
-**Status:** PARTIAL DRAFT, 2026-10-01. Couple, venue type, Bella Mia's role, photographer, DJ, and permission: FOUNDER CONFIRMED. Still needed: one word for the style, the palette, which parts of the estate held the ceremony and reception, one moment, and photos. The estate is not named unless the couple agrees.
+**Status:** DRAFT, 2026-10-01. Couple, venue type, Bella Mia's role, photographer, DJ, permission, style (timeless white garden wedding), and palette (white, taupe, and gold): FOUNDER CONFIRMED. Still needed: which parts of the estate held the ceremony and reception, one moment, and photos. The estate is not named unless the couple agrees.
 **Where it publishes:** this content fills the existing WordPress page `/blog/erika-batiz-julio-ramirez/` (currently empty per the Mac session's note), or a new Real Weddings post that the homepage "Featured Wedding: Erika & Julio" card links to. Use the Erica & Patrick post template.
 
 ## SEO fields
 
 - **Slug:** keep `/blog/erika-batiz-julio-ramirez/` if filling the existing page; otherwise `/private-estate-wedding-san-diego-erika-and-julio`
-- **Title tag (59):** `Private Estate Wedding in San Diego | Erika & Julio | Bella Mia`
-- **Meta description (150):** `Erika and Julio's [style] wedding at a private estate in San Diego: planning, design, florals, decor, catering, and bar by Bella Mia Exclusive Events.`
-- **H1:** `A [Style] Wedding at a Private Estate in San Diego`
+- **Title tag (60):** `White Garden Estate Wedding, San Diego | Erika & Julio | Bella Mia`
+- **Meta description (154):** `Erika and Julio's timeless white garden wedding at a private San Diego estate, in white, taupe, and gold: planned, designed, and catered by Bella Mia.`
+- **H1:** `A Timeless White Garden Wedding at a Private Estate in San Diego`
 - **Category:** Real Weddings
 
 ## Post body (to be completed)
 
-### A [Style] Wedding at a Private Estate in San Diego
+### A Timeless White Garden Wedding at a Private Estate in San Diego
 
 Some of the best weddings we have done were at a home, and Erika and Julio's was one of them. A private estate gives a couple a blank, personal setting and takes away every piece of infrastructure a hotel provides: power, restrooms, kitchen, parking, lighting, a rain plan. That is where planning earns its keep. For this wedding we did all of it: planning, design, florals, decor, catering, and bar service, as one team.
 
 #### Erika and Julio
 
-`[FOUNDER FILL: how they found Bella Mia and what they asked for. Their wedding is the one featured on the homepage: "Timeless romance meets modern simplicity."]`
+`[FOUNDER FILL, optional: how they found Bella Mia and what they asked for.]` Their brief is the line that still sits on our homepage: timeless romance meets modern simplicity. In practice that meant a white garden wedding, nothing trendy, nothing that would date the photographs, and a palette narrow enough to feel like one idea.
 
 #### The estate
 
@@ -27,7 +27,7 @@ Some of the best weddings we have done were at a home, and Erika and Julio's was
 
 #### The design
 
-`[FOUNDER FILL: palette and flowers, one design decision the couple would not have thought of.]`
+White, taupe, and gold. White for the florals and the linens, taupe for the warmth, gold for the light: candle glow, metal accents, late-afternoon sun on a lawn. It is the hardest palette to do well because there is nowhere to hide; every stem and every surface has to be right, and the whole thing lives or dies on texture. At a private estate, where there is no ballroom to supply the drama, that restraint is what makes the garden the design. `[FOUNDER FILL: the flowers used and one design decision the couple would not have thought of.]`
 
 #### Catering and bar
 
