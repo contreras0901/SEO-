@@ -28,7 +28,7 @@ The ceremony was on The Pointe, the lawn at the tip of the peninsula with the ga
 
 #### The palette
 
-Purples and blues, light purple leading: lavender roses and white roses at the center of every bouquet, blue hydrangea and delphinium for the cool note, purple stock for depth. The bridesmaids wore dusty blue, which turned the bouquets into the brightest thing in every frame. The flower girl wore a crown of white spray roses and baby's breath. Julianne wore a birdcage veil and a red lip with a halter gown, and against that much soft color, the red was the detail that made the look modern rather than pastel.
+Purples and blues, light purple leading: lavender roses and white roses at the center of every bouquet, white calla lilies for a clean line in Julianne's, blue hydrangea and delphinium for the cool note, purple stock for depth, and lilac sweet peas in the details. The bridesmaids wore dusty blue, which turned the bouquets into the brightest thing in every frame. The flower girl wore a crown of white spray roses and baby's breath. Julianne wore a birdcage veil and a red lip with a halter gown, and against that much soft color, the red was the detail that made the look modern rather than pastel.
 
 #### The terrace
 
@@ -56,7 +56,8 @@ Planning a wedding at Loews Coronado Bay or anywhere in Coronado? Start with our
 
 ## Images
 
-- Five supplied so far: flower girl crown; ceremony kiss under the arch; bride with bridesmaids and bouquets; aerial on the clock-face mosaic floor; orchid centerpiece with the Table Six sign. Add 8 to 12 more from Chrissa Magno: The Pointe wide, the arch empty, the terrace tables wide, the first dance.
+- Nine supplied so far: flower girl crown; ceremony kiss under the arch; bride with bridesmaids and bouquets; aerial on the clock-face mosaic floor; orchid centerpiece with the Table Six sign; sunset portrait under the veil with the bouquet (lavender roses, white calla lilies, blue delphinium); three ring-detail flat lays with lilac sweet peas, white phalaenopsis, and the pale blue velvet ring box. Use the sunset veil portrait as the post's closing image and one ring flat lay at the top of "The palette." Add 4 to 6 more from Chrissa Magno: The Pointe wide, the terrace tables wide, the first dance.
+- Alt text for the new ones: `Bride and groom under the veil at sunset on the bay at Loews Coronado Bay`, `Wedding rings with lilac sweet peas and white orchid in a pale blue velvet ring box`.
 - Rename all: `loews-coronado-bay-wedding-julianne-david-chrissa-magno-##.jpg`.
 - Alt text, descriptive, venue named once: `Ceremony arch with lavender roses and blue delphinium on The Pointe at Loews Coronado Bay`, `Bride and bridesmaids with lavender and white rose bouquets at Loews Coronado Bay`, `Fuchsia orchid centerpiece with acrylic table number at a Loews Coronado Bay reception`, `Couple on the clock-face mosaic floor at Loews Coronado Bay`.
 
