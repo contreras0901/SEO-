@@ -1,13 +1,13 @@
 # Real wedding post: Roberta & Sid at La Valencia Hotel, La Jolla
 
-**Status:** DRAFT, 2026-10-01. Couple, venue, Bella Mia's role, vendor team (from Bella Mia's own Instagram caption, Founder-supplied), style, and permissions: FOUNDER CONFIRMED 2026-10-01. Three `[FOUNDER FILL]` items remain: the ceremony spot, the reception room, and the palette. The venue description is from La Valencia's published venue information (observed 2026-10-01; re-verify). Do not publish with the fills empty; the sections that depend on them are marked.
+**Status:** DRAFT, 2026-10-01. Couple, venue, Bella Mia's role, vendor team (from Bella Mia's own Instagram caption, Founder-supplied), style, and permissions: FOUNDER CONFIRMED 2026-10-01. Two `[FOUNDER FILL]` items remain: the ceremony spot and the reception room. Palette FOUNDER CONFIRMED 2026-10-01: greenery, blues, cream tones. The venue description is from La Valencia's published venue information (observed 2026-10-01; re-verify). Do not publish with the fills empty; the sections that depend on them are marked.
 **Where it publishes:** WordPress blog, category Real Weddings, with the Erica & Patrick post template. Linked from the La Jolla city page.
 
 ## SEO fields
 
 - **Slug:** `/la-valencia-hotel-wedding-la-jolla-roberta-and-sid`
 - **Title tag (58):** `La Valencia Hotel Wedding | Roberta & Sid | Bella Mia Events`
-- **Meta description (152):** `Roberta and Sid's Mediterranean wedding at La Valencia Hotel in La Jolla, planned, designed, florals and rentals by Bella Mia Exclusive Events. See the gallery.`
+- **Meta description (155):** `Roberta and Sid's Mediterranean wedding at La Valencia Hotel in La Jolla, in greenery, blues, and cream: planned, designed, florals and rentals by Bella Mia.`
 - **H1:** `A Mediterranean Wedding at La Valencia Hotel, La Jolla`
 - **Category:** Real Weddings
 - **Featured image:** the pink facade with the tower, renamed `la-valencia-hotel-wedding-la-jolla-roberta-sid-peris-photography-01.jpg`
@@ -32,7 +32,7 @@ Their wedding had a name before it had a date: "Love Is in the Air." `[FOUNDER F
 
 #### The palette
 
-`[FOUNDER FILL: the colors and the flowers. Against a pink stucco building and a blue ocean, what did you choose and why?]` Whatever the palette, the rule at La Valencia is the same: the building is pink, the sea is blue, and the florals either join that conversation or interrupt it. We joined it.
+Greenery, blues, and cream. Against a pink stucco building and a blue ocean, the temptation is to add more color; the discipline is to add less. Cream blooms kept the florals from arguing with the pink, blues picked up the sea and the sky a block away, and greenery did the work of making the arrangements look like they had grown there. The rule at La Valencia is simple: the building is pink, the sea is blue, and the florals either join that conversation or interrupt it. We joined it. `[FOUNDER FILL, optional: the specific flowers, e.g. cream garden roses, blue delphinium or thistle, eucalyptus or olive.]`
 
 #### Music, and the moment that mattered
 
