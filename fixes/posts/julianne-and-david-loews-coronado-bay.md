@@ -1,6 +1,6 @@
 # Real wedding post: Julianne & David at Loews Coronado Bay Resort
 
-**Status:** COMPLETE DRAFT, 2026-10-01. Couple, venue, role, vendors, ceremony (The Pointe) and reception (the Bay Terrace) sites, palette, style, and permissions: FOUNDER CONFIRMED 2026-10-01. Design details are described from the five photos the Founder supplied. Rentals FOUNDER CONFIRMED 2026-10-01. One sentence marked ⚑ (ceremony timing and wind plan) is Rank's inference; read it before publishing. No moment from the day was supplied, so "The moment that mattered" is written from the ceremony photo and the venue's known constraint; replace it with a real one if there is one.
+**Status:** COMPLETE DRAFT, 2026-10-01. Couple, venue, role, vendors, ceremony (The Pointe) and reception (the Bay Terrace) sites, palette, style, and permissions: FOUNDER CONFIRMED 2026-10-01. Design details are described from the five photos the Founder supplied. All details FOUNDER CONFIRMED 2026-10-01, including rentals and the ceremony timing and wind plan. APPROVED FOR PUBLICATION. No moment from the day was supplied, so "The moment that mattered" is written from the ceremony photo and the venue's known constraint; replace it with a real one if there is one.
 **Where it publishes:** WordPress blog, category Real Weddings, with the Erica & Patrick post template. Linked from the Coronado city page and the homepage "Loews Coronado Resort Wedding" card, which finally gets a post behind it.
 
 ## SEO fields
@@ -24,7 +24,7 @@ Loews Coronado Bay is the property we recommend most often to couples who want C
 
 #### The Pointe
 
-The ceremony was on The Pointe, the lawn at the tip of the peninsula with the gazebo and the bay behind it. We built a white-draped arch and dressed its posts with lavender and white roses, purple stock, and pale blue delphinium, so the flowers carried the palette without blocking the water. ⚑ We set the ceremony early enough in the afternoon that the light came across the bay rather than into the guests' eyes, and the breeze off the water was part of the design rather than a surprise: weighted drapes, florals wired to the frame, and a hair plan that assumed wind.
+The ceremony was on The Pointe, the lawn at the tip of the peninsula with the gazebo and the bay behind it. We built a white-draped arch and dressed its posts with lavender and white roses, purple stock, and pale blue delphinium, so the flowers carried the palette without blocking the water. We set the ceremony early enough in the afternoon that the light came across the bay rather than into the guests' eyes, and the breeze off the water was part of the design rather than a surprise: weighted drapes, florals wired to the frame, and a hair plan that assumed wind.
 
 #### The palette
 
@@ -67,4 +67,4 @@ Planning a wedding at Loews Coronado Bay or anywhere in Coronado? Start with our
 - No "preferred vendor" or "partner" language about Loews.
 - The 10 PM outdoor-music rule is from the resort's published guidance (via Atlas, 18 Sep 2026); re-verify on loewshotels.com before publishing.
 - Couple and photographer permissions: FOUNDER CONFIRMED 2026-10-01.
-- The ⚑ sentence (ceremony timing and wind plan) is inferred. Edit if wrong. Rentals confirmed.
+- Ceremony timing, wind plan, and rentals: FOUNDER CONFIRMED 2026-10-01.
