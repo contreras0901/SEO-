@@ -24,7 +24,7 @@ Their wedding had a name before it had a date: "Love Is in the Air." `[FOUNDER F
 
 #### The ceremony in El Jardín
 
-The ceremony was held in The Garden, El Jardín, the hotel's garden that seats up to about 150 and sits inside the pink walls with the sky above and the sea a block away. The altar is already there: a hand-painted tile mural of a Spanish woman with a fan, set into a pink wall and framed by clipped hedges, with the Pacific and a line of palms behind the garden and the hotel's pool terrace below. We did not compete with it. Two stone pedestals carried planted pots in blue-and-yellow Spanish ceramic, lanterns and more potted greenery ran along the low pink walls on either side, the aisle was drawn in cream rose petals in loose, winding lines across the lawn, and white garden chairs did the rest. It read as part of the garden rather than something set down in it. ⚑ The pedestals, pots, lanterns, and chairs came from Bella Mia's rental collection.
+The ceremony was held in The Garden, El Jardín, the hotel's garden that seats up to about 150 and sits inside the pink walls with the sky above and the sea a block away. The altar is already there: a hand-painted tile mural of a Spanish woman with a fan, set into a pink wall and framed by clipped hedges, with the Pacific and a line of palms behind the garden and the hotel's pool terrace below. We did not compete with it. Two stone pedestals carried planted pots in blue-and-yellow Spanish ceramic, lanterns and more potted greenery ran along the low pink walls on either side, the aisle was drawn in cream rose petals in loose, winding lines across the lawn, and white garden chairs did the rest. It read as part of the garden rather than something set down in it. The pedestals, pots, lanterns, and chairs came from Bella Mia's rental collection.
 
 #### The Terraza, the Veranda Ballroom, and the Salon
 
@@ -34,7 +34,7 @@ Cocktail hour was on the Terraza, the terracotta terrace with the pink hotel ris
 
 The Veranda Ballroom has a black-and-white checkered floor, crystal chandeliers, and a wall of blue watercolor florals, and that wall is where the palette came from. ⚑ Greenery, blues, and cream were chosen to sit inside the room's own colors, so nothing we placed looked placed. The cake table was a dark wood farm table against that wall, with weathered white lanterns at each end, gold woven chargers, and votives between them.
 
-Dinner was in the Salon, under a coffered ceiling and crystal chandeliers, on a herringbone floor: long tables in a U, crossback chairs, white damask linens, gold woven chargers, and the blue, finally, in the glassware, hobnail goblets in deep teal at every place. Down the center of every table ran a garland of olive and eucalyptus with lemons and cream roses tucked in, mercury votives between them. Guests moved from El Jardín to the Terraza to the Salon without the design changing its mind.
+Dinner was in the Salon, under a coffered ceiling and crystal chandeliers, on a herringbone floor: long tables in a U, crossback chairs, white damask linens, gold woven chargers, and the blue, finally, in the glassware, hobnail goblets in deep teal at every place, every piece of it from Bella Mia's own rental collection. Down the center of every table ran a garland of olive and eucalyptus with lemons and cream roses tucked in, mercury votives between them. Guests moved from El Jardín to the Terraza to the Salon without the design changing its mind.
 
 #### The cake
 

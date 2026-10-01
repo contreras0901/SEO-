@@ -1,6 +1,6 @@
 # Real wedding post: Julianne & David at Loews Coronado Bay Resort
 
-**Status:** COMPLETE DRAFT, 2026-10-01. Couple, venue, role, vendors, ceremony (The Pointe) and reception (the Bay Terrace) sites, palette, style, and permissions: FOUNDER CONFIRMED 2026-10-01. Design details are described from the five photos the Founder supplied. Two sentences marked ⚑ are Rank's inference; read them before publishing. No moment from the day was supplied, so "The moment that mattered" is written from the ceremony photo and the venue's known constraint; replace it with a real one if there is one.
+**Status:** COMPLETE DRAFT, 2026-10-01. Couple, venue, role, vendors, ceremony (The Pointe) and reception (the Bay Terrace) sites, palette, style, and permissions: FOUNDER CONFIRMED 2026-10-01. Design details are described from the five photos the Founder supplied. Rentals FOUNDER CONFIRMED 2026-10-01. One sentence marked ⚑ (ceremony timing and wind plan) is Rank's inference; read it before publishing. No moment from the day was supplied, so "The moment that mattered" is written from the ceremony photo and the venue's known constraint; replace it with a real one if there is one.
 **Where it publishes:** WordPress blog, category Real Weddings, with the Erica & Patrick post template. Linked from the Coronado city page and the homepage "Loews Coronado Resort Wedding" card, which finally gets a post behind it.
 
 ## SEO fields
@@ -32,7 +32,7 @@ Purples and blues, light purple leading: lavender roses and white roses at the c
 
 #### The Bay Terrace
 
-The reception moved to the Bay Terrace, overlooking the marina. The tables went brighter than the ceremony on purpose. Fuchsia phalaenopsis orchids ran along the centerpieces beside white stock and white roses, with hand-lettered acrylic table numbers and votive candles. The orchids are the design decision couples would not have made on their own: after a ceremony in lavender and blue, a hot pink at the table is what keeps the evening from fading into the same four colors the whole night. ⚑ The tabletop, the acrylic numbers, the votives, and the linens came from Bella Mia's own rental collection.
+The reception moved to the Bay Terrace, overlooking the marina. The tables went brighter than the ceremony on purpose. Fuchsia phalaenopsis orchids ran along the centerpieces beside white stock and white roses, with hand-lettered acrylic table numbers and votive candles. The orchids are the design decision couples would not have made on their own: after a ceremony in lavender and blue, a hot pink at the table is what keeps the evening from fading into the same four colors the whole night. The tabletop, the acrylic numbers, the votives, and the linens came from Bella Mia's own rental collection.
 
 #### The moment that mattered
 
@@ -67,4 +67,4 @@ Planning a wedding at Loews Coronado Bay or anywhere in Coronado? Start with our
 - No "preferred vendor" or "partner" language about Loews.
 - The 10 PM outdoor-music rule is from the resort's published guidance (via Atlas, 18 Sep 2026); re-verify on loewshotels.com before publishing.
 - Couple and photographer permissions: FOUNDER CONFIRMED 2026-10-01.
-- The two ⚑ sentences (ceremony timing and wind plan; rentals from Bella Mia's collection) are inferred. Edit if wrong.
+- The ⚑ sentence (ceremony timing and wind plan) is inferred. Edit if wrong. Rentals confirmed.
