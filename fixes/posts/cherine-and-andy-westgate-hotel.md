@@ -1,6 +1,6 @@
 # Real wedding post: Cherine & Andy at The Westgate Hotel (florals and rentals by Bella Mia)
 
-**Status:** APPROVED FOR PUBLICATION, 2026-10-01. Vendor roles, couple and photographer permissions, and the three sentences Rank inferred (the RBCO brief, the palette, the candelabras from Bella Mia's rental collection): all FOUNDER CONFIRMED. Ready to paste into WordPress with the Khoa Photography images.
+**Status:** PUBLISHED 2026-10-01 at `https://bellamiaexclusiveevents.com/2026/10/01/westgate-hotel-wedding-florals-cherine-and-andy/` (WordPress post 248, Real Weddings, Showit template "Westgate post template", 12 Khoa Photography photos, media 242 and 252–262). The old page `/blog/black-tie-parisian-affair-cherine-andys-wedding/` redirects here. Previously: APPROVED FOR PUBLICATION, 2026-10-01. Vendor roles, couple and photographer permissions, and the three sentences Rank inferred (the RBCO brief, the palette, the candelabras from Bella Mia's rental collection): all FOUNDER CONFIRMED. Ready to paste into WordPress with the Khoa Photography images.
 **Correction to the Atlas package (5.3):** RBCO Events was the planner; Bella Mia did florals and rentals. This is a floral design and rentals feature. Atlas's "planned and designed by Bella Mia" version must not publish.
 **Where it publishes:** WordPress blog, category Real Weddings. Showit gallery page `/cherine-and-andy` per `layout-spec-real-weddings.md`, linked both ways.
 

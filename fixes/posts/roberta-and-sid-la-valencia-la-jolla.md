@@ -1,6 +1,6 @@
 # Real wedding post: Roberta & Sid at La Valencia Hotel, La Jolla
 
-**Status:** APPROVED FOR PUBLICATION, 2026-10-01. Couple, venue, role, vendor team, El Jardín ceremony, Veranda Ballroom/Salon/Terraza reception, palette, rentals, permissions, and the design inferences: all FOUNDER CONFIRMED. Optional fills can be deleted. Twenty-one photos in hand.
+**Status:** WORDPRESS DRAFT 2026-10-01 (post 244, full text, Real Weddings, Yoast title/meta set); waiting for the 21 Peris Photography photos, which are not on the Founder's Mac. Previously: APPROVED FOR PUBLICATION, 2026-10-01. Couple, venue, role, vendor team, El Jardín ceremony, Veranda Ballroom/Salon/Terraza reception, palette, rentals, permissions, and the design inferences: all FOUNDER CONFIRMED. Optional fills can be deleted. Twenty-one photos in hand.
 **Where it publishes:** WordPress blog, category Real Weddings, with the Erica & Patrick post template. Linked from the La Jolla city page.
 
 ## SEO fields

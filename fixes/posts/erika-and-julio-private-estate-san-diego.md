@@ -1,6 +1,6 @@
 # Real wedding post: Erika & Julio at a private estate in San Diego
 
-**Status:** SUPERSEDED 2026-10-01. The Founder confirmed the existing page `/blog/erika-batiz-julio-ramirez/` is complete and live (the Mac session wired its Showit design on 2026-09-30). Do not replace its content. The only items to carry over are the SEO fields below (Yoast title and meta on that page) and the alt-text and file-naming rule for its images. The body draft is kept for reference only.
+**Status:** LIVE AS A POST 2026-10-01: WordPress post 250 `https://bellamiaexclusiveevents.com/2026/10/01/private-estate-wedding-san-diego-erika-and-julio/` uses the existing Showit design (template "Erika Batiz & Julio Ramirez", Custom `single-post-…`) and the SEO fields below; the old page redirects to it. Body draft still reference only. Previously: SUPERSEDED 2026-10-01. The Founder confirmed the existing page `/blog/erika-batiz-julio-ramirez/` is complete and live (the Mac session wired its Showit design on 2026-09-30). Do not replace its content. The only items to carry over are the SEO fields below (Yoast title and meta on that page) and the alt-text and file-naming rule for its images. The body draft is kept for reference only.
 **Where it publishes:** this content fills the existing WordPress page `/blog/erika-batiz-julio-ramirez/` (currently empty per the Mac session's note), or a new Real Weddings post that the homepage "Featured Wedding: Erika & Julio" card links to. Use the Erica & Patrick post template.
 
 ## SEO fields
