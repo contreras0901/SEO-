@@ -113,3 +113,23 @@ Reaching the middle of this table, scores in the high 30s, is a realistic 6–9 
 - One search per query, one date, unknown location; no ranking positions were observed and none are claimed.
 - Review counts and awards are listing or self-published claims.
 - Scores are Rank's judgment on a rubric Rank defined. They are for prioritizing work, not for reporting to clients.
+
+---
+
+## 7. Head-to-head re-score: Bella Mia vs Serene Events & Design (2026-10-02)
+
+Same rubric as section 2. Bella Mia's column is re-scored on what the Mac session recorded as live on 2026-10-01 (`fixes/06-baseline-and-change-log.md`, post status lines in `fixes/posts/`); this session could not reach either site directly, so nothing below is a fresh fetch. Serene's column is unchanged from 2026-10-01 because nothing new was observed there.
+
+| Dimension (0–10) | Serene | Bella Mia 10-01 | Bella Mia 10-02 | Why it moved |
+|---|---|---|---|---|
+| A. Technical hygiene | 5 | 7 | 7 | Unchanged. `/home` duplicate of `/` still open. Search Console is now verified, which helps measurement, not this score. |
+| B. Content depth | 8 | 3 | 5 | Four venue-named real-wedding posts now live: Park Hyatt Aviara (29 Sep), Westgate Hotel, Loews Coronado Bay (two photos only), private-estate Erika & Julio (1 Oct). Serene has about twenty. |
+| C. Freshness | 7 | 4 | 6 | Four posts in four days against Serene's last observed post in April 2026. Cadence is three days old, so not yet above Serene's five-year record. |
+| D. Local signals | 6 | 6 | 6 | Unchanged. The Knot still shows 2011 and the gmail address; no city pages live yet. |
+| E. Proof | 6 | 4 | 4 | Unchanged. No new reviews, awards, or press. |
+| F. SERP presence | 2 | 1 | 1 | Unchanged. Indexing was requested for five URLs on 1 Oct; no appearance has been observed since. |
+| **Total** | **34 (5.7/10)** | **25 (4.2/10)** | **29 (4.8/10)** | Gap closed from 9 points to 5. |
+
+**Verdict:** Serene still ranks ahead of Bella Mia overall, 34 to 29. Bella Mia is still 10th of 11 on the full table (First Comes Love holds 33), but it now leads Serene on technical hygiene and is within one point on freshness. Serene's lead is entirely content depth, proof, and the fact that it has had five years for Google to find it.
+
+**What flips the head-to-head (HYPOTHESIS, no outcome promised):** publishing the La Valencia post with its photos, adding the Loews photo set, and building the three city pages would plausibly move B to 7 and D to 7; fixing The Knot listing is the last local inconsistency; the first observed appearance for any non-branded query moves F. That projection is 36 to 38, past Serene's 34, with E (proof) the only dimension that cannot be moved by publishing. Re-score only after a fresh observation, not on the projection.
