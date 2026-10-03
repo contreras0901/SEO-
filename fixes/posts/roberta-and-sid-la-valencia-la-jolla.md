@@ -64,7 +64,16 @@ Nine credits, matching the Founder's Instagram caption (2026-10-03). Every one o
 
 Florals were also Bella Mia's (FOUNDER CONFIRMED 2026-10-01); keep that in the body copy. Link each credit to its website or Instagram. DJ Sammy Denatto has no handle in the caption; link to Dancing DJ Productions' website if one exists, otherwise leave unlinked.
 
-**LIVE-POST FIX, 2026-10-03 (for the session on the Founder's Mac; the cloud session cannot reach bellamiaexclusiveevents.com).** Founder screenshot of the live post's title card (WordPress post 244, Serene-style HTML block, "ROBERTA & SID / LA VALENCIA HOTEL / … / SCROLL FOR FULL GALLERY") shows five vendor lines:
+**LIVE-POST FIX, 2026-10-03 (for the session on the Founder's Mac; the cloud session cannot reach bellamiaexclusiveevents.com).** Two changes to WordPress post 244, both in the Serene-style HTML block served by the Showit "La Valencia post template".
+
+1. **Title card: rebuild in the "Joyce & Elliot" style** (Founder screenshot of a Serene post, 2026-10-03: "make it look like this"). The current card reads "ROBERTA & SID / LA VALENCIA HOTEL / five vendor lines / SCROLL FOR FULL GALLERY". It becomes, centered, white background, no vendor lines:
+   - `Roberta & Sid`: serif, title case, ~40px desktop / 30px phone, normal weight. Tag H2 (the H1 is the post title).
+   - `WEDDING GALLERY`: small caps, letter-spacing 0.3em, ~17px.
+   - `LA VALENCIA HOTEL`: small caps, letter-spacing 0.3em, ~11px, muted gray.
+   - Button `VIEW THE GALLERY`: italic small caps, white on Bella Mia's accent `#8a7a4d` (not Serene's olive), ~17px tall padding, ~90px side padding on desktop, 36px on phones. Links to `#gallery`, an anchor placed on the first photo row of this post, because this wedding has no separate gallery page. Repoint to the gallery page if one is built later.
+   - Exact HTML and CSS: `la-valencia-title-card.html` in this folder (open it in a browser for the rendered preview).
+   - Record the before-state (the five-line card quoted below) in `../06-baseline-and-change-log.md`; already done 2026-10-03.
+2. **Vendor team moves to the end of the post** as a "The Vendor Team" block (H2 small caps, one centered paragraph, one credit per line, names linked), with all eight credits. The HTML is in the same preview file. Live before-state of the card's vendor lines:
 
 ```
 Planning, Design, Florals & Rentals: Bella Mia Exclusive Events
@@ -74,7 +83,7 @@ Live Music: Paper Moon Music
 Cake: The Fabulous Cake Girls
 ```
 
-Missing: hair and makeup (Dannielle Robeson) and the DJ (Sammy Denatto). Replace the five lines with these eight, same italic serif, one per line, each name linked:
+Missing from it: hair and makeup (Dannielle Robeson) and the DJ (Sammy Denatto). The eight-line replacement:
 
 ```
 Planning & Design: Bella Mia Exclusive Events
@@ -87,7 +96,7 @@ Live Music: Paper Moon Music
 Cake: The Fabulous Cake Girls
 ```
 
-The venue is already the card's subtitle (LA VALENCIA HOTEL), so it needs no vendor line. Also check the post's closing vendor-team canvas, if the template has one, and the body's "The team" list; both must carry the same eight credits. Check the phone layout after adding three lines: the text column grows by about 80px and may push "SCROLL FOR FULL GALLERY" into the first photo. WordPress content edit only; no Showit publish needed unless the template's canvas heights change.
+Also make the body's "The team" list above match. Check desktop (1440) and phone (430) after the edit. WordPress content edit only; no Showit publish needed unless the template's canvas heights change. If the same card style is wanted on the Aviara, Westgate, and Loews posts, it is "Canvas 2b" in `layout-spec-real-weddings.md`.
 
 #### See the full gallery
 
