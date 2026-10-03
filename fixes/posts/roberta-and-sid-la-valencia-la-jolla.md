@@ -70,7 +70,7 @@ Florals were also Bella Mia's (FOUNDER CONFIRMED 2026-10-01); keep that in the b
    - `Roberta & Sid`: serif, title case, ~40px desktop / 30px phone, normal weight. Tag H2 (the H1 is the post title).
    - `WEDDING GALLERY`: small caps, letter-spacing 0.3em, ~17px.
    - `LA VALENCIA HOTEL`: small caps, letter-spacing 0.3em, ~11px, muted gray.
-   - Button `VIEW THE GALLERY`: italic small caps, white on Bella Mia's accent `#8a7a4d` (not Serene's olive), ~17px tall padding, ~90px side padding on desktop, 36px on phones. Links to `#gallery`, an anchor placed on the first photo row of this post, because this wedding has no separate gallery page. Repoint to the gallery page if one is built later.
+   - Button `VIEW THE GALLERY`: italic small caps, white on a soft vintage rose `#c9a3a0` (hover `#b88e8b`; FOUNDER 2026-10-03, replacing the gold accent and Serene's olive), ~17px tall padding, ~90px side padding on desktop, 36px on phones. Links to `#gallery`, an anchor placed on the first photo row of this post, because this wedding has no separate gallery page. Repoint to the gallery page if one is built later.
    - Exact HTML and CSS: `la-valencia-title-card.html` in this folder (open it in a browser for the rendered preview).
    - Record the before-state (the five-line card quoted below) in `../06-baseline-and-change-log.md`; already done 2026-10-03.
 2. **Vendor team moves to the end of the post** as a "The Vendor Team" block (H2 small caps, one centered paragraph, one credit per line, names linked), with all eight credits. The HTML is in the same preview file. Live before-state of the card's vendor lines:

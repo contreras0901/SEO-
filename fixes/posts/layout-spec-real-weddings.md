@@ -39,7 +39,7 @@ Reference: Serene's "Joyce & Elliot / WEDDING GALLERY / TWIN OAKS GOLF COURSE / 
 - `Roberta & Sid` serif, title case, ~40px desktop / 30px phone, normal weight. Tag H2 on a post (the H1 is the post title); H1 on a gallery page.
 - `WEDDING GALLERY` small caps, letter-spacing 0.3em, ~17px.
 - `LA VALENCIA HOTEL` small caps, letter-spacing 0.3em, ~11px, muted gray.
-- Button `VIEW THE GALLERY`: italic small caps ~12px, letter-spacing 0.3em, white on the accent `#8a7a4d`, padding 17px × 90px (36px sides on phones). Links to the gallery page, or to a `#gallery` anchor on the first photo row when the photos live in the post itself.
+- Button `VIEW THE GALLERY`: italic small caps ~12px, letter-spacing 0.3em, white on a soft vintage rose `#c9a3a0` (hover `#b88e8b`; FOUNDER 2026-10-03), padding 17px × 90px (36px sides on phones). Links to the gallery page, or to a `#gallery` anchor on the first photo row when the photos live in the post itself.
 - HTML and CSS: `la-valencia-title-card.html` in this folder.
 
 ### Canvas 3: Story (white, narrow measure ~900px, centered)
