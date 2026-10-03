@@ -50,16 +50,21 @@ Two sources of music, on purpose. Paper Moon Music played classical guitar for t
 
 #### The team
 
-- **Planning, design, florals, and rentals:** Bella Mia Exclusive Events
-- **Venue:** La Valencia Hotel, La Jolla
-- **Photography:** Brook Limperis, Peris Photography
-- **Videography:** LAXQR Films
-- **Hair and makeup:** Dannielle Robeson
-- **Live music:** Paper Moon Music
-- **DJ:** Sammy Denatto, Dancing DJ Productions
-- **Wedding cake:** Kimberly, The Fabulous Cake Girls
+Nine credits, matching the Founder's Instagram caption (2026-10-03). Every one of them goes on the live post.
 
-Link each to its website or Instagram: `@perisphotography`, `@laxqr`, `@dannielle_robeson`, `@papermoonmusic`, `@thefabulouscakegirls`, `@lavalenciahotel`.
+- **Wedding planning and design:** Bella Mia Exclusive Events (`@bellamiaexclusiveevents`)
+- **Photography:** Brook Limperis, Peris Photography (`@perisphotography`)
+- **Hair and makeup:** Dannielle Robeson (`@dannielle_robeson`)
+- **Venue:** La Valencia Hotel, La Jolla (`@lavalenciahotel`)
+- **Videography:** LAXQR Films (`@laxqr`)
+- **Wedding cake:** Kimberly, The Fabulous Cake Girls (`@thefabulouscakegirls`)
+- **DJ:** Sammy Denatto, Dancing DJ Productions
+- **Event rentals:** Bella Mia Exclusive Events (`@bellamiaexclusiveevents`)
+- **Live music:** Paper Moon Music (`@papermoonmusic`)
+
+Florals were also Bella Mia's (FOUNDER CONFIRMED 2026-10-01); keep that in the body copy. Link each credit to its website or Instagram. DJ Sammy Denatto has no handle in the caption; link to Dancing DJ Productions' website if one exists, otherwise leave unlinked.
+
+**LIVE-POST FIX, 2026-10-03 (for the session on the Founder's Mac; the cloud session cannot reach bellamiaexclusiveevents.com):** the Founder reports that the published post 244 is missing some of these vendors. Open the post's vendor-team block (Serene-style HTML block in WordPress post 244, served by the Showit "La Valencia post template") and make the vendor list match the nine lines above, in that order, each name linked. Record the before-list in `../06-baseline-and-change-log.md` before overwriting it. No Showit publish is needed for a WordPress content edit.
 
 #### See the full gallery
 
