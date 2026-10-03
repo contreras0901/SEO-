@@ -64,7 +64,30 @@ Nine credits, matching the Founder's Instagram caption (2026-10-03). Every one o
 
 Florals were also Bella Mia's (FOUNDER CONFIRMED 2026-10-01); keep that in the body copy. Link each credit to its website or Instagram. DJ Sammy Denatto has no handle in the caption; link to Dancing DJ Productions' website if one exists, otherwise leave unlinked.
 
-**LIVE-POST FIX, 2026-10-03 (for the session on the Founder's Mac; the cloud session cannot reach bellamiaexclusiveevents.com):** the Founder reports that the published post 244 is missing some of these vendors. Open the post's vendor-team block (Serene-style HTML block in WordPress post 244, served by the Showit "La Valencia post template") and make the vendor list match the nine lines above, in that order, each name linked. Record the before-list in `../06-baseline-and-change-log.md` before overwriting it. No Showit publish is needed for a WordPress content edit.
+**LIVE-POST FIX, 2026-10-03 (for the session on the Founder's Mac; the cloud session cannot reach bellamiaexclusiveevents.com).** Founder screenshot of the live post's title card (WordPress post 244, Serene-style HTML block, "ROBERTA & SID / LA VALENCIA HOTEL / … / SCROLL FOR FULL GALLERY") shows five vendor lines:
+
+```
+Planning, Design, Florals & Rentals: Bella Mia Exclusive Events
+Photographer: Peris Photography
+Videographer: LAXQR Films
+Live Music: Paper Moon Music
+Cake: The Fabulous Cake Girls
+```
+
+Missing: hair and makeup (Dannielle Robeson) and the DJ (Sammy Denatto). Replace the five lines with these eight, same italic serif, one per line, each name linked:
+
+```
+Planning & Design: Bella Mia Exclusive Events
+Florals & Rentals: Bella Mia Exclusive Events
+Photographer: Peris Photography
+Videographer: LAXQR Films
+Hair & Makeup: Dannielle Robeson
+DJ: Sammy Denatto, Dancing DJ Productions
+Live Music: Paper Moon Music
+Cake: The Fabulous Cake Girls
+```
+
+The venue is already the card's subtitle (LA VALENCIA HOTEL), so it needs no vendor line. Also check the post's closing vendor-team canvas, if the template has one, and the body's "The team" list; both must carry the same eight credits. Check the phone layout after adding three lines: the text column grows by about 80px and may push "SCROLL FOR FULL GALLERY" into the first photo. WordPress content edit only; no Showit publish needed unless the template's canvas heights change.
 
 #### See the full gallery
 
