@@ -184,6 +184,36 @@ Section headings under each H1 → H2. If a page already has two H1 elements, de
 3. Create categories **Real Weddings** and **Venue Guides**.
 4. Do not publish posts in this run. The posting order is in `../analysis/reconciliation-atlas-package.md` section 4: Westgate (Cherine & Andy) first, Erica & Patrick second, then the Hotel del and Loews guides after their ASK items are answered.
 
+## 9b. Blog listing cards in the "Joyce & Elliot" style (FOUNDER 2026-10-04: "here is how I want the blog page to look like, only not in the actual post")
+
+Target: on `/blog/`, each post card below the featured Château card becomes: featured photo, then `ROBERTA & SID` / `WEDDING GALLERY` / `LA VALENCIA HOTEL` / rose button `VIEW THE GALLERY`. The posts themselves do not change. Reference card: `posts/la-valencia-title-card.html`; sizes in `posts/layout-spec-real-weddings.md` Canvas 2b. Showit designer work on the Founder's Mac (app.showit.com); the cloud session cannot reach Showit.
+
+**A. WordPress first (5 minutes, wp-admin → Posts → each post → Excerpt box in the right sidebar):** the names line comes from the post excerpt, because Showit can bind a text element to the excerpt but not to a custom field. Set the excerpt to the couple's names only:
+
+| Post | Excerpt to set |
+|---|---|
+| 244 La Valencia Hotel | `Roberta & Sid` |
+| 246 Loews Coronado Bay Resort | `Julianne & David` |
+| 248 The Westgate Hotel | `Cherine & Andy` |
+| 250 Private Estate in San Diego | `Erika & Julio` |
+| 194 Park Hyatt Aviara Resort | `Erica & Patrick` |
+| 116 Garden Wedding at Château de Bouthonvilliers | the couple's names if known, else `Château de Bouthonvilliers` |
+
+The current excerpts are one-sentence summaries (recorded 2026-10-04 before the change); Yoast meta descriptions are separate and stay. The venue line needs nothing: post titles are already the venue names.
+
+**B. Showit (Site tab → Blog Templates → the template that renders `/blog/`, the "Post List" one with the Château featured card → canvas "Posts"):** the Posts canvas has three canvas views rotated per post (runbook 2026-09-29: images already bound to Featured Image, click bound to wp_post). In EACH view, desktop and mobile:
+1. Keep the image. Delete the italic category text ("Real Weddings") and the thin rule under it.
+2. Change the existing title text (bound to Post Title) into the VENUE line: EB Garamond, 11px, uppercase, letter-spacing 0.3em, gray `#6b6b6b`, centered. Keep its binding = Post Title.
+3. Add a text element ABOVE it, binding = Post Excerpt: the NAMES line, HV Florentino Regular (site display face), uppercase, ~30px, letter-spacing 0.15em, centered, black.
+4. Add a static text element between them: `WEDDING GALLERY`, EB Garamond, uppercase, ~14px, letter-spacing 0.3em, centered.
+5. Add the button: a text element `VIEW THE GALLERY`, EB Garamond italic, 12px, uppercase, letter-spacing 0.3em, white on `#c9a3a0` (hover `#b88e8b`), padding about 17px top/bottom and 36–40px sides (the card is narrow), centered. Click action = WordPress Post (same as the image).
+6. Order and spacing from top of the text stack: names, 22px gap, WEDDING GALLERY, 22px gap, venue, 34px gap, button. Raise the canvas height if the stack no longer fits.
+7. Check the mobile view of each of the three canvas views, then Publish. The Category templates (Weddings / Advice / Events, built 2026-10-02) get the same card if the Founder wants it there too; otherwise leave them.
+
+Caveat: `WEDDING GALLERY` is a static label, so an Advice or Events post listed on `/blog/` would carry it too. Today every published post is a Real Wedding. If non-wedding posts are added later, bind that line to Post Categories instead, or give those posts their own canvas view.
+
+Record before/after in `06-baseline-and-change-log.md`.
+
 ## 10. Publish and verify
 
 1. **PUBLISH** in Showit. Save in WordPress.
