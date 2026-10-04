@@ -17,22 +17,16 @@ Options: --site https://bellamiaexclusiveevents.com  --post 244  --out /path/pre
 """
 import argparse, base64, json, os, re, sys, urllib.request
 
-TITLE_CARD = '''<style>
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&display=swap');
-.bm-title-card{text-align:center;padding:48px 16px 56px;font-family:"Cormorant Garamond",Georgia,serif}
-.bm-title-card .bm-names{font-size:clamp(30px,4.2vw,40px);font-weight:400;line-height:1.15;letter-spacing:.02em;margin:0 0 26px}
-.bm-title-card .bm-kicker{font-size:clamp(14px,1.6vw,17px);letter-spacing:.3em;text-transform:uppercase;font-weight:400;margin:0 0 22px}
-.bm-title-card .bm-venue{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:#6b6b6b;margin:0 0 34px}
-.bm-title-card .bm-btn{display:inline-block;background:#c9a3a0;color:#fff;font-style:italic;font-size:12px;letter-spacing:.3em;text-transform:uppercase;text-decoration:none;padding:17px 90px;max-width:100%;box-sizing:border-box}
-.bm-title-card .bm-btn:hover{background:#b88e8b}
-@media (max-width:480px){.bm-title-card .bm-btn{padding:16px 36px}}
-</style>
-<div class="bm-title-card">
-  <h2 class="bm-names">Roberta &amp; Sid</h2>
-  <p class="bm-kicker">Wedding Gallery</p>
-  <p class="bm-venue">La Valencia Hotel</p>
-  <a class="bm-btn" href="#gallery">View the Gallery</a>
+TITLE_CARD = '''<div style="text-align:center;padding:48px 16px 56px;font-family:EB Garamond,Georgia,serif">
+<h2 style="font-family:EB Garamond,Georgia,serif;font-size:clamp(30px,4.2vw,40px);font-weight:400;line-height:1.15;letter-spacing:0.02em;margin:0 0 26px">Roberta &amp; Sid</h2>
+<p style="font-family:EB Garamond,Georgia,serif;font-size:clamp(14px,1.6vw,17px);letter-spacing:0.3em;text-transform:uppercase;margin:0 0 22px">Wedding Gallery</p>
+<p style="font-family:EB Garamond,Georgia,serif;font-size:11px;letter-spacing:0.3em;text-transform:uppercase;color:#6b6b6b;margin:0 0 34px">La Valencia Hotel</p>
+<a href="#gallery" style="display:inline-block;background:#c9a3a0;color:#fff;font-family:EB Garamond,Georgia,serif;font-style:italic;font-size:12px;letter-spacing:0.3em;text-transform:uppercase;text-decoration:none;padding:17px clamp(36px,7vw,90px);max-width:100%">View the Gallery</a>
 </div>'''
+# Inline styles only: the Founder's account on the Showit multisite lacks unfiltered_html, so WordPress
+# strips <style> and <link> tags on save (seen live 2026-10-04 18:12). No hover colour and no media query
+# for the same reason; the button's side padding scales with clamp() instead. Fonts are the page's own
+# EB Garamond, which the Showit template already loads.
 
 PRE_BLOCK = re.compile(
     r'(?:<!-- wp:preformatted[^>]*-->\s*)?<pre class="wp-block-preformatted">(?:(?!</pre>).)*bm-title-card(?:(?!</pre>).)*</pre>\s*(?:<!-- /wp:preformatted -->\s*)?',
