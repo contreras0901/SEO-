@@ -50,21 +50,21 @@ Two sources of music, on purpose. Paper Moon Music played classical guitar for t
 
 #### The team
 
-Nine credits, matching the Founder's Instagram caption (2026-10-03). Every one of them goes on the live post.
+Eight lines, in the order of the live "The Vendor Team" block (the venue is credited by the title card, not the list). The Founder's Instagram caption (2026-10-03) carries the same nine credits including the venue; every one of them goes on the live post.
 
-- **Wedding planning and design:** Bella Mia Exclusive Events (`@bellamiaexclusiveevents`)
-- **Photography:** Brook Limperis, Peris Photography (`@perisphotography`)
-- **Hair and makeup:** Dannielle Robeson (`@dannielle_robeson`)
-- **Venue:** La Valencia Hotel, La Jolla (`@lavalenciahotel`)
-- **Videography:** LAXQR Films (`@laxqr`)
-- **Wedding cake:** Kimberly, The Fabulous Cake Girls (`@thefabulouscakegirls`)
-- **DJ:** Sammy Denatto, Dancing DJ Productions
-- **Event rentals:** Bella Mia Exclusive Events (`@bellamiaexclusiveevents`)
-- **Live music:** Paper Moon Music (`@papermoonmusic`)
+- **Planning & Design:** Bella Mia Exclusive Events (`@bellamiaexclusiveevents`) → `https://bellamiaexclusiveevents.com`
+- **Florals & Rentals:** Bella Mia Exclusive Events (`@bellamiaexclusiveevents`) → `/floral-designs-and-more`
+- **Photographer:** Peris Photography, Brook Limperis (`@perisphotography`)
+- **Videographer:** LAXQR Films (`@laxqr`)
+- **Hair & Makeup:** Dannielle Robeson (`@dannielle_robeson`)
+- **DJ:** Sammy Denatto, Dancing DJ Productions (no handle; unlinked)
+- **Live Music:** Paper Moon Music (`@papermoonmusic`)
+- **Cake:** The Fabulous Cake Girls, Kimberly (`@thefabulouscakegirls`)
+- Venue (title card, not the list): La Valencia Hotel, La Jolla (`@lavalenciahotel`)
 
-Florals were also Bella Mia's (FOUNDER CONFIRMED 2026-10-01); keep that in the body copy. Link each credit to its website or Instagram. DJ Sammy Denatto has no handle in the caption; link to Dancing DJ Productions' website if one exists, otherwise leave unlinked.
+Florals were also Bella Mia's (FOUNDER CONFIRMED 2026-10-01); keep that in the body copy. Link each credit to its Instagram as above. DJ Sammy Denatto has no handle in the caption; link to Dancing DJ Productions' website if one exists, otherwise leave unlinked.
 
-**LIVE-POST FIX, 2026-10-03 (for the session on the Founder's Mac; the cloud session cannot reach bellamiaexclusiveevents.com).** Two changes to WordPress post 244, both in the Serene-style HTML block served by the Showit "La Valencia post template".
+**LIVE-POST FIX, 2026-10-03 (for the session on the Founder's Mac; the cloud session cannot reach bellamiaexclusiveevents.com). STILL OPEN 2026-10-04:** a cloud session tried to apply it and the environment's network policy denied `bellamiaexclusiveevents.com` (CONNECT 403); the title card was render-checked from the preview file at 1440 and 430 px instead (see the change log). To apply from the cloud, add that host under the environment's Allowed domains. Two changes to WordPress post 244, both in the Serene-style HTML block served by the Showit "La Valencia post template".
 
 1. **Title card: rebuild in the "Joyce & Elliot" style** (Founder screenshot of a Serene post, 2026-10-03: "make it look like this"). The current card reads "ROBERTA & SID / LA VALENCIA HOTEL / five vendor lines / SCROLL FOR FULL GALLERY". It becomes, centered, white background, no vendor lines:
    - `Roberta & Sid`: serif, title case, ~40px desktop / 30px phone, normal weight. Tag H2 (the H1 is the post title).
