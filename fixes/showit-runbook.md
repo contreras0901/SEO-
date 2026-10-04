@@ -214,6 +214,21 @@ Caveat: `WEDDING GALLERY` is a static label, so an Advice or Events post listed 
 
 Record before/after in `06-baseline-and-change-log.md`.
 
+**Status 2026-10-04 (cloud session, branch `claude/exciting-darwin-f811rx`): NOT APPLIED, nothing published.** Network-wise `app.showit.com` answers 200 from the container, but the session has no Showit login; the WordPress REST API still refuses the stored login (401, Application Passwords off) and a form login from the container was not permitted. Parts A and B stay Mac work. The live `/blog/` card geometry and the six current excerpts were recorded in `06-baseline-and-change-log.md` (entry 2026-10-04). Use the table below in the editor; every value is derived from the live CSS plus the spacing in step 6 (names 30 px and gaps 22 / 22 / 34, line-height 1.2), so treat it as a starting point and confirm in the Showit preview.
+
+**Positions for the new stack (per view; desktop X per view = 39 / 427 / 815 for full-width elements, W 347; mobile X 20, W 280):**
+
+| Element | Desktop Y (H) | Mobile Y view 1 (H) | Mobile Y view 2 | Mobile Y view 3 |
+|---|---|---|---|---|
+| Image (unchanged) | 68 (508) | 37 (396) | 731 (was 687) | 1424 (was 1336) |
+| Names, bound to Post Excerpt, HV Florentino Regular 30 px, uppercase, 0.15em, centered, #242424 | 617 (36) | 471 (36) | 1165 | 1858 |
+| `WEDDING GALLERY`, static, EB Garamond 14 px, uppercase, 0.3em, centered | 675 (17) | 529 (17) | 1223 | 1916 |
+| Venue (the existing title element, keep binding Post Title and tag H2), EB Garamond 11 px, uppercase, 0.3em, centered, #6b6b6b | 714 (14) | 568 (14) | 1262 | 1955 |
+| Button `VIEW THE GALLERY`, EB Garamond italic 12 px, uppercase, 0.3em, white on #c9a3a0 (hover #b88e8b), padding 17 / 38 desktop and 17 / 36 mobile, click → WordPress Post | 762 (49), W ≈ 240 centered → X 93 / 480 / 868 | 616 (49), W ≈ 235 → X 43 | 1310 | 2003 |
+| Canvas height | 873 → **880** | 1953 → **2080** | | |
+
+Delete per view: the category text (`Real Weddings`, HV Florentino Italic 24 / 18 px) and the 155 / 125 px rule under it. If `JULIANNE & DAVID` or `CHÂTEAU DE BOUTHONVILLIERS` wraps at 30 px in a 347 px card, drop the names size to 26 px in all three views rather than widening one card. Mobile cards were 650 px apart; the new stack is about 44 px taller, which is why views 2 and 3 move down by 44 and 88 px.
+
 ## 10. Publish and verify
 
 1. **PUBLISH** in Showit. Save in WordPress.
