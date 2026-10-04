@@ -96,7 +96,9 @@ Live Music: Paper Moon Music
 Cake: The Fabulous Cake Girls
 ```
 
-Also make the body's "The team" list above match. Check desktop (1440) and phone (430) after the edit. WordPress content edit only; no Showit publish needed unless the template's canvas heights change. If the same card style is wanted on the Aviara, Westgate, and Loews posts, it is "Canvas 2b" in `layout-spec-real-weddings.md`.
+Also make the body's "The team" list above match. Check desktop (1440) and phone (430) after the edit.
+
+**Status 2026-10-04:** change 2 is live (the Founder's 2026-10-03 edit appended the eight-credit Vendor Team block). Change 1 is not: the title-card HTML went into a Preformatted block at the top of the post and renders as code, and the old card still sits after the third photo. `apply-la-valencia-post-244.py` in this folder makes the remaining edit over the REST API (dry-run verified at 1440 and 430); it needs a WordPress Application Password, which the site currently does not offer (the REST index lists no authentication methods). WordPress content edit only; no Showit publish needed unless the template's canvas heights change. If the same card style is wanted on the Aviara, Westgate, and Loews posts, it is "Canvas 2b" in `layout-spec-real-weddings.md`.
 
 #### See the full gallery
 
