@@ -34,7 +34,8 @@ Three columns on desktop, stacked on mobile.
   - `SCROLL FOR FULL GALLERY` small caps, letter-spacing 0.3em, ~11px, at the bottom.
 - The right-column text should be a paragraph tag, not a heading; the H1 is in the hero.
 
-### Canvas 2b: Gallery title card (alternative to Canvas 2, adopted for the La Valencia post 2026-10-03)
+### Canvas 2b: Gallery card for the BLOG LISTING (`/blog/`), not for the post body (FOUNDER 2026-10-04: "in the main page of the blog I want this look only, not in the actual post")
+Where it lives: the Showit Blog template's "Posts" canvas (three canvas views rotated per post; images already bound to the featured image, click bound to wp_post, runbook 2026-09-29). Restyle each view as the card below. Bindings: featured image above the card; names line = post excerpt (set each post's WordPress excerpt to the couple's names, e.g. `Roberta & Sid`); `WEDDING GALLERY` static; venue line = post title (titles are already the venue, e.g. `La Valencia Hotel`); button = text element linked to wp_post. Showit change on the Mac; nothing in WordPress except the excerpts.
 Reference: Serene's "Joyce & Elliot / WEDDING GALLERY / TWIN OAKS GOLF COURSE / VIEW THE GALLERY" card (Founder screenshot 2026-10-03). Centered, white, no photos and no vendor lines in the card; the vendor team moves to Canvas 5.
 - `Roberta & Sid` serif, title case, ~40px desktop / 30px phone, normal weight. Tag H2 on a post (the H1 is the post title); H1 on a gallery page.
 - `WEDDING GALLERY` small caps, letter-spacing 0.3em, ~17px.
