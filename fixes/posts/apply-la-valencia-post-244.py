@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Apply the 2026-10-03 live-post fix to WordPress post 244 (Roberta & Sid, La Valencia).
+"""SUPERSEDED 2026-10-04 by la-valencia-post-244-full-code.html (Founder wants both cards). Kept for the API login logic.
+
+Apply the 2026-10-03 live-post fix to WordPress post 244 (Roberta & Sid, La Valencia).
 
 What it changes in the post content (see roberta-and-sid-la-valencia-la-jolla.md, "LIVE-POST FIX"):
   1. Removes the Preformatted block at the top of the post that shows the title-card HTML as code
