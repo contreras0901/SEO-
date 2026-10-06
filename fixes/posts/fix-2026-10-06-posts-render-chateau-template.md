@@ -1,0 +1,78 @@
+# Fix: every Real Weddings post renders the Château de Bouthonvilliers template
+
+**Found:** 2026-10-06, by reading the live HTML of every post from the cloud session (no CMS access from there).
+**Founder report:** "none of my blog posts are correct nor showing what happened."
+**Status:** DIAGNOSED. Fix needs Showit and WordPress admin access, so it runs from the Mac session. Steps below.
+
+## What is wrong
+
+Four of the five Real Weddings posts are served with the wrong Showit design. Their WordPress bodies are intact (full text, photos, vendor team, CTA, all matching the approved drafts in this folder), but the Showit template wrapped around them is the **Château de Bouthonvilliers single-post design**, whose text is hard-coded in Showit. So each page shows the Château story (H1 "a Wedding at Château de Bouthonvilliers", "yVANNA & aLEJANDRO", "Destination wedding in Paris, France", the Château vendor credits) and none of the post's own content.
+
+| Post | URL | WordPress body | What the live page renders |
+|---|---|---|---|
+| 194 Erica & Patrick | `/2026/09/29/park-hyatt-aviara-wedding-erica-and-patrick/` | intact: 9 photos, full story | Château template, Château text |
+| 248 Cherine & Andy | `/2026/10/01/westgate-hotel-wedding-florals-cherine-and-andy/` | intact: 11 photos, full story | Château template, Château text |
+| 246 Julianne & David | `/2026/10/01/loews-coronado-bay-wedding-julianne-and-david/` | intact: 2 photos, full story | Château template, Château text |
+| 244 Roberta & Sid | `/2026/10/02/la-valencia-hotel-wedding-la-jolla-roberta-and-sid/` | intact: 17 photos, full story | Château template, Château text |
+| 250 Erika & Julio | `/2026/10/01/private-estate-wedding-san-diego-erika-and-julio/` | intact | **Correct**: its own "Erika Batiz & Julio Ramirez" design, body rendered |
+| 116 Château | `/2025/07/27/garden-wedding-at-chateau-de-bouthonvilliers/` | empty (text lives in Showit) | Correct |
+
+Evidence from the live HTML (fetched 2026-10-06, cache-busted):
+
+- The Showit `init_data` block on posts 194, 248, 246 and 244 lists the same nine canvases as the Château post (`menu, hero, intro, details, full-gallery, vendor-credits, vendor-credits-1, footer, mobile-menu`) with the same 65 elements. The Erika post lists its own canvases (`menu, hero, title, content, about, blog-contact, footer, mobile-menu`).
+- On the four broken pages the post's own text appears only in the `<head>` (Yoast title, description, schema). The visible page has zero occurrences of the couple's names, venue rooms, or vendors.
+- `<title>`, meta description and the featured image are still correct on every post, which is why the blog listing and category cards look fine while the pages behind them do not.
+- Every one of the five posts carries `modified = 2026-10-06T16:22:42–43Z` (09:22 PDT): the card-redesign run that set the post titles to the venue names and the excerpts to the couples' names. The template assignment was lost at or around that same run. The Château post was not touched (modified 2026-09-29).
+
+## Why it happened (two candidates, check in this order)
+
+The Showit WordPress plugin picks a design per post from the **Showit Template** selector in the post editor, or, for a template typed Custom, by matching the WordPress template name (`single-post-<slug>`). When neither matches, it falls back to the site's default **Single Post** template. On this site the default Single Post template is the Château design, whose body text is static, so any post that loses its assignment turns into the Château wedding.
+
+1. **The per-post template assignment was cleared or re-pointed** when the posts were updated on 2026-10-06 (title and excerpt changes). The Erika post kept its assignment, so the posts were not all reset the same way; check each one.
+2. **The post templates were renamed, retyped or recreated in Showit** while the Real Weddings card was rebuilt on the Blog and Category templates. A recreated template has a new id, so the posts' saved selection no longer resolves. Templates in play per the change log: "Erica & Patrick post template" (Aviara; the Loews post was also published on it), "Westgate post template", "La Valencia post template".
+
+## Fix (Mac session, in the Founder's Chrome)
+
+### A. Re-point each post to its template (fast, do first)
+
+1. WordPress admin → Posts → open post 194 (Erica & Patrick). Do **not** accept "Attempt recovery" if the block editor offers it (it rewrites the HTML blocks; see the Aviara post file). Use the Code editor or the Classic/HTML view if prompted.
+2. In the post sidebar, find the **Showit Template** (or "Showit Blog Template") dropdown. Select **Erica & Patrick post template**. Update.
+3. Repeat: 248 → **Westgate post template**; 244 → **La Valencia post template**; 246 → **Erica & Patrick post template** (as published 2026-10-01) unless a Loews template exists.
+4. Reload each URL logged out with a cache-buster (`?v=2`) and confirm the page shows the couple's hero, the vendor list, the story and the photos. Cloudflare caches for 10 minutes; a hard reload or the cache-buster gets past it.
+
+If the dropdown does not list those templates, go to B.
+
+### B. Check the templates in Showit
+
+1. Showit → Site → **Blog Templates**. Confirm the three post templates still exist. For each, open Template Settings and note the **Template Type**. They must be a Single Post type (or Custom with the exact `single-post-<slug>` name of their post). If a template was renamed, retyped, or is missing:
+   - Missing: restore from Showit's **Site History** (Site Settings → Site History, or the Design History panel) to the version published before 2026-10-06 09:22 PDT, copy the template out, then re-apply the card redesign; or duplicate the Erika template and rebuild from `layout-spec-real-weddings.md`.
+   - Retyped: set it back and **Publish**.
+2. After publishing, return to A and re-select the templates on each post (ids change when a template is recreated).
+
+### C. Stop it from happening again (do in the same session)
+
+The default Single Post template must never carry one wedding's text. Either:
+
+- Make the Château design a **Custom** template named `single-post-garden-wedding-at-chateau-de-bouthonvilliers` (or select it only on post 116 via the Showit Template dropdown), and
+- Make the default **Single Post** template a generic one: duplicate the Erika template, keep the `title` canvas bound to **WordPress Post Title** and the `content` canvas bound to **WordPress Post Content**, remove the Erika-specific hero photo, and set it as the Single Post default. Then any post that loses its assignment still shows its own text and photos instead of the Château story.
+
+Alternatively move the Château text and photos into post 116's WordPress body and let the generic template render it; then the Château Showit design can be deleted.
+
+### D. Verify and log
+
+Run from any terminal (no login needed):
+
+```
+for u in 2026/09/29/park-hyatt-aviara-wedding-erica-and-patrick 2026/10/01/westgate-hotel-wedding-florals-cherine-and-andy 2026/10/01/loews-coronado-bay-wedding-julianne-and-david 2026/10/02/la-valencia-hotel-wedding-la-jolla-roberta-and-sid; do
+  printf '%s  Chateau:%s  own-text:%s\n' "$u" \
+    "$(curl -s "https://bellamiaexclusiveevents.com/$u/?v=$RANDOM" | grep -c Bouthonvilliers)" \
+    "$(curl -s "https://bellamiaexclusiveevents.com/$u/?v=$RANDOM" | grep -c 'Scroll for full gallery')"
+done
+```
+
+Pass: `Chateau:0` and `own-text:1` on all four lines. Then add a row to `../06-baseline-and-change-log.md` with the cause found (A or B) and the publish time.
+
+## Also seen while checking (not part of this fix)
+
+- The homepage "Recent Features" row still reads `Loews Coronado Resort Wedding`, `Garden Wedding at Château de Bouthonvilliers`, `Erica & Patrick's Wedding` and has not received the card redesign; the card spec says it is hand-built and gets the table content pasted in.
+- The `/blog/` listing and `/category/real-weddings/` cards are correct: couple names, "Wedding Gallery", venue, and each links to the right post.
