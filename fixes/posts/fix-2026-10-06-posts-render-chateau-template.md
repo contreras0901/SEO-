@@ -2,7 +2,7 @@
 
 **Found:** 2026-10-06, by reading the live HTML of every post from the cloud session (no CMS access from there).
 **Founder report:** "none of my blog posts are correct nor showing what happened."
-**Status:** DIAGNOSED. Fix needs Showit and WordPress admin access, so it runs from the Mac session. Steps below.
+**Status:** CAUSE CONFIRMED IN SHOWIT 2026-10-06 (cloud session, logged into app.showit.com): the three post templates were deleted. Fix half-built; see "State of the Showit editor" below. Nothing has been published.
 
 ## What is wrong
 
@@ -71,6 +71,26 @@ done
 ```
 
 Pass: `Chateau:0` and `own-text:1` on all four lines. Then add a row to `../06-baseline-and-change-log.md` with the cause found (A or B) and the publish time.
+
+## Confirmed in the Showit editor (2026-10-06, cloud session)
+
+- Site → Blog Templates now lists only: Home-1, Blog, Garden Wedding at Château de Bouthonvilliers, BLACK TIE PARISIAN AFFAIR CHERINE & ANDYS WEDDING, Erika Batiz & Julio Ramirez, Category, Wedding & Event Advice, Search Results, 404. **"Erica & Patrick post template", "Westgate post template" and "La Valencia post template" are gone.** That is cause 2 above; there is nothing to re-select on the posts (cause 1) because the templates no longer exist.
+- Template Info of "Garden Wedding at Château de Bouthonvilliers": WordPress Template = **Single Post**. It is the site's default for every post, and all of its text is static, which is why every post without its own template reads as the Château wedding.
+- Template Info of "Erika Batiz & Julio Ramirez": WordPress Template = **Custom**, Template Name `single-post-private-estate-wedding-san-diego-erika-and-julio`. That is why the Erika post still renders correctly.
+- The Erika template's Content canvas is **WordPress: Static Content**. No template on the site currently renders WordPress Post Content; the Erika page shows Showit text, not post 250's body (post body and Showit text happen to match).
+- The WordPress Template dropdown offers: Post List (Default), Single Post, Category, Tag, Archive, Search, Page, Front Page, Home, Taxonomy, Author, Attachment, Image, 404, Global Template, Custom.
+
+## State of the Showit editor (unpublished, saved in the editor only)
+
+- A duplicate of the Erika template was created and renamed **"Real Wedding Post"** (row menu → Duplicate, then Rename → Save). It still carries the Erika template's settings: WordPress Template **Custom**, Template Name `single-post-private-estate-wedding-san-diego-erika-and-julio`. **Two templates now share that Custom name. Change it before the next Publish**, or the Erika post may pick the wrong one.
+- Nothing else was changed. Live site unchanged (verified by HTTP fetch after the edits).
+
+## Remaining steps (3 settings changes, then canvas edits, then Publish)
+
+1. **Château template → Custom.** Site → "Garden Wedding at Château de Bouthonvilliers" → TEMPLATE tab → TEMPLATE INFO (expand the accordion if PAGE BACKGROUND is open) → WordPress Template: **Custom** → Template Name: `single-post-garden-wedding-at-chateau-de-bouthonvilliers`. The Château post keeps its design through WordPress' template hierarchy, the same way the Erika post does.
+2. **Real Wedding Post → Single Post.** Site → "Real Wedding Post" → TEMPLATE → TEMPLATE INFO → WordPress Template: **Single Post**. It becomes the default for every post, including the four broken ones and any future post.
+3. **Make it generic.** In "Real Wedding Post": Hero canvas → hide on desktop and mobile (the post bodies carry their own hero). Content canvas → right panel WordPress: **Post Content** (instead of Static Content), then delete the Erika-specific elements (the graphics, "All the Details:", "Modern Estate Wedding", "When a Grammy-winning performer…", "We had the incredible honor…") so the canvas holds only the WordPress content, sized to the 1100 px measure. Leave Title (the "Weddings" label), About and Blog Contact.
+4. **Publish**, then run the check in section D. Expected after publish: the four posts show their own hero, vendor list, story and photos; Erika and Château unchanged.
 
 ## Also seen while checking (not part of this fix)
 
