@@ -1,0 +1,2627 @@
+{
+ "mobile": {
+  "w": 320
+ },
+ "blocks": [
+  "dIDRqBFiN",
+  "Oogq7OHww",
+  "AFzwxkRbs",
+  "a5mfe-sbP",
+  "vQa9qlNVQ"
+ ],
+ "pType": "site",
+ "pId": "v9liab3c1dpkwrbqcfwvza",
+ "name": "Blog",
+ "slug": "blog",
+ "blockData": {
+  "Oogq7OHww": {
+   "mobile": {
+    "w": 320,
+    "h": 1953
+   },
+   "states": [
+    {
+     "type": "state",
+     "slug": "view-1",
+     "elements": [
+      {
+       "mobile": {
+        "w": 280,
+        "h": 396,
+        "x": 20,
+        "y": 37,
+        "a": 0
+       },
+       "visible": "a",
+       "pubs": {
+        "click": []
+       },
+       "content": {
+        "key": "CywdLum77g-PeeB2BZROrg/313527/moazam-nguyen-wedding-990-khoa-photography.jpg",
+        "aspect_ratio": 0.66667,
+        "title": "moazam-nguyen-wedding-990-khoa-photography",
+        "type": "asset"
+       },
+       "wp": {
+        "type": "featured_image"
+       },
+       "type": "graphic",
+       "link": {
+        "type": "wp_post",
+        "target": null
+       },
+       "sync": [
+        "gs.t",
+        "o",
+        "border.rad",
+        "shadow.style",
+        "trIn.type"
+       ],
+       "desktop": {
+        "w": 347,
+        "h": 508,
+        "x": 39,
+        "y": 68,
+        "a": 0
+       }
+      },
+      {
+       "type": "text",
+       "visible": "a",
+       "tag": "h3",
+       "style": "heading",
+       "content": {
+        "text": "Roberta &amp; Sid<br>",
+        "sample": "Roberta & Sid"
+       },
+       "desktop": {
+        "a": 0,
+        "styles": {
+         "link": {
+          "c": "#1f1f1f",
+          "tD": "none",
+          "hC": "#1f1f1f",
+          "hTd": "none"
+         }
+        },
+        "style": "heading",
+        "x": 39,
+        "y": 612,
+        "w": 347,
+        "h": 36,
+        "size": 30,
+        "font": "Wulkan Display Light",
+        "c": "#1f1f1f",
+        "lS": 0.04,
+        "lC": "none",
+        "tA": "center",
+        "lH": 1.2
+       },
+       "mobile": {
+        "a": 0,
+        "styles": {
+         "link": {}
+        },
+        "x": 20,
+        "y": 457,
+        "w": 280,
+        "h": 29,
+        "size": 24
+       },
+       "sync": [
+        "o",
+        "border.rad",
+        "shadow.style",
+        "trIn.type",
+        "style",
+        "lC",
+        "lH",
+        "tA",
+        "font",
+        "over",
+        "c",
+        "lS",
+        "styles.link.c",
+        "styles.link.tD",
+        "styles.link.hC",
+        "styles.link.hTd"
+       ],
+       "wp": {
+        "field": "post_excerpt"
+       },
+       "link": {
+        "type": "wp_post",
+        "target": null
+       }
+      },
+      {
+       "type": "text",
+       "visible": "a",
+       "tag": "p",
+       "style": "heading",
+       "content": {
+        "text": "Wedding Gallery<br>",
+        "sample": "Wedding Gallery"
+       },
+       "desktop": {
+        "a": 0,
+        "styles": {
+         "link": {
+          "c": "#1f1f1f",
+          "tD": "none",
+          "hC": "#1f1f1f",
+          "hTd": "none"
+         }
+        },
+        "style": "heading",
+        "x": 39,
+        "y": 656,
+        "w": 347,
+        "h": 24,
+        "size": 16,
+        "font": "HV Florentino Regular",
+        "c": "#1f1f1f",
+        "lS": 0.3,
+        "lC": "uppercase",
+        "tA": "center",
+        "lH": 1.5
+       },
+       "mobile": {
+        "a": 0,
+        "styles": {
+         "link": {}
+        },
+        "x": 20,
+        "y": 492,
+        "w": 280,
+        "h": 20,
+        "size": 13
+       },
+       "sync": [
+        "o",
+        "border.rad",
+        "shadow.style",
+        "trIn.type",
+        "style",
+        "lC",
+        "lH",
+        "tA",
+        "font",
+        "over",
+        "c",
+        "lS",
+        "styles.link.c",
+        "styles.link.tD",
+        "styles.link.hC",
+        "styles.link.hTd"
+       ],
+       "link": {
+        "type": "wp_post",
+        "target": null
+       }
+      },
+      {
+       "type": "text",
+       "visible": "a",
+       "tag": "p",
+       "style": "heading",
+       "content": {
+        "text": "La Valencia Hotel<br>",
+        "sample": "La Valencia Hotel"
+       },
+       "desktop": {
+        "a": 0,
+        "styles": {
+         "link": {
+          "c": "#6b6b6b",
+          "tD": "none",
+          "hC": "#6b6b6b",
+          "hTd": "none"
+         }
+        },
+        "style": "heading",
+        "x": 39,
+        "y": 686,
+        "w": 347,
+        "h": 24,
+        "size": 13,
+        "font": "Questrial Normal",
+        "c": "#6b6b6b",
+        "lS": 0.25,
+        "lC": "uppercase",
+        "tA": "center",
+        "lH": 1.8
+       },
+       "mobile": {
+        "a": 0,
+        "styles": {
+         "link": {}
+        },
+        "x": 20,
+        "y": 516,
+        "w": 280,
+        "h": 20,
+        "size": 11
+       },
+       "sync": [
+        "o",
+        "border.rad",
+        "shadow.style",
+        "trIn.type",
+        "style",
+        "lC",
+        "lH",
+        "tA",
+        "font",
+        "over",
+        "c",
+        "lS",
+        "styles.link.c",
+        "styles.link.tD",
+        "styles.link.hC",
+        "styles.link.hTd"
+       ],
+       "wp": {
+        "field": "post_title"
+       },
+       "link": {
+        "type": "wp_post",
+        "target": null
+       }
+      },
+      {
+       "type": "button",
+       "visible": "a",
+       "content": {},
+       "anchor": "center",
+       "style": "primary",
+       "label": "View the Gallery",
+       "link": {
+        "type": "wp_post",
+        "target": null
+       },
+       "desktop": {
+        "a": 0,
+        "fillType": "color",
+        "bgcolor": "#c9a3a0",
+        "bC": "#c9a3a0",
+        "bW": 0,
+        "bS": "solid",
+        "border": {
+         "rad": "0"
+        },
+        "o": 100,
+        "text": {
+         "font": "HV Florentino Italic",
+         "size": 13,
+         "c": "#ffffff",
+         "lS": 0.3,
+         "lC": "uppercase",
+         "tA": "center",
+         "lH": 1,
+         "mB": 0
+        },
+        "hover": {
+         "type": "custom",
+         "c": "#b88e8b",
+         "bgcolor": "#b88e8b",
+         "dur": 0.3,
+         "text": {}
+        },
+        "x": 39,
+        "y": 734,
+        "w": 347,
+        "h": 61,
+        "padding": "24px 12px 24px 12px"
+       },
+       "mobile": {
+        "a": 0,
+        "text": {
+         "size": 12
+        },
+        "x": 20,
+        "y": 554,
+        "w": 280,
+        "h": 48,
+        "padding": "18px 10px 18px 10px"
+       },
+       "sync": [
+        "o",
+        "border.rad",
+        "shadow.style",
+        "trIn.type",
+        "style",
+        "fillType",
+        "bC",
+        "bW",
+        "bS",
+        "text.c",
+        "text.font",
+        "text.lH",
+        "text.lC",
+        "text.lS",
+        "text.tA",
+        "hover.type",
+        "hover.c",
+        "hover.dur"
+       ]
+      }
+     ],
+     "mobile": {},
+     "desktop": {
+      "bgMediaType": "none",
+      "fillType": "color"
+     },
+     "sync": [
+      "fillType",
+      "bgMediaType"
+     ],
+     "name": "View 1"
+    },
+    {
+     "type": "state",
+     "slug": "view-2",
+     "elements": [
+      {
+       "type": "graphic",
+       "visible": "a",
+       "content": {
+        "key": "ckYefbXldZw420l-5aRLIg/313527/4b8a2aee-99b7-43f9-b27e-4d46a5bca538.png",
+        "aspect_ratio": 0.66667,
+        "title": "4B8A2AEE-99B7-43F9-B27E-4D46A5BCA538",
+        "type": "asset"
+       },
+       "mobile": {
+        "w": 280,
+        "h": 396,
+        "x": 20,
+        "y": 687,
+        "a": 0
+       },
+       "desktop": {
+        "w": 347,
+        "h": 508,
+        "x": 427,
+        "y": 68,
+        "a": 0
+       },
+       "sync": [
+        "gs.t",
+        "o",
+        "border.rad",
+        "shadow.style",
+        "trIn.type"
+       ],
+       "wp": {
+        "type": "featured_image"
+       },
+       "link": {
+        "type": "wp_post",
+        "target": null
+       }
+      },
+      {
+       "type": "text",
+       "visible": "a",
+       "tag": "h3",
+       "style": "heading",
+       "content": {
+        "text": "Roberta &amp; Sid<br>",
+        "sample": "Roberta & Sid"
+       },
+       "desktop": {
+        "a": 0,
+        "styles": {
+         "link": {
+          "c": "#1f1f1f",
+          "tD": "none",
+          "hC": "#1f1f1f",
+          "hTd": "none"
+         }
+        },
+        "style": "heading",
+        "x": 427,
+        "y": 612,
+        "w": 347,
+        "h": 36,
+        "size": 30,
+        "font": "Wulkan Display Light",
+        "c": "#1f1f1f",
+        "lS": 0.04,
+        "lC": "none",
+        "tA": "center",
+        "lH": 1.2
+       },
+       "mobile": {
+        "a": 0,
+        "styles": {
+         "link": {}
+        },
+        "x": 20,
+        "y": 1107,
+        "w": 280,
+        "h": 29,
+        "size": 24
+       },
+       "sync": [
+        "o",
+        "border.rad",
+        "shadow.style",
+        "trIn.type",
+        "style",
+        "lC",
+        "lH",
+        "tA",
+        "font",
+        "over",
+        "c",
+        "lS",
+        "styles.link.c",
+        "styles.link.tD",
+        "styles.link.hC",
+        "styles.link.hTd"
+       ],
+       "wp": {
+        "field": "post_excerpt"
+       },
+       "link": {
+        "type": "wp_post",
+        "target": null
+       }
+      },
+      {
+       "type": "text",
+       "visible": "a",
+       "tag": "p",
+       "style": "heading",
+       "content": {
+        "text": "Wedding Gallery<br>",
+        "sample": "Wedding Gallery"
+       },
+       "desktop": {
+        "a": 0,
+        "styles": {
+         "link": {
+          "c": "#1f1f1f",
+          "tD": "none",
+          "hC": "#1f1f1f",
+          "hTd": "none"
+         }
+        },
+        "style": "heading",
+        "x": 427,
+        "y": 656,
+        "w": 347,
+        "h": 24,
+        "size": 16,
+        "font": "HV Florentino Regular",
+        "c": "#1f1f1f",
+        "lS": 0.3,
+        "lC": "uppercase",
+        "tA": "center",
+        "lH": 1.5
+       },
+       "mobile": {
+        "a": 0,
+        "styles": {
+         "link": {}
+        },
+        "x": 20,
+        "y": 1142,
+        "w": 280,
+        "h": 20,
+        "size": 13
+       },
+       "sync": [
+        "o",
+        "border.rad",
+        "shadow.style",
+        "trIn.type",
+        "style",
+        "lC",
+        "lH",
+        "tA",
+        "font",
+        "over",
+        "c",
+        "lS",
+        "styles.link.c",
+        "styles.link.tD",
+        "styles.link.hC",
+        "styles.link.hTd"
+       ],
+       "link": {
+        "type": "wp_post",
+        "target": null
+       }
+      },
+      {
+       "type": "text",
+       "visible": "a",
+       "tag": "p",
+       "style": "heading",
+       "content": {
+        "text": "La Valencia Hotel<br>",
+        "sample": "La Valencia Hotel"
+       },
+       "desktop": {
+        "a": 0,
+        "styles": {
+         "link": {
+          "c": "#6b6b6b",
+          "tD": "none",
+          "hC": "#6b6b6b",
+          "hTd": "none"
+         }
+        },
+        "style": "heading",
+        "x": 427,
+        "y": 686,
+        "w": 347,
+        "h": 24,
+        "size": 13,
+        "font": "Questrial Normal",
+        "c": "#6b6b6b",
+        "lS": 0.25,
+        "lC": "uppercase",
+        "tA": "center",
+        "lH": 1.8
+       },
+       "mobile": {
+        "a": 0,
+        "styles": {
+         "link": {}
+        },
+        "x": 20,
+        "y": 1166,
+        "w": 280,
+        "h": 20,
+        "size": 11
+       },
+       "sync": [
+        "o",
+        "border.rad",
+        "shadow.style",
+        "trIn.type",
+        "style",
+        "lC",
+        "lH",
+        "tA",
+        "font",
+        "over",
+        "c",
+        "lS",
+        "styles.link.c",
+        "styles.link.tD",
+        "styles.link.hC",
+        "styles.link.hTd"
+       ],
+       "wp": {
+        "field": "post_title"
+       },
+       "link": {
+        "type": "wp_post",
+        "target": null
+       }
+      },
+      {
+       "type": "button",
+       "visible": "a",
+       "content": {},
+       "anchor": "center",
+       "style": "primary",
+       "label": "View the Gallery",
+       "link": {
+        "type": "wp_post",
+        "target": null
+       },
+       "desktop": {
+        "a": 0,
+        "fillType": "color",
+        "bgcolor": "#c9a3a0",
+        "bC": "#c9a3a0",
+        "bW": 0,
+        "bS": "solid",
+        "border": {
+         "rad": "0"
+        },
+        "o": 100,
+        "text": {
+         "font": "HV Florentino Italic",
+         "size": 13,
+         "c": "#ffffff",
+         "lS": 0.3,
+         "lC": "uppercase",
+         "tA": "center",
+         "lH": 1,
+         "mB": 0
+        },
+        "hover": {
+         "type": "custom",
+         "c": "#b88e8b",
+         "bgcolor": "#b88e8b",
+         "dur": 0.3,
+         "text": {}
+        },
+        "x": 427,
+        "y": 734,
+        "w": 347,
+        "h": 61,
+        "padding": "24px 12px 24px 12px"
+       },
+       "mobile": {
+        "a": 0,
+        "text": {
+         "size": 12
+        },
+        "x": 20,
+        "y": 1204,
+        "w": 280,
+        "h": 48,
+        "padding": "18px 10px 18px 10px"
+       },
+       "sync": [
+        "o",
+        "border.rad",
+        "shadow.style",
+        "trIn.type",
+        "style",
+        "fillType",
+        "bC",
+        "bW",
+        "bS",
+        "text.c",
+        "text.font",
+        "text.lH",
+        "text.lC",
+        "text.lS",
+        "text.tA",
+        "hover.type",
+        "hover.c",
+        "hover.dur"
+       ]
+      }
+     ],
+     "mobile": {},
+     "desktop": {
+      "bgMediaType": "none",
+      "fillType": "color"
+     },
+     "sync": [
+      "fillType",
+      "bgMediaType"
+     ],
+     "name": "View 2"
+    },
+    {
+     "type": "state",
+     "slug": "view-3",
+     "elements": [
+      {
+       "type": "graphic",
+       "visible": "a",
+       "content": {
+        "key": "joPcWpXVnS-T0xhV0aLqWw/313527/img_1909.jpg",
+        "aspect_ratio": 1.49984,
+        "title": "IMG_1909",
+        "type": "asset"
+       },
+       "mobile": {
+        "w": 280,
+        "h": 396,
+        "x": 20,
+        "y": 1336,
+        "a": 0
+       },
+       "desktop": {
+        "w": 347,
+        "h": 508,
+        "x": 815,
+        "y": 68,
+        "a": 0
+       },
+       "sync": [
+        "gs.t",
+        "o",
+        "border.rad",
+        "shadow.style",
+        "trIn.type"
+       ],
+       "wp": {
+        "type": "featured_image"
+       },
+       "link": {
+        "type": "wp_post",
+        "target": null
+       }
+      },
+      {
+       "type": "text",
+       "visible": "a",
+       "tag": "h3",
+       "style": "heading",
+       "content": {
+        "text": "Roberta &amp; Sid<br>",
+        "sample": "Roberta & Sid"
+       },
+       "desktop": {
+        "a": 0,
+        "styles": {
+         "link": {
+          "c": "#1f1f1f",
+          "tD": "none",
+          "hC": "#1f1f1f",
+          "hTd": "none"
+         }
+        },
+        "style": "heading",
+        "x": 815,
+        "y": 612,
+        "w": 347,
+        "h": 36,
+        "size": 30,
+        "font": "Wulkan Display Light",
+        "c": "#1f1f1f",
+        "lS": 0.04,
+        "lC": "none",
+        "tA": "center",
+        "lH": 1.2
+       },
+       "mobile": {
+        "a": 0,
+        "styles": {
+         "link": {}
+        },
+        "x": 20,
+        "y": 1756,
+        "w": 280,
+        "h": 29,
+        "size": 24
+       },
+       "sync": [
+        "o",
+        "border.rad",
+        "shadow.style",
+        "trIn.type",
+        "style",
+        "lC",
+        "lH",
+        "tA",
+        "font",
+        "over",
+        "c",
+        "lS",
+        "styles.link.c",
+        "styles.link.tD",
+        "styles.link.hC",
+        "styles.link.hTd"
+       ],
+       "wp": {
+        "field": "post_excerpt"
+       },
+       "link": {
+        "type": "wp_post",
+        "target": null
+       }
+      },
+      {
+       "type": "text",
+       "visible": "a",
+       "tag": "p",
+       "style": "heading",
+       "content": {
+        "text": "Wedding Gallery<br>",
+        "sample": "Wedding Gallery"
+       },
+       "desktop": {
+        "a": 0,
+        "styles": {
+         "link": {
+          "c": "#1f1f1f",
+          "tD": "none",
+          "hC": "#1f1f1f",
+          "hTd": "none"
+         }
+        },
+        "style": "heading",
+        "x": 815,
+        "y": 656,
+        "w": 347,
+        "h": 24,
+        "size": 16,
+        "font": "HV Florentino Regular",
+        "c": "#1f1f1f",
+        "lS": 0.3,
+        "lC": "uppercase",
+        "tA": "center",
+        "lH": 1.5
+       },
+       "mobile": {
+        "a": 0,
+        "styles": {
+         "link": {}
+        },
+        "x": 20,
+        "y": 1791,
+        "w": 280,
+        "h": 20,
+        "size": 13
+       },
+       "sync": [
+        "o",
+        "border.rad",
+        "shadow.style",
+        "trIn.type",
+        "style",
+        "lC",
+        "lH",
+        "tA",
+        "font",
+        "over",
+        "c",
+        "lS",
+        "styles.link.c",
+        "styles.link.tD",
+        "styles.link.hC",
+        "styles.link.hTd"
+       ],
+       "link": {
+        "type": "wp_post",
+        "target": null
+       }
+      },
+      {
+       "type": "text",
+       "visible": "a",
+       "tag": "p",
+       "style": "heading",
+       "content": {
+        "text": "La Valencia Hotel<br>",
+        "sample": "La Valencia Hotel"
+       },
+       "desktop": {
+        "a": 0,
+        "styles": {
+         "link": {
+          "c": "#6b6b6b",
+          "tD": "none",
+          "hC": "#6b6b6b",
+          "hTd": "none"
+         }
+        },
+        "style": "heading",
+        "x": 815,
+        "y": 686,
+        "w": 347,
+        "h": 24,
+        "size": 13,
+        "font": "Questrial Normal",
+        "c": "#6b6b6b",
+        "lS": 0.25,
+        "lC": "uppercase",
+        "tA": "center",
+        "lH": 1.8
+       },
+       "mobile": {
+        "a": 0,
+        "styles": {
+         "link": {}
+        },
+        "x": 20,
+        "y": 1815,
+        "w": 280,
+        "h": 20,
+        "size": 11
+       },
+       "sync": [
+        "o",
+        "border.rad",
+        "shadow.style",
+        "trIn.type",
+        "style",
+        "lC",
+        "lH",
+        "tA",
+        "font",
+        "over",
+        "c",
+        "lS",
+        "styles.link.c",
+        "styles.link.tD",
+        "styles.link.hC",
+        "styles.link.hTd"
+       ],
+       "wp": {
+        "field": "post_title"
+       },
+       "link": {
+        "type": "wp_post",
+        "target": null
+       }
+      },
+      {
+       "type": "button",
+       "visible": "a",
+       "content": {},
+       "anchor": "center",
+       "style": "primary",
+       "label": "View the Gallery",
+       "link": {
+        "type": "wp_post",
+        "target": null
+       },
+       "desktop": {
+        "a": 0,
+        "fillType": "color",
+        "bgcolor": "#c9a3a0",
+        "bC": "#c9a3a0",
+        "bW": 0,
+        "bS": "solid",
+        "border": {
+         "rad": "0"
+        },
+        "o": 100,
+        "text": {
+         "font": "HV Florentino Italic",
+         "size": 13,
+         "c": "#ffffff",
+         "lS": 0.3,
+         "lC": "uppercase",
+         "tA": "center",
+         "lH": 1,
+         "mB": 0
+        },
+        "hover": {
+         "type": "custom",
+         "c": "#b88e8b",
+         "bgcolor": "#b88e8b",
+         "dur": 0.3,
+         "text": {}
+        },
+        "x": 815,
+        "y": 734,
+        "w": 347,
+        "h": 61,
+        "padding": "24px 12px 24px 12px"
+       },
+       "mobile": {
+        "a": 0,
+        "text": {
+         "size": 12
+        },
+        "x": 20,
+        "y": 1853,
+        "w": 280,
+        "h": 48,
+        "padding": "18px 10px 18px 10px"
+       },
+       "sync": [
+        "o",
+        "border.rad",
+        "shadow.style",
+        "trIn.type",
+        "style",
+        "fillType",
+        "bC",
+        "bW",
+        "bS",
+        "text.c",
+        "text.font",
+        "text.lH",
+        "text.lC",
+        "text.lS",
+        "text.tA",
+        "hover.type",
+        "hover.c",
+        "hover.dur"
+       ]
+      }
+     ],
+     "mobile": {},
+     "desktop": {
+      "bgMediaType": "none",
+      "fillType": "color"
+     },
+     "sync": [
+      "fillType",
+      "bgMediaType"
+     ],
+     "name": "View 3"
+    }
+   ],
+   "name": "Posts",
+   "slug": "posts",
+   "visible": "a",
+   "elements": [
+    {
+     "type": "states",
+     "visible": "n",
+     "mobile": {},
+     "desktop": {}
+    }
+   ],
+   "wp": {
+    "type": "post",
+    "stackViews": 1
+   },
+   "type": "block",
+   "id": "Oogq7OHww",
+   "sync": [
+    "bgFillType",
+    "bgMediaType",
+    "trIn.type",
+    "trOut.type",
+    "aav",
+    "stateTrIn.type",
+    "stateTrOut.type"
+   ],
+   "desktop": {
+    "w": 1200,
+    "h": 873,
+    "bgMediaType": "none",
+    "bgFillType": "color",
+    "bgColor": "#f6f6f3",
+    "nature": "dH"
+   }
+  },
+  "dIDRqBFiN": {
+   "mobile": {
+    "w": 320,
+    "h": 987,
+    "bgFillType": "color",
+    "bgColor": "#ffffff"
+   },
+   "states": [],
+   "name": "Featured Post",
+   "slug": "featured-post",
+   "visible": "a",
+   "elements": [
+    {
+     "type": "simple",
+     "visible": "a",
+     "content": {},
+     "mobile": {
+      "w": 290,
+      "h": 668,
+      "x": 15,
+      "y": 285,
+      "a": 0,
+      "bgcolor": "#cbc8c1:30",
+      "fillType": "color"
+     },
+     "desktop": {
+      "w": 986,
+      "h": 611,
+      "x": 145,
+      "y": 232,
+      "a": 0,
+      "bgcolor": "#ffffff",
+      "fillType": "color",
+      "shadow": {
+       "style": "none",
+       "sc": "#000000:5",
+       "sb": 21
+      }
+     },
+     "sync": [
+      "fillType",
+      "o",
+      "border.rad",
+      "shadow.style",
+      "trIn.type",
+      "bS"
+     ],
+     "link": {
+      "type": "page",
+      "target": "garden-wedding-at-chateau-de-bouthonvilliers"
+     },
+     "pubs": {
+      "click": []
+     }
+    },
+    {
+     "type": "text",
+     "visible": "a",
+     "content": {
+      "text": "Destination Wedding&nbsp;<br>",
+      "sample": "Destination Wedding&nbsp; "
+     },
+     "mobile": {
+      "size": 28,
+      "styles": {
+       "link": {}
+      },
+      "x": 35,
+      "y": 393,
+      "w": 250,
+      "h": 27,
+      "a": 0
+     },
+     "desktop": {
+      "size": 32,
+      "a": 0,
+      "styles": {
+       "link": {
+        "c": "#242424",
+        "tD": "underline",
+        "hC": "#242424:80",
+        "hTd": "underline"
+       }
+      },
+      "c": "#242424",
+      "lS": 0,
+      "h": 33,
+      "tA": "left",
+      "font": "HV Florentino Italic",
+      "style": "heading",
+      "w": 442,
+      "lC": "none",
+      "x": 540,
+      "y": 317,
+      "lH": 1
+     },
+     "style": "heading",
+     "sync": [
+      "o",
+      "border.rad",
+      "shadow.style",
+      "trIn.type",
+      "style",
+      "lC",
+      "lH",
+      "tA",
+      "font",
+      "over",
+      "c",
+      "lS",
+      "styles.link.c",
+      "styles.link.tD",
+      "styles.link.hC",
+      "styles.link.hTd"
+     ]
+    },
+    {
+     "type": "text",
+     "visible": "a",
+     "content": {
+      "text": "Weddings<br>",
+      "sample": "Weddings "
+     },
+     "mobile": {
+      "size": 28,
+      "styles": {
+       "link": {}
+      },
+      "x": 10,
+      "y": 128,
+      "w": 115,
+      "h": 27,
+      "a": 0
+     },
+     "desktop": {
+      "size": 32,
+      "a": 0,
+      "styles": {
+       "link": {
+        "c": "#242424",
+        "tD": "underline",
+        "hC": "#242424:80",
+        "hTd": "underline"
+       }
+      },
+      "c": "#242424",
+      "lS": 0,
+      "h": 33,
+      "tA": "left",
+      "font": "HV Florentino Italic",
+      "style": "heading",
+      "w": 150,
+      "lC": "none",
+      "x": 77,
+      "y": 118,
+      "lH": 1
+     },
+     "style": "heading",
+     "sync": [
+      "o",
+      "border.rad",
+      "shadow.style",
+      "trIn.type",
+      "style",
+      "lC",
+      "lH",
+      "tA",
+      "font",
+      "over",
+      "c",
+      "lS",
+      "styles.link.c",
+      "styles.link.tD",
+      "styles.link.hC",
+      "styles.link.hTd"
+     ],
+     "link": {
+      "type": "url",
+      "target": "https://bellamiaexclusiveevents.com/category/real-weddings/"
+     }
+    },
+    {
+     "type": "text",
+     "visible": "a",
+     "content": {
+      "text": "Advice<br>",
+      "sample": "Advice "
+     },
+     "mobile": {
+      "size": 28,
+      "styles": {
+       "link": {}
+      },
+      "x": 130,
+      "y": 128,
+      "w": 80,
+      "h": 27,
+      "a": 0
+     },
+     "desktop": {
+      "size": 32,
+      "a": 0,
+      "styles": {
+       "link": {
+        "c": "#242424",
+        "tD": "underline",
+        "hC": "#242424:80",
+        "hTd": "underline"
+       }
+      },
+      "c": "#242424",
+      "lS": 0,
+      "h": 33,
+      "tA": "left",
+      "font": "HV Florentino Italic",
+      "style": "heading",
+      "w": 150,
+      "lC": "none",
+      "x": 257,
+      "y": 118,
+      "lH": 1
+     },
+     "style": "heading",
+     "sync": [
+      "o",
+      "border.rad",
+      "shadow.style",
+      "trIn.type",
+      "style",
+      "lC",
+      "lH",
+      "tA",
+      "font",
+      "over",
+      "c",
+      "lS",
+      "styles.link.c",
+      "styles.link.tD",
+      "styles.link.hC",
+      "styles.link.hTd"
+     ],
+     "link": {
+      "type": "url",
+      "target": "https://bellamiaexclusiveevents.com/category/advice/"
+     }
+    },
+    {
+     "type": "text",
+     "visible": "a",
+     "content": {
+      "text": "Events<br>",
+      "sample": "Events "
+     },
+     "mobile": {
+      "size": 28,
+      "styles": {
+       "link": {}
+      },
+      "x": 215,
+      "y": 128,
+      "w": 95,
+      "h": 27,
+      "a": 0
+     },
+     "desktop": {
+      "size": 32,
+      "a": 0,
+      "styles": {
+       "link": {
+        "c": "#242424",
+        "tD": "underline",
+        "hC": "#242424:80",
+        "hTd": "underline"
+       }
+      },
+      "c": "#242424",
+      "lS": 0,
+      "h": 33,
+      "tA": "left",
+      "font": "HV Florentino Italic",
+      "style": "heading",
+      "w": 150,
+      "lC": "none",
+      "x": 417,
+      "y": 118,
+      "lH": 1
+     },
+     "style": "heading",
+     "sync": [
+      "o",
+      "border.rad",
+      "shadow.style",
+      "trIn.type",
+      "style",
+      "lC",
+      "lH",
+      "tA",
+      "font",
+      "over",
+      "c",
+      "lS",
+      "styles.link.c",
+      "styles.link.tD",
+      "styles.link.hC",
+      "styles.link.hTd"
+     ],
+     "link": {
+      "type": "url",
+      "target": "https://bellamiaexclusiveevents.com/category/events/"
+     }
+    },
+    {
+     "type": "text",
+     "visible": "a",
+     "content": {
+      "text": "FRANCE Best WEDDING VENUE<br>",
+      "sample": "FRANCE Best WEDDING VENUE "
+     },
+     "mobile": {
+      "size": 36,
+      "a": 0,
+      "styles": {
+       "link": {}
+      },
+      "h": 139,
+      "tA": "left",
+      "w": 242,
+      "x": 39,
+      "y": 469,
+      "lH": 1
+     },
+     "desktop": {
+      "size": 42,
+      "a": 0,
+      "styles": {
+       "link": {
+        "c": "#242424",
+        "tD": "underline",
+        "hC": "#242424:80",
+        "hTd": "underline"
+       }
+      },
+      "c": "#242424",
+      "lS": 0,
+      "h": 89,
+      "tA": "left",
+      "font": "HV Florentino Regular",
+      "style": "heading",
+      "w": 442,
+      "lC": "uppercase",
+      "x": 540,
+      "y": 371,
+      "lH": 1.2
+     },
+     "style": "heading",
+     "sync": [
+      "o",
+      "border.rad",
+      "shadow.style",
+      "trIn.type",
+      "style",
+      "over",
+      "c",
+      "lC",
+      "lS",
+      "font",
+      "styles.link.c",
+      "styles.link.tD",
+      "styles.link.hC",
+      "styles.link.hTd"
+     ]
+    },
+    {
+     "type": "line",
+     "visible": "a",
+     "content": {},
+     "mobile": {
+      "a": 180,
+      "w": 250,
+      "x": 35,
+      "y": 635,
+      "h": 1
+     },
+     "desktop": {
+      "a": 180,
+      "dF": 15,
+      "c": "#a39e94",
+      "h": 1,
+      "dW": 21,
+      "w": 442,
+      "x": 540,
+      "y": 495,
+      "lineStyle": "solid",
+      "lineCap": "butt"
+     },
+     "sync": [
+      "o",
+      "shadow.style",
+      "trIn.type",
+      "h",
+      "c",
+      "dW",
+      "dF",
+      "lineStyle",
+      "lineCap"
+     ]
+    },
+    {
+     "type": "text",
+     "visible": "a",
+     "content": {
+      "text": "A Fairytale Wedding at Château de Bouthonvilliers: France’s Best-Kept Secret<br>Tucked away in the tranquil French countryside, just an hour outside of Paris, lies a wedding venue that feels like it was lifted straight from a fairytale — Château de Bouthonvilliers.&nbsp;<br>",
+      "sample": "A Fairytale Wedding at Château"
+     },
+     "mobile": {
+      "size": 15,
+      "tA": "left",
+      "styles": {
+       "link": {}
+      },
+      "x": 36,
+      "y": 665,
+      "w": 250,
+      "h": 154,
+      "a": 0
+     },
+     "desktop": {
+      "size": 18,
+      "a": 0,
+      "styles": {
+       "link": {
+        "c": "#242424",
+        "tD": "underline",
+        "hC": "#242424:80",
+        "hTd": "underline"
+       }
+      },
+      "c": "#242424",
+      "lS": 0,
+      "h": 121,
+      "tA": "left",
+      "font": "EB Garamond Normal",
+      "style": "paragraph",
+      "w": 442,
+      "lC": "none",
+      "x": 540,
+      "y": 531,
+      "lH": 1.6
+     },
+     "style": "paragraph",
+     "sync": [
+      "o",
+      "border.rad",
+      "shadow.style",
+      "trIn.type",
+      "style",
+      "lH",
+      "font",
+      "over",
+      "c",
+      "lC",
+      "lS",
+      "styles.link.c",
+      "styles.link.tD",
+      "styles.link.hC",
+      "styles.link.hTd"
+     ]
+    },
+    {
+     "type": "simple",
+     "visible": "a",
+     "content": {},
+     "mobile": {
+      "w": 250,
+      "h": 50,
+      "x": 35,
+      "y": 838,
+      "a": 0,
+      "bgcolor": "#a39e94",
+      "fillType": "color",
+      "border": {}
+     },
+     "desktop": {
+      "w": 321,
+      "h": 50,
+      "x": 540,
+      "y": 696,
+      "a": 0,
+      "bgcolor": "#a39e94",
+      "fillType": "color",
+      "border": {}
+     },
+     "sync": [
+      "fillType",
+      "o",
+      "border.rad",
+      "shadow.style",
+      "trIn.type",
+      "bS"
+     ],
+     "link": {
+      "type": "wp_post",
+      "target": null
+     },
+     "pubs": {
+      "click": [
+       {
+        "type": "show",
+        "block": "posts"
+       }
+      ]
+     }
+    },
+    {
+     "mobile": {
+      "size": 11,
+      "styles": {
+       "link": {}
+      },
+      "x": 62,
+      "y": 853,
+      "w": 197,
+      "h": 20,
+      "a": 0
+     },
+     "style": "subheading",
+     "visible": "a",
+     "pubs": {
+      "click": [
+       {
+        "type": "show",
+        "block": "posts"
+       }
+      ]
+     },
+     "content": {
+      "text": "read the post",
+      "sample": "read the post"
+     },
+     "type": "text",
+     "tag": "p",
+     "link": {
+      "type": "page",
+      "target": "garden-wedding-at-chateau-de-bouthonvilliers",
+      "block": "garden-wedding-at-chateau-de-bouthonvilliers"
+     },
+     "sync": [
+      "style",
+      "over",
+      "o",
+      "border.rad",
+      "shadow.style",
+      "trIn.type",
+      "tA",
+      "c",
+      "lS",
+      "lC",
+      "lH",
+      "font",
+      "styles.link.c",
+      "styles.link.tD",
+      "styles.link.hC",
+      "styles.link.hTd"
+     ],
+     "desktop": {
+      "size": 12,
+      "a": 0,
+      "styles": {
+       "link": {
+        "c": "#242424",
+        "tD": "underline",
+        "hC": "#242424:80",
+        "hTd": "underline"
+       }
+      },
+      "c": "#ffffff",
+      "lS": 0.25,
+      "h": 21,
+      "tA": "center",
+      "font": "Questrial Normal",
+      "style": "subheading",
+      "w": 267,
+      "lC": "uppercase",
+      "x": 567,
+      "y": 711,
+      "lH": 1.8
+     }
+    },
+    {
+     "type": "gallery",
+     "visible": "a",
+     "content": {
+      "items": [
+       {
+        "key": "OYr0vZ2alSLDkn9myEoWKw/313527/756619b9-bd7f-47a1-b330-6bc0ed645035.png",
+        "ar": 1.5,
+        "title": "756619B9-BD7F-47A1-B330-6BC0ED645035"
+       }
+      ]
+     },
+     "mobile": {
+      "w": 187,
+      "h": 265,
+      "x": 35,
+      "y": 119,
+      "a": 0
+     },
+     "desktop": {
+      "w": 403,
+      "h": 572,
+      "x": 58,
+      "y": 130,
+      "a": 0,
+      "gs": {
+       "t": "fit"
+      }
+     },
+     "sync": [
+      "gs.t",
+      "gallery.aa",
+      "gallery.tran",
+      "gallery.tranTime",
+      "gallery.cols",
+      "gallery.imgPad",
+      "gallery.imgBorder",
+      "gallery.fs.bgc",
+      "gallery.fs.cc",
+      "gallery.noloop",
+      "gallery.dots",
+      "gallery.imgInactive",
+      "o",
+      "border.rad",
+      "shadow.style",
+      "trIn.type"
+     ]
+    },
+    {
+     "type": "text",
+     "visible": "a",
+     "content": {
+      "text": "San Diego Wedding Blog",
+      "sample": "San Diego Wedding Blog"
+     },
+     "mobile": {
+      "w": 280,
+      "h": 41,
+      "x": 6,
+      "y": 60,
+      "a": 0,
+      "size": 15
+     },
+     "desktop": {
+      "w": 863,
+      "h": 80,
+      "x": 81,
+      "y": 31,
+      "a": 0,
+      "style": "title",
+      "size": 33
+     },
+     "style": "title",
+     "sync": [
+      "style",
+      "over",
+      "o",
+      "blur",
+      "border.rad",
+      "shadow.style",
+      "trIn.type"
+     ]
+    }
+   ],
+   "type": "block",
+   "id": "dIDRqBFiN",
+   "sync": [
+    "bgFillType",
+    "bgMediaType",
+    "stateTrIn.type",
+    "stateTrOut.type",
+    "trIn.type",
+    "trOut.type"
+   ],
+   "desktop": {
+    "w": 1200,
+    "h": 893,
+    "bgMediaType": "image",
+    "bgFillType": "color",
+    "bgColor": "#ffffff",
+    "bgImage": {
+     "key": "R8uuYhJHrYZd18F2776fFw/313527/63528c95-b542-4df6-bcf6-68102d5a6099.png",
+     "aspect_ratio": 1.49986,
+     "title": "63528C95-B542-4DF6-BCF6-68102D5A6099",
+     "type": "asset"
+    },
+    "bgOpacity": "30"
+   }
+  },
+  "AFzwxkRbs": {
+   "mobile": {
+    "w": 320,
+    "h": 162,
+    "bgFillType": "color",
+    "bgColor": "#ffffff"
+   },
+   "states": [],
+   "name": "Pagination",
+   "slug": "pagination",
+   "visible": "a",
+   "elements": [
+    {
+     "mobile": {
+      "size": 11,
+      "tA": "center",
+      "styles": {
+       "link": {}
+      },
+      "x": 90,
+      "y": 66,
+      "w": 140,
+      "h": 20,
+      "a": 0
+     },
+     "style": "heading",
+     "visible": "a",
+     "content": {
+      "text": "Older Posts →",
+      "sample": "Older Posts →"
+     },
+     "type": "text",
+     "tag": "p",
+     "sync": [
+      "o",
+      "border.rad",
+      "shadow.style",
+      "trIn.type",
+      "style",
+      "c",
+      "lH",
+      "lS",
+      "font",
+      "over",
+      "lC",
+      "styles.link.c",
+      "styles.link.tD",
+      "styles.link.hC",
+      "styles.link.hTd"
+     ],
+     "desktop": {
+      "size": 12,
+      "a": 0,
+      "styles": {
+       "link": {
+        "c": "#242424",
+        "tD": "underline",
+        "hC": "#242424:80",
+        "hTd": "underline"
+       }
+      },
+      "c": "#6e6b65",
+      "lS": 0.25,
+      "h": 24,
+      "tA": "center",
+      "font": "Questrial Normal",
+      "style": "heading",
+      "w": 174,
+      "lC": "uppercase",
+      "x": 993,
+      "y": 55,
+      "lH": 1.8
+     }
+    },
+    {
+     "mobile": {
+      "size": 11,
+      "styles": {
+       "link": {}
+      },
+      "x": 90,
+      "y": 28,
+      "w": 140,
+      "h": 20,
+      "a": 0
+     },
+     "style": "heading",
+     "visible": "a",
+     "content": {
+      "text": "← Newer Posts",
+      "sample": "← Newer Posts"
+     },
+     "wp": {
+      "field": "previous_posts_link"
+     },
+     "type": "text",
+     "tag": "p",
+     "sync": [
+      "o",
+      "border.rad",
+      "shadow.style",
+      "trIn.type",
+      "style",
+      "c",
+      "lH",
+      "lS",
+      "tA",
+      "font",
+      "over",
+      "lC",
+      "styles.link.c",
+      "styles.link.tD",
+      "styles.link.hC",
+      "styles.link.hTd"
+     ],
+     "desktop": {
+      "size": 12,
+      "a": 0,
+      "styles": {
+       "link": {
+        "c": "#242424",
+        "tD": "underline",
+        "hC": "#242424:80",
+        "hTd": "underline"
+       }
+      },
+      "c": "#6e6b65",
+      "lS": 0.25,
+      "h": 24,
+      "tA": "center",
+      "font": "Questrial Normal",
+      "style": "heading",
+      "w": 185,
+      "lC": "uppercase",
+      "x": 808,
+      "y": 55,
+      "lH": 1.8
+     }
+    },
+    {
+     "type": "line",
+     "visible": "a",
+     "content": {},
+     "mobile": {
+      "a": 180,
+      "w": 280,
+      "x": 20,
+      "y": 110,
+      "h": 1
+     },
+     "desktop": {
+      "a": 90,
+      "dF": 15,
+      "c": "#a39e94",
+      "h": 1,
+      "dW": 21,
+      "w": 36,
+      "x": 975,
+      "y": 66,
+      "lineStyle": "solid",
+      "lineCap": "butt"
+     },
+     "sync": [
+      "o",
+      "shadow.style",
+      "trIn.type",
+      "h",
+      "c",
+      "dW",
+      "dF",
+      "lineStyle",
+      "lineCap"
+     ]
+    },
+    {
+     "type": "line",
+     "visible": "a",
+     "content": {},
+     "mobile": {
+      "a": 180,
+      "w": 280,
+      "x": 20,
+      "y": 0,
+      "h": 1
+     },
+     "desktop": {
+      "a": 180,
+      "dF": 15,
+      "c": "#a39e94",
+      "h": 1,
+      "dW": 21,
+      "w": 1123,
+      "x": 39,
+      "y": 10,
+      "lineStyle": "solid",
+      "lineCap": "butt"
+     },
+     "sync": [
+      "o",
+      "shadow.style",
+      "trIn.type",
+      "h",
+      "c",
+      "dW",
+      "dF",
+      "lineStyle",
+      "lineCap"
+     ]
+    }
+   ],
+   "type": "block",
+   "id": "AFzwxkRbs",
+   "sync": [
+    "bgFillType",
+    "bgMediaType",
+    "stateTrIn.type",
+    "stateTrOut.type",
+    "trIn.type",
+    "trOut.type"
+   ],
+   "desktop": {
+    "w": 1200,
+    "h": 118,
+    "bgMediaType": "none",
+    "bgFillType": "color",
+    "bgColor": "#f6f6f3"
+   }
+  },
+  "a5mfe-sbP": {
+   "mobile": {
+    "w": 320,
+    "h": 645,
+    "bgFillType": "color",
+    "bgColor": "#ffffff"
+   },
+   "states": [],
+   "name": "Testimonial 1",
+   "slug": "testimonial-1",
+   "visible": "a",
+   "elements": [
+    {
+     "type": "simple",
+     "visible": "a",
+     "content": {},
+     "mobile": {
+      "w": 290,
+      "h": 580,
+      "x": 15,
+      "y": 31,
+      "a": 0,
+      "bgcolor": "#cbc8c1:30",
+      "fillType": "color"
+     },
+     "desktop": {
+      "w": 983,
+      "h": 678,
+      "x": 109,
+      "y": 84,
+      "a": 0,
+      "bgcolor": "#ffffff",
+      "fillType": "color",
+      "shadow": {
+       "style": "none",
+       "sc": "#000000:5",
+       "sb": 21
+      }
+     },
+     "sync": [
+      "fillType",
+      "o",
+      "border.rad",
+      "shadow.style",
+      "trIn.type",
+      "bS"
+     ]
+    },
+    {
+     "type": "simple",
+     "visible": "a",
+     "content": {},
+     "mobile": {
+      "w": 280,
+      "h": 570,
+      "x": 20,
+      "y": 36,
+      "a": 0,
+      "bgcolor": "#cbc8c1:30",
+      "fillType": "color"
+     },
+     "desktop": {
+      "shadow": {
+       "style": "none",
+       "sc": "#000000:5",
+       "sb": 21
+      },
+      "bC": "#a39e94",
+      "a": 0,
+      "h": 653,
+      "bS": "solid",
+      "bW": 1,
+      "w": 965,
+      "x": 119,
+      "y": 94,
+      "fillType": "color",
+      "bgcolor": "#ffffff:0"
+     },
+     "sync": [
+      "fillType",
+      "o",
+      "border.rad",
+      "shadow.style",
+      "trIn.type",
+      "bS"
+     ]
+    },
+    {
+     "type": "text",
+     "visible": "a",
+     "content": {
+      "text": "Just wow. She captured our day so beautifully. We are forever grateful.\"<br>",
+      "sample": "Just wow. She captured our day"
+     },
+     "mobile": {
+      "size": 26,
+      "tA": "center",
+      "styles": {
+       "link": {}
+      },
+      "x": 33,
+      "y": 156,
+      "w": 255,
+      "h": 130,
+      "a": 0
+     },
+     "desktop": {
+      "size": 36,
+      "a": 0,
+      "styles": {
+       "link": {
+        "c": "#242424",
+        "tD": "underline",
+        "hC": "#242424:80",
+        "hTd": "underline"
+       }
+      },
+      "c": "#242424",
+      "lS": 0,
+      "h": 88,
+      "tA": "center",
+      "font": "HV Florentino Italic",
+      "style": "heading",
+      "w": 629,
+      "lC": "none",
+      "x": 287,
+      "y": 333,
+      "lH": 1.2
+     },
+     "style": "heading",
+     "sync": [
+      "o",
+      "border.rad",
+      "shadow.style",
+      "trIn.type",
+      "style",
+      "lC",
+      "lH",
+      "font",
+      "over",
+      "c",
+      "lS",
+      "styles.link.c",
+      "styles.link.tD",
+      "styles.link.hC",
+      "styles.link.hTd"
+     ],
+     "tag": "p"
+    },
+    {
+     "type": "text",
+     "visible": "a",
+     "content": {
+      "text": "We don’t even know where to begin — thank you from the bottom of our hearts for making our wedding day so unforgettable.<br>From the very first meeting to the last dance, your guidance, creativity, and calm energy made the entire process feel effortless. You brought our vision to life in ways we never could have imagined.&nbsp;<br>",
+      "sample": "We don’t even know where to be"
+     },
+     "mobile": {
+      "size": 15,
+      "tA": "center",
+      "styles": {
+       "link": {}
+      },
+      "x": 46,
+      "y": 292,
+      "w": 230,
+      "h": 218,
+      "a": 0
+     },
+     "desktop": {
+      "size": 18,
+      "a": 0,
+      "styles": {
+       "link": {
+        "c": "#242424",
+        "tD": "underline",
+        "hC": "#242424:80",
+        "hTd": "underline"
+       }
+      },
+      "c": "#242424",
+      "lS": 0,
+      "h": 116,
+      "tA": "center",
+      "font": "EB Garamond Normal",
+      "style": "paragraph",
+      "w": 577,
+      "lC": "none",
+      "x": 314,
+      "y": 443,
+      "lH": 1.6
+     },
+     "style": "paragraph",
+     "sync": [
+      "o",
+      "border.rad",
+      "shadow.style",
+      "trIn.type",
+      "style",
+      "lH",
+      "font",
+      "over",
+      "c",
+      "lC",
+      "lS",
+      "styles.link.c",
+      "styles.link.tD",
+      "styles.link.hC",
+      "styles.link.hTd"
+     ]
+    },
+    {
+     "type": "text",
+     "visible": "a",
+     "content": {
+      "text": "- Allison &amp; Chase&nbsp;<br>",
+      "sample": "- Allison &amp; Chase&nbsp; "
+     },
+     "mobile": {
+      "size": 10,
+      "a": 0,
+      "styles": {
+       "link": {}
+      },
+      "c": "#242424",
+      "h": 21,
+      "tA": "center",
+      "w": 231,
+      "x": 45,
+      "y": 529
+     },
+     "desktop": {
+      "size": 14,
+      "a": 0,
+      "styles": {
+       "link": {
+        "c": "#242424",
+        "tD": "underline",
+        "hC": "#242424:80",
+        "hTd": "underline"
+       }
+      },
+      "c": "#242424",
+      "lS": 0.2,
+      "h": 19,
+      "tA": "center",
+      "font": "Questrial Normal",
+      "style": "subheading",
+      "w": 402,
+      "lC": "uppercase",
+      "x": 399,
+      "y": 620,
+      "lH": 1.8
+     },
+     "style": "subheading",
+     "sync": [
+      "o",
+      "border.rad",
+      "shadow.style",
+      "trIn.type",
+      "style",
+      "lS",
+      "over",
+      "lH",
+      "lC",
+      "font",
+      "styles.link.c",
+      "styles.link.tD",
+      "styles.link.hC",
+      "styles.link.hTd"
+     ]
+    },
+    {
+     "type": "icon",
+     "visible": "a",
+     "content": {
+      "icon": "quote-serif"
+     },
+     "mobile": {
+      "w": 39,
+      "h": 39,
+      "x": 141,
+      "y": 92,
+      "a": 0,
+      "c": "#a39e94"
+     },
+     "desktop": {
+      "w": 49,
+      "h": 49,
+      "x": 577,
+      "y": 231,
+      "a": 0,
+      "c": "#a39e94"
+     },
+     "sync": [
+      "c",
+      "o",
+      "border.rad",
+      "shadow.style",
+      "trIn.type"
+     ]
+    }
+   ],
+   "type": "block",
+   "id": "a5mfe-sbP",
+   "sync": [
+    "bgFillType",
+    "bgMediaType",
+    "stateTrIn.type",
+    "stateTrOut.type",
+    "trIn.type",
+    "trOut.type"
+   ],
+   "desktop": {
+    "w": 1200,
+    "h": 845,
+    "bgMediaType": "image",
+    "bgFillType": "color",
+    "bgColor": "#ffffff",
+    "bgImage": {
+     "key": "0lQiMa8_QAQNPq_o5rqHew/313527/screenshot_2025-07-26_at_8_15_10_pm.png",
+     "aspect_ratio": 1.50072,
+     "title": "Screenshot 2025-07-26 at 8.15.10 PM",
+     "type": "asset"
+    },
+    "bgOpacity": "100",
+    "bgScroll": "x"
+   }
+  },
+  "vQa9qlNVQ": {
+   "mobile": {
+    "w": 320,
+    "h": 912,
+    "bgFillType": "color",
+    "bgColor": "#ffffff"
+   },
+   "states": [],
+   "name": "Blog Contact",
+   "slug": "blog-contact",
+   "visible": "a",
+   "elements": [
+    {
+     "type": "text",
+     "visible": "a",
+     "content": {
+      "text": "Ready to work together?<br><br><br>",
+      "sample": "Ready to work together?   "
+     },
+     "mobile": {
+      "size": 36,
+      "a": 0,
+      "styles": {
+       "link": {}
+      },
+      "c": "#ffffff",
+      "h": 126,
+      "tA": "left",
+      "w": 280,
+      "x": 20,
+      "y": 448,
+      "lH": 1.2
+     },
+     "desktop": {
+      "size": 55,
+      "a": 0,
+      "styles": {
+       "link": {
+        "c": "#242424",
+        "tD": "underline",
+        "hC": "#242424:80",
+        "hTd": "underline"
+       }
+      },
+      "c": "#ffffff",
+      "lS": 0,
+      "h": 109,
+      "tA": "left",
+      "font": "HV Florentino Regular",
+      "style": "heading",
+      "w": 531,
+      "lC": "uppercase",
+      "x": 590,
+      "y": 208,
+      "lH": 1
+     },
+     "style": "heading",
+     "sync": [
+      "o",
+      "border.rad",
+      "shadow.style",
+      "trIn.type",
+      "style",
+      "over",
+      "lC",
+      "lS",
+      "font",
+      "styles.link.c",
+      "styles.link.tD",
+      "styles.link.hC",
+      "styles.link.hTd"
+     ]
+    },
+    {
+     "type": "text",
+     "visible": "a",
+     "content": {
+      "text": "Let’s bring your vision to life — with ease, intention, and a little magic. We can’t wait to hear your story. Ready to create your perfect day?<br>We combine modern design with heartfelt planning to craft weddings that truly reflect you. Let’s bring your vision to life — effortlessly and beautifully.<br>",
+      "sample": "Let’s bring your vision to lif"
+     },
+     "mobile": {
+      "size": 15,
+      "tA": "left",
+      "styles": {
+       "link": {}
+      },
+      "x": 20,
+      "y": 588,
+      "w": 280,
+      "h": 185,
+      "a": 0
+     },
+     "desktop": {
+      "size": 18,
+      "a": 0,
+      "styles": {
+       "link": {
+        "c": "#242424",
+        "tD": "underline",
+        "hC": "#242424:80",
+        "hTd": "underline"
+       }
+      },
+      "c": "#ffffff",
+      "lS": 0,
+      "h": 145,
+      "tA": "left",
+      "font": "EB Garamond Normal",
+      "style": "paragraph",
+      "w": 531,
+      "lC": "none",
+      "x": 590,
+      "y": 344,
+      "lH": 1.6
+     },
+     "style": "paragraph",
+     "sync": [
+      "o",
+      "border.rad",
+      "shadow.style",
+      "trIn.type",
+      "style",
+      "lH",
+      "font",
+      "over",
+      "c",
+      "lC",
+      "lS",
+      "styles.link.c",
+      "styles.link.tD",
+      "styles.link.hC",
+      "styles.link.hTd"
+     ]
+    },
+    {
+     "mobile": {
+      "w": 280,
+      "h": 50,
+      "x": 20,
+      "y": 809,
+      "a": 0,
+      "bgcolor": "#a39e94",
+      "fillType": "color",
+      "border": {}
+     },
+     "name": "button",
+     "slug": "button",
+     "visible": "a",
+     "content": {},
+     "type": "simple",
+     "link": {
+      "type": "page",
+      "target": "contact"
+     },
+     "sync": [
+      "fillType",
+      "o",
+      "border.rad",
+      "shadow.style",
+      "trIn.type",
+      "bS"
+     ],
+     "desktop": {
+      "w": 289,
+      "h": 50,
+      "x": 590,
+      "y": 529,
+      "a": 0,
+      "bgcolor": "#f6f6f3",
+      "fillType": "color",
+      "border": {}
+     }
+    },
+    {
+     "mobile": {
+      "size": 11,
+      "styles": {
+       "link": {}
+      },
+      "x": 27,
+      "y": 824,
+      "w": 267,
+      "h": 20,
+      "a": 0
+     },
+     "style": "subheading",
+     "visible": "a",
+     "content": {
+      "text": "contact us",
+      "sample": "contact us"
+     },
+     "type": "text",
+     "tag": "p",
+     "link": {
+      "type": "page",
+      "target": "contact"
+     },
+     "sync": [
+      "style",
+      "over",
+      "o",
+      "border.rad",
+      "shadow.style",
+      "trIn.type",
+      "tA",
+      "c",
+      "lS",
+      "lC",
+      "lH",
+      "font",
+      "styles.link.c",
+      "styles.link.tD",
+      "styles.link.hC",
+      "styles.link.hTd"
+     ],
+     "desktop": {
+      "size": 12,
+      "a": 0,
+      "styles": {
+       "link": {
+        "c": "#242424",
+        "tD": "underline",
+        "hC": "#242424:80",
+        "hTd": "underline"
+       }
+      },
+      "c": "#242424",
+      "lS": 0.25,
+      "h": 21,
+      "tA": "center",
+      "font": "Questrial Normal",
+      "style": "subheading",
+      "w": 225,
+      "lC": "uppercase",
+      "x": 629,
+      "y": 544,
+      "lH": 1.8
+     }
+    },
+    {
+     "type": "graphic",
+     "visible": "a",
+     "content": {
+      "key": "sENnI3bC-rIj1Tr7TkJ-zw/313527/ddphoto-73.jpg",
+      "aspect_ratio": 0.66667,
+      "title": "ddphoto-73",
+      "type": "asset"
+     },
+     "mobile": {
+      "w": 280,
+      "h": 396,
+      "x": 20,
+      "y": 31,
+      "a": 0
+     },
+     "desktop": {
+      "w": 443,
+      "h": 611,
+      "x": 79,
+      "y": 88,
+      "a": 0
+     },
+     "sync": [
+      "gs.t",
+      "o",
+      "border.rad",
+      "shadow.style",
+      "trIn.type"
+     ]
+    }
+   ],
+   "type": "block",
+   "id": "vQa9qlNVQ",
+   "sync": [
+    "bgFillType",
+    "bgMediaType",
+    "stateTrIn.type",
+    "stateTrOut.type",
+    "trIn.type",
+    "trOut.type"
+   ],
+   "desktop": {
+    "w": 1200,
+    "h": 786,
+    "bgMediaType": "none",
+    "bgFillType": "color",
+    "bgColor": "#a39e94"
+   }
+  }
+ },
+ "version": 3,
+ "wp": {
+  "template": "index"
+ },
+ "type": "page",
+ "id": "BvnULcvYS",
+ "sync": [
+  "bgFillType",
+  "defaultTrIn.type",
+  "defaultTrOut.type"
+ ],
+ "desktop": {
+  "w": 1200,
+  "bgFillType": "color",
+  "bgColor": "#ffffff"
+ },
+ "home": 0
+}

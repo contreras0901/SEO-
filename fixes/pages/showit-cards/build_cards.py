@@ -5,6 +5,7 @@ src, dst = sys.argv[1], sys.argv[2]
 page = json.load(open(src))
 NEAR_BLACK, GREY, ROSE, ROSE_HOVER, WHITE = '#1f1f1f', '#6b6b6b', '#c9a3a0', '#b88e8b', '#ffffff'
 SERIF, SERIF_ITALIC, SANS = 'HV Florentino Regular', 'HV Florentino Italic', 'Questrial Normal'
+NAMES_FONT = 'Wulkan Display Light'   # Founder 2026-10-06: smaller, more elegant modern font for the couple line
 TEXT_SYNC = ["o","border.rad","shadow.style","trIn.type","style","lC","lH","tA","font","over","c","lS",
              "styles.link.c","styles.link.tD","styles.link.hC","styles.link.hTd"]
 LINK_STYLES = {"c": NEAR_BLACK, "tD": "none", "hC": NEAR_BLACK, "hTd": "none"}
@@ -45,20 +46,20 @@ def card(photo):
     els = [photo]
     # Line 1: couple <- post excerpt. Serif, title case, 40/30 px, near-black, 0.01 em, centered. H3.
     els.append(text("h3", "Roberta &amp; Sid<br>", "Roberta & Sid",
-        {"x": dx, "y": t_d, "w": dw, "h": 48, "size": 40, "font": SERIF, "c": NEAR_BLACK, "lS": 0.01, "lC": "none", "tA": "center", "lH": 1.2},
-        {"x": mx, "y": t_m, "w": mw, "h": 36, "size": 30}, wp="post_excerpt", link={"type": "wp_post", "target": None}))
+        {"x": dx, "y": t_d, "w": dw, "h": 36, "size": 30, "font": NAMES_FONT, "c": NEAR_BLACK, "lS": 0.04, "lC": "none", "tA": "center", "lH": 1.2},
+        {"x": mx, "y": t_m, "w": mw, "h": 29, "size": 24}, wp="post_excerpt", link={"type": "wp_post", "target": None}))
     # Line 2: WEDDING GALLERY, static. Serif, 16 px, 0.3 em, caps, near-black.
     els.append(text("p", "Wedding Gallery<br>", "Wedding Gallery",
-        {"x": dx, "y": t_d + 56, "w": dw, "h": 24, "size": 16, "font": SERIF, "c": NEAR_BLACK, "lS": 0.3, "lC": "uppercase", "tA": "center", "lH": 1.5},
-        {"x": mx, "y": t_m + 42, "w": mw, "h": 20, "size": 13}, link={"type": "wp_post", "target": None}))
+        {"x": dx, "y": t_d + 44, "w": dw, "h": 24, "size": 16, "font": SERIF, "c": NEAR_BLACK, "lS": 0.3, "lC": "uppercase", "tA": "center", "lH": 1.5},
+        {"x": mx, "y": t_m + 35, "w": mw, "h": 20, "size": 13}, link={"type": "wp_post", "target": None}))
     # Line 3: venue <- post title, rendered uppercase. 13 px, 0.25 em, grey.
     els.append(text("p", "La Valencia Hotel<br>", "La Valencia Hotel",
-        {"x": dx, "y": t_d + 86, "w": dw, "h": 24, "size": 13, "font": SANS, "c": GREY, "lS": 0.25, "lC": "uppercase", "tA": "center", "lH": 1.8},
-        {"x": mx, "y": t_m + 66, "w": mw, "h": 20, "size": 11}, wp="post_title", link={"type": "wp_post", "target": None}))
+        {"x": dx, "y": t_d + 74, "w": dw, "h": 24, "size": 13, "font": SANS, "c": GREY, "lS": 0.25, "lC": "uppercase", "tA": "center", "lH": 1.8},
+        {"x": mx, "y": t_m + 59, "w": mw, "h": 20, "size": 11}, wp="post_title", link={"type": "wp_post", "target": None}))
     # Button: full width, 24 px below the venue line, 24 px vertical padding, rose, white italic caps.
     els.append(button(
-        {"x": dx, "y": t_d + 134, "w": dw, "h": 61, "padding": "24px 12px 24px 12px"},
-        {"x": mx, "y": t_m + 104, "w": mw, "h": 48, "padding": "18px 10px 18px 10px"}))
+        {"x": dx, "y": t_d + 122, "w": dw, "h": 61, "padding": "24px 12px 24px 12px"},
+        {"x": mx, "y": t_m + 97, "w": mw, "h": 48, "padding": "18px 10px 18px 10px"}))
     return els
 
 changed = 0
