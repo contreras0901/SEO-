@@ -41,3 +41,12 @@ Alt text on each card photo: `[Couple] wedding at [Venue]`, e.g. `Roberta and Si
 6. The homepage Recent Features row is hand-built: paste the table content directly.
 7. Publish once. Verify each card links to its post, the button hover darkens to `#b88e8b`, and no card still shows the stationery placeholder photo. Open one post and confirm nothing inside it changed.
 8. Record before/after in `../06-baseline-and-change-log.md`.
+
+## 4. Build from a cloud session (Founder set up access 2026-10-06)
+
+The Founder added to the cloud environment: a Basic credential "Bella Mia WP" (WordPress Application Password for `info@bellamiaexclusiveevents.com`, host `bellamiaexclusiveevents.com`, path `/wp-json/`) and environment variables `SHOWIT_EMAIL` and `SHOWIT_PASSWORD`. These reach only sessions started after the save; the 2026-10-06 session that wrote this spec saw neither (WordPress host answered 403 from the proxy, variables unset).
+
+1. **Check access first.** `env | grep SHOWIT_` must show both names; `curl -sS https://bellamiaexclusiveevents.com/wp-json/wp/v2/users/me?context=edit` must return the Founder's user JSON (the proxy adds the Basic header). If the host is still 403, the Founder adds `bellamiaexclusiveevents.com` under Network access → Allowed domains in the environment settings.
+2. **WordPress (REST, no Showit publish needed).** For each post in section 2, `POST /wp-json/wp/v2/posts/<id>` with `{"title": "<Couple>", "excerpt": "<VENUE>"}`; post ids: La Valencia 244, Loews 246, Westgate 248, Aviara 194, Erika & Julio 250. Read each post back and confirm `slug` and the Yoast fields did not change. Do not touch `content`.
+3. **Showit (headless Chromium at `/opt/pw-browsers/chromium-1194/chrome-linux/chrome`, driven with Playwright or the DevTools protocol).** `https://account.showit.com/login` is a JS app (form renders after `/assets/index-*.js` loads). Sign in with the two variables, open the site, then Blog Templates → the Blog template's Posts canvas (three card views `Oogq7OHww_states_0..2`) and the Category template's Posts canvas, and rebuild each card per section 1 and step 3.2–3.3. If Showit asks for an emailed verification code at login, stop and ask the Founder for it. If the editor cannot be driven headlessly, fall back to the Mac session (Chrome on the debug port), which is the proven route.
+4. Publish once, verify the live `/blog/` row at 1440 and 430 px, and record the result in `../06-baseline-and-change-log.md`.
