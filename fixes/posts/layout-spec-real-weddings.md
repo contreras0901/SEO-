@@ -34,6 +34,14 @@ Three columns on desktop, stacked on mobile.
   - `SCROLL FOR FULL GALLERY` small caps, letter-spacing 0.3em, ~11px, at the bottom.
 - The right-column text should be a paragraph tag, not a heading; the H1 is in the hero.
 
+### Canvas 2b: Gallery title card (alternative to Canvas 2, adopted for the La Valencia post 2026-10-03)
+Reference: Serene's "Joyce & Elliot / WEDDING GALLERY / TWIN OAKS GOLF COURSE / VIEW THE GALLERY" card (Founder screenshot 2026-10-03). Centered, white, no photos and no vendor lines in the card; the vendor team moves to Canvas 5.
+- `Roberta & Sid` serif, title case, ~40px desktop / 30px phone, normal weight. Tag H2 on a post (the H1 is the post title); H1 on a gallery page.
+- `WEDDING GALLERY` small caps, letter-spacing 0.3em, ~17px.
+- `LA VALENCIA HOTEL` small caps, letter-spacing 0.3em, ~11px, muted gray.
+- Button `VIEW THE GALLERY`: italic small caps ~12px, letter-spacing 0.3em, white on a soft vintage rose `#c9a3a0` (hover `#b88e8b`; FOUNDER 2026-10-03), padding 17px × 90px (36px sides on phones). Links to the gallery page, or to a `#gallery` anchor on the first photo row when the photos live in the post itself.
+- HTML and CSS: `la-valencia-title-card.html` in this folder.
+
 ### Canvas 3: Story (white, narrow measure ~900px, centered)
 - Two or three paragraphs from the post body (the "Erica and Patrick" and "Why Aviara suited them" sections), serif ~18px, line-height 1.7, centered text.
 - This is what makes the gallery page rank rather than just sit there. Keep 150–300 words here; the full post lives on the blog.

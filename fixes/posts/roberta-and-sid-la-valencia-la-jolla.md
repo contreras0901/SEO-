@@ -1,6 +1,6 @@
 # Real wedding post: Roberta & Sid at La Valencia Hotel, La Jolla
 
-**Status:** PUBLISHED 2026-10-02 at `https://bellamiaexclusiveevents.com/2026/10/02/la-valencia-hotel-wedding-la-jolla-roberta-and-sid/` (WordPress post 244, Real Weddings, 17 Peris Photography photos from `~/Documents/Bella Mia Exclusive Events/La Valencia/IMG_0953–0983`, media 275–293, featured = pink facade 275; Showit template "La Valencia post template"). Previously: WORDPRESS DRAFT 2026-10-01 (post 244, full text, Real Weddings, Yoast title/meta set); waiting for the 21 Peris Photography photos, which are not on the Founder's Mac. Previously: APPROVED FOR PUBLICATION, 2026-10-01. Couple, venue, role, vendor team, El Jardín ceremony, Veranda Ballroom/Salon/Terraza reception, palette, rentals, permissions, and the design inferences: all FOUNDER CONFIRMED. Optional fills can be deleted. Twenty-one photos in hand.
+**Status:** REVERT PENDING 2026-10-06 (Founder: "no revert back"): the card returns to the original layout (ROBERTA & SID / LA VALENCIA HOTEL / eight vendor lines / SCROLL FOR FULL GALLERY, no button) and the end-of-post vendor team to the pipe-separated block; the gallery-card look moves to the blog listing, see `../pages/blog-listing-wedding-cards.md`. Before that: the intro card now carries the eight vendor lines in italic under ROBERTA & SID / LA VALENCIA HOTEL, with the rose "View the Gallery" button beneath; the end-of-post Vendor Team shows the same eight lines. Earlier the same day: LIVE-POST FIX APPLIED 2026-10-06 over the WordPress REST API from the cloud session (environment credential "WordPress", Basic auth with an application password created via `/wp-admin/authorize-application.php`): intro card restyled to the Serene gallery-card style (names / WEDDING GALLERY / LA VALENCIA HOTEL / rose "View the Gallery" button → `#gallery` on the first photo row); vendor lines removed from the card; the end-of-post "The Vendor Team" block already carried all eight credits (someone had added Hair & Makeup and DJ to the card on 2026-10-04). Verified live in HTML and in desktop and iPhone screenshots. Previously: PUBLISHED 2026-10-02 at `https://bellamiaexclusiveevents.com/2026/10/02/la-valencia-hotel-wedding-la-jolla-roberta-and-sid/` (WordPress post 244, Real Weddings, 17 Peris Photography photos from `~/Documents/Bella Mia Exclusive Events/La Valencia/IMG_0953–0983`, media 275–293, featured = pink facade 275; Showit template "La Valencia post template"). Previously: WORDPRESS DRAFT 2026-10-01 (post 244, full text, Real Weddings, Yoast title/meta set); waiting for the 21 Peris Photography photos, which are not on the Founder's Mac. Previously: APPROVED FOR PUBLICATION, 2026-10-01. Couple, venue, role, vendor team, El Jardín ceremony, Veranda Ballroom/Salon/Terraza reception, palette, rentals, permissions, and the design inferences: all FOUNDER CONFIRMED. Optional fills can be deleted. Twenty-one photos in hand.
 **Where it publishes:** WordPress blog, category Real Weddings, with the Erica & Patrick post template. Linked from the La Jolla city page.
 
 ## SEO fields
@@ -50,16 +50,53 @@ Two sources of music, on purpose. Paper Moon Music played classical guitar for t
 
 #### The team
 
-- **Planning, design, florals, and rentals:** Bella Mia Exclusive Events
-- **Venue:** La Valencia Hotel, La Jolla
-- **Photography:** Brook Limperis, Peris Photography
-- **Videography:** LAXQR Films
-- **Hair and makeup:** Dannielle Robeson
-- **Live music:** Paper Moon Music
-- **DJ:** Sammy Denatto, Dancing DJ Productions
-- **Wedding cake:** Kimberly, The Fabulous Cake Girls
+Nine credits, matching the Founder's Instagram caption (2026-10-03). Every one of them goes on the live post.
 
-Link each to its website or Instagram: `@perisphotography`, `@laxqr`, `@dannielle_robeson`, `@papermoonmusic`, `@thefabulouscakegirls`, `@lavalenciahotel`.
+- **Wedding planning and design:** Bella Mia Exclusive Events (`@bellamiaexclusiveevents`)
+- **Photography:** Brook Limperis, Peris Photography (`@perisphotography`)
+- **Hair and makeup:** Dannielle Robeson (`@dannielle_robeson`)
+- **Venue:** La Valencia Hotel, La Jolla (`@lavalenciahotel`)
+- **Videography:** LAXQR Films (`@laxqr`)
+- **Wedding cake:** Kimberly, The Fabulous Cake Girls (`@thefabulouscakegirls`)
+- **DJ:** Sammy Denatto, Dancing DJ Productions
+- **Event rentals:** Bella Mia Exclusive Events (`@bellamiaexclusiveevents`)
+- **Live music:** Paper Moon Music (`@papermoonmusic`)
+
+Florals were also Bella Mia's (FOUNDER CONFIRMED 2026-10-01); keep that in the body copy. Link each credit to its website or Instagram. DJ Sammy Denatto has no handle in the caption; link to Dancing DJ Productions' website if one exists, otherwise leave unlinked.
+
+**LIVE-POST FIX, 2026-10-03. DONE 2026-10-06 (see Status). Kept for the record.** Two changes to WordPress post 244, both in the Serene-style HTML block served by the Showit "La Valencia post template".
+
+1. **Title card: rebuild in the "Joyce & Elliot" style** (Founder screenshot of a Serene post, 2026-10-03: "make it look like this"). The current card reads "ROBERTA & SID / LA VALENCIA HOTEL / five vendor lines / SCROLL FOR FULL GALLERY". It becomes, centered, white background, no vendor lines:
+   - `Roberta & Sid`: serif, title case, ~40px desktop / 30px phone, normal weight. Tag H2 (the H1 is the post title).
+   - `WEDDING GALLERY`: small caps, letter-spacing 0.3em, ~17px.
+   - `LA VALENCIA HOTEL`: small caps, letter-spacing 0.3em, ~11px, muted gray.
+   - Button `VIEW THE GALLERY`: italic small caps, white on a soft vintage rose `#c9a3a0` (hover `#b88e8b`; FOUNDER 2026-10-03, replacing the gold accent and Serene's olive), ~17px tall padding, ~90px side padding on desktop, 36px on phones. Links to `#gallery`, an anchor placed on the first photo row of this post, because this wedding has no separate gallery page. Repoint to the gallery page if one is built later.
+   - Exact HTML and CSS: `la-valencia-title-card.html` in this folder (open it in a browser for the rendered preview).
+   - Record the before-state (the five-line card quoted below) in `../06-baseline-and-change-log.md`; already done 2026-10-03.
+2. **Vendor team moves to the end of the post** as a "The Vendor Team" block (H2 small caps, one centered paragraph, one credit per line, names linked), with all eight credits. The HTML is in the same preview file. Live before-state of the card's vendor lines:
+
+```
+Planning, Design, Florals & Rentals: Bella Mia Exclusive Events
+Photographer: Peris Photography
+Videographer: LAXQR Films
+Live Music: Paper Moon Music
+Cake: The Fabulous Cake Girls
+```
+
+Missing from it: hair and makeup (Dannielle Robeson) and the DJ (Sammy Denatto). The eight-line replacement:
+
+```
+Planning & Design: Bella Mia Exclusive Events
+Florals & Rentals: Bella Mia Exclusive Events
+Photographer: Peris Photography
+Videographer: LAXQR Films
+Hair & Makeup: Dannielle Robeson
+DJ: Sammy Denatto, Dancing DJ Productions
+Live Music: Paper Moon Music
+Cake: The Fabulous Cake Girls
+```
+
+Also make the body's "The team" list above match. Check desktop (1440) and phone (430) after the edit. WordPress content edit only; no Showit publish needed unless the template's canvas heights change. If the same card style is wanted on the Aviara, Westgate, and Loews posts, it is "Canvas 2b" in `layout-spec-real-weddings.md`.
 
 #### See the full gallery
 

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>La Valencia title card</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+  :root{ --bg:#ffffff; --ink:#1f1f1f; --muted:#6b6b6b; --accent:#8a7a4d; --rose:#c9a3a0; --rose-hover:#b88e8b; --rule:#e5e0d8; }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --bg:#141311; --ink:#f1ede6; --muted:#a8a29a; --accent:#c2b07c; --rose:#b58b88; --rose-hover:#c9a3a0; --rule:#2e2a25; } }
+  :root[data-theme="dark"]{ --bg:#141311; --ink:#f1ede6; --muted:#a8a29a; --accent:#c2b07c; --rose:#b58b88; --rose-hover:#c9a3a0; --rule:#2e2a25; }
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:"Cormorant Garamond",Georgia,serif;}
+  .note{max-width:900px;margin:0 auto;padding:14px 16px;font-size:14px;color:var(--muted);border-bottom:1px solid var(--rule)}
+  .wrap{max-width:900px;margin:0 auto;padding:40px 16px 80px}
+  h2.sec{font-size:12px;letter-spacing:.3em;text-transform:uppercase;font-weight:400;color:var(--muted);margin:40px 0 16px}
+  pre{font:13px/1.5 ui-monospace,Menlo,Consolas,monospace;background:rgba(127,127,127,.08);padding:16px;overflow:auto;white-space:pre-wrap}
+
+  /* === The block to paste into WordPress post 244 (replace the five-line vendor card) === */
+  .bm-title-card{text-align:center;padding:48px 16px 56px;font-family:"Cormorant Garamond",Georgia,serif;color:inherit}
+  .bm-title-card .bm-names{font-size:clamp(30px,4.2vw,40px);font-weight:400;line-height:1.15;letter-spacing:.02em;margin:0 0 26px}
+  .bm-title-card .bm-kicker{font-size:clamp(14px,1.6vw,17px);letter-spacing:.3em;text-transform:uppercase;font-weight:400;margin:0 0 22px}
+  .bm-title-card .bm-venue{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--muted,#6b6b6b);margin:0 0 34px}
+  .bm-title-card .bm-btn{display:inline-block;background:var(--rose,#c9a3a0);color:#fff;font-style:italic;font-size:12px;letter-spacing:.3em;text-transform:uppercase;text-decoration:none;padding:17px 90px;max-width:100%;box-sizing:border-box}
+  .bm-title-card .bm-btn:hover{background:var(--rose-hover,#b88e8b)}
+  @media (max-width:480px){ .bm-title-card .bm-btn{padding:16px 36px} }
+</style>
+</head>
+<body>
+<div class="note">Preview of the new title card for the La Valencia post (Roberta &amp; Sid). Structure borrowed from the Serene "Joyce &amp; Elliot" card the Founder shared on 2026-10-03; fonts are Bella Mia's; the button is a soft vintage rose (#c9a3a0, hover #b88e8b) per the Founder, 2026-10-03. The vendor list leaves this card and moves to "The Vendor Team" at the end of the post.</div>
+
+<div class="wrap">
+  <h2 class="sec">Rendered</h2>
+
+  <!-- BEGIN paste block -->
+  <div class="bm-title-card">
+    <h2 class="bm-names">Roberta &amp; Sid</h2>
+    <p class="bm-kicker">Wedding Gallery</p>
+    <p class="bm-venue">La Valencia Hotel</p>
+    <a class="bm-btn" href="#gallery">View the Gallery</a>
+  </div>
+  <!-- END paste block -->
+
+  <h2 class="sec">HTML to paste</h2>
+<pre>&lt;div class="bm-title-card"&gt;
+  &lt;h2 class="bm-names"&gt;Roberta &amp;amp; Sid&lt;/h2&gt;
+  &lt;p class="bm-kicker"&gt;Wedding Gallery&lt;/p&gt;
+  &lt;p class="bm-venue"&gt;La Valencia Hotel&lt;/p&gt;
+  &lt;a class="bm-btn" href="#gallery"&gt;View the Gallery&lt;/a&gt;
+&lt;/div&gt;</pre>
+
+  <h2 class="sec">CSS to paste (once, in the same HTML block or the template's custom CSS)</h2>
+<pre>.bm-title-card{text-align:center;padding:48px 16px 56px;font-family:"Cormorant Garamond",Georgia,serif}
+.bm-title-card .bm-names{font-size:clamp(30px,4.2vw,40px);font-weight:400;line-height:1.15;letter-spacing:.02em;margin:0 0 26px}
+.bm-title-card .bm-kicker{font-size:clamp(14px,1.6vw,17px);letter-spacing:.3em;text-transform:uppercase;font-weight:400;margin:0 0 22px}
+.bm-title-card .bm-venue{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:#6b6b6b;margin:0 0 34px}
+.bm-title-card .bm-btn{display:inline-block;background:#c9a3a0;color:#fff;font-style:italic;font-size:12px;letter-spacing:.3em;text-transform:uppercase;text-decoration:none;padding:17px 90px;max-width:100%;box-sizing:border-box}
+.bm-title-card .bm-btn:hover{background:#b88e8b}
+@media (max-width:480px){.bm-title-card .bm-btn{padding:16px 36px}}</pre>
+
+  <h2 class="sec">Vendor team block (end of post, replaces nothing; new)</h2>
+<pre>&lt;div class="bm-team" id="vendor-team"&gt;
+  &lt;h2&gt;The Vendor Team&lt;/h2&gt;
+  &lt;p&gt;
+    Planning &amp;amp; Design: &lt;a href="https://bellamiaexclusiveevents.com"&gt;Bella Mia Exclusive Events&lt;/a&gt;&lt;br&gt;
+    Florals &amp;amp; Rentals: &lt;a href="https://bellamiaexclusiveevents.com/floral-designs-and-more"&gt;Bella Mia Exclusive Events&lt;/a&gt;&lt;br&gt;
+    Photographer: &lt;a href="https://www.instagram.com/perisphotography/"&gt;Peris Photography&lt;/a&gt;&lt;br&gt;
+    Videographer: &lt;a href="https://www.instagram.com/laxqr/"&gt;LAXQR Films&lt;/a&gt;&lt;br&gt;
+    Hair &amp;amp; Makeup: &lt;a href="https://www.instagram.com/dannielle_robeson/"&gt;Dannielle Robeson&lt;/a&gt;&lt;br&gt;
+    DJ: Sammy Denatto, Dancing DJ Productions&lt;br&gt;
+    Live Music: &lt;a href="https://www.instagram.com/papermoonmusic/"&gt;Paper Moon Music&lt;/a&gt;&lt;br&gt;
+    Cake: &lt;a href="https://www.instagram.com/thefabulouscakegirls/"&gt;The Fabulous Cake Girls&lt;/a&gt;
+  &lt;/p&gt;
+&lt;/div&gt;</pre>
+</div>
+</body>
+</html>
