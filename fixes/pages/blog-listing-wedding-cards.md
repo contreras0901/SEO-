@@ -30,7 +30,7 @@ The names come from the post **excerpt** so no Showit text is hard-coded per pos
 | 194 | Park Hyatt Aviara Resort | `Erica & Patrick` |
 | 116 | Garden Wedding at Château de Bouthonvilliers | `[FOUNDER: couple's names]` (title is not a venue; rename to the venue if the names are known, or leave it off the listing) |
 
-Current excerpts are one-line summaries ("Roberta and Sid's Mediterranean wedding at La Valencia Hotel…"); record them in `../06-baseline-and-change-log.md` before overwriting. These are REST edits the cloud session can make once the Founder approves writes to the live site.
+Current excerpts are one-line summaries ("Roberta and Sid's Mediterranean wedding at La Valencia Hotel…"); record them in `../06-baseline-and-change-log.md` before overwriting. DONE 2026-10-06: the five excerpts above are set (before-values in the change log); 116 is still empty.
 
 ## "Wedding blog posts only"
 
