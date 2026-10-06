@@ -2,7 +2,7 @@
 
 **Found:** 2026-10-06, by reading the live HTML of every post from the cloud session (no CMS access from there).
 **Founder report:** "none of my blog posts are correct nor showing what happened."
-**Status:** CAUSE CONFIRMED IN SHOWIT 2026-10-06 (cloud session, logged into app.showit.com): the three post templates were deleted. Fix half-built; see "State of the Showit editor" below. Nothing has been published.
+**Status:** FIXED AND PUBLISHED 2026-10-06 (cloud session, app.showit.com, three Showit publishes, the last at 12:30 PDT). All four posts verified live on desktop and mobile: own hero, vendor list, story, photos, vendor team and CTA; Erika and Château posts unchanged; blog, category and home pages unchanged. The Château post is now a Custom template matched by slug, and "Real Wedding Post" is the default Single Post template with the WordPress body rendered through a Post Content element, so a post can no longer fall back to the Château text. See "What was done" below.
 
 ## What is wrong
 
@@ -91,6 +91,15 @@ Pass: `Chateau:0` and `own-text:1` on all four lines. Then add a row to `../06-b
 2. **Real Wedding Post → Single Post.** Site → "Real Wedding Post" → TEMPLATE → TEMPLATE INFO → WordPress Template: **Single Post**. It becomes the default for every post, including the four broken ones and any future post.
 3. **Make it generic.** In "Real Wedding Post": Hero canvas → hide on desktop and mobile (the post bodies carry their own hero). Content canvas → right panel WordPress: **Post Content** (instead of Static Content), then delete the Erika-specific elements (the graphics, "All the Details:", "Modern Estate Wedding", "When a Grammy-winning performer…", "We had the incredible honor…") so the canvas holds only the WordPress content, sized to the 1100 px measure. Leave Title (the "Weddings" label), About and Blog Contact.
 4. **Publish**, then run the check in section D. Expected after publish: the four posts show their own hero, vendor list, story and photos; Erika and Château unchanged.
+
+## What was done (2026-10-06, cloud session)
+
+1. Template "Garden Wedding at Château de Bouthonvilliers": WordPress Template Single Post → **Custom**, Template Name `single-post-garden-wedding-at-chateau-de-bouthonvilliers`.
+2. New template **"Real Wedding Post"** (duplicate of the Erika template): WordPress Template → **Single Post** (the site default). Hero canvas hidden on desktop and mobile. Content canvas: every Erika-specific element deleted; the one remaining text element has WordPress Placeholder **Post Content**, desktop 1100 × auto at x 50 / y 40, mobile 280 wide at x 20 / y 40; canvas type Grow with Content on both devices, initial height 600. Title ("Weddings" label), About and Blog Contact canvases unchanged.
+3. Published with the legacy Publish Engine (the Beta Publish Engine toggle was switched on by a mis-click and switched back off before publishing).
+4. Lesson for scripted Showit sessions: Showit autosaves with a delay. Wait for the header to read "Saved" before closing the browser, then reload and re-check; three edits were lost that way before the wait was added.
+
+Known small item: the WordPress body of each post carries its own hero block, so the H1 on these four posts is now the body's names block inside the Post Content area rather than a Showit heading; the Yoast title and meta still carry the venue and couple.
 
 ## Also seen while checking (not part of this fix)
 
