@@ -1,0 +1,134 @@
+<!-- Bella Mia: Real Weddings cards on the blog home page (/blog/ and /blog/page/N/ only).
+     Paste this whole block into Showit > Site > Blog Templates > "Blog" template > Advanced Settings > Custom Head HTML, then Publish.
+     Scope: body.blog only. Category pages, single posts, and the Home page are untouched.
+     Data: couple = WordPress post excerpt ("Roberta & Sid"), venue = WordPress post title ("La Valencia Hotel"), photo = featured image.
+     Spec: fixes/pages/real-weddings-card-spec.md. Prepared 2026-10-06. -->
+<style>
+/* Hide the italic "Real Weddings" label and the divider line on each card */
+body.blog .sib-posts [data-sid$="_1"],
+body.blog .sib-posts [data-sid$="_2"] { display: none !important; }
+/* The original venue title box (WordPress post title) is replaced by the script; keep it out of the way */
+body.blog .sib-posts [data-sid$="_3"].bm-moved { display: none !important; }
+
+body.blog .bm-card-text { position: absolute; text-align: center; box-sizing: border-box; }
+body.blog .bm-card-text .bm-names,
+body.blog .bm-card-text .bm-gallery,
+body.blog .bm-card-text h2 { margin: 0 !important; padding: 0; text-align: center !important; }
+
+body.blog .bm-card-text .bm-names {
+  font-family: 'HV Florentino Regular', 'EB Garamond', Georgia, serif;
+  font-weight: 400; text-transform: uppercase; color: #242424;
+  font-size: 30px; line-height: 1.15; letter-spacing: 0.02em; margin-bottom: 14px !important;
+}
+body.blog .bm-card-text .bm-names a { color: inherit; text-decoration: none; }
+body.blog .bm-card-text .bm-gallery {
+  font-family: 'Questrial', Arial, sans-serif; text-transform: uppercase; color: #242424;
+  font-size: 13px; line-height: 1.6; letter-spacing: 0.3em; margin-bottom: 10px !important;
+}
+/* Venue: the WordPress post title (kept as the card's H2 and its link) */
+body.blog .bm-card-text h2, body.blog .bm-card-text h2 a {
+  font-family: 'Questrial', Arial, sans-serif !important; text-transform: uppercase !important; color: #6b6b6b !important;
+  font-size: 12px !important; line-height: 1.6 !important; letter-spacing: 0.25em !important; text-decoration: none !important;
+}
+body.blog .bm-card-text h2 { margin-bottom: 22px !important; position: static !important; transform: none !important; }
+body.blog .bm-card-text h2 a:hover { opacity: 1 !important; text-decoration: none !important; }
+body.blog .bm-card-text .bm-btn {
+  display: block; width: 100%; box-sizing: border-box;
+  background: #c9a3a0; color: #ffffff !important; text-decoration: none !important;
+  font-family: 'HV Florentino Italic', 'EB Garamond', Georgia, serif; font-style: normal;
+  font-size: 13px; line-height: 1; letter-spacing: 0.3em; text-transform: uppercase; text-align: center;
+  padding: 19px 12px 17px; transition: background-color .2s ease;
+}
+body.blog .bm-card-text .bm-btn:hover, body.blog .bm-card-text .bm-btn:focus-visible { background: #b88e8b; }
+/* Phone (Showit puts class "m" on <html> under 600px; sizes are in the 320px design grid, Showit scales them) */
+html.m body.blog .bm-card-text .bm-names { font-size: 24px; margin-bottom: 10px !important; }
+html.m body.blog .bm-card-text .bm-gallery { font-size: 11px; margin-bottom: 8px !important; }
+html.m body.blog .bm-card-text h2, html.m body.blog .bm-card-text h2 a { font-size: 10px !important; }
+html.m body.blog .bm-card-text h2 { margin-bottom: 16px !important; }
+html.m body.blog .bm-card-text .bm-btn { font-size: 11px; padding: 15px 10px 13px; }
+</style>
+<script>
+(function bmCards() {
+  /* Runs from <head>: wait for the body, then only act on the blog home page */
+  if (!document.body) { document.addEventListener('DOMContentLoaded', bmCards); return; }
+  if (!document.body.classList.contains('blog')) return;
+  var GAP_D = 28, GAP_M = 22;
+  var decode = function (s) { var t = document.createElement('textarea'); t.innerHTML = s; return t.value; };
+  var strip = function (s) { return decode(String(s || '').replace(/<[^>]*>/g, '')).replace(/\s+/g, ' ').trim(); };
+  var norm = function (u) { return String(u || '').replace(/^https?:\/\/(www\.)?/, '').replace(/\/+$/, ''); };
+  /* Place the text block under its photo in Showit's own coordinates. On phones Showit scales every element with a
+     transform (design grid 320 px -> screen width); the block applies the same scale from its top-left corner. */
+  function place(wrap, img) {
+    var isM = document.documentElement.classList.contains('m');
+    var scale = img.offsetWidth ? img.getBoundingClientRect().width / img.offsetWidth : 1;
+    /* Showit's phone transform also moves each element to its scaled position, so scale the offsets too */
+    wrap.style.left = (img.offsetLeft * scale) + 'px';
+    wrap.style.width = img.offsetWidth + 'px';
+    wrap.style.top = ((img.offsetTop + img.offsetHeight + (isM ? GAP_M : GAP_D)) * scale) + 'px';
+    wrap.style.transformOrigin = '0 0';
+    wrap.style.transform = Math.abs(scale - 1) < 0.001 ? 'none' : 'scale(' + scale + ')';
+  }
+
+  function build(byLink) {
+    var canvases = document.querySelectorAll('.sib-posts');
+    for (var c = 0; c < canvases.length; c++) {
+      var sc = canvases[c].querySelector('.ss .sc'); if (!sc) continue;
+      for (var n = 1; n <= 3; n++) {
+        var img = sc.querySelector('a[data-sid="posts_view-' + n + '_0"]');
+        var titleBox = sc.querySelector('[data-sid="posts_view-' + n + '_3"]');
+        if (!img || !titleBox || titleBox.classList.contains('bm-moved')) continue;
+        var orig = titleBox.querySelector('h2, h3, p'); if (!orig) continue;
+        var link = img.getAttribute('href');
+        var venue = strip(orig.textContent);
+        /* A fresh heading for the venue; the Showit-bound original stays in the DOM (hidden) so Showit's scripts leave ours alone */
+        var h2 = document.createElement('h2'); h2.className = 'bm-venue';
+        var aVenue = document.createElement('a'); aVenue.href = link; aVenue.textContent = venue; h2.appendChild(aVenue);
+        var rec = byLink[norm(link)] || {};
+        var names = strip(rec.excerpt || '');
+        var wrap = document.createElement('div');
+        wrap.className = 'bm-card-text';
+        place(wrap, img);
+        var pNames = document.createElement('p'); pNames.className = 'bm-names';
+        var aNames = document.createElement('a'); aNames.href = link; aNames.textContent = names || venue; pNames.appendChild(aNames);
+        var pGal = document.createElement('p'); pGal.className = 'bm-gallery'; pGal.textContent = 'Wedding Gallery';
+        var btn = document.createElement('a'); btn.className = 'bm-btn'; btn.href = link; btn.textContent = 'View the Gallery';
+        btn.setAttribute('aria-label', 'View the gallery: ' + (names ? names + ', ' : '') + venue);
+        wrap.appendChild(pNames); wrap.appendChild(pGal);
+        if (names) { wrap.appendChild(h2); } /* no excerpt (e.g. the Chateau post): the title is already the big line, so skip the venue line */
+        wrap.appendChild(btn);
+        titleBox.classList.add('bm-moved');
+        sc.appendChild(wrap);
+      }
+    }
+  }
+  function reposition() {
+    var wraps = document.querySelectorAll('.bm-card-text');
+    for (var i = 0; i < wraps.length; i++) {
+      var sc = wraps[i].parentNode, href = wraps[i].querySelector('.bm-btn').getAttribute('href');
+      var img = null, imgs = sc.querySelectorAll('a[data-sid$="_0"]');
+      for (var k = 0; k < imgs.length; k++) if (imgs[k].getAttribute('href') === href) { img = imgs[k]; break; }
+      if (img) place(wraps[i], img);
+    }
+  }
+  var done = false;
+  function go(byLink) {
+    if (done) return; done = true; build(byLink || {});
+    /* Showit starts every page as desktop ("d") and switches <html> to "m" on phones a moment later, so re-measure after that switch, on load, and on resize */
+    window.addEventListener('resize', reposition);
+    window.addEventListener('load', reposition);
+    [300, 1000, 2500].forEach(function (ms) { setTimeout(reposition, ms); });
+    if (window.MutationObserver) new MutationObserver(reposition).observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+  }
+  var timer = setTimeout(function () { go({}); }, 4000); /* no REST answer in 4 s: render with venue + button only */
+  try {
+    fetch('/wp-json/wp/v2/posts?per_page=100&_fields=link,excerpt', { credentials: 'omit' })
+      .then(function (r) { return r.ok ? r.json() : []; })
+      .then(function (posts) {
+        var byLink = {};
+        for (var i = 0; i < posts.length; i++) byLink[norm(posts[i].link)] = { excerpt: posts[i].excerpt && posts[i].excerpt.rendered };
+        clearTimeout(timer); go(byLink);
+      })
+      .catch(function () { clearTimeout(timer); go({}); });
+  } catch (e) { clearTimeout(timer); go({}); }
+})();
+</script>
