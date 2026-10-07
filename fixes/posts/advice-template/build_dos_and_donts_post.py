@@ -35,7 +35,7 @@ def h2(num, text):
     return (f'<div style="margin:64px 0 20px;text-align:center"><p style="{SANS}font-size:11px;letter-spacing:0.35em;text-transform:uppercase;color:{GREY};margin:0 0 10px">No. {num}</p>'
             f'<h2 style="{SERIF}font-weight:400;font-size:30px;line-height:1.2;letter-spacing:0.02em;color:{INK};margin:0">{text}</h2>'
             f'<div style="width:40px;height:1px;background:{ROSE};margin:18px auto 0"></div></div>')
-def p(text): return f'<p style="{SERIF}font-size:18px;line-height:1.8;color:{INK};margin:0 0 20px">{text}</p>'
+def p(text): return f'<p style="{SERIF}font-size:18px;line-height:1.8;color:{INK};margin:0 0 20px;text-align:center">{text}</p>'
 def quote(text):
     return (f'<blockquote style="margin:56px auto;max-width:720px;padding:0 24px;border:0;text-align:center"><p style="{SERIF}font-style:italic;font-size:26px;line-height:1.45;color:{INK};margin:0">{text}</p>'
             f'<div style="width:40px;height:1px;background:{ROSE};margin:22px auto 0"></div></blockquote>')

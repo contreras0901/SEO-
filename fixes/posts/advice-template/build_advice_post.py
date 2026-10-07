@@ -55,7 +55,7 @@ def h2(num, text):
             f'<div style="width:40px;height:1px;background:{ROSE};margin:18px auto 0"></div></div>')
 
 def p(text):
-    return f'<p style="{SERIF}font-size:18px;line-height:1.8;color:{INK};margin:0 0 20px">{text}</p>'
+    return f'<p style="{SERIF}font-size:18px;line-height:1.8;color:{INK};margin:0 0 20px;text-align:center">{text}</p>'
 
 def quote(text):
     return (f'<blockquote style="margin:56px auto;max-width:720px;padding:0 24px;border:0;text-align:center">'
