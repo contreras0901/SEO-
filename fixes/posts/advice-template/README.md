@@ -13,7 +13,7 @@
 | 5 | Intro | One paragraph, serif 18 px / 1.8, 760 px measure |
 | 6 | Section head | `No. 01` label (same style as kicker) → H2 serif 30 px → 40 px rose rule `#c9a39f` |
 | 7 | Body text | Serif 18 px / 1.8, 760 px measure, **centered** (Founder request 2026-10-07) |
-| 8 | Do / Don't cards | 2-up grid (min 280 px). **Do** = cream fill `#f6f2ec`, grey label. **Don't** = white, 1 px rose border, rose label. Label 11 px / 0.3 em uppercase; text serif 17 px / 1.7 |
+| 8 | Do / Don't cards | 2-up grid (min 280 px). **Do** = cream fill `#f6f2ec`, grey label. **Don't** = white, 1 px rose border, rose label. Label 11 px / 0.3 em uppercase; text serif 17 px / 1.7; card text centered |
 | 9 | Pull quote | Italic serif 26 px, centered, 720 px max, rose rule beneath; one per post, mid-way |
 | 10 | Photo pair | 2-up grid of 4:5 portraits, 24 px gap, 48 px above and below |
 | 11 | Wide photo | 3:2, full width, near the end |

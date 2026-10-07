@@ -68,7 +68,7 @@ def dd(items):
         do = kind == "do"
         bg = CREAM if do else "#ffffff"; border = f"1px solid {ROSE}" if not do else "1px solid transparent"
         label = "Do" if do else "Don't"
-        cards += (f'<div style="background:{bg};border:{border};padding:26px 26px 24px;border-radius:2px">'
+        cards += (f'<div style="background:{bg};border:{border};padding:26px 26px 24px;border-radius:2px;text-align:center">'
                   f'<p style="{SANS}font-size:11px;letter-spacing:0.3em;text-transform:uppercase;color:{ROSE if not do else GREY};margin:0 0 10px">{label}</p>'
                   f'<p style="{SERIF}font-size:17px;line-height:1.7;color:{INK};margin:0">{text}</p></div>')
     return f'<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;margin:28px 0 8px">{cards}</div>'

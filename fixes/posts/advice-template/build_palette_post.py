@@ -47,7 +47,7 @@ def dd(items):
     cards = ""
     for kind, text in items:
         do = kind == "do"
-        cards += (f'<div style="background:{CREAM if do else "#fff"};border:1px solid {"transparent" if do else ROSE};padding:26px 26px 24px;border-radius:2px">'
+        cards += (f'<div style="background:{CREAM if do else "#fff"};border:1px solid {"transparent" if do else ROSE};padding:26px 26px 24px;border-radius:2px;text-align:center">'
                   f'<p style="{SANS}font-size:11px;letter-spacing:0.3em;text-transform:uppercase;color:{GREY if do else ROSE};margin:0 0 10px">{"Do" if do else "Don&#8217;t"}</p>'
                   f'<p style="{SERIF}font-size:17px;line-height:1.7;color:{INK};margin:0">{text}</p></div>')
     return f'<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;margin:28px 0 8px">{cards}</div>'
