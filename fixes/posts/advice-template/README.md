@@ -1,6 +1,6 @@
 # Advice post template (reference)
 
-**Approved by the Founder 2026-10-07** on the cake post: `https://bellamiaexclusiveevents.com/2026/10/07/wedding-cake-advice-how-to-choose-your-cake/`. Every new post in the Wedding & Event Advice category follows this layout. The generator is `build_advice_post.py` in this folder; the live HTML of the approved post is `cake-post-body.html`. A second worked example, the color-palette post, is `build_palette_post.py` / `palette-post-body.html`; it adds an optional **swatch card** block (row of color dots, small-caps label, italic note) for palette or color content.
+**Approved by the Founder 2026-10-07** on the cake post: `https://bellamiaexclusiveevents.com/2026/10/07/wedding-cake-advice-how-to-choose-your-cake/`. Every new post in the Wedding & Event Advice category follows this layout. The generator is `build_advice_post.py` in this folder; the live HTML of the approved post is `cake-post-body.html`. A second worked example, the color-palette post, is `build_palette_post.py` / `palette-post-body.html`; it adds an optional **swatch card** block (row of color dots, small-caps label, italic note) for palette or color content. A third example, `build_dos_and_donts_post.py` / `dos-and-donts-post-body.html`, shows a card-heavy post where every section is a Do/Don't grid.
 
 ## Page anatomy (top to bottom)
 
