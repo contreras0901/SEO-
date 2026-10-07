@@ -38,6 +38,10 @@ Each has a Yoast title and description, an H1 at the top of the body, a "Plannin
 - **Real Wedding Post** template (default for every post): the "Weddings" label above the post is now bound to **Post Top Category**, so wedding posts read "Real Weddings" and advice posts read "Wedding & Event Advice".
 - WordPress category 5 renamed Advice → **Wedding & Event Advice** (slug unchanged). Redirection rules 2 and 3 (`/delete-this-demo-single-post`, `/portfolio`) now point straight at `/category/real-weddings/`.
 
+## Post header (2026-10-07)
+
+On an advice post the header reads, top to bottom: the category label "Wedding & Event Advice" with a short rule (Showit Real Wedding Post template, Title canvas, bound to Post Top Category; centred on the canvas), then the post body's own kicker "PLANNING ADVICE", H1 and italic subtitle, all centred. The label is desktop-only in the template. Wedding posts show "Real Weddings" in the same spot.
+
 ## Open items for the Founder
 
 - **SEO title of the wedding blog.** `/blog/` carried the Yoast title "Real Weddings & Venue Guides | Bella Mia Exclusive Events". The category archive uses Yoast's default "Real Weddings Archives - Bella Mia Exclusive Events". Set it in WordPress → Posts → Categories → Real Weddings → Yoast SEO: title `Real Weddings & Venue Guides | Bella Mia Exclusive Events`, and give Wedding & Event Advice `Wedding & Event Advice | Bella Mia Exclusive Events, San Diego`. (Yoast term settings are not reachable from the API.)

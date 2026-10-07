@@ -67,7 +67,7 @@ body = f'''
 
 <div style="text-align:center;margin:0 0 36px">
   <p style="{SANS}font-size:11px;letter-spacing:0.35em;text-transform:uppercase;color:{GREY};margin:0 0 14px">Planning advice</p>
-  <h1 style="{SERIF}font-weight:400;font-size:44px;line-height:1.15;letter-spacing:0.02em;color:{INK};margin:0 0 18px">How to Choose a Wedding Color Palette</h1>
+  <h1 style="{SERIF}font-weight:400;font-size:44px;line-height:1.15;letter-spacing:0.02em;color:{INK};margin:0 0 18px;text-align:center">How to Choose a Wedding Color Palette</h1>
   <p style="{SERIF}font-style:italic;font-size:20px;line-height:1.5;color:{GREY};max-width:640px;margin:0 auto">The right palette is decided by the room you booked, not by a mood board. Here is how we build one.</p>
 </div>
 

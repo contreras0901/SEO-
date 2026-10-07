@@ -18,6 +18,10 @@ To have Rank apply the site-side fixes directly in a later session, either (a) a
 
 The Founder supplied Atlas's 18 Sep implementation package (`../analysis/supplied/`). Atlas fetched the live site and found four items Rank could not see: a 404 `/portfolio` linked from two calls to action, template placeholder links on the homepage, duplicate H1s, and template names ("Erika & Julio Ramirez"). Rank's reconciliation is at `../analysis/reconciliation-atlas-package.md`. **`showit-runbook.md` v2 is the merged, authoritative execution order.** Fix 01's Services title is withdrawn (Atlas found the existing one good); the final title set is in the reconciliation, section 5.
 
+## 2026-10-07 update: full-site audit
+
+`../analysis/seo-audit-2026-10-07.md` is the current page-by-page state (titles, metas, H1s, phrase placement, redirects, schema), the re-scored competitor table, and the open list for the Founder (Search Console export, category SEO titles, author archives, Events category, listings, image alt text, three Showit items awaiting a yes). The change log has a row for every fix applied that day.
+
 ## Order of operations (do them in this order)
 
 | Step | File | Fixes | Time | Needs Founder decision first? |

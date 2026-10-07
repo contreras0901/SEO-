@@ -53,7 +53,7 @@ body = f'''
 
 <div style="text-align:center;margin:0 0 36px">
   <p style="{SANS}font-size:11px;letter-spacing:0.35em;text-transform:uppercase;color:{GREY};margin:0 0 14px">Planning advice</p>
-  <h1 style="{SERIF}font-weight:400;font-size:44px;line-height:1.15;letter-spacing:0.02em;color:{INK};margin:0 0 18px">Wedding Day Do&#8217;s and Don&#8217;ts</h1>
+  <h1 style="{SERIF}font-weight:400;font-size:44px;line-height:1.15;letter-spacing:0.02em;color:{INK};margin:0 0 18px;text-align:center">Wedding Day Do&#8217;s and Don&#8217;ts</h1>
   <p style="{SERIF}font-style:italic;font-size:20px;line-height:1.5;color:{GREY};max-width:640px;margin:0 auto">The things we tell every couple before the day, and the things we quietly fix when nobody does.</p>
 </div>
 
