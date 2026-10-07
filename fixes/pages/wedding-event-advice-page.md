@@ -24,6 +24,9 @@ Each has a Yoast title and description, an H1 at the top of the body, a "Plannin
 
 ## How to add the next advice post
 
+**Layout reference (Founder-approved 2026-10-07):** `../posts/advice-template/` holds the README with the page anatomy, the generator script, and the live HTML of the cake post. New advice posts use that layout.
+
+
 1. WordPress → Posts → Add New. Title = the headline. Excerpt = a two-to-three word name for the card (it is the big line on the card; keep it under about 18 characters). Category = Wedding & Event Advice. Featured image = a 4:5 photo.
 2. Start the body with `<h1>` headline (the post template shows no heading of its own), then the text. Headings as `<h2>`.
 3. Yoast title and description. Publish. The card appears on `/category/advice/` automatically; nothing to do in Showit.

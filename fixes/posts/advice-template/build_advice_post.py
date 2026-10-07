@@ -1,3 +1,19 @@
+"""
+REFERENCE TEMPLATE for Bella Mia advice posts (Founder-approved 2026-10-07: "absolutely love it").
+Source of truth for the layout of every post in the Wedding & Event Advice category.
+
+How to use for a new post:
+  1. Copy this file, change POST_ID to the new post's WordPress id (create the post first, or set POST_ID=None to create).
+  2. Edit the IMG dict (6 photos: one 3:2 hero, two pairs of 4:5 portraits, one 3:2 wide) and the `body` text.
+  3. Run from the cloud session with WP_USER / WP_APP_PASSWORD in the environment:  python3 -I build_advice_post.py
+  4. Set the post's excerpt to the 2-3 word card name, featured image to the hero, category 5, Yoast title + description.
+
+Layout grammar (see README.md next to this file):
+  kicker (Questrial 11px / 0.35em / uppercase) → H1 (HV Florentino 44px) → italic subtitle → 3:2 hero
+  → intro paragraph (760px measure) → numbered sections: "No. 0X" label, H2, 40px rose rule
+  → Do / Don't cards (cream fill for Do, rose outline for Don't) → pull quote → photo pairs → wide photo
+  → closing paragraph → cream CTA block with two buttons (/contact, /services)
+"""
 import json, os, subprocess, tempfile, base64
 WP = "https://bellamiaexclusiveevents.com/wp-json/wp/v2"
 auth = base64.b64encode(f"{os.environ['WP_USER']}:{os.environ['WP_APP_PASSWORD']}".encode()).decode()
@@ -130,5 +146,6 @@ body = f'''
 
 </div>
 '''
-r = req("POST", "/posts/341", {"content": body})
+POST_ID = 341  # change per post
+r = req("POST", f"/posts/{POST_ID}", {"content": body})
 print(r["id"], r["status"], r["link"], "imgs:", r["content"]["rendered"].count("<img"))
