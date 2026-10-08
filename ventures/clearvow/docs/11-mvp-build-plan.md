@@ -42,6 +42,7 @@ This is the Phase 10 package: PRD, feature inventory, backlog, user stories with
 | Platform | First-party analytics events and audit log | Built | `src/lib/analytics.ts` |
 | Platform | Cron: refunds, 90-day price reminders, 14-day quote-match prompts | Built, needs keys for email and Stripe | `src/app/api/cron/route.ts` |
 | Platform | Health endpoint | Built | `src/app/api/health/route.ts` |
+| Platform | House-vendor rule: founder-operated profiles flagged, excluded from Spotlight in code, disclosed on profile, About, terms and claim page; multi-vendor switcher for one owner | Built | `isHouseVendor`, `src/lib/queries.ts`, `scripts/list-house-vendors.ts`, `src/app/vendor/layout.tsx` |
 | Ops | Seed with 48 labeled sample vendors and 4 sample weddings; demo accounts | Built | `prisma/seed.ts` |
 | QA | Lint, typecheck, production build, 15-step Playwright smoke through the real UI | Built, passing | `scripts/smoke.ts`, `.github/workflows/clearvow.yml` |
 | Not built | Direct image upload, Google sign-in, Spotlight self-serve billing, Preferred self-serve checkout, data export and deletion self-serve, report button, email digests, Search Console reporting, visual search, vendor tools | Not built | Stage 2 and 3 |

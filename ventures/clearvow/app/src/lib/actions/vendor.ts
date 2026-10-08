@@ -8,10 +8,21 @@ import { flattenErrors, realWeddingSchema, vendorGoLiveProblems, vendorPricingSc
 import { slugify } from "../format";
 import { track, audit } from "../analytics";
 import { PLANS } from "../plans";
+import { cookies } from "next/headers";
+import { ACTIVE_VENDOR_COOKIE } from "../vendor-context";
 import type { ActionState } from "./types";
 
 async function ownedVendor(userId: string, role: string, vendorId?: string) {
-  if (vendorId && role === "ADMIN") return db.vendor.findUnique({ where: { id: vendorId }, include: { packages: true, images: true } });
+  if (vendorId) {
+    const v = await db.vendor.findUnique({ where: { id: vendorId }, include: { packages: true, images: true } });
+    if (v && (v.ownerId === userId || role === "ADMIN")) return v;
+  }
+  const jar = await cookies();
+  const activeId = jar.get(ACTIVE_VENDOR_COOKIE)?.value;
+  if (activeId) {
+    const v = await db.vendor.findFirst({ where: { id: activeId, ownerId: userId }, include: { packages: true, images: true } });
+    if (v) return v;
+  }
   return db.vendor.findFirst({ where: { ownerId: userId }, include: { packages: true, images: true }, orderBy: { createdAt: "asc" } });
 }
 
@@ -292,4 +303,16 @@ export async function submitRealWedding(_prev: ActionState, formData: FormData):
   }
   await track("real_wedding_submitted", {}, user.id, vendor.id);
   redirect("/vendor/weddings?submitted=1");
+}
+
+/** Founder-style accounts can own several vendor profiles; this picks which one the dashboard shows. */
+export async function switchActiveVendor(formData: FormData): Promise<void> {
+  const user = await getCurrentUser();
+  if (!user) redirect("/sign-in?next=/vendor");
+  const id = String(formData.get("vendorId") || "");
+  const v = await db.vendor.findFirst({ where: { id, ownerId: user.id } });
+  if (!v) redirect("/vendor");
+  const jar = await cookies();
+  jar.set(ACTIVE_VENDOR_COOKIE, v.id, { httpOnly: true, sameSite: "lax", path: "/", maxAge: 60 * 60 * 24 * 365 });
+  redirect("/vendor");
 }

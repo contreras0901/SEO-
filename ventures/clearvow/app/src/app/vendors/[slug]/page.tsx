@@ -104,6 +104,15 @@ export default async function VendorProfilePage({ params }: { params: Promise<Pa
               </>
             ) : null}
           </p>
+          {v.isHouseVendor ? (
+            <p className="mt-3 rounded-md bg-sage px-4 py-3 text-[13px]">
+              Disclosure: this business is operated by Clearvow&apos;s founders. It is listed under the same rules as every other vendor, is ranked by the same score, and is never sold a Spotlight placement.{" "}
+              <Link href="/about" className="underline">
+                Read our policy
+              </Link>
+              .
+            </p>
+          ) : null}
           {v.tagline ? <p className="text-lg mt-3">{v.tagline}</p> : null}
           <div className="prose-cv mt-4 text-[15px] text-ink-2">
             {v.description.split(/\n{2,}/).map((p, i) => (

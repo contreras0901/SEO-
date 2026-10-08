@@ -1,9 +1,10 @@
 import Link from "next/link";
 import { requireVendor } from "@/lib/vendor-context";
 import { StatusChip } from "@/components/ui";
+import { switchActiveVendor } from "@/lib/actions/vendor";
 
 export default async function VendorLayout({ children }: { children: React.ReactNode }) {
-  const { vendor } = await requireVendor();
+  const { vendor, owned } = await requireVendor();
   const tabs = [
     ["/vendor", "Inquiries"],
     ["/vendor/profile", "Profile"],
@@ -25,7 +26,25 @@ export default async function VendorLayout({ children }: { children: React.React
                 View public profile
               </Link>
             ) : null}
+            {vendor.isHouseVendor ? <span className="pill">Founder-operated: no Spotlight, disclosed publicly</span> : null}
           </div>
+          {owned.length > 1 ? (
+            <form action={switchActiveVendor} className="mt-2 flex items-center gap-2 text-[13px]">
+              <label htmlFor="vendorId" className="text-ink-3">
+                Managing
+              </label>
+              <select id="vendorId" name="vendorId" className="input !py-1 !text-[13px] max-w-[280px]" defaultValue={vendor.id}>
+                {owned.map((o) => (
+                  <option key={o.id} value={o.id}>
+                    {o.name}
+                  </option>
+                ))}
+              </select>
+              <button className="btn btn-secondary btn-sm" type="submit">
+                Switch
+              </button>
+            </form>
+          ) : null}
         </div>
         <nav aria-label="Vendor dashboard" className="flex gap-1 overflow-x-auto">
           {tabs.map(([href, label]) => (

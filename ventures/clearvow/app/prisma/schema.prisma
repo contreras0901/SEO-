@@ -111,6 +111,7 @@ model Vendor {
   status           String    @default("DRAFT") // DRAFT | PENDING | LIVE | SUSPENDED
   styleTags        String    @default("") // comma separated
   isClaimed        Boolean   @default(false)
+  isHouseVendor    Boolean   @default(false) // operated by Clearvow's founders; excluded from Spotlight, disclosed on profile
   stripeCustomerId String?
   stripeSubId      String?
   planRenewsAt     DateTime?

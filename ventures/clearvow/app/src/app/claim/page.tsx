@@ -92,6 +92,13 @@ export default async function ClaimPage({ searchParams }: { searchParams: Promis
             <input id="styleTags" name="styleTags" className="input" />
           </Field>
           <p className="text-[12px] text-ink-3">
+            Clearvow&apos;s founders also run Bella Mia Exclusive Events, Ethereal Luxury Restrooms, and Atelier Launch Co. By claiming or creating a profile you agree that Atelier may contact you once about its services; declining never affects your listing. Full terms in{" "}
+            <Link href="/legal/terms" className="underline">
+              section 6
+            </Link>
+            .
+          </p>
+          <p className="text-[12px] text-ink-3">
             Next you will add prices and sign the{" "}
             <Link href="/pledge" className="underline">
               Welcomes Every Couple pledge

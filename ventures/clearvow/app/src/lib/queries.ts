@@ -43,7 +43,7 @@ export async function searchVendors(params: SearchParams, pageSize = 24): Promis
   const now = new Date();
   const spot = await db.spotlightSlot.findMany({ where: { startsAt: { lte: now }, endsAt: { gte: now } }, select: { vendorId: true, categoryId: true, metroId: true } });
   const spotIds = new Set(spot.map((s) => s.vendorId));
-  const scored = all.map((v) => ({ v, score: rankScore(v, now), sponsored: spotIds.has(v.id) }));
+  const scored = all.map((v) => ({ v, score: rankScore(v, now), sponsored: spotIds.has(v.id) && !v.isHouseVendor }));
   scored.sort((a, b) => Number(b.sponsored) - Number(a.sponsored) || b.score - a.score || a.v.name.localeCompare(b.v.name));
   const total = scored.length;
   const pages = Math.max(1, Math.ceil(total / pageSize));

@@ -10,7 +10,9 @@ export default function AboutPage() {
       <p>So the rules here are simple. Vendors publish prices. Couples verify who they are. Inquiries carry the facts a vendor needs. Nobody pays to jump the line, and we write down how ranking works.</p>
       <p>We launch one city at a time, starting with San Diego, because a directory with three vendors in your category is not useful to anyone.</p>
       <h2 className="text-2xl font-semibold mt-8">A note on our own businesses</h2>
-      <p>The founders also operate wedding vendors in San Diego. Those businesses are listed on Clearvow under the same rules as everyone else: same published prices, same ranking score, no Spotlight slots. We say this plainly because trust is the whole product.</p>
+      <p>Clearvow&apos;s founders also operate Bella Mia Exclusive Events (planning, florals, styling, and rentals), Ethereal Luxury Restrooms (restroom trailers), and Atelier Launch Co. (local search and launch services for small businesses). Bella Mia and Ethereal are listed on Clearvow under the same rules as everyone else: same published prices, same ranking score, and no Spotlight placements, which the software enforces. Their profiles carry a disclosure. We say this plainly because trust is the whole product.</p>
+      <h2 className="text-2xl font-semibold mt-8">How we use vendor information</h2>
+      <p>When you claim a profile, Atelier Launch Co. may contact you once to offer its services, such as help with your own website&apos;s search visibility. You can decline in one reply and you will not be contacted again. Your inquiry data and couple contact details are never used for this purpose, and declining never affects your listing or ranking.</p>
     </div>
   );
 }

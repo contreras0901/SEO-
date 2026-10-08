@@ -15,7 +15,9 @@ export default function TermsPage() {
       <p>Plans renew monthly or annually and may be canceled at any time, effective at the end of the paid period. Inquiry unlocks are refunded automatically if the couple does not reply within 7 days of the vendor&apos;s first reply.</p>
       <h2 className="text-xl font-semibold mt-6">5. Content and consent</h2>
       <p>Vendors submitting real weddings confirm they hold the rights to the images and the couple&apos;s consent to publish names. Couples may request removal at any time.</p>
-      <h2 className="text-xl font-semibold mt-6">6. Conduct</h2>
+      <h2 className="text-xl font-semibold mt-6">6. Related businesses and vendor contact</h2>
+      <p>Clearvow&apos;s founders operate Bella Mia Exclusive Events, Ethereal Luxury Restrooms, and Atelier Launch Co. Bella Mia and Ethereal are listed on Clearvow under the same terms, pricing rules, and ranking as every other vendor, are excluded from paid placements, and are identified by a disclosure on their profiles. By claiming or creating a vendor profile you agree that Atelier Launch Co. may contact you once, using the business contact details you provide, to offer its services. You may decline at any time, declining has no effect on your listing or ranking, and couple contact details and inquiry contents are never used for this purpose.</p>
+      <h2 className="text-xl font-semibold mt-6">7. Conduct</h2>
       <p>Vendors agree to the Welcomes Every Couple pledge. Abuse, discrimination, or fraudulent inquiries result in removal.</p>
     </div>
   );

@@ -19,6 +19,7 @@ Prepared 2026-10-07 in response to the "build a market-dominating wedding platfo
 | 10 | Phased roadmap with budgets and decision gates | `docs/10-roadmap-budget.md` |
 | 11 | MVP build plan and implementation package (PRD, backlog, QA, launch) | `docs/11-mvp-build-plan.md` |
 | 12 | The five decisions that determine success or failure | `docs/12-five-decisions.md` |
+| — | Founder decision register (D-001 to D-003, 2026-10-08) | `docs/decisions.md` |
 
 ## The MVP
 

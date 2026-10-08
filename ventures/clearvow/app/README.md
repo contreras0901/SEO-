@@ -16,6 +16,14 @@ Demo accounts (password `password1234`): `couple@clearvow.example`, `vendor@clea
 
 Without email, SMS, Stripe, or AI keys the app still runs: verification codes print to the server console, billing buttons are disabled with a visible message, and inquiry briefs use the deterministic formatter.
 
+## Founder-operated profiles
+
+```bash
+npx tsx scripts/list-house-vendors.ts you@example.com   # creates Bella Mia and Ethereal as drafts owned by that account
+```
+
+They stay drafts until prices, a package, an image, and the pledge are added in the vendor dashboard. The dashboard shows a switcher when one account owns several profiles. House profiles are excluded from Spotlight in code and carry a public disclosure.
+
 ## Verify
 
 ```bash
