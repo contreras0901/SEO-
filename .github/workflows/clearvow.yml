@@ -1,0 +1,37 @@
+name: clearvow
+on:
+  push:
+    paths: ["ventures/clearvow/app/**", ".github/workflows/clearvow.yml"]
+  pull_request:
+    paths: ["ventures/clearvow/app/**"]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ventures/clearvow/app
+    env:
+      DATABASE_URL: file:./ci.db
+      SESSION_SECRET: ci-secret-0123456789abcdef0123456789abcdef
+      APP_URL: http://localhost:3100
+      CRON_SECRET: ci
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: ventures/clearvow/app/package-lock.json
+      - run: npm ci
+      - run: npx prisma migrate deploy
+      - run: npm run db:seed
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm run build
+      - name: Smoke test through the UI
+        run: |
+          npx playwright-core --version >/dev/null 2>&1 || true
+          npx --yes playwright@1.56.1 install --with-deps chromium
+          (npx next start -p 3100 > server.log 2>&1 &)
+          sleep 6
+          CHROME_PATH="$(find ~/.cache/ms-playwright -type f -name chrome -path '*chrome-linux*' | head -1)" SMOKE_LOG=server.log npm run smoke

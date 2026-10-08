@@ -1,0 +1,365 @@
+// Clearvow data model. SQLite locally, PostgreSQL in production (same schema;
+// switch the provider via DATABASE_URL and the `provider` line below).
+// Enum-like fields are strings validated in src/lib/validation.ts so the schema
+// works on SQLite, which Prisma does not support enums for.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id              String    @id @default(cuid())
+  email           String    @unique
+  passwordHash    String
+  role            String    @default("COUPLE") // COUPLE | VENDOR | ADMIN
+  name            String?
+  phone           String?
+  emailVerifiedAt DateTime?
+  phoneVerifiedAt DateTime?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  sessions          Session[]
+  verificationCodes VerificationCode[]
+  couple            Couple?
+  vendors           Vendor[]
+  auditLogs         AuditLog[]
+  analyticsEvents   AnalyticsEvent[]
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  userId    String
+  tokenHash String   @unique
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+model VerificationCode {
+  id         String    @id @default(cuid())
+  userId     String
+  channel    String // EMAIL | SMS
+  codeHash   String
+  expiresAt  DateTime
+  consumedAt DateTime?
+  createdAt  DateTime  @default(now())
+  user       User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, channel])
+}
+
+model Metro {
+  id        String   @id @default(cuid())
+  slug      String   @unique
+  name      String
+  state     String
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+
+  vendors      Vendor[]
+  couples      Couple[]
+  realWeddings RealWedding[]
+  spotlights   SpotlightSlot[]
+}
+
+model Category {
+  id            String @id @default(cuid())
+  slug          String @unique
+  name          String // "Photographers"
+  singular      String // "Photographer"
+  priceUnit     String // EVENT | HOUR | GUEST | SITE_FEE
+  sortOrder     Int    @default(0)
+  questionsJson String @default("[]") // category-specific inquiry questions
+
+  vendors     Vendor[]
+  inquiries   Inquiry[]
+  budgetItems BudgetItem[]
+  spotlights  SpotlightSlot[]
+}
+
+model Vendor {
+  id               String    @id @default(cuid())
+  ownerId          String?
+  metroId          String
+  categoryId       String
+  slug             String    @unique
+  name             String
+  tagline          String?
+  description      String    @default("")
+  serviceArea      String    @default("")
+  website          String?
+  instagram        String?
+  contactEmail     String?
+  contactPhone     String?
+  startingPrice    Int? // whole dollars
+  typicalLow       Int?
+  typicalHigh      Int?
+  siteFeeFrom      Int? // venues
+  perGuestFrom     Int? // venues
+  capacity         Int? // venues
+  priceConfirmedAt DateTime?
+  pledgeSignedAt   DateTime?
+  plan             String    @default("FREE") // FREE | PRO | PREFERRED
+  status           String    @default("DRAFT") // DRAFT | PENDING | LIVE | SUSPENDED
+  styleTags        String    @default("") // comma separated
+  isClaimed        Boolean   @default(false)
+  stripeCustomerId String?
+  stripeSubId      String?
+  planRenewsAt     DateTime?
+  // cached stats, recomputed by lib/stats.ts
+  inquiryCount     Int       @default(0)
+  replyCount       Int       @default(0)
+  medianReplyHours Float?
+  quoteMatchRate   Float?
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
+
+  owner      User?           @relation(fields: [ownerId], references: [id])
+  metro      Metro           @relation(fields: [metroId], references: [id])
+  category   Category        @relation(fields: [categoryId], references: [id])
+  images     VendorImage[]
+  packages   Package[]
+  inquiries  Inquiry[]
+  savedBy    SavedVendor[]
+  credits    RealWeddingCredit[]
+  reviews    Review[]
+  spotlights SpotlightSlot[]
+  weddingsAtVenue RealWedding[] @relation("VenueWeddings")
+  submittedWeddings RealWedding[] @relation("SubmittedWeddings")
+
+  @@index([metroId, categoryId, status, startingPrice])
+  @@index([ownerId])
+}
+
+model VendorImage {
+  id        String @id @default(cuid())
+  vendorId  String
+  url       String
+  alt       String @default("")
+  sortOrder Int    @default(0)
+  vendor    Vendor @relation(fields: [vendorId], references: [id], onDelete: Cascade)
+
+  @@index([vendorId])
+}
+
+model Package {
+  id          String @id @default(cuid())
+  vendorId    String
+  name        String
+  price       Int
+  description String @default("")
+  sortOrder   Int    @default(0)
+  vendor      Vendor @relation(fields: [vendorId], references: [id], onDelete: Cascade)
+
+  @@index([vendorId])
+}
+
+model Couple {
+  id               String    @id @default(cuid())
+  userId           String    @unique
+  metroId          String?
+  partnerAName     String
+  partnerAPronouns String?
+  partnerBName     String
+  partnerBPronouns String?
+  weddingDate      DateTime?
+  guestCount       Int?
+  budgetTotal      Int?
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
+
+  user        User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  metro       Metro?        @relation(fields: [metroId], references: [id])
+  budgetItems BudgetItem[]
+  saved       SavedVendor[]
+  inquiries   Inquiry[]
+  reviews     Review[]
+}
+
+model BudgetItem {
+  id         String   @id @default(cuid())
+  coupleId   String
+  categoryId String
+  planned    Int      @default(0)
+  actual     Int      @default(0)
+  couple     Couple   @relation(fields: [coupleId], references: [id], onDelete: Cascade)
+  category   Category @relation(fields: [categoryId], references: [id])
+
+  @@unique([coupleId, categoryId])
+}
+
+model SavedVendor {
+  coupleId  String
+  vendorId  String
+  createdAt DateTime @default(now())
+  couple    Couple   @relation(fields: [coupleId], references: [id], onDelete: Cascade)
+  vendor    Vendor   @relation(fields: [vendorId], references: [id], onDelete: Cascade)
+
+  @@id([coupleId, vendorId])
+}
+
+model Inquiry {
+  id              String    @id @default(cuid())
+  coupleId        String
+  vendorId        String
+  categoryId      String
+  eventDate       DateTime?
+  venueName       String?
+  guestCount      Int?
+  budgetLow       Int?
+  budgetHigh      Int?
+  needsJson       String    @default("{}")
+  message         String    @default("")
+  status          String    @default("DELIVERED") // DELIVERED | UNLOCKED | REPLIED | CLOSED
+  verifiedEmail   Boolean   @default(false)
+  verifiedPhone   Boolean   @default(false)
+  unlockedAt      DateTime?
+  unlockPaymentId String?
+  unlockRefundedAt DateTime?
+  firstReplyAt    DateTime?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  couple   Couple           @relation(fields: [coupleId], references: [id], onDelete: Cascade)
+  vendor   Vendor           @relation(fields: [vendorId], references: [id], onDelete: Cascade)
+  category Category         @relation(fields: [categoryId], references: [id])
+  messages InquiryMessage[]
+  feedback QuoteFeedback?
+
+  @@index([vendorId, status, createdAt])
+  @@index([coupleId, createdAt])
+}
+
+model InquiryMessage {
+  id         String   @id @default(cuid())
+  inquiryId  String
+  senderRole String // COUPLE | VENDOR
+  body       String
+  createdAt  DateTime @default(now())
+  inquiry    Inquiry  @relation(fields: [inquiryId], references: [id], onDelete: Cascade)
+
+  @@index([inquiryId, createdAt])
+}
+
+model QuoteFeedback {
+  id          String   @id @default(cuid())
+  inquiryId   String   @unique
+  matched     Boolean
+  quotedPrice Int?
+  createdAt   DateTime @default(now())
+  inquiry     Inquiry  @relation(fields: [inquiryId], references: [id], onDelete: Cascade)
+}
+
+model RealWedding {
+  id                  String    @id @default(cuid())
+  slug                String    @unique
+  title               String
+  metroId             String
+  venueVendorId       String?
+  venueName           String
+  eventDate           DateTime?
+  partnerAName        String
+  partnerBName        String
+  story               String    @default("")
+  coverUrl            String?
+  guestCount          Int?
+  budgetBand          String? // e.g. "$25k to $50k"
+  status              String    @default("PENDING") // PENDING | PUBLISHED | REJECTED
+  submittedByVendorId String?
+  consentConfirmed    Boolean   @default(false)
+  publishedAt         DateTime?
+  createdAt           DateTime  @default(now())
+  updatedAt           DateTime  @updatedAt
+
+  metro       Metro               @relation(fields: [metroId], references: [id])
+  venueVendor Vendor?             @relation("VenueWeddings", fields: [venueVendorId], references: [id])
+  submittedBy Vendor?             @relation("SubmittedWeddings", fields: [submittedByVendorId], references: [id])
+  images      RealWeddingImage[]
+  credits     RealWeddingCredit[]
+
+  @@index([metroId, status, publishedAt])
+}
+
+model RealWeddingImage {
+  id            String      @id @default(cuid())
+  realWeddingId String
+  url           String
+  alt           String      @default("")
+  sortOrder     Int         @default(0)
+  realWedding   RealWedding @relation(fields: [realWeddingId], references: [id], onDelete: Cascade)
+
+  @@index([realWeddingId])
+}
+
+model RealWeddingCredit {
+  id            String      @id @default(cuid())
+  realWeddingId String
+  vendorId      String
+  role          String
+  realWedding   RealWedding @relation(fields: [realWeddingId], references: [id], onDelete: Cascade)
+  vendor        Vendor      @relation(fields: [vendorId], references: [id], onDelete: Cascade)
+
+  @@unique([realWeddingId, vendorId, role])
+  @@index([vendorId])
+}
+
+model Review {
+  id        String   @id @default(cuid())
+  vendorId  String
+  coupleId  String
+  rating    Int
+  body      String
+  status    String   @default("PUBLISHED") // PUBLISHED | HIDDEN
+  createdAt DateTime @default(now())
+  vendor    Vendor   @relation(fields: [vendorId], references: [id], onDelete: Cascade)
+  couple    Couple   @relation(fields: [coupleId], references: [id], onDelete: Cascade)
+
+  @@unique([vendorId, coupleId])
+}
+
+model SpotlightSlot {
+  id         String   @id @default(cuid())
+  metroId    String
+  categoryId String
+  vendorId   String
+  startsAt   DateTime
+  endsAt     DateTime
+  metro      Metro    @relation(fields: [metroId], references: [id])
+  category   Category @relation(fields: [categoryId], references: [id])
+  vendor     Vendor   @relation(fields: [vendorId], references: [id], onDelete: Cascade)
+
+  @@index([metroId, categoryId, endsAt])
+}
+
+model AnalyticsEvent {
+  id        String   @id @default(cuid())
+  name      String
+  userId    String?
+  vendorId  String?
+  propsJson String   @default("{}")
+  createdAt DateTime @default(now())
+  user      User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([name, createdAt])
+}
+
+model AuditLog {
+  id         String   @id @default(cuid())
+  actorId    String?
+  action     String
+  entityType String
+  entityId   String
+  diffJson   String   @default("{}")
+  createdAt  DateTime @default(now())
+  actor      User?    @relation(fields: [actorId], references: [id], onDelete: SetNull)
+
+  @@index([entityType, entityId])
+}
