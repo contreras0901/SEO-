@@ -2,9 +2,31 @@
 
 | Scenario | First profitable month | Cash trough (capital needed) | Y1 revenue | Y2 revenue | Y3 revenue | Month-36 MRR | Month-36 paid vendors | Month-36 couple accounts |
 |---|---|---|---|---|---|---|---|---|
+| Bootstrapped | 5 | $-957 | $20,328 | $75,704 | $203,842 | $22,841 | 223 | 6,480 |
 | Conservative | 32 | $-196,867 | $20,328 | $106,755 | $306,213 | $34,604 | 337 | 10,080 |
 | Base | 20 | $-123,451 | $56,007 | $365,072 | $1,268,734 | $156,148 | 1,430 | 34,800 |
 | Aggressive | 11 | $-159,444 | $136,128 | $1,242,226 | $4,990,046 | $632,484 | 5,429 | 113,700 |
+
+### Bootstrapped: quarterly detail
+
+| Quarter | Markets | Free vendors | Paid vendors | Couples | Quarter revenue | Quarter opex | Quarter net | Cumulative cash |
+|---|---|---|---|---|---|---|---|---|
+| Q1 | 1 | 57 | 3 | 180 | $2,188 | $3,136 | $-948 | $-948 |
+| Q2 | 1 | 111 | 9 | 360 | $3,768 | $3,205 | $563 | $-384 |
+| Q3 | 1 | 162 | 18 | 540 | $5,905 | $3,303 | $2,602 | $2,218 |
+| Q4 | 1 | 211 | 29 | 720 | $8,467 | $3,422 | $5,045 | $7,263 |
+| Q5 | 1 | 273 | 42 | 1,080 | $13,113 | $5,415 | $7,697 | $14,960 |
+| Q6 | 1 | 332 | 58 | 1,440 | $16,781 | $5,586 | $11,195 | $26,156 |
+| Q7 | 1 | 390 | 75 | 1,800 | $20,779 | $5,773 | $15,007 | $41,162 |
+| Q8 | 1 | 447 | 93 | 2,160 | $25,031 | $5,972 | $19,059 | $60,221 |
+| Q9 | 2 | 603 | 117 | 3,240 | $37,875 | $8,561 | $29,314 | $89,535 |
+| Q10 | 2 | 753 | 147 | 4,320 | $45,885 | $8,920 | $36,965 | $126,500 |
+| Q11 | 2 | 897 | 183 | 5,400 | $55,032 | $9,337 | $45,695 | $172,195 |
+| Q12 | 2 | 1,037 | 223 | 6,480 | $65,049 | $9,796 | $55,253 | $227,448 |
+
+Month-36 revenue mix: subscriptions $14,735, inquiry unlocks $2,333, spotlights $2,988, couple partners $2,138, vendor tools $647.
+
+Assumptions: The founder does product, vendor outreach, and content with no paid founder time; the code already exists. A contractor is paid only for bugs and image upload (~$400/mo). Same slow growth assumptions as Conservative. Trades speed for near-zero capital at risk.
 
 ### Conservative: quarterly detail
 

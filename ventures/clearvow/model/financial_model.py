@@ -211,6 +211,36 @@ AGGRESSIVE = Scenario(
 )
 
 
+BOOTSTRAPPED = Scenario(
+    name="Bootstrapped",
+    market_open_months=[1, 25],  # San Diego; Orange County only in year 3
+    new_vendors_per_market_per_month=(20, 25, 30),
+    monthly_paid_conversion=0.025,
+    monthly_paid_churn=0.06,
+    paid_arpu=66.0,
+    unlocked_inquiries_per_free_vendor=0.15,
+    inquiry_unlock_price=15.0,
+    spotlight_slots_per_market=(2, 4, 6),
+    spotlight_price=249.0,
+    couple_partner_rev=0.60,
+    couples_per_market_per_month=(60, 120, 180),
+    tools_attach_rate_y3=0.10,
+    tools_price=29.0,
+    founder_salary=0.0,
+    engineer_cost=(400.0, 600.0, 800.0),
+    content_cost=(200.0, 400.0, 600.0),
+    paid_marketing=(300.0, 500.0, 800.0),
+    sales_cost=(0.0, 0.0, 0.0),
+    infra_base=120.0,
+    infra_per_paid_vendor=1.2,
+    notes=[
+        "The founder does product, vendor outreach, and content with no paid founder time; the code already exists.",
+        "A contractor is paid only for bugs and image upload (~$400/mo). Same slow growth assumptions as Conservative.",
+        "Trades speed for near-zero capital at risk.",
+    ],
+)
+
+
 def money(x: float) -> str:
     return f"${x:,.0f}"
 
@@ -281,7 +311,7 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--csv", help="directory to write per-scenario CSVs")
     args = ap.parse_args()
-    scenarios = [CONSERVATIVE, BASE, AGGRESSIVE]
+    scenarios = [BOOTSTRAPPED, CONSERVATIVE, BASE, AGGRESSIVE]
     print_markdown(scenarios)
     if args.csv:
         write_csv(scenarios, args.csv)

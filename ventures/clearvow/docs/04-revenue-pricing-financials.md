@@ -45,9 +45,31 @@ Year-1 monthly: founder stipend $4k to $6k from month 7; contract engineer $3k t
 
 | Scenario | First profitable month | Cash trough (capital needed) | Y1 revenue | Y2 revenue | Y3 revenue | Month-36 MRR | Month-36 paid vendors | Month-36 couple accounts |
 |---|---|---|---|---|---|---|---|---|
+| Bootstrapped | 5 | $-957 | $20,328 | $75,704 | $203,842 | $22,841 | 223 | 6,480 |
 | Conservative | 32 | $-196,867 | $20,328 | $106,755 | $306,213 | $34,604 | 337 | 10,080 |
 | Base | 20 | $-123,451 | $56,007 | $365,072 | $1,268,734 | $156,148 | 1,430 | 34,800 |
 | Aggressive | 11 | $-159,444 | $136,128 | $1,242,226 | $4,990,046 | $632,484 | 5,429 | 113,700 |
+
+### Bootstrapped: quarterly detail
+
+| Quarter | Markets | Free vendors | Paid vendors | Couples | Quarter revenue | Quarter opex | Quarter net | Cumulative cash |
+|---|---|---|---|---|---|---|---|---|
+| Q1 | 1 | 57 | 3 | 180 | $2,188 | $3,136 | $-948 | $-948 |
+| Q2 | 1 | 111 | 9 | 360 | $3,768 | $3,205 | $563 | $-384 |
+| Q3 | 1 | 162 | 18 | 540 | $5,905 | $3,303 | $2,602 | $2,218 |
+| Q4 | 1 | 211 | 29 | 720 | $8,467 | $3,422 | $5,045 | $7,263 |
+| Q5 | 1 | 273 | 42 | 1,080 | $13,113 | $5,415 | $7,697 | $14,960 |
+| Q6 | 1 | 332 | 58 | 1,440 | $16,781 | $5,586 | $11,195 | $26,156 |
+| Q7 | 1 | 390 | 75 | 1,800 | $20,779 | $5,773 | $15,007 | $41,162 |
+| Q8 | 1 | 447 | 93 | 2,160 | $25,031 | $5,972 | $19,059 | $60,221 |
+| Q9 | 2 | 603 | 117 | 3,240 | $37,875 | $8,561 | $29,314 | $89,535 |
+| Q10 | 2 | 753 | 147 | 4,320 | $45,885 | $8,920 | $36,965 | $126,500 |
+| Q11 | 2 | 897 | 183 | 5,400 | $55,032 | $9,337 | $45,695 | $172,195 |
+| Q12 | 2 | 1,037 | 223 | 6,480 | $65,049 | $9,796 | $55,253 | $227,448 |
+
+Month-36 revenue mix: subscriptions $14,735, inquiry unlocks $2,333, spotlights $2,988, couple partners $2,138, vendor tools $647.
+
+Assumptions: The founder does product, vendor outreach, and content with no paid founder time; the code already exists. A contractor is paid only for bugs and image upload (~$400/mo). Same slow growth assumptions as Conservative. Trades speed for near-zero capital at risk.
 
 ### Conservative: quarterly detail
 
@@ -115,6 +137,7 @@ Assumptions: Assumes a seed round (~$750k-$1.5M) by month 9 to fund sales and 11
 
 ## 6. How to read the scenarios
 
+- **Bootstrapped** answers "why would it cost this much to start?" It does not. With the code already built, the founder doing outreach and content, and no payroll, San Diego launches for a few hundred dollars a month and is cash-positive within the first half year. The price is speed: it reaches roughly a seventh of the base case's month-36 revenue. The large "cash needed" figures in the other rows are cumulative losses from paying an engineer, a content contractor, a sales hire, and a founder stipend while opening more cities; they are the cost of growing fast, not of starting.
 - **Conservative** is the "founder network plus SEO, no sales hire" path. It never needs a large round, but it is slow: monthly profitability arrives only in month 32 and the cash trough is about $197k. It is survivable but is not a venture-scale outcome.
 - **Base** is the plan this blueprint is built around. It needs about $125k to $150k of cash (founder capital plus a small friends-and-family or revenue-based note), turns monthly profitable around month 20, and exits month 36 at roughly $156k MRR with about 1,430 paying vendors across six metros.
 - **Aggressive** requires a seed round and the qualified-inquiry promise holding at scale. It is presented to show the ceiling, not to plan against.
