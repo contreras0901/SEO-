@@ -2,6 +2,7 @@
 
 **Prepared by:** Rank (AI) with an Elevate website-integrity lens, 2026-10-08
 **Status:** DIAGNOSED AND SIMULATED, NOT YET APPLIED. The ELR site is in a Showit account this session cannot open (see "Why this is not already live").
+**2026-10-21 update:** a session authorized to apply this fix found `ELR_SHOWIT_EMAIL` / `ELR_SHOWIT_PASSWORD` still absent from the environment, so nothing was applied or published. Live site unchanged (last-modified 2026-09-10). See `03-change-log.md`.
 **Site:** `etherealluxuryrestrooms.com`, Showit-hosted (VERIFIED 2026-10-08: response header `x-showit: hosted`, last-modified 2026-09-10).
 **Screenshots:** `screenshots/home-mobile-hero-before-after.png` (phone, 390x844, live vs simulated fix), `screenshots/home-desktop-fold-2026-10-08.png` (desktop is fine, leave it).
 
