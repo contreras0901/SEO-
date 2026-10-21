@@ -1,8 +1,9 @@
 # Ethereal Luxury Restrooms: Home hero image on phones (fix runbook)
 
 **Prepared by:** Rank (AI) with an Elevate website-integrity lens, 2026-10-08
-**Status:** DIAGNOSED AND SIMULATED, NOT YET APPLIED. The ELR site is in a Showit account this session cannot open (see "Why this is not already live").
-**2026-10-21 update:** a session authorized to apply this fix found `ELR_SHOWIT_EMAIL` / `ELR_SHOWIT_PASSWORD` still absent from the environment, so nothing was applied or published. Live site unchanged (last-modified 2026-09-10). See `03-change-log.md`.
+**Status:** DIAGNOSED AND SIMULATED, NOT YET APPLIED. Before-values recorded from the editor on 2026-10-21 (below); the edit itself is still pending.
+**2026-10-21 update (first attempt):** a session authorized to apply this fix found `ELR_SHOWIT_EMAIL` / `ELR_SHOWIT_PASSWORD` absent from the environment, so nothing was applied or published.
+**2026-10-21 update (second attempt, 16:20 to 16:40 PDT):** the credentials were present, the login worked, and the editor opened the Ethereal site directly. The before-values below were read from the Hero canvas panel. The first mutating click (choosing "Normal" in the phone Canvas Type dropdown) was refused by the session's auto-mode permission classifier ("Unrequested Commit in a Connected App") twice, so no setting was changed, nothing was published, and the dropdown was closed with Escape; a read-back confirmed the draft still shows Canvas Type "Window Height". Live site unchanged (last-modified 2026-09-10). See `03-change-log.md` for what unblocks the next attempt.
 **Site:** `etherealluxuryrestrooms.com`, Showit-hosted (VERIFIED 2026-10-08: response header `x-showit: hosted`, last-modified 2026-09-10).
 **Screenshots:** `screenshots/home-mobile-hero-before-after.png` (phone, 390x844, live vs simulated fix), `screenshots/home-desktop-fold-2026-10-08.png` (desktop is fine, leave it).
 
@@ -33,15 +34,28 @@ Showit keeps a separate phone layout for every canvas, so this does not touch de
 
 ## Before values (fill in from the editor before changing)
 
-| Setting (phone layout, Hero canvas) | Before (editor shows) | After |
+| Setting (phone layout, Hero canvas) | Before (editor shows, read 2026-10-21) | After |
 |---|---|---|
-| Height mode | fill screen (VERIFIED from live class `sb-nm-wH`; confirm label in editor) | fixed |
-| Height | n/a (= window height, 844 on a 390x844 phone) | 520 |
-| Background image | `img_3574.jpg` | unchanged |
-| Background size | fill/cover (VERIFIED from live rendering) | unchanged |
-| Background position | (record) | center / ~60% down |
-| Background scroll | fixed (VERIFIED: live element `position: fixed`) | scroll (optional) |
-| Opacity | 70% (VERIFIED: live `opacity: 0.7`) | unchanged |
+| Canvas Type (height mode) | **Window Height** (dropdown options: Normal, Window Height, Grow with Content). Desktop tab also Window Height. | Normal (fixed) |
+| Minimum Height (phone) | **176 px** (only a minimum while Window Height is on; desktop tab shows 508 px) | 520 px (the field relabels to the fixed height once Canvas Type is Normal; confirm in the editor) |
+| Sticky | None | unchanged |
+| Hidden to start | off | unchanged |
+| Background Media Type / Image | Image, `img_3574.jpg` | unchanged |
+| Background Size | Fill | unchanged |
+| Background Position | **Middle Center** (9-way dropdown; no percentage control) | Middle Center, see note |
+| Background Scroll | **Fixed** | Fixed, see note |
+| Background Opacity | 70 % | unchanged |
+| Canvas Fill | Color, swatch 1, 100 % | unchanged |
+| Canvas elements | none (the canvas list shows "- empty -") | unchanged |
+
+Notes from the editor (2026-10-21):
+
+- The Canvas section has a phone / desktop toggle, so Canvas Type and height are per device. The **Canvas Background section shows no device toggle** and reads identically on both tabs, so Position and Scroll appear to be shared with the desktop layout (INFERENCE from the panel; not tested by changing a value). Changing them would touch desktop, which this fix must not do.
+- At 390 px wide and 520 px tall the 4:3 photo is height-limited under Fill (it renders about 693 px wide and 520 px tall), so there is no vertical crop and the vertical focal point makes no difference on the phone. **Keep Position at Middle Center**; the "60 % down" nudge in the original plan is unnecessary at 520 and would only shift the desktop crop.
+- For the same reason, leave Scroll at Fixed rather than change a shared setting. If the phone-only parallax jump matters later, it is a separate, desktop-affecting decision.
+- Net change to make: Canvas Type Normal and height 520 on the phone tab. Nothing else on this canvas.
+
+Screenshots of the panels as read: `screenshots/editor-home-hero-phone-canvas-before-2026-10-21.png`, `screenshots/editor-home-hero-background-before-2026-10-21.png`.
 
 ## Verification (after publish)
 
