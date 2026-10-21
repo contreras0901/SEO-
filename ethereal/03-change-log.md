@@ -96,3 +96,36 @@ One long-running Node script (`driver.js` in the session scratchpad) launches he
 ### Not done, and why
 
 E1, E2, E3a, E4 and the publish are all undone because the session's permission classifier refused the first editor edit. No partial change exists in the draft or live. No copy, claims, SEO titles, metas, pages, or Bella Mia assets were touched.
+
+## 2026-10-21 16:46 PDT: Founder publish. Footer Instagram feed reconnected (E13). E1 to E4 still not applied
+
+**Who:** the Founder, in the Showit editor. Rank verified read-only at 16:55 to 17:05 PDT (curl and headless Chromium, iPhone user agent at 390x844 and desktop at 1440x900, no cookies).
+**Publish time:** `last-modified: Wed, 21 Oct 2026 23:46:58 GMT` = 16:46 PDT (VERIFIED from the response header and the build comment in the HTML).
+
+### What changed (VERIFIED by diffing the live Home HTML against the 16:15 PDT fetch)
+
+| Asset | Before | After |
+|---|---|---|
+| Site footer (Main Site canvas set), element `footer_1`, Showit **Social Grid** | Connected to an Instagram account ID that returned nothing, so the grid showed its fallback images (the template's stock photos: "Amanda Scott Design Showit Website Template" and Pexels files, still listed in `data-fallback-images`) | Connected to a different account ID. The grid now loads six real Ethereal posts from Instagram's CDN (trailer at Rancho Valencia, a reel, the trailer under mountains, the trailer side with the wordmark, the ELR mark), each linking to its instagram.com post or reel. Screenshot: `screenshots/home-footer-desktop-2026-10-21.png`. |
+
+Nothing else in the Home HTML changed apart from the Cloudflare email-obfuscation token, which rotates on every build.
+
+**Correction to the E13 note above:** the strip is not a plain gallery element. It is Showit's Social Grid element with an Instagram connection and a fallback image set; the stock photos were the fallback showing because the connection was not returning posts. The Founder's fix was reconnecting the account, so no image upload or third-party widget is needed. E13 is CLOSED.
+
+### What has not changed (VERIFIED at the same time)
+
+| Check | Target | Live result 17:00 PDT | Status |
+|---|---|---|---|
+| E1 Home `#hero` on phone (390x844) | height 520, H1 top under 844 | height 844, class still `sb-nm-wH`, inline `height: 844px`, H1 top at 912 px | NOT APPLIED |
+| E2 `href="tel:"` on `/`, `/contact`, `/book-now` | at least 1 each | 0, 0, 0 | NOT APPLIED |
+| E2 `mailto:` on `/contact` | 1 | 0 | NOT APPLIED |
+| E3a links from `/service-area` to the seven city pages | 7 | 0 | NOT APPLIED |
+| E4 footer links to `/pricing-guide` and `/why-a-trailer` | present on every page | 0 on every page checked; the footer Navigate column still ends at "Emergency" | NOT APPLIED |
+| Desktop Home fold | unchanged | hero 900 px, nav and full lockup as before (`screenshots/home-desktop-fold-2026-10-21.png`) | unchanged |
+| HTTP status of the seven pages | 200 | 200 | unchanged |
+
+Screenshots saved: `screenshots/home-mobile-fold-2026-10-21.png` (phone, hero still full-screen with the wordmark cut on the left), `screenshots/home-desktop-fold-2026-10-21.png`, `screenshots/home-footer-desktop-2026-10-21.png`.
+
+### Next
+
+E1, E2, E3a, E4 remain pending exactly as written in the 16:20 PDT entry and in the step-by-step given to the Founder in chat (hero phone tab to Normal / 520; inline `tel:` and `mailto:` links in the Contact text element; one linked city line on Service Area; two footer links under "Emergency" on desktop and under the phone column). Founder decision still open on whether to add the phone number to the footer so Home and Book Now carry a tappable number. After the next publish, rerun the checks in this table.
