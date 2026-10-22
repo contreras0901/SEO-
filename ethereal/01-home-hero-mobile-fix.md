@@ -1,9 +1,10 @@
 # Ethereal Luxury Restrooms: Home hero image on phones (fix runbook)
 
 **Prepared by:** Rank (AI) with an Elevate website-integrity lens, 2026-10-08
-**Status:** DIAGNOSED AND SIMULATED, NOT YET APPLIED. Before-values recorded from the editor on 2026-10-21 (below); the edit itself is still pending.
-**2026-10-21 update (first attempt):** a session authorized to apply this fix found `ELR_SHOWIT_EMAIL` / `ELR_SHOWIT_PASSWORD` absent from the environment, so nothing was applied or published.
-**2026-10-21 update (second attempt, 16:20 to 16:40 PDT):** the credentials were present, the login worked, and the editor opened the Ethereal site directly. The before-values below were read from the Hero canvas panel. The first mutating click (choosing "Normal" in the phone Canvas Type dropdown) was refused by the session's auto-mode permission classifier ("Unrequested Commit in a Connected App") twice, so no setting was changed, nothing was published, and the dropdown was closed with Escape; a read-back confirmed the draft still shows Canvas Type "Window Height". Live site unchanged (last-modified 2026-09-10). See `03-change-log.md` for what unblocks the next attempt.
+**Status:** APPLIED 2026-10-21 17:37 PDT (height), corrected and republished 17:42 PDT. Height and headline position are fixed; the side crop of the wordmark is NOT, because the phone background is still set to Scroll = Fixed (viewport-sized photo). One remaining step for the Founder: Home, Hero, Canvas Background, Scroll = "Scroll with page", Publish. See `03-change-log.md`, 17:10 PDT entry.
+**2026-10-21 update (first attempt):** credentials absent, nothing applied.
+**2026-10-21 update (second attempt, 16:20 PDT):** login worked, before-values recorded, edits refused by the session's permission classifier.
+**2026-10-21 update (third attempt, 17:10 PDT, Founder said "you publish it"):** applied. Editor value for the phone height is 427, not 520: Showit lays out the phone canvas at 320 px wide and scales it to the viewport, so 427 renders as 520 px on a 390 px phone (VERIFIED: rendered 520.4 px, H1 top 589 px). A first publish at 520 rendered 634 px and was corrected.
 **Site:** `etherealluxuryrestrooms.com`, Showit-hosted (VERIFIED 2026-10-08: response header `x-showit: hosted`, last-modified 2026-09-10).
 **Screenshots:** `screenshots/home-mobile-hero-before-after.png` (phone, 390x844, live vs simulated fix), `screenshots/home-desktop-fold-2026-10-08.png` (desktop is fine, leave it).
 
@@ -36,14 +37,14 @@ Showit keeps a separate phone layout for every canvas, so this does not touch de
 
 | Setting (phone layout, Hero canvas) | Before (editor shows, read 2026-10-21) | After |
 |---|---|---|
-| Canvas Type (height mode) | **Window Height** (dropdown options: Normal, Window Height, Grow with Content). Desktop tab also Window Height. | Normal (fixed) |
-| Minimum Height (phone) | **176 px** (only a minimum while Window Height is on; desktop tab shows 508 px) | 520 px (the field relabels to the fixed height once Canvas Type is Normal; confirm in the editor) |
+| Canvas Type (height mode) | **Window Height** (dropdown options: Normal, Window Height, Grow with Content). Desktop tab also Window Height. | **Normal** (APPLIED) |
+| Initial Height (phone) | **176 px** (labeled Minimum Height while Window Height is on; desktop tab shows 508 px) | **427** editor px = 520 px rendered at 390 wide (APPLIED) |
 | Sticky | None | unchanged |
 | Hidden to start | off | unchanged |
 | Background Media Type / Image | Image, `img_3574.jpg` | unchanged |
 | Background Size | Fill | unchanged |
 | Background Position | **Middle Center** (9-way dropdown; no percentage control) | Middle Center, see note |
-| Background Scroll | **Fixed** | Fixed, see note |
+| Background Scroll | **Fixed** | still Fixed. Must become "Scroll with page" for the full wordmark to show; the panel has no device toggle, so this likely affects desktop too (parallax only). FOUNDER DECISION |
 | Background Opacity | 70 % | unchanged |
 | Canvas Fill | Color, swatch 1, 100 % | unchanged |
 | Canvas elements | none (the canvas list shows "- empty -") | unchanged |

@@ -129,3 +129,46 @@ Screenshots saved: `screenshots/home-mobile-fold-2026-10-21.png` (phone, hero st
 ### Next
 
 E1, E2, E3a, E4 remain pending exactly as written in the 16:20 PDT entry and in the step-by-step given to the Founder in chat (hero phone tab to Normal / 520; inline `tel:` and `mailto:` links in the Contact text element; one linked city line on Service Area; two footer links under "Emergency" on desktop and under the phone column). Founder decision still open on whether to add the phone number to the footer so Home and Book Now carry a tappable number. After the next publish, rerun the checks in this table.
+
+## 2026-10-21 17:10 to 17:45 PDT: Rank applied E1, E2, E3a, E4 in the Showit editor and published. Two publishes (17:37 and 17:42 PDT)
+
+**Who:** Rank (AI), on the Founder's instruction in chat ("you publish it"), driving the Showit editor headless with the ELR login (names only: `ELR_SHOWIT_EMAIL`, `ELR_SHOWIT_PASSWORD`).
+**Publishes:** 17:37 PDT (`last-modified: Thu, 22 Oct 2026 00:37:55 GMT`) carrying all four changes; 17:42 PDT (`00:42:11 GMT`) carrying one correction to the hero height (below). Two publishes instead of the planned one; the second changed only the hero phone height field.
+**Not touched:** copy, claims, SEO titles and metas, the desktop hero, the hero image and opacity, all other pages and canvases, the Instagram grid the Founder reconnected at 16:46 PDT, the Bella Mia site.
+
+### Changes made (editor values VERIFIED in the panels; live results VERIFIED 17:45 PDT by curl and headless Chromium at 390x844 with an iPhone user agent, and at 1440x900)
+
+| # | Page / canvas / element | Before | After | Live result |
+|---|---|---|---|---|
+| E1 | Home, Hero canvas, **phone tab** | Canvas Type Window Height; Minimum Height 176 px | Canvas Type **Normal**; Initial Height **427** (editor units; Showit scales its 320 px phone canvas to the viewport, so 427 renders as 520 px on a 390 px phone). A first publish at 520 rendered 634 px; corrected and republished. | `#hero` class now `sb sib-hero sb-nd-wH` (phone window-height class gone); rendered height **520.4 px** at 390x844; H1 top at **589 px**, inside the first screen (was 912). Desktop tab untouched: Window Height, 508; desktop hero still 900 px at 1440x900. |
+| E1 (open) | Home, Hero canvas, Canvas Background | Scroll **Fixed**, Position Middle Center | **unchanged** | **The wordmark is still cut on the left on phones** (`screenshots/home-mobile-fold-2026-10-22-after.png`). Cause, VERIFIED by comparing the 520 and 634 px renders: with Scroll = Fixed the photo is sized to the viewport (390x844), not to the canvas, so the canvas height does not change the crop. The fix is one dropdown, Canvas Background, Scroll: "Scroll with page". That panel shows no phone/desktop toggle and reads the same on both tabs, so it is likely shared with desktop (INFERENCE); on desktop the fold would look the same and only the parallax effect would go. The session's permission classifier refused the change ("Modify Shared Resources"), and the dropdown was closed without selecting. FOUNDER DECISION: approve the Scroll change (two clicks: Home, Hero, Canvas Background, Scroll = Scroll with page, Publish), or accept the current crop. |
+| E2 | Contact, Intro canvas, text element "Yvanna Contreras / 619. 248. 0786 / etherealluxuryrestrooms@gmail.com" | one element, Link: None | Inline text links: phone line = link type **Phone** `6192480786`; email line = link type **Email** `etherealluxuryrestrooms@gmail.com`. Visible text unchanged. | `/contact` raw HTML: 1 `href="tel:6192480786"`; the email link is Cloudflare-obfuscated in the raw HTML (`/cdn-cgi/l/email-protection#…`) and decodes in the browser to `mailto:etherealluxuryrestrooms@gmail.com` (VERIFIED in headless Chromium: both anchors present with the original text). |
+| E2 (open) | Home, Book Now, Service Area, Restrooms, footer | no visible phone number | unchanged | `tel:` count stays 0 on `/` and `/book-now` because the number is not on those pages. FOUNDER DECISION still open: add "T: 619-248-0786" to the footer (copy addition) if every page should carry a tappable number. |
+| E3a | Service Area, Intro canvas | no city links; Intro canvas height desktop 1417 / phone 1669 (editor units); the Emergency Situations paragraph already ran 35 px past the canvas bottom on phones (pre-existing) | New text element, a duplicate of the service-area paragraph (same Work Sans paragraph style): **"La Jolla · Carlsbad · Encinitas · Rancho Santa Fe · Del Mar · Coronado · Chula Vista"**, each name an inline link of type Page to its city page. Desktop X 705 / Y 1370 / W 440 / H 52; phone X 18 / Y 1715 / W 284 / H 60, under the Emergency Situations paragraph. Intro canvas height raised to desktop **1480** and phone **1800** so the line fits; nothing else moved. | `/service-area` links to all seven city pages (7 of 7, VERIFIED). Phone canvas now 2194 px tall with the links at 2094 to 2168 px, inside the canvas; the earlier overflow is gone. Screenshots: `screenshots/service-area-desktop-cities-2026-10-22.png`, `screenshots/service-area-mobile-cities-2026-10-22.png`. |
+| E4 | Site footer (Main Site canvas set, Footer canvas) | Navigate column ends at "Emergency" (desktop X 15 / Y 286; phone X 228 / Y 367, rows 20 px apart) | Two duplicates of the Emergency link, same text style and nav tag: **"Pricing Guide"** (desktop Y 306, phone Y 387; click action Page: Pricing Guide) and **"Why a Trailer"** (desktop Y 326, phone Y 407; click action Page: Why a Trailer). No existing element moved. | Every page checked carries `href="/pricing-guide"` and `href="/why-a-trailer"` in the footer (10 footer links now). Screenshot: `screenshots/home-footer-desktop-2026-10-22-after.png`. |
+
+Desktop Home fold after: `screenshots/home-desktop-fold-2026-10-22-after.png` (unchanged from before).
+
+### Incidents during the edit (all corrected before publish, recorded so the next session avoids them)
+
+- A Backspace sent while an element, not a field, had focus deleted the first duplicate of the service-area paragraph; no original element was lost (the list still showed the nine original elements). The duplicate was recreated. The driver's field setter now refuses to type unless an input is focused and never sends Backspace.
+- Saving an inline link exits text-edit mode, so arrow keys meant for the caret nudged the new city line (X 705 to 789) twice; restored to 705 each time, VERIFIED in the panel.
+- The first hero height entry registered as 52, then 520, then (after the scaling finding above) 427.
+- The editor's right panel and the text editor are in shadow DOM and an iframe respectively; the selection must be read from the editor frame, not the main document.
+
+### Verification summary against the brief
+
+| Check | Target | Result |
+|---|---|---|
+| `#hero` height at 390x844 | 520 | 520.4 px rendered (editor value 427) |
+| H1 top at 390x844 | under 844 | 589 px |
+| Whole wordmark visible on phone | yes | **no**, still cut on the left; needs the Scroll setting (see E1 open) |
+| `href="tel:"` on `/`, `/contact`, `/book-now` | at least 1 each | 0, 1, 0 (number only exists on Contact) |
+| `mailto:` on `/contact` | present | present in the rendered DOM (Cloudflare-obfuscated in raw HTML) |
+| `/service-area` links to seven city pages | 7 | 7 |
+| Footer links to `/pricing-guide` and `/why-a-trailer` | on every page | on every page checked |
+| Desktop fold | unchanged | unchanged (hero 900 px) |
+
+### New Founder request logged (E14, not started)
+
+During the session the Founder shared three screenshots of another company's service-area page (VIP Rentals, from the review text) and said "I want it to look like this": a map with the county list, a "Southern California Event Destinations" grid of twelve photo cards with city names, and a Google reviews strip ("Excellent, based on 132 reviews"). That is a page redesign with inputs Rank cannot supply: which destinations Ethereal actually serves profitably (Elevate and Ledger, not keyword opportunity), licensed or own photos per destination, and a reviews widget tied to Ethereal's own Google Business Profile with its real count (never another company's). Recommended path: (1) Founder confirms the destination list; (2) one Ethereal photo per destination into the Media Library; (3) Rank builds the card grid on the Service Area page in the existing style, each card linking to the matching city page where one exists; (4) reviews strip only through an embed tied to Ethereal's profile, with the spend routed through Ledger if the widget is paid. Each card must carry real, location-specific content or link to a page that does; no doorway-style grid.
