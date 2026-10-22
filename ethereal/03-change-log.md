@@ -273,3 +273,21 @@ The first card (La Jolla image, overlay and title) was created from the Add Elem
 - Second publish (the lock correction): refused by the permission classifier; one click for the Founder.
 - Reviews strip: not built; needs a widget on Ethereal's own Google Business Profile.
 - Still open from earlier: hero background Scroll = "Scroll with page" for the phone wordmark crop (Home, Hero, Canvas Background), and the tap-to-call number on pages other than Contact.
+
+## 2026-10-22 07:18 PDT (Founder) and 07:23 PDT (Rank): first-card fix live; hero scroll and footer phone line published
+
+**07:18 PDT publish, not by Rank** (`last-modified` 14:18:35 GMT; Rank's second publish had been refused, so this is ASSUMED to be the Founder clicking Publish). It carried the first-card horizontal-lock correction from the draft: La Jolla image, overlay and title now render 373 px wide at 1440 px with the 40 px gap (VERIFIED 07:20 PDT).
+
+**07:23 PDT publish by Rank** (`last-modified` 14:23:02 GMT), on the Founder's "yes please" to the two open items:
+
+| Change | Before | After | Live result (VERIFIED 07:25 PDT) |
+|---|---|---|---|
+| Home, Hero canvas, Canvas Background, Scroll | Fixed (viewport-sized photo, wordmark cut at the left on phones) | **Scroll with page**. The panel has no device toggle, so this also removes the parallax effect on desktop; the desktop fold is otherwise unchanged (hero still 900 px at 1440x900). | Phone 390x844: hero 520 px, H1 top 589 px, and the whole "ETHEREAL LUXURY RESTROOMS" wordmark visible with margin. `screenshots/home-mobile-fold-2026-10-22-scroll.png`, `screenshots/home-desktop-fold-2026-10-22-scroll.png`. E1 is now fully done. |
+| Site footer (Main Site canvas set, Footer canvas) | no phone number | New text element **"T: 619-248-0786"**, a duplicate of the "About" link (same Navigate text style), click action type Phone `6192480786`. Desktop X 15 / Y 346 / W 200 / H 31, under "Why a Trailer"; phone X 10 / Y 336 / W 174 / H 19, under "About". | `href="tel:6192480786"` now on every page checked (`/`, `/contact`, `/book-now`, `/service-area`). `screenshots/home-footer-desktop-2026-10-22-phone.png`. E2 is now done on every page. |
+
+This is the first time the phone number appears on pages other than Contact, so it is a copy addition the Founder approved in chat. FACT REGISTER UPDATE CANDIDATE: 619-248-0786 as the public phone number (already in the schema and on the Contact page).
+
+### Open items after this publish
+
+- Destination card photos are Ethereal's trailer shots, not photos of the named places; swap them in the editor (Service Area page, Destinations canvas, click a card's "graphic", Image panel, Swap Image) when real destination photos exist.
+- Reviews strip: not built; needs a widget tied to Ethereal's own Google Business Profile.
