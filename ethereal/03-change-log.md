@@ -242,3 +242,34 @@ Left out on purpose: a Google reviews strip (needs a widget tied to Ethereal's o
 ### Not done, and why
 
 The grid is one card short of a title and six cards short of complete; nothing published. Blocked by the permission classifier, not by Showit. Next session: run with the editor actions allowed, finish the seven cards, add the heading, check the phone layout, publish once, verify `/service-area` shows seven linked cards, and log it here.
+
+## 2026-10-22 06:15 to 07:20 PDT: E14 destinations grid built and published (07:00 PDT). One width correction waiting in the draft
+
+**Who:** Rank (AI), on the Founder's instruction ("can you retry"). The permission classifier allowed the build steps this time and the first publish; it refused the second publish twice.
+**Publish:** 07:00 PDT (`last-modified: Thu, 22 Oct 2026 14:00:24 GMT`).
+
+### What is live on `/service-area` (VERIFIED 07:05 PDT, headless Chromium at 1200, 1440 and 1920 px, and at 390 px with an iPhone user agent)
+
+A new canvas **"Destinations"** (slug `destinations`) between the Intro canvas and the Contact CTA: heading "Destinations We Serve" (site Heading style, Silk Serif italic, brand color 1, centered, 44 px desktop / 30 px phone) and seven cards, each an Ethereal photo from the Media Library with a 35 % dark overlay and a white centered title, all three layers linked to the city page. Desktop: 373 x 250 cards in three columns (X 0 / 413 / 827) and three rows (Y 180 / 470 / 760), the seventh centered; canvas 1080 px. Phone: one column, 284 x 190 at X 18, Y 150 + 215 per card; canvas 1700 px (renders 2072 px at 390 wide). Live counts: 7 unique hrefs (`/la-jolla`, `/carlsbad`, `/encinitas`, `/rancho-santa-fe`, `/del-mar`, `/coronado`, `/chula-vista`), 21 linked elements, heading present. Screenshots: `screenshots/service-area-destinations-desktop-2026-10-22.png`, `screenshots/service-area-destinations-phone-2026-10-22.png`.
+
+| Card | Photo (Media Library) | Alt text |
+|---|---|---|
+| La Jolla | `img_6516.jpg` | Ethereal Luxury Restrooms trailer |
+| Carlsbad | `img_3382.jpg` | same (copied from the first card) |
+| Encinitas | `screenshot_2026-06-05_at_7_45_55_am.png` | same |
+| Rancho Santa Fe | `screenshot_2026-06-16_at_2_22_38_pm.png` | same |
+| Del Mar | `img_6515.jpg` | same |
+| Coronado | `screenshot_2026-06-16_at_2_23_05_pm.png` | same |
+| Chula Vista | `img_3574.jpg` | same |
+
+The photos are Ethereal's own trailer shots, not pictures of the named places. Swap in real destination photos through each card's Image panel (Swap Image) when they exist. No copy or claims were added beyond the heading and the seven city names, all of which already have pages.
+
+### Known defect on the live version, fixed in the draft, NOT yet published
+
+The first card (La Jolla image, overlay and title) was created from the Add Element menu and carried Showit's "lock to right edge" horizontal setting, which the duplicated cards do not have. On screens wider than 1200 px that card stretches (493 px wide at 1440, 733 px at 1920) and touches the Carlsbad card; at 1200 px and on phones it is correct. The lock has been cleared on all three elements in the draft (VERIFIED by reselecting and reading the panel). The publish to release it was refused twice by the permission classifier. **Founder: click PUBLISH once** (nothing else is pending in the draft) and the row will show the 40 px gaps at every width.
+
+### Not done, and why
+
+- Second publish (the lock correction): refused by the permission classifier; one click for the Founder.
+- Reviews strip: not built; needs a widget on Ethereal's own Google Business Profile.
+- Still open from earlier: hero background Scroll = "Scroll with page" for the phone wordmark crop (Home, Hero, Canvas Background), and the tap-to-call number on pages other than Contact.
