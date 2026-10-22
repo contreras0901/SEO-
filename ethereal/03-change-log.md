@@ -215,3 +215,30 @@ Phone layouts of the headings, subtitles and lists were not changed.
 Phone (390x844): intro button at Y 536 inside the 759 px canvas; Process canvas 1304 px tall with no stray buttons. Screenshots: `screenshots/design-options-standard-1227-after-2026-10-21.png`, `screenshots/design-options-phone-intro-after-2026-10-21.png`.
 
 Limit: the Founder's exact browser and window width are unknown, so the left-edge cut-off was reproduced only by inference; the 22 px extra margin and the 30 px list inset are sized to cover it. Founder to confirm on the same screen.
+
+## 2026-10-21 18:40 to 19:10 PDT: E14 destinations grid on the Service Area page. STARTED IN THE DRAFT, NOT PUBLISHED, STOPPED BY THE PERMISSION CLASSIFIER
+
+**Who:** Rank (AI), on the Founder's instruction in chat ("build something similar to them", referring to another company's service-area page with a photo-card grid of destinations).
+**Live site:** unchanged by this work. Last publish remains 18:30 PDT (Design Options fixes).
+
+### What is in the unpublished Showit draft now (Service Area page)
+
+- A new canvas **"Destinations"** (slug `destinations`), inserted between the Intro canvas and the Contact CTA canvas. Canvas Type Normal; height desktop 1000, phone 1700. No background set (page background shows through).
+- In it, one card without its title: an **Image** element (`img_6516.jpg`, the trailer-in-garden photo; alt text "Ethereal Luxury Restrooms trailer"; Image Fit Fill) at desktop W 373 / X 0 / H 250 / Y 180 and phone W 284 / X 18 / H 190 / Y 150, click action Page: La Jolla; and a **Rectangle** overlay (brand color 1, opacity 35 %) with the same size, position and link.
+- Nothing else. The canvas is visible on both layouts. **Do not publish the site until this canvas is either finished or hidden** (canvas "…" menu, untick Visible On Desktop and Visible On Mobile), otherwise the page shows a mostly empty 1000 px section with one untitled photo. Rank tried to hide it and the attempt was refused by the same permission check.
+
+### Why it stopped
+
+The session's auto-mode permission classifier refused four consecutive editor actions on the new canvas (copy-and-paste of the page's heading style, adding a Heading element, and hiding the canvas), after allowing the canvas, image and rectangle steps. The rules for a refusal say to stop and report rather than keep retrying.
+
+### Design that was being built (so the Founder or the next session can finish it the same way)
+
+Seven cards, one per existing city page, in the site's own style. Desktop: three columns of 373 x 250 at X 0 / 413 / 827, rows at Y 180 / 470 / 760, the seventh card centered at X 413 on the third row. Phone: one column, 284 x 190 at X 18, Y 150 + 215 per card. Each card = Image (Ethereal photo from the Media Library, alt "Ethereal Luxury Restrooms trailer") + Rectangle overlay (brand color 1, 35 %) + Title text (the page's Title style, color changed to white, centered, size about 26 desktop / 22 phone, placed on the lower part of the card), all three linked to the city page. Heading above the grid in the "Area We Service" style, for example "Destinations We Serve", with a one-line sub-line in the page's paragraph style.
+
+Photo assignment proposed from the Media Library (all Ethereal's own photos, none location-specific; swap in real destination photos when available): La Jolla `IMG_6516`; Carlsbad `IMG_3382`; Encinitas the 2026-06-05 lawn screenshot; Rancho Santa Fe the 2026-06-16 red-dirt screenshot; Del Mar `IMG_6515`; Coronado the 2026-06-16 truck-under-tree screenshot; Chula Vista `IMG_3574`.
+
+Left out on purpose: a Google reviews strip (needs a widget tied to Ethereal's own Google Business Profile; a review count from another business must never be shown) and any destination not already backed by a city page (a card with no real page behind it would be a doorway-style placeholder).
+
+### Not done, and why
+
+The grid is one card short of a title and six cards short of complete; nothing published. Blocked by the permission classifier, not by Showit. Next session: run with the editor actions allowed, finish the seven cards, add the heading, check the phone layout, publish once, verify `/service-area` shows seven linked cards, and log it here.
