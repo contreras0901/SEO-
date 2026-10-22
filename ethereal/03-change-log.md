@@ -172,3 +172,46 @@ Desktop Home fold after: `screenshots/home-desktop-fold-2026-10-22-after.png` (u
 ### New Founder request logged (E14, not started)
 
 During the session the Founder shared three screenshots of another company's service-area page (VIP Rentals, from the review text) and said "I want it to look like this": a map with the county list, a "Southern California Event Destinations" grid of twelve photo cards with city names, and a Google reviews strip ("Excellent, based on 132 reviews"). That is a page redesign with inputs Rank cannot supply: which destinations Ethereal actually serves profitably (Elevate and Ledger, not keyword opportunity), licensed or own photos per destination, and a reviews widget tied to Ethereal's own Google Business Profile with its real count (never another company's). Recommended path: (1) Founder confirms the destination list; (2) one Ethereal photo per destination into the Media Library; (3) Rank builds the card grid on the Service Area page in the existing style, each card linking to the matching city page where one exists; (4) reviews strip only through an embed tied to Ethereal's profile, with the spend routed through Ledger if the widget is paid. Each card must carry real, location-specific content or link to a page that does; no doorway-style grid.
+
+## 2026-10-21 18:05 to 18:35 PDT: Design Options page layout fixes (Founder: "this needs to be fixed"). Published 18:30 PDT
+
+**Who:** Rank (AI), on the Founder's instruction with two screenshots of the Design Options page showing the "CORTESSA LINE" heading and subtitle cut off at the left edge, the "STANDARD LINE" subtitle's second line running under the photo, and the last Standard list item clipped at the right edge.
+**Publish:** 18:30 PDT (`last-modified` 2026-10-22 01:30 GMT). Copy unchanged except one label repair noted below. SEO settings, images, other pages untouched.
+
+### Diagnosis (VERIFIED on the live page before the change, headless Chromium at 1000, 1227 and 1440 px, and at 390 px with an iPhone user agent)
+
+- The two headings and the Cortessa subtitle are edge-locked at X 14 px on desktop (they stay 14 px from the window edge at every width), while the rest of the section sits in the centered 1200 px flow. On the Founder's screen (estimated 1227 CSS px wide from the screenshots) that 14 px margin plus slightly wider font rendering pushed the first letters off the left edge.
+- The Standard subtitle box was 491 px wide, so the sentence wrapped to two lines (bottom at 1457 px) and crossed the photo, whose top is at 1447 px. The Cortessa subtitle box is 833 px wide and stays on one line, which is why only the Standard section showed the overlap.
+- Both "What's Included" lists were placed at X 734 with width 454, ending at 1188 of the 1200 px layout, 12 px from the edge; any wider rendering clipped the last words.
+- Found while there: the Intro canvas button label contained a literal `&nbsp;` entity ("START YOUR JOURNEY&NBSP; →"), visible as text; on phones that button sat at Y 1184 in a 759 px canvas, so it rendered on top of the Cortessa section; and the Process canvas carried two identical "Inquire Now" buttons positioned outside their canvas on both layouts (desktop Y 1028 in a 619 px canvas, phone Y 1555 in a 1024 px canvas) and styled black-on-black, so they landed over the FAQ section.
+
+### Changes (editor values VERIFIED in the panels; desktop layout unless stated)
+
+| Element (Design Options, "Whats included" canvas unless stated) | Before | After |
+|---|---|---|
+| "Cortessa Line" heading | X 14 | X 36 |
+| "A designer-led, fully remote…" subtitle | X 14 | X 36 |
+| "Standard Line" heading | X 14 | X 36 |
+| "A turnkey, ready-to-go…" subtitle | W 491 (two lines) | W 760 (one line); X 36, Y 1405 unchanged |
+| Cortessa "What's Included" list | X 734 | X 704 (W 454 unchanged) |
+| Standard "What's Included" list | X 733 | X 703 |
+| Intro canvas button label | `START YOUR JOURNEY&NBSP; →` | `Start Your Journey →` (same visible words, uppercase comes from the button style) |
+| Intro canvas button, phone layout | Y 1184 (outside the 759 px canvas) | Y 440 (under the intro copy) |
+| Process canvas, two "Inquire Now" buttons | desktop Y 1028, phone Y 1555, outside the canvas, black on black | moved to desktop Y 535 / phone Y 995 inside the canvas, then **hidden on both layouts** (visibility toggles, not deleted). They are duplicates of the Whats-included button and were never legible on the dark canvas. FOUNDER DECISION if a visible button is wanted there: unhide one and give it a light color in Button Style. |
+| Process canvas, phone height | 1024 | 1070 |
+
+Phone layouts of the headings, subtitles and lists were not changed.
+
+### Verification after publish (live, 18:33 PDT)
+
+| Check | 1000 px | 1227 px | 1440 px |
+|---|---|---|---|
+| Heading left edge | 30 px | 36 px | 36 px |
+| Standard subtitle lines / bottom vs photo top | 1 line, 1189 vs 1206 | 1 line, 1427 vs 1447 | 1 line, 1427 vs 1447 |
+| List right edge vs viewport | 965 of 1000 | 1172 of 1227 | 1278 of 1440 |
+| Intro button text | `START YOUR JOURNEY →` | same | same |
+| Stray Process buttons rendered | none | none | none |
+
+Phone (390x844): intro button at Y 536 inside the 759 px canvas; Process canvas 1304 px tall with no stray buttons. Screenshots: `screenshots/design-options-standard-1227-after-2026-10-21.png`, `screenshots/design-options-phone-intro-after-2026-10-21.png`.
+
+Limit: the Founder's exact browser and window width are unknown, so the left-edge cut-off was reproduced only by inference; the 22 px extra margin and the 30 px list inset are sized to cover it. Founder to confirm on the same screen.
