@@ -29,7 +29,7 @@ The Founder supplied Atlas's 18 Sep implementation package (`../analysis/supplie
 | 5 | `06-baseline-and-change-log.md` | measurement | 30 min | None; do before or alongside steps 1–4 |
 | 6 | `05-real-weddings-content-kit.md` | B5 | ongoing, 1 post per 1–2 weeks | Which past weddings are confirmed |
 | 7 | `07-localbusiness-schema-draft.json` | later | 15 min | Only after step 4 settles the business facts |
-| 8 | `08-google-founder-names.md` | branded search accuracy | 30 min site edit + Google feedback | No. Decided 2026-10-30: the kids' names stay on the About page; only Alejandro comes out. Added 2026-10-29: Google shows Alejandro, Erika, and Julio as founders; the only founder is Yvanna Contreras |
+| 8 | `08-google-founder-names.md` | branded search accuracy | 30 min site edit + Google feedback | No. Decided 2026-10-30: the kids' names stay on the About page; only Alejandro comes out. Added 2026-10-29: Google shows Alejandro, Erika, and Julio as founders; the only founder is Yvanna Contreras. 2026-10-29 cloud attempt: Showit login for the Bella Mia site rejected, About page not changed; see Fix 08 section 6 |
 
 Steps 1–3 are all inside the CMS and can be done in one sitting. Do step 5 (baseline) the same day, before or right after, so there is a "before" to compare against.
 

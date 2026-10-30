@@ -4,7 +4,7 @@
 **Founder instruction (2026-10-29):** "Remove Alejandro and definitely remove Erika and Julio, they are not the founders." Context: what Google shows for Bella Mia Exclusive Events.
 **Correct fact (FOUNDER CONFIRMED, Fix 04 target record):** Bella Mia Exclusive Events has one founder, **Yvanna Contreras**, founder and lead planner, established 2014.
 **Priority:** HIGH IMPACT (branded search accuracy; this is what a planner, hotel contact, or couple sees first)
-**Status:** READY TO APPLY — all Founder decisions made (2026-10-30). Nothing below has been applied yet. Google-side steps need the Founder's Google account; the site step needs the Showit editor on the Founder's computer.
+**Status:** PARTLY APPLIED, 2026-10-29 18:25 PDT (cloud session; details in section 6). Done: step 2.4, the Erika & Julio post body now says "our clients" (WordPress), but that body is not what the live page renders, so the live sentence is unchanged. **Blocked from the cloud:** steps 2.1 to 2.3 (About page in Showit) because the Bella Mia Showit login held by the environment was rejected ("Invalid login", twice) and the Ethereal Showit account lists only the Ethereal site. Not attempted: sections 3 and 4 (Founder's Google account). **Founder:** either refresh the `SHOWIT_EMAIL` / `SHOWIT_PASSWORD` secrets for the account that owns bellamiaexclusiveevents.com and rerun, or make the three About page edits in Showit on the Mac, then do sections 3 and 4.
 
 ## What this session could and could not see
 
@@ -47,6 +47,7 @@ Nothing in the repository or the live site calls any of the three a founder, own
 
    The `@id` matches the LocalBusiness block already live on the homepage (verified 2026-10-29). Structured data does not force any Google feature to change (CURRENT PLATFORM POLICY NOT YET VERIFIED for current eligibility rules); it removes one more reason to guess.
 4. **Erika & Julio post** (`/2026/10/01/private-estate-wedding-san-diego-erika-and-julio/`): confirm the first paragraph says they were the couple, e.g. "Erika and Julio, Bella Mia clients, married at a private estate…". If the body still has `[FOUNDER FILL]` placeholders, that is a separate content item (`fixes/posts/erika-and-julio-private-estate-san-diego.md`); only the "clients" wording matters for this fix.
+   **VERIFIED 2026-10-29 (fetch of the live post):** the opening paragraph on the live page is a static Showit text element in the post's template (`content_0`, Content canvas, template `single-post-private-estate-wedding-san-diego-erika-and-julio`), not the WordPress post body; the body is not rendered anywhere on the page. So the two-word change has to be made in that Showit element: `...the wedding celebration of Érika Bátiz and Julio Ramírez...` → `...the wedding celebration of our clients Érika Bátiz and Julio Ramírez...`. The WordPress body already carries the new wording (section 6) in case the template is ever rebound to post content.
 5. **Homepage:** no change needed. Keep `Meet Yvanna Contreras` / `Founder & lead planner` and the "Pictured: Erika & Julio's estate wedding" caption exactly as they are; they are now the correct signal.
 6. Publish once, then run the checks in section 4.
 
@@ -84,6 +85,27 @@ Record the "last crawl" date each inspection shows. The homepage was last reques
 - Verify the site edits live with the usual cache-busting fetch: `/about` contains "founded Bella Mia Exclusive Events in 2014", contains 0 matches for "Alejandro", and the Person JSON-LD validates in Google's Rich Results Test or the Schema Markup Validator.
 - Re-check Google on the same surface at 1 week and at 3 weeks after the indexing requests; log each check (date, query, surface, what it shows) in `06-baseline-and-change-log.md`. If the names are still there at 3 weeks, file the knowledge-panel feedback again (section 3a.3) and check third-party listings (Yelp, The Knot, WeddingWire, BBB, Carats & Cake, Facebook, LinkedIn) for any "owner" or team field naming anyone but Yvanna; BBB's "Ivanna" spelling is already queued in Fix 04.
 - Do not expect a date. Rank can commit to the edits, the requests, and the feedback being filed; when Google updates the panel or the AI answer is Google's call.
+
+## 6. Apply log
+
+**2026-10-29 18:00 to 18:30 PDT (2026-10-30 01:00 to 01:30 UTC), cloud session (Rank).** Instruction: "Apply Fix 08."
+
+| Step | Result | Evidence |
+|---|---|---|
+| Live baseline, `/about` | unchanged: 1 match for "Alejandro"; the family sentence reads exactly as quoted in step 2.1; no "founder" wording in the body; no Person JSON-LD | cache-busted fetch, 18:05 PDT |
+| Live baseline, `/` (step 2.5) | correct, no change needed: `Meet Yvanna Contreras`, `Founder & lead planner`, the "Pictured: Erika & Julio's estate wedding…" caption, and `"founder": {"@type": "Person", "name": "Yvanna Contreras"}` in the JSON-LD are all live | fetch, 18:25 PDT |
+| Showit login, Bella Mia account | **FAILED.** `SHOWIT_EMAIL` (Info@bellamiaexclusiveevents.com) + `SHOWIT_PASSWORD`: "Invalid login" with the email as stored and again lowercased. No third attempt (lockout risk). | headless Chromium at app.showit.com |
+| Showit login, Ethereal account | succeeded, but "View My Site Designs" lists one site only (Ethereal Luxury Restrooms); Shared Designs is empty. The Bella Mia site is not reachable from that account. | editor screenshots in the session scratchpad, not committed |
+| Steps 2.1, 2.2, 2.3 (About page text, founder sentence, Person JSON-LD) | **NOT APPLIED.** Nothing in the Showit draft was touched. | |
+| Step 2.4 (post wording) | WordPress post 250 body updated by REST (app password): `…the wedding celebration of Érika Bátiz and Julio Ramírez, guitarist…` → `…the wedding celebration of our clients Érika Bátiz and Julio Ramírez, guitarist…`. Saved 01:25:00 UTC, status still publish, one paragraph changed, no other field touched. **Not visible live:** the live page renders the story from static Showit text (`content_0`), which still reads the old sentence. | REST read-back; live fetch 18:26 PDT |
+| Step 2.6 (publish) | not needed, no Showit change exists | |
+| Section 3 (Google feedback) and section 4 (Search Console) | not attempted: they need the Founder's Google account, and "Request indexing" has no API | |
+
+**What the Founder does next (about 15 minutes in Showit, then 10 minutes in Google):**
+1. Showit, About page: steps 2.1, 2.2, 2.3 exactly as written above.
+2. Showit, Blog Templates → the Erika & Julio post template, Content canvas, first text element: insert "our clients " before "Érika Bátiz" (step 2.4).
+3. Publish once. Then sections 3b, 3c and 4.
+4. Alternatively, update the `SHOWIT_EMAIL` / `SHOWIT_PASSWORD` secrets with a login that opens the Bella Mia site and rerun "Apply Fix 08"; the session will do 1 to 3 and the live verification, and will still leave sections 3 and 4 to the Founder.
 
 ## What not to do
 
