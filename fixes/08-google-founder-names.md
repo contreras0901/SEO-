@@ -4,7 +4,7 @@
 **Founder instruction (2026-10-29):** "Remove Alejandro and definitely remove Erika and Julio, they are not the founders." Context: what Google shows for Bella Mia Exclusive Events.
 **Correct fact (FOUNDER CONFIRMED, Fix 04 target record):** Bella Mia Exclusive Events has one founder, **Yvanna Contreras**, founder and lead planner, established 2014.
 **Priority:** HIGH IMPACT (branded search accuracy; this is what a planner, hotel contact, or couple sees first)
-**Status:** DRAFT — nothing below has been applied yet. Google-side steps need the Founder's Google account; the site step needs the Showit editor on the Founder's computer.
+**Status:** READY TO APPLY — all Founder decisions made (2026-10-30). Nothing below has been applied yet. Google-side steps need the Founder's Google account; the site step needs the Showit editor on the Founder's computer.
 
 ## What this session could and could not see
 
@@ -26,8 +26,8 @@ Nothing in the repository or the live site calls any of the three a founder, own
 ## 2. Site edits (Showit, Founder's computer) — do first, same day
 
 1. **About page, "Meet YVANNA" block, last paragraph.** Current text: `When she is not designing one of her bespoke events she enjoys, writing her book, traveling. But most of all quality time with her husband Alejandro and her kids, Scarlett Isabella, Victoria Rose and Nicolas Alexander. And all her little fur babies`
-   Replace with: `When she is not designing one of her bespoke events she enjoys writing her book and traveling, and most of all quality time with her husband, her kids, and all her little fur babies.`
-   This removes Alejandro as instructed. Her kids (adults, FOUNDER CONFIRMED 2026-10-29) are named in the same sentence; their names come out with Alejandro's in this draft only because the same extraction problem applies to any person named in the owner's bio. **FOUNDER DECISION: keep their names or not.** If keeping them, use: `…quality time with her husband, her kids Scarlett Isabella, Victoria Rose and Nicolas Alexander, and all her little fur babies.`
+   Replace with: `When she is not designing one of her bespoke events she enjoys writing her book and traveling, and most of all quality time with her husband, her kids Scarlett Isabella, Victoria Rose and Nicolas Alexander, and all her little fur babies.`
+   This removes Alejandro as instructed and keeps the kids' names (adults; **FOUNDER DECISION 2026-10-30: keep the names**). The founder sentence in step 2 is what tells Google who runs the business; the three names in a family sentence are a much weaker signal than a husband named in the owner's bio was, and they stay.
 2. **About page, same block, add one plain-language sentence** directly under the `Meet YVANNA` heading or as the first line of the bio: `Yvanna Contreras founded Bella Mia Exclusive Events in 2014 and is its founder and lead planner.` One unambiguous sentence on the About page is what a knowledge panel and an AI feature quote; the current bio never says "founder" in the body text (only the meta description does).
 3. **About page, Custom Head HTML (Showit SEO Settings), add Person structured data** so the founder is machine-readable on the page about her, not only on the homepage:
 
