@@ -423,3 +423,11 @@ Reviews text for the Home block; written OK per "You may have seen us in" logo; 
 Measured on the preview at 390, 1366 and 1920 px: heading and line centers sit on the viewport midline (195 / 683 / 960); on phone the line ends 8 px above the first card. Full 33-page check re-run: 32 of 33 clean, the only flag being the pre-existing hidden Book Now template leftover noted above.
 
 Note for rollback: during this work the heading briefly received the line's text and Paragraph style through a mis-targeted selection (clicks on the canvas near the two elements select the heading, and layer-list rows are named by their live text). Restored in the same session; all steps are in the jsonl.
+
+## 2026-11-13 16:33 GMT: batches 4 and 5 plus the destinations header rework are LIVE (Founder published; noticed during the next request). Live verification by Rank
+
+Live crawl with `phase5-head-html/verify-batch5.js` against www.etherealluxuryrestrooms.com at 16:25 GMT: 33 pages at 200 with one H1, photo hero, same-day sign, meta and valid JSON-LD; no "Big Bear" text; 20 destination cards and 20 city links; heading "Southern California Servicing Areas" live; `/big-bear-lake` redirects to `/yorba-linda`; the only flag is the pre-existing hidden Book Now template leftover on phone (34 px, invisible).
+
+Founder (chat, 16:30 GMT): "I dont see a header in every page especially in the servicing area page" with a screenshot of the Restrooms page navigation bar (ABOUT · RESTROOM UNITS · BOOK NOW · wordmark · SERVICE AREA · DESIGN OPTIONS · CONTACT). Live check: that bar is the "Menu Dark" site canvas (47 px) and only the Restrooms page carries it; every other page, Home included, has no navigation bar above its hero. Next batch: add that bar to every page.
+
+Founder (chat, 16:20 GMT): "I would like for every card to have a different photo of our trailers" — queued after the navigation bar.
