@@ -317,3 +317,29 @@ This is the first time the phone number appears on pages other than Contact, so 
 - Search Console indexing requests and removals: Founder's (out of Rank's scope by the brief).
 - Still blocked on Founder input: reviews text for the Home block, written OK for each "You may have seen us in" logo, and the current price list (Pricing Guide copy, its meta, and the Product schema still show $1,150 / $1,350 / $1,450 / $2,150).
 - HoneyBook: confirm the "How did you hear about us?" field is included in submission notifications.
+
+## 2026-11-13: Batch 3 built in the Showit draft, verified on the preview build, NOT YET PUBLISHED (publish click refused by the session's permission classifier twice; Founder to click PUBLISH once)
+
+**Founder requests (chat, 2026-11-13):** fix the Home hero (H1 clipped at the right edge and the intro paragraph running into the two links on the Founder's screen); "ADD MORE LOCATIONS" to the Destinations grid; "ADD A HEADER" to the Service Area page; "YES TO IT ALL" on the Restrooms slide retitle.
+
+### In the draft (all VERIFIED on `elr-group-inc-3.showitpreview.com` after the last edit; screenshots in `screenshots/phase3-2026-11-13/`)
+
+| Item | Change | Preview check |
+|---|---|---|
+| Home hero | H1 desktop font size 87 → 70 px (element-level Text Style override); intro paragraph trimmed to one sentence plus the area line: "San Diego to Los Angeles. Organic, refined, designed for luxury: boutique restroom trailer rentals for weddings, corporate events and job sites, delivered across San Diego County, Orange County, Los Angeles and Ventura County." | At 1227 px wide (the Founder's screen): H1 right edge 1103 px, paragraph ends 37 px above the two links; no clipping, no overlap. Phone 390 px: clean. |
+| Restrooms, "Our Trailers" slide 1 | "Initial Consultation" → "Choosing Your Trailer", with new copy that introduces the four sizes and the arrow to compare them | H2 list on the page: Two-Stall, Three-Stall, Four-Stall, Five-Stall ADA |
+| Service Area header | A copy of the Restrooms photo hero canvas pasted above the Intro canvas, title text "SERVICE AREA" (H1); "SAN DIEGO TO LA" demoted to H2 | one H1 "SERVICE AREA"; hero renders on desktop and phone |
+| Seven new location pages (each duplicated from Carlsbad, then renamed, re-slugged, new title, meta, head HTML with Service + BreadcrumbList schema, new H1, new intro paragraph written for that place; everything else on the page is the shared template) | `/san-diego`, `/oceanside`, `/escondido`, `/newport-beach`, `/los-angeles`, `/malibu`, `/thousand-oaks` | all 7 return 200 on the preview with the right title, H1, meta and two valid schema blocks. Copy per page is in `phase2-head-html/cities-copy-2026-11-13.json`. |
+| Destinations grid (Service Area) | 7 → 14 cards: Chula Vista moved to the left column; San Diego, Oceanside, Escondido, Newport Beach, Los Angeles, Malibu, Thousand Oaks added (image + 35 % overlay + title, each linked to its page); canvas height desktop 1080 → 1700, phone 1700 → 3250. Photos are Ethereal's own trailer shots (swap in real destination photos later). | 14 titles, 14 images, 14 overlays; every link matches its page; phone order La Jolla → Thousand Oaks top to bottom. |
+
+### Incidents during the build (all corrected in the draft; recorded so the next session avoids them)
+- Showit renumbers the element list after every paste, so a paste loop that re-clicks list rows by saved coordinates copies the wrong element. Eleven mis-sized "Del Mar" text elements and six duplicate overlays were created, then deleted through the layer list with a position check on each row before pressing Delete. Element ids also renumber after a delete, so deletions were done by re-reading positions each time.
+- The original Chula Vista title was renamed/moved during the first attempt; a fresh Chula Vista title was pasted. The San Diego title first sat underneath its own image and overlay (pasted later) and was recreated on top.
+- The Page dropdown in Click Actions opens from its chevron, not from the value text; the option list renders at x≈1378.
+- Removing a queued step file while the driver was executing it crashed the driver once; the Showit draft auto-saved, nothing was lost.
+
+### Why it is not published
+The session's auto-mode permission classifier refused the PUBLISH click twice ("Destructive or Unwanted Actions"), even though the Founder approved the batch in chat. The draft is complete and saved. **Founder: open the editor and click PUBLISH once**, then tell Rank, who will verify the live DOM (14 cards and links, 7 new pages, Service Area hero, Home hero at 1227 px) and request indexing for the new URLs through Search Console (Founder's account).
+
+### Still open from earlier
+Reviews text for the Home block; written OK for each "You may have seen us in" logo; current price list; HoneyBook notification check for the "How did you hear about us?" field; Search Console removals for the six legacy URLs (trailing-slash form).
