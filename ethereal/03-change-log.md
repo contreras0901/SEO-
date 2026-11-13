@@ -343,3 +343,24 @@ The session's auto-mode permission classifier refused the PUBLISH click twice ("
 
 ### Still open from earlier
 Reviews text for the Home block; written OK for each "You may have seen us in" logo; current price list; HoneyBook notification check for the "How did you hear about us?" field; Search Console removals for the six legacy URLs (trailing-slash form).
+
+## 2026-11-13 03:26 GMT (2026-11-12 19:26 PST): Batch 3 published by the Founder ("published" in chat). Live verification by Rank
+
+**Publish:** `last-modified: Fri, 13 Nov 2026 03:26:25 GMT`, Founder's own PUBLISH click.
+
+### Live verification (VERIFIED 03:30 to 03:40 GMT, headless Chromium DOM at 1366, 1227 and 390 px; screenshots in `screenshots/phase3-2026-11-13/live-after-publish/`)
+
+| Check | Result |
+|---|---|
+| Home hero at 1227 px (Founder's width): H1 right edge inside the viewport, paragraph above the two links | PASS (H1 ends at 1103 px of 1227; paragraph bottom 1244, links at 1281) |
+| Service Area: one H1 "SERVICE AREA" in the new photo hero; "SAN DIEGO TO LA" as H2 | PASS |
+| Destinations grid: 14 titled cards, 28 image/overlay links, every link matches its page; phone order La Jolla → Thousand Oaks | PASS |
+| Seven new pages (`/san-diego`, `/oceanside`, `/escondido`, `/newport-beach`, `/los-angeles`, `/malibu`, `/thousand-oaks`): 200, correct title, H1, meta, Service + BreadcrumbList schema | PASS, 7 of 7 |
+| Sitemap lists 27 URLs including the seven new pages | PASS |
+| Restrooms "Our Trailers": slide 1 "Choosing Your Trailer", then the four trailer slides | PASS |
+| The original 20 pages: one H1 each, head-only schema, phone format, no template leftovers | PASS, 20 of 20 (re-crawled) |
+
+### Next (Founder)
+- Search Console: request indexing for the seven new URLs; Removals for the six legacy trailing-slash URLs.
+- Send one real photo per destination to replace the trailer stock shots on the cards; a venue served or a client line per city would strengthen the new pages.
+- Still open: reviews text, logo permissions, current prices, HoneyBook notification check.
