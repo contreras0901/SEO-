@@ -291,3 +291,29 @@ This is the first time the phone number appears on pages other than Contact, so 
 
 - Destination card photos are Ethereal's trailer shots, not photos of the named places; swap them in the editor (Service Area page, Destinations canvas, click a card's "graphic", Image panel, Swap Image) when real destination photos exist.
 - Reviews strip: not built; needs a widget tied to Ethereal's own Google Business Profile.
+
+## 2026-11-12 (draft) and 2026-11-13 01:40 GMT / 2026-11-12 17:40 PST (publish): Phase 2 batch published on the Founder's "approved, publish it"
+
+**Who:** Rank (AI), driving the Showit editor headless with the ELR login (names only). Founder approval in chat on 2026-11-12 ("approved, publish it").
+**Publish:** one click, 2026-11-13 01:40:22 GMT (`last-modified` header), confirmed by the "Your site has been published." dialog (`screenshots/phase2-2026-11-12/editor/publish-dialog-2026-11-13.png`).
+**What went live:** everything in `06-phase2-drafts-applied-2026-11-12.md` (titles, metas, og tags and schema on Home, Restrooms, Service Area, Contact, Book Now; new H1s on 18 pages; Restrooms "Our Trailers" cards replacing the interior-design template steps; Portfolio canvas hidden; Service Area lead-in paragraph; phone format 619.248.0786 everywhere with all `tel:` links on the same digits; three new redirects; menu label restored).
+
+### Live verification (VERIFIED 2026-11-13 01:45 to 01:55 GMT, headless Chromium DOM at 1366 px and iPhone 390 px, plus curl; screenshots in `screenshots/phase2-2026-11-12/live-after-publish/`)
+
+| Check | Result |
+|---|---|
+| Exactly one H1 per page with the approved text | PASS, 20 of 20 |
+| Titles and og:title on the five rewritten pages | PASS, 5 of 5 |
+| JSON-LD parses, head-only, no visible schema text | PASS, 20 of 20 |
+| Restrooms: "Project Title Here", "Concept Development" and the `/case-study-duplicate` links gone; four trailer cards present | PASS |
+| Phone text 619.248.0786 on every page; every `tel:` link is `tel:6192480786` | PASS |
+| Footer and nav labels unchanged except the restored "Design Options" | PASS |
+| Redirects `/4-stall-luxury-restrooms`, `/looking-to-purchase`, `/home` (no slash) | PASS, 301 to `/restrooms`, `/restrooms`, `/` |
+| Same URLs with the trailing slash Google indexed | still 404 (Showit limit, as predicted). Next step: Search Console → Removals → "Remove outdated content" for the six legacy URLs, or move DNS to the Founder's own Cloudflare for a slash-stripping rule. Founder's call. |
+| CDN propagation | all 20 pages served the new build on the first fetch; nothing pending |
+
+### Not done / open
+- Google Rich Results Test on `/`, `/contact`, `/service-area`, `/restrooms`: not run (interactive Google tool); the Founder can paste the four URLs at search.google.com/test/rich-results. All blocks parse as valid JSON.
+- Search Console indexing requests and removals: Founder's (out of Rank's scope by the brief).
+- Still blocked on Founder input: reviews text for the Home block, written OK for each "You may have seen us in" logo, and the current price list (Pricing Guide copy, its meta, and the Product schema still show $1,150 / $1,350 / $1,450 / $2,150).
+- HoneyBook: confirm the "How did you hear about us?" field is included in submission notifications.
