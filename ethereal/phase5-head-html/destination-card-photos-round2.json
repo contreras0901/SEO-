@@ -1,0 +1,86 @@
+[
+ {
+  "city": "Yorba Linda",
+  "X": 620,
+  "Y": 1920,
+  "file": "elr-three-restroom-trailers-yorba-linda.jpg",
+  "key": "/elr-three-restroom-trailers-yorba-linda.jpg/"
+ },
+ {
+  "city": "Los Angeles",
+  "X": 827,
+  "Y": 1050,
+  "file": "elr-large-restroom-trailer-los-angeles.jpg",
+  "key": "/elr-large-restroom-trailer-los-angeles.jpg/"
+ },
+ {
+  "city": "Rancho Santa Fe",
+  "X": 0,
+  "Y": 470,
+  "file": "elr-restroom-trailer-estate-lawn-rancho-santa-fe.jpg",
+  "key": "/elr-restroom-trailer-estate-lawn-rancho-santa-fe.jpg/"
+ },
+ {
+  "city": "Oceanside",
+  "X": 827,
+  "Y": 760,
+  "file": "img_3574.jpg",
+  "key": "/img_3574.jpg/"
+ },
+ {
+  "city": "Escondido",
+  "X": 0,
+  "Y": 1050,
+  "file": "elr-three-stall-restroom-trailer-orchard-escondido.jpg",
+  "key": "/elr-three-stall-restroom-trailer-orchard-escondido.jpg/"
+ },
+ {
+  "city": "Newport Beach",
+  "X": 413,
+  "Y": 1050,
+  "file": "elr-ada-restroom-trailer-ramp-newport-beach.jpg",
+  "key": "/elr-ada-restroom-trailer-ramp-newport-beach.jpg/"
+ },
+ {
+  "city": "Malibu",
+  "X": 0,
+  "Y": 1340,
+  "file": "elr-three-stall-restroom-trailer-malibu.jpg",
+  "key": "/elr-three-stall-restroom-trailer-malibu.jpg/"
+ },
+ {
+  "city": "Thousand Oaks",
+  "X": 413,
+  "Y": 1340,
+  "file": "elr-three-stall-restroom-trailer-thousand-oaks.jpg",
+  "key": "/elr-three-stall-restroom-trailer-thousand-oaks.jpg/"
+ },
+ {
+  "city": "Temecula",
+  "X": 827,
+  "Y": 1340,
+  "file": "elr-two-stall-restroom-trailer-vineyard-temecula.jpg",
+  "key": "/elr-two-stall-restroom-trailer-vineyard-temecula.jpg/"
+ },
+ {
+  "city": "Palm Springs",
+  "X": 0,
+  "Y": 1630,
+  "file": "elr-restroom-trailer-vineyard-palm-springs.jpg",
+  "key": "/elr-restroom-trailer-vineyard-palm-springs.jpg/"
+ },
+ {
+  "city": "Palm Desert",
+  "X": 413,
+  "Y": 1630,
+  "file": "elr-restroom-trailer-palm-desert.jpg",
+  "key": "/elr-restroom-trailer-palm-desert.jpg/"
+ },
+ {
+  "city": "Riverside",
+  "X": 206,
+  "Y": 1920,
+  "file": "screenshot_2026-06-16_at_3_19_54_pm.png",
+  "key": "/screenshot_2026-06-16_at_3_19_54_pm.png/"
+ }
+]

@@ -443,3 +443,20 @@ Founder (chat, 16:20 GMT): "I would like for every card to have a different phot
 | Verification | Full 33-page check re-run: 32 clean, the pre-existing hidden Book Now leftover only. | |
 
 One more exterior trailer photo from the Founder (attached in chat) will make all 20 cards unique.
+
+### 2026-11-13 17:30 to 18:05 GMT: Founder's own trailer photos on the destination cards (batch 6, continued; still unpublished)
+
+Founder sent 11 photos in chat. Ten were used (the eleventh, a freeway shot, shows a competitor's units and the trailer's blank rear, so it was left out). Each was cropped to the card's 3:2 shape around the trailer, saved under a descriptive file name (for example `elr-two-stall-restroom-trailer-vineyard-temecula.jpg`), uploaded to the Showit media library through the Swap Image dialog, and placed. Copies of the uploaded files: `phase5-head-html/founder-photos-2026-11-13/`.
+
+| Card | Now shows |
+|---|---|
+| Yorba Linda | three trailers lined up on a lawn |
+| Los Angeles | large trailer with palms |
+| Newport Beach | large trailer with the ADA ramp |
+| Rancho Santa Fe | evening trailer on an estate lawn |
+| Temecula, Palm Springs | two-stall trailer in the vineyard (two angles) |
+| Escondido, Thousand Oaks, Malibu, Palm Desert | three-stall trailers in the orchard, in fog, and at dusk |
+| Oceanside | the lawn-and-deck photo freed from Rancho Santa Fe |
+| Riverside | the white-roses interior (the one interior left in the grid) |
+
+Alt text on the 12 changed cards: "Ethereal Luxury Restrooms trailer rental in <City>, California". Preview check: 20 cards, 20 distinct image files, navigation bar present. Founder to click PUBLISH.
