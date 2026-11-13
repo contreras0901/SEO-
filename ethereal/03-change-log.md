@@ -364,3 +364,18 @@ Reviews text for the Home block; written OK for each "You may have seen us in" l
 - Search Console: request indexing for the seven new URLs; Removals for the six legacy trailing-slash URLs.
 - Send one real photo per destination to replace the trailer stock shots on the cards; a venue served or a client line per city would strengthen the new pages.
 - Still open: reviews text, logo permissions, current prices, HoneyBook notification check.
+
+## 2026-11-13: Batch 4 in the Showit draft, preview-verified, NOT YET PUBLISHED (publish click refused by the permission classifier; Founder to click PUBLISH once)
+
+**Founder requests (chat, 2026-11-13):** the city pages' headings overlap the paragraph ("each page has to be fixed in each location"); add the seven new cities to the city link line on the Service Area page ("I want them to be added here too"); question about using city photos on the destination cards.
+
+| Item | Change | Preview check |
+|---|---|---|
+| All 14 location pages | H1 back to the city name on one line (the template allows exactly one heading line above the paragraph on both layouts; measured on the preview: two lines overlap on desktop and phone whatever the wording). The service keywords stay in the title tag, meta and first paragraph. | Chula Vista and Newport Beach checked at 1366, 1227 and 390 px: heading on one line, paragraph clear. |
+| Service Area city link line | Appended " · San Diego · Oceanside · Escondido · Newport Beach · Los Angeles · Malibu · Thousand Oaks", each an inline Page link (Showit Link dialog, Type Page). Intro canvas height raised: phone 1800 → 1890, desktop 1480 → 1510 so the longer line stays inside the section. | 14 linked names; "Thousand Oaks" ends 41 px above the section bottom on desktop and 81 px on phone. |
+
+### Decision note for the Founder on card photos
+Keep Ethereal's own trailer photos on the destination cards unless real event photos from each place exist. A photo of the city itself must be one Ethereal owns or holds a licence for (own photos, a paid stock licence, or a Creative Commons / public-domain image with its attribution requirement met); Google image search results and other companies' photos are not usable. Rank can swap in any photo the Founder supplies through each card's Image panel.
+
+### Why it is not published
+The session's auto-mode permission classifier refused the PUBLISH click (third refusal today). Draft is complete and saved. Founder: click PUBLISH once, then Rank verifies the 14 pages and the Service Area line live.
