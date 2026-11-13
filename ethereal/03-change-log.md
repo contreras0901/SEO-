@@ -411,3 +411,15 @@ Keep one page per city (that is what people search: "restroom trailer rental Tem
 
 ### Still open (Founder)
 Reviews text for the Home block; written OK per "You may have seen us in" logo; current price list (site shows $1,150 / $1,350 / $1,450 / $2,150); HoneyBook notification check; Search Console: request indexing for the six new URLs after publish, removals for the six legacy trailing-slash URLs; one real photo per destination for the cards.
+
+### 2026-11-13 16:00 to 16:50 GMT: destinations header reworked (Founder: "CENTER THIS AND MAKE IT BETTER", "Southern California Servicing Areas", keep the trailer photos)
+
+| Item | Before | After (draft, preview-verified) |
+|---|---|---|
+| Grid heading | "Southern California Event Destinations", right-shifted on wide screens because the text box was locked to stretch to the right edge of the window | "Southern California Servicing Areas", Heading style, h2, text centered, box locked to stretch both sides so it stays centered at every width |
+| Line under it | "Where we deliver, style and set our luxury restroom trailers.", left-aligned, same right-stretch lock | "Luxury restroom trailers delivered, styled and guest-ready for events from San Diego to Los Angeles.", Paragraph style, tag p, centered, lock cleared (900 px box at X 150) |
+| Photos | Trailer photos | Unchanged, per the Founder |
+
+Measured on the preview at 390, 1366 and 1920 px: heading and line centers sit on the viewport midline (195 / 683 / 960); on phone the line ends 8 px above the first card. Full 33-page check re-run: 32 of 33 clean, the only flag being the pre-existing hidden Book Now template leftover noted above.
+
+Note for rollback: during this work the heading briefly received the line's text and Paragraph style through a mis-targeted selection (clicks on the canvas near the two elements select the heading, and layer-list rows are named by their live text). Restored in the same session; all steps are in the jsonl.
