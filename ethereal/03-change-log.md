@@ -431,3 +431,15 @@ Live crawl with `phase5-head-html/verify-batch5.js` against www.etherealluxuryre
 Founder (chat, 16:30 GMT): "I dont see a header in every page especially in the servicing area page" with a screenshot of the Restrooms page navigation bar (ABOUT · RESTROOM UNITS · BOOK NOW · wordmark · SERVICE AREA · DESIGN OPTIONS · CONTACT). Live check: that bar is the "Menu Dark" site canvas (47 px) and only the Restrooms page carries it; every other page, Home included, has no navigation bar above its hero. Next batch: add that bar to every page.
 
 Founder (chat, 16:20 GMT): "I would like for every card to have a different photo of our trailers" — queued after the navigation bar.
+
+## 2026-11-13 16:35 to 17:15 GMT: Batch 6 in the Showit draft, preview-verified, NOT YET PUBLISHED (Founder to click PUBLISH)
+
+**Founder requests (chat):** "I dont see a header in every page especially in the servicing area page please add this to everyone page" (the navigation bar); "I would like for every card to have a different photo of our trailers".
+
+| Item | Finding / change | Preview check |
+|---|---|---|
+| Navigation bar | The bar is the "Menu Dark" site canvas. It is hidden by default and only appears when a canvas on the page fires a Scroll Action "On Screen → Show Canvas → Menu Dark"; only the Restrooms page had that action (on its Intro). Added the same action to the first canvas (the photo hero) of the other 32 pages, so the bar appears at load. No canvas copied, no page layout changed. | 33 of 33 pages render the bar at load on desktop (47 px, 8 links) and phone (50 px). |
+| Destination card photos | The Showit media library holds 26 files: 9 distinct trailer exteriors, 10 interiors, two logos, a map, a warning icon, the solar unit, and one duplicate upload of the truck photo. Each of the 20 cards now has its own file (`phase5-head-html/destination-card-photos.json`, contact sheet in `screenshots/phase5-2026-11-13/media-library-contact-sheet.png`); Coronado and Yorba Linda share the one duplicated photo because there is no 20th trailer image. Alt text set on every card image: "Luxury restroom trailer rental in <City>, California". | 20 cards, 19 distinct images, alt text present in the page source (28 occurrences incl. phone copies). |
+| Verification | Full 33-page check re-run: 32 clean, the pre-existing hidden Book Now leftover only. | |
+
+One more exterior trailer photo from the Founder (attached in chat) will make all 20 cards unique.

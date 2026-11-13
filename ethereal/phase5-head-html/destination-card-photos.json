@@ -1,0 +1,182 @@
+[
+ {
+  "city": "La Jolla",
+  "X": 0,
+  "Y": 180,
+  "idx": 10,
+  "src": "https://static.showit.com/v2/331692/hRkCgislLo0605R4Y8N3UA/img_6516.jpg/preview",
+  "file": "img_6516.jpg",
+  "id": "hRkCgislLo0605R4Y8N3UA"
+ },
+ {
+  "city": "Carlsbad",
+  "X": 413,
+  "Y": 180,
+  "idx": 2,
+  "src": "https://static.showit.com/v2/331692/E77Y0NxhOlA3H0T0lda7Mg/img_3382.jpg/preview",
+  "file": "img_3382.jpg",
+  "id": "E77Y0NxhOlA3H0T0lda7Mg"
+ },
+ {
+  "city": "Encinitas",
+  "X": 827,
+  "Y": 180,
+  "idx": 12,
+  "src": "https://static.showit.com/v2/331692/ZKSWiz9xC8ekWrV-OINcYg/screenshot_2026-06-05_at_7_45_55_am.png/preview",
+  "file": "screenshot_2026-06-05_at_7_45_55_am.png",
+  "id": "ZKSWiz9xC8ekWrV-OINcYg"
+ },
+ {
+  "city": "Rancho Santa Fe",
+  "X": 0,
+  "Y": 470,
+  "idx": 0,
+  "src": "https://static.showit.com/v2/331692/Qng3MSfvLndTA9ihLgBI5w/img_3574.jpg/preview",
+  "file": "img_3574.jpg",
+  "id": "Qng3MSfvLndTA9ihLgBI5w"
+ },
+ {
+  "city": "Del Mar",
+  "X": 413,
+  "Y": 470,
+  "idx": 9,
+  "src": "https://static.showit.com/v2/331692/3Aj2LwyZSxSHoXc8xPSFgw/img_6515.jpg/preview",
+  "file": "img_6515.jpg",
+  "id": "3Aj2LwyZSxSHoXc8xPSFgw"
+ },
+ {
+  "city": "Coronado",
+  "X": 827,
+  "Y": 470,
+  "idx": 16,
+  "src": "https://static.showit.com/v2/331692/xD1DtGnQQBcbLU8OxKnj3w/screenshot_2026-06-16_at_2_23_05_pm.png/preview",
+  "file": "screenshot_2026-06-16_at_2_23_05_pm.png",
+  "id": "xD1DtGnQQBcbLU8OxKnj3w"
+ },
+ {
+  "city": "Chula Vista",
+  "X": 0,
+  "Y": 760,
+  "idx": 19,
+  "src": "https://static.showit.com/v2/331692/721yZ5ZmxtHtMMrsFU6Mtw/screenshot_2026-06-16_at_2_24_56_pm.png/preview",
+  "file": "screenshot_2026-06-16_at_2_24_56_pm.png",
+  "id": "721yZ5ZmxtHtMMrsFU6Mtw"
+ },
+ {
+  "city": "San Diego",
+  "X": 413,
+  "Y": 760,
+  "idx": 15,
+  "src": "https://static.showit.com/v2/331692/8D3I1EZN1IKSxFsTatFBKw/screenshot_2026-06-16_at_2_22_53_pm.png/preview",
+  "file": "screenshot_2026-06-16_at_2_22_53_pm.png",
+  "id": "8D3I1EZN1IKSxFsTatFBKw"
+ },
+ {
+  "city": "Oceanside",
+  "X": 827,
+  "Y": 760,
+  "idx": 3,
+  "src": "https://static.showit.com/v2/331692/Lvu8LjD23KwKvopDdnaaPg/img_6504.jpg/preview",
+  "file": "img_6504.jpg",
+  "id": "Lvu8LjD23KwKvopDdnaaPg"
+ },
+ {
+  "city": "Escondido",
+  "X": 0,
+  "Y": 1050,
+  "idx": 7,
+  "src": "https://static.showit.com/v2/331692/8q5ld4noTflLgO-kcIYcAA/img_6513.png/preview",
+  "file": "img_6513.png",
+  "id": "8q5ld4noTflLgO-kcIYcAA"
+ },
+ {
+  "city": "Newport Beach",
+  "X": 413,
+  "Y": 1050,
+  "idx": 20,
+  "src": "https://static.showit.com/v2/331692/HAeb9iEShKV5eEt-OeWZnw/screenshot_2026-06-16_at_3_19_54_pm.png/preview",
+  "file": "screenshot_2026-06-16_at_3_19_54_pm.png",
+  "id": "HAeb9iEShKV5eEt-OeWZnw"
+ },
+ {
+  "city": "Los Angeles",
+  "X": 827,
+  "Y": 1050,
+  "idx": 5,
+  "src": "https://static.showit.com/v2/331692/kdSdpAt70z_uLIGc3mnVkg/img_6510.jpg/preview",
+  "file": "img_6510.jpg",
+  "id": "kdSdpAt70z_uLIGc3mnVkg"
+ },
+ {
+  "city": "Malibu",
+  "X": 0,
+  "Y": 1340,
+  "idx": 4,
+  "src": "https://static.showit.com/v2/331692/5Ru-0bOykaLZs98H_f0WzQ/img_6505.jpg/preview",
+  "file": "img_6505.jpg",
+  "id": "5Ru-0bOykaLZs98H_f0WzQ"
+ },
+ {
+  "city": "Thousand Oaks",
+  "X": 413,
+  "Y": 1340,
+  "idx": 13,
+  "src": "https://static.showit.com/v2/331692/cL4cnAfLknwAloA6-xsb4A/screenshot_2026-06-16_at_1_37_31_pm.png/preview",
+  "file": "screenshot_2026-06-16_at_1_37_31_pm.png",
+  "id": "cL4cnAfLknwAloA6-xsb4A"
+ },
+ {
+  "city": "Temecula",
+  "X": 827,
+  "Y": 1340,
+  "idx": 21,
+  "src": "https://static.showit.com/v2/331692/Tr12SZgIe_4_lSRbfh9aEA/screenshot_2026-06-16_at_3_20_07_pm.png/preview",
+  "file": "screenshot_2026-06-16_at_3_20_07_pm.png",
+  "id": "Tr12SZgIe_4_lSRbfh9aEA"
+ },
+ {
+  "city": "Palm Springs",
+  "X": 0,
+  "Y": 1630,
+  "idx": 6,
+  "src": "https://static.showit.com/v2/331692/KAuqTj0YQG_arSJbuflqRQ/img_6511.jpg/preview",
+  "file": "img_6511.jpg",
+  "id": "KAuqTj0YQG_arSJbuflqRQ"
+ },
+ {
+  "city": "Palm Desert",
+  "X": 413,
+  "Y": 1630,
+  "idx": 8,
+  "src": "https://static.showit.com/v2/331692/Zz04VVUY9nSJMrQrXAFNGg/img_6514.jpg/preview",
+  "file": "img_6514.jpg",
+  "id": "Zz04VVUY9nSJMrQrXAFNGg"
+ },
+ {
+  "city": "Joshua Tree",
+  "X": 827,
+  "Y": 1630,
+  "idx": 14,
+  "src": "https://static.showit.com/v2/331692/CDEONEPGBZuXH3tFXiWNvA/screenshot_2026-06-16_at_2_22_38_pm.png/preview",
+  "file": "screenshot_2026-06-16_at_2_22_38_pm.png",
+  "id": "CDEONEPGBZuXH3tFXiWNvA"
+ },
+ {
+  "city": "Riverside",
+  "X": 206,
+  "Y": 1920,
+  "idx": 18,
+  "src": "https://static.showit.com/v2/331692/FrviN-tYKGxkijkDLnyecw/screenshot_2026-06-16_at_2_23_54_pm.png/preview",
+  "file": "screenshot_2026-06-16_at_2_23_54_pm.png",
+  "id": "FrviN-tYKGxkijkDLnyecw"
+ },
+ {
+  "city": "Yorba Linda",
+  "X": 620,
+  "Y": 1920,
+  "idx": 17,
+  "src": "https://static.showit.com/v2/331692/Z8zk7r_hPuy2Q1k7vxFUGA/screenshot_2026-06-16_at_2_23_05_pm.png/preview",
+  "file": "screenshot_2026-06-16_at_2_23_05_pm.png",
+  "id": "Z8zk7r_hPuy2Q1k7vxFUGA"
+ }
+]
