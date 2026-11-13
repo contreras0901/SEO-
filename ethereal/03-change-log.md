@@ -472,3 +472,5 @@ Alt text on the 12 changed cards: "Ethereal Luxury Restrooms trailer rental in <
 | Social icons (slide-out and footer) | The icons use Showit "Social Link" click actions, which read the site-level Social Links settings, and every field there was empty, so the icons did nothing. | Site Settings → Social: Instagram set to https://www.instagram.com/etherealluxuryrestrooms/ (saved). Facebook, TikTok, Pinterest and YouTube still empty, waiting for the Founder's URLs. | Instagram icon links in both places; the other icons stay inert until their URLs are entered. |
 
 Mechanics worth recording: site canvases (Footer, Slideout Menu) are edited from the Site list under "Site Canvases" (or the canvas row's "Edit Site Canvas"); the left panel then shows a CANVAS tab with the element rows. Site Settings changes need the dialog's SAVE button; the close icon otherwise asks to discard.
+
+Slide-out menu item spacing on phone evened out as well (Service Area 298 → 288, Book Now 344 → 341, Contact 397 → 394; all items now 53 apart).
