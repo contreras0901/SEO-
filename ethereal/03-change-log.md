@@ -460,3 +460,15 @@ Founder sent 11 photos in chat. Ten were used (the eleventh, a freeway shot, sho
 | Riverside | the white-roses interior (the one interior left in the grid) |
 
 Alt text on the 12 changed cards: "Ethereal Luxury Restrooms trailer rental in <City>, California". Preview check: 20 cards, 20 distinct image files, navigation bar present. Founder to click PUBLISH.
+
+### 2026-11-13 18:40 to 19:40 GMT: phone fixes to the footer and slide-out menu (batch 6, continued; still unpublished)
+
+**Founder forwarded (chat):** "Fix the wording - looks off on the right under Inquire" (footer, phone), "Service area crooked, and the social media links don't work" (slide-out menu, phone).
+
+| Item | Finding | Change (draft) | Preview check (390 px) |
+|---|---|---|---|
+| Footer, Inquire column | The seven service links added in batch 2 sat in a 174-unit box at X 228 (Corporate Events at X 205), left-aligned, running past the right edge of the phone canvas. | Phone layout only: each of Restrooms, Weddings, Corporate Events, Construction, Emergency, Pricing Guide, Why a Trailer moved to the same box as "Book Now Form" (X 184, W 131) and right-aligned. Desktop untouched. | All seven right edges at 384 px, matching Inquire and Book Now Form. |
+| Slide-out menu | "Service Area" item at phone X 60; every other item at X 50. | X 60 → 50. | All seven items at X 50. |
+| Social icons (slide-out and footer) | The icons use Showit "Social Link" click actions, which read the site-level Social Links settings, and every field there was empty, so the icons did nothing. | Site Settings → Social: Instagram set to https://www.instagram.com/etherealluxuryrestrooms/ (saved). Facebook, TikTok, Pinterest and YouTube still empty, waiting for the Founder's URLs. | Instagram icon links in both places; the other icons stay inert until their URLs are entered. |
+
+Mechanics worth recording: site canvases (Footer, Slideout Menu) are edited from the Site list under "Site Canvases" (or the canvas row's "Edit Site Canvas"); the left panel then shows a CANVAS tab with the element rows. Site Settings changes need the dialog's SAVE button; the close icon otherwise asks to discard.
