@@ -291,3 +291,54 @@ This is the first time the phone number appears on pages other than Contact, so 
 
 - Destination card photos are Ethereal's trailer shots, not photos of the named places; swap them in the editor (Service Area page, Destinations canvas, click a card's "graphic", Image panel, Swap Image) when real destination photos exist.
 - Reviews strip: not built; needs a widget tied to Ethereal's own Google Business Profile.
+
+## 2026-11-20 22:18 PST (2026-11-21 06:18 UTC): SEO Package items applied in the Showit editor and published once
+
+**Who:** Rank (AI), on the Founder's instruction ("Start fixing all this") against the Claude Doc "Ethereal Luxury Restrooms: SEO Package" (dated 2026-11-20). Driven headless with the ELR login (names only: `ELR_SHOWIT_EMAIL`, `ELR_SHOWIT_PASSWORD`); the permission classifier allowed every step this time.
+**Publish:** one, at 06:18:42 GMT (`last-modified: Sat, 21 Nov 2026 06:18:42 GMT`). Previous publish was 2026-11-13 22:59 GMT (not by Rank; the site had moved on since the 2026-10-22 entries: per-page titles and metas, LocalBusiness schema with the Mission Valley address, ContactPage/AboutPage/Service/Breadcrumb schema, and 20 city pages were already live).
+
+### Live baseline before the change (VERIFIED 2026-11-21 ~05:50 UTC, headless Chromium, cookie-free)
+
+| Check | Value before |
+|---|---|
+| Home H1 | `LUXURY RESTROOM TRAILER RENTALS` (no location) |
+| Services site canvas (Home and About) card headings, H2 | `TAILORED THEME PERSONALIZED`, `BOOK NOW` (source text carried a trailing `&nbsp;`) |
+| Desktop menu (Menu Dark site canvas) label for `/restrooms` | `RESTROOM UNITS` (slideout menu already said `RESTROOMS`) |
+| Footer right column label, H3 | `Inquire` |
+| LocalBusiness schema on `/` | present: name, phone, email, image, street address 8885 Rio San Diego Dr Suite 237 San Diego CA 92108, six counties in `areaServed`, Instagram in `sameAs`, foundingDate 2021 |
+| `<img>` with empty alt on own images | Home: `img_3574.jpg`, `screenshot_2026-06-05…png`; About: `img_3382.jpg`, `elr_blush_logo.jpg`; Contact: `elr_blush_logo.jpg`; every other page: `screenshot_2026-06-16_at_2_23_05_pm.png` (hero backgrounds) |
+| City pages | 20 pages (`/san-diego`, `/chula-vista`, `/los-angeles`, `/thousand-oaks`, … ) each about 104 words, H1 = city name only, no body sections; `/orange-county` 404 |
+| Blog | none (`/blog` 404) |
+| Placeholder hrefs | `#/` is Showit's rendering of the current page's own nav/brand link, `#si-sp` is the slideout-menu trigger; not broken links |
+
+### Changes made (editor values VERIFIED in the panels; live results VERIFIED 06:19 to 06:21 UTC at 1440x900 and at 390x844 with an iPhone user agent)
+
+| # | Page / canvas / element | Before | After | Live result |
+|---|---|---|---|---|
+| S1 | Home, Intro canvas, H1 text element (tag h1 unchanged) | `LUXURY RESTROOM TRAILER RENTALS` | `Luxury Restroom Trailer Rentals in San Diego` (rendered uppercase by the text style). The doc's longer "…in San Diego and Southern California" ran to three lines on desktop and five on phone and overlapped the paragraph, so the shorter form was used; the paragraph under it already names Southern California, the four counties and Los Angeles. | Desktop: two lines inside the 977x226 box, paragraph starts 38 px below. Phone 390x844: four lines, H1 bottom 841 px, paragraph at 884 px, no overlap. `screenshots/home-desktop-fold-2026-11-21.png`, `screenshots/home-phone-fold-2026-11-21.png`. |
+| S2 | Services site canvas (Home and About), card heading, H2 | `Tailored Theme personalized&nbsp;` | `Styled to Match Your Event`. The doc's "Restroom Trailers Styled to Match Your Event" wrapped to two lines on desktop and three on phone over the paragraph, so it was shortened to the same length as the original. | `STYLED TO MATCH YOUR EVENT` on `/` and `/about`, one line desktop, two lines phone, no overlap. |
+| S3 | Services site canvas, card heading, H2 | `Book Now&nbsp;` | `Reserve a Trailer` (the doc's "Reserve Your Luxury Restroom Trailer" did not fit the one-line phone box) | `RESERVE A TRAILER` on `/` and `/about`. |
+| S4 | Menu Dark site canvas (desktop nav on every page), text element with nav tag | `Restroom Units` | `Restroom Trailers`; link unchanged (`/restrooms`); nav tag unchanged | `RESTROOM TRAILERS` in the nav on every page checked (`/`, `/about`, `/contact`, `/restrooms`). Slideout menu untouched (already `RESTROOMS`). |
+| S5 | Footer site canvas, right column label, H3 | `Inquire&nbsp;` (phone W 131 / X 184) | `Request a Quote`; phone box widened to W 175 / X 140 so it stays on one line (desktop W 200 / X 953 unchanged) | `Request a Quote` H3 in the footer on every page; phone footer one line, right-aligned, `screenshots/home-footer-phone-2026-11-21.png`; desktop `screenshots/home-footer-desktop-2026-11-21.png`. |
+
+Not touched: SEO titles and metas (already good), the schema (already richer than the doc's draft), the "OUR SERVICES" heading (the doc's replacement "Restroom Trailers for Weddings, Corporate Events, Construction and Emergencies" does not describe the two cards under it, which are design options and booking), the "SAME-DAY DELIVERY AVAILABLE" H3 (Founder to confirm it is always true before anyone changes it), the slideout menu, hero images, city pages, Bella Mia.
+
+### Checked and not possible in Showit
+
+- **Alt text on the empty-alt images.** Every empty-alt image found is a canvas background (Home Hero `IMG_3574.jpg`; About, Contact and city-page heroes), and the Canvas Background panel has Media Type, Image, Size, Position, Scroll, Opacity and Fill but no alt-text field (VERIFIED in the editor 2026-11-21). An empty alt on a decorative background is acceptable to search engines; nothing to fix. Image *elements* on the site already carry alt text (for example the Destinations cards). The doc's file-renaming advice applies to future uploads only; Showit keeps the uploaded file name.
+
+### Doc items that were already done on the live site before this session (no action)
+
+LocalBusiness schema with address, phone, email, service areas and Instagram; page titles and meta descriptions on every page; footer phone link; `Pricing Guide` and `Why a Trailer` in the footer; city pages for San Diego, Chula Vista, Los Angeles and Thousand Oaks (thin, see below); service-area links.
+
+### Drafted in the repo for the Founder (not on the site)
+
+`ethereal/content/`: full bodies for `/san-diego`, `/chula-vista`, `/los-angeles`, `/thousand-oaks` (500 to 730 words each, every unverifiable fact a `[FOUNDER: …]` placeholder), a note on the missing Orange County page, and the four blog posts from the doc's queue (980 to 1,090 words each). The live city pages are about 104 words each with only the city name as a heading, which is the thin, near-duplicate pattern the doc warns about; filling the placeholders and pasting the bodies is the next site change. The site has no blog, so the posts need a Showit blog page or the WordPress add-on first.
+
+### Open for the Founder
+
+- Search Console: confirm the homepage and the service pages are indexed ("URL is on Google"). The session's web search tool returned no page from the domain for `site:etherealluxuryrestrooms.com` or the brand name; that tool is not Google, so it is a signal to check, not a finding.
+- Confirm the street address on the site matches the Google Business Profile exactly, or set the profile up as a service-area business and remove the street from the schema.
+- Decide on "Same-Day Delivery Available" (keep only if always true).
+- Fill the `[FOUNDER: …]` placeholders in `ethereal/content/`, starting with the San Diego and Chula Vista pages.
+- Send the review-ask text and email from the doc to the last 10 clients.
